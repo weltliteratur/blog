@@ -1,0 +1,10 @@
+<div class="blog-post">
+  <h2 class="blog-post-title">{{ post.title }}</h2>
+
+  <p class="blog-post-meta">
+    {{ post.date | date: "%d %B %Y" }} by <a href="#">{{ post.author }}</a>
+  </p>
+  
+  {{ post.content }}
+  
+</div><!-- /.blog-post -->
