@@ -34,7 +34,11 @@
         </ul -->
       </header>
       <section>
-          {{content}}
+	{% if post.title %}
+	<h1>{{post.title}}</h1>
+	{% endif %}
+	
+        {{content}}
       </section>
     </div>
     <footer>
