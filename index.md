@@ -6,5 +6,5 @@ author: Robert
 
 
 {% for post in site.posts limit:5 %}
- {% include blog.html %} 
+ {% include post.html %} 
 {% endfor %}
