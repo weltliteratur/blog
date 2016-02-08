@@ -39,6 +39,10 @@
 	{% endif %}
 	
         {{content}}
+
+	{% if page.author %}
+	<p>posted by {{ page.author }} on {{ post.date | date: "%d %B %Y" }}</p>
+	{% endif %}
       </section>
     </div>
     <footer>
