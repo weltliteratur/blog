@@ -1,10 +1,10 @@
 <div class="blog-post">
-  <h2 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2 class="blog-post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
   <p class="blog-post-meta">
-    {{ post.date | date: "%d %B %Y" }} by <a href="#">{{ post.author }}</a>
+    {{ page.date | date: "%d %B %Y" }} by <a href="#">{{ page.author }}</a>
   </p>
   
-  {{ post.content }}
+  {{ page.content }}
   
 </div><!-- /.blog-post -->

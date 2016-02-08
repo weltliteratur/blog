@@ -5,6 +5,6 @@ author: Robert
 ---
 
 
-{% for post in site.posts limit:5 %}
+{% for page in site.posts limit:5 %}
  {% include post.html %} 
 {% endfor %}
