@@ -52,8 +52,12 @@
 
 	  <nav>
 	    <ul class="pager">
-	      <li><a href="#">Previous</a></li>
-	      <li><a href="#">Next</a></li>
+	      {% if page.previous.url %}
+	      <li><a href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a></li>
+	      {% endif %}
+	      {% if page.next.url %}
+	      <li><a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li>
+	      {% endif %}
 	    </ul>
 	  </nav>
 
