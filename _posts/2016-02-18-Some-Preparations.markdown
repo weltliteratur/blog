@@ -1,6 +1,6 @@
 ---
 title: Some Preparations
-layout: default
+layout: post
 author: Christopher, Frank
 date: 2016-02-18
 ---
