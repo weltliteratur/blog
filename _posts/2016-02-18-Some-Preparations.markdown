@@ -1,13 +1,13 @@
 ---
 title: Some Preparations
-layout: post
+layout: page
 author: Christopher, Frank
 date: 2016-02-18
 ---
 
 This is our test query, go to [http://query.wikidata.org](http://query.wikidata.org) and paste this in the box:
 
-{% highlight sparql %}
+~~~ sparql
 prefix schema: <http://schema.org/>
 prefix wd: <http://www.wikidata.org/entity/>
 prefix wdt: <http://www.wikidata.org/prop/direct/>
@@ -24,7 +24,7 @@ WHERE {
     ?author rdfs:label ?authorlabel filter (lang(?authorlabel) = "en").
   }
 } GROUP BY ?s ?desc ?authorlabel ORDER BY DESC(?linkcount)
-{% endhighlight %}
+~~~
 
 Changing the object criteria from "book" to "literary work" (wd:Q7725634) returns a different result (to be continued) …
 
