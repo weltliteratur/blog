@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 date: 2016-02-19
 ---
 
