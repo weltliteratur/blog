@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: post
+layout: default
 author: Robert
 date: 2016-02-08
 ---

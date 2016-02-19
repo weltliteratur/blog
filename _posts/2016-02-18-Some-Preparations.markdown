@@ -1,6 +1,6 @@
 ---
 title: Some Preparations
-layout: page
+layout: default
 author: Christopher, Frank
 date: 2016-02-18
 ---
