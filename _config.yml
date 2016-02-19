@@ -1,2 +1,26 @@
-highlighter: rouge
-baseurl: /
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Weltliteratur
+tagline:          'black market for digital humanities'
+description:      'here description'
+url:              http://blog.weltliteratur.net
+baseurl:          /
+
+author:
+  name:           'Frank, Robert & friends'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          0.0.1
+
+github:
+  repo:           https://github.com/weltliteratur
