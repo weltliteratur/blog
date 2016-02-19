@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-About this blog
+About this blog:
