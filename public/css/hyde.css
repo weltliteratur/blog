@@ -32,7 +32,10 @@
  */
 
 html {
-    font-family: "futura-pt","FuturaPT-Light","FuturaLTPro-Light",Helvetica,Arial,sans-serif; /*"PT Sans", Helvetica, Arial, sans-serif;*/
+    font-family: "futura-pt","FuturaPT-Light","FuturaLTPro-Light",Helvetica,Arial,sans-serif;
+    line-height: 1.35;
+    font-size: 1.125em;
+    font-weight: 300;
 }
 @media (min-width: 48em) {
   html {
