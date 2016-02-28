@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Impact,Helvetica,Arial,sans-serif; /*"PT Sans", Helvetica, Arial, sans-serif;*/
 }
 @media (min-width: 48em) {
   html {
