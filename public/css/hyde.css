@@ -89,6 +89,7 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
     margin-bottom: 1rem;
+    font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Impact,Helvetica,Arial,sans-serif;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     
