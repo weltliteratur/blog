@@ -44,7 +44,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -81,15 +81,18 @@ html {
 /* About section */
 .sidebar-about h1 {
   color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Impact,Helvetica,Arial,sans-serif;
   font-size: 2.25rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  text-transform: uppercase;
+
 }
 
 /* Sidebar nav */
 .sidebar-nav {
     margin-bottom: 1rem;
-    font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Impact,Helvetica,Arial,sans-serif;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     
