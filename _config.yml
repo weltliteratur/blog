@@ -7,7 +7,7 @@ gems:             [jekyll-paginate]
 permalink:        pretty
 
 # Setup
-title:            Weltliteratur
+title:            weltliteratur.net
 tagline:          'black market for the digital humanities'
 description:      'black market for the digital humanities'
 url:              http://blog.weltliteratur.net
