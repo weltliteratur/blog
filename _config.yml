@@ -17,6 +17,10 @@ author:
   name:           'Frank, Robert & friends'
   url:            https://twitter.com/mdo
 
+authors:
+  Frank:          http://www.zerstoerung.org/
+  Robert:	  http://www.kbs.uni-hannover.de/~jaeschke/
+
 paginate:         5
 
 # Custom vars
