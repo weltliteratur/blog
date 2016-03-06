@@ -9,6 +9,7 @@ layout: default
     by
     {% for author in page.author  %}
       {{ author }}
+      {% unless forloop.last %},{% endunless %}
     {% endfor %}
   </span>
   {{ content }}
