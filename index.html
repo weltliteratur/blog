@@ -11,8 +11,7 @@ title: Home
       {{ post.date | date_to_string }}
       by
       {% for author in post.author  %}
-        {{ author }}
-        {% unless forloop.last %},{% endunless %}
+        {{ author }}{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </span>
     {{ post.content }}
