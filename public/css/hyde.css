@@ -82,12 +82,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Futura,Impact,Helvetica,Arial,sans-serif;
-  font-size: 1.75rem;
-  font-weight: 600;
-  letter-spacing: 0.00em;
   margin-top: 0;
-  text-transform: uppercase;
-
 }
 
 /* Sidebar nav */
