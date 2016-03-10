@@ -32,7 +32,7 @@
  */
 
 html {
-    font-family: "futura-pt","FuturaPT-Light","FuturaLTPro-Light",Futura,Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 1.35;
     font-size: 1.125em;
     font-weight: 300;
@@ -81,7 +81,7 @@ html {
 /* About section */
 .sidebar-about h1 {
   color: #fff;
-  font-family: "futura-pt-condensed","FuturaStd-Condensed","Futura-Condensed",Futura,Impact,Helvetica,Arial,sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 0;
 }
 
