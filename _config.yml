@@ -8,8 +8,8 @@ permalink:        pretty
 
 # Setup
 title:            weltliteratur.net
-tagline:          'black market for the digital humanities'
-description:      'black market for the digital humanities'
+tagline:          'A Black Market for the Digital Humanities'
+description:      'A Black Market for the Digital Humanities'
 url:              http://blog.weltliteratur.net
 baseurl:          /
 
@@ -18,8 +18,8 @@ author:
   url:            https://twitter.com/mdo
 
 authors:
-  Frank:          http://www.zerstoerung.org/
-  Robert:	  http://www.kbs.uni-hannover.de/~jaeschke/
+  Frank:          http://www.gcdh.de/frank.fischer
+  Robert:	        http://www.kbs.uni-hannover.de/~jaeschke/
 
 paginate:         5
 
