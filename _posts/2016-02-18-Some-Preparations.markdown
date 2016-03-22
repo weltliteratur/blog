@@ -2,6 +2,7 @@
 title: Some Preparations
 layout: post
 author: [Christopher, Frank]
+comments: true
 date: 2016-02-18
 ---
 
@@ -28,4 +29,4 @@ WHERE {
 
 Changing the object criteria from "book" to "literary work" (wd:Q7725634) returns a different result (to be continued) …
 
-Test, test…
+
