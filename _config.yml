@@ -7,15 +7,14 @@ gems:             [jekyll-paginate]
 permalink:        pretty
 
 # Setup
+name:             'A Black Market for the Digital Humanities'
 title:            weltliteratur.net
 tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
 url:              http://weltliteratur.net
 baseurl:          /
 
-author:
-  name:           'Frank, Robert & friends'
-  url:            https://twitter.com/mdo
+author:           Frank, Robert & friends
 
 authors:
   Frank:          http://www.gcdh.de/frank.fischer

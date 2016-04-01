@@ -1,0 +1,34 @@
+---
+layout: default
+title: My Blog
+---
+
+<section class="main-content">
+
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h4 class="section-title">Welcome to my blog</h4>
+            <span class="section-subtitle">Posts tagged with {{ page.tag }}</span>
+        </header>
+
+        <ul id="posts-list">
+
+        {% for post in site.posts %}
+            {% for tag in post.tags %}
+                {% if tag == page.tag %}
+
+                <li class="clearfix">
+                    <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time>
+                    <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                </li>
+            
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        </ul>
+
+    </div>
+
+</section>
