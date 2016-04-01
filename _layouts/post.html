@@ -1,35 +1,39 @@
----
-layout: default
----
+{% include top.html %}
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">
-    {{ page.date | date_to_string }}
-    by
-    {% for author in page.author  %}
-      <a href="{{ site.authors[author] }}">{{ author }}</a>{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  </span>
-  {{ content }}
+{% include header.html %}
 
-  {% if page.comments %}
-    {% include disqus.html %}
-  {% endif %}
-</div>
+<article class="main-content">
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+    <div class="wrapper">
+
+        <header class="section-header">
+            <h1 class="section-title">{{ page.title }}</h1>
+            <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time>{% for tag in page.tags %}, <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>{% endfor %}</span>
+        </header>
+      
+        <section class="post-content">
+
+        	{{ page.content | markdownify }}
+
+            <div class="post-nav">
+
+                <span class="section-subtitle">Share on <a href="https://twitter.com/home?status={{ page.title }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
+
+				{% if page.previous.url %} 
+                	<a href="{{page.previous.url}}" class="button">Prev</a>
+				{% endif %} 
+				{% if page.next.url %} 
+                	<a href="{{page.next.url}}" class="button">Next</a>
+				{% endif %} 
+
+            </div>
+
+        </section>
+
+    </div>
+
+</article>
+
+{% include footer.html %}
+
+{% include bottom.html %}

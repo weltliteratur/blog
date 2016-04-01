@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-us">
+{% include top.html %}
 
-  {% include head.html %}
+{% include header.html %}
 
-  <body class="theme-base-00">
+{{ content }}
 
-    {% include sidebar.html %}
+{% include footer.html %}
 
-    <div class="content container">
-      {{ content }}
-    </div>
-
-  </body>
-</html>
+{% include bottom.html %}
