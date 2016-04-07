@@ -8,7 +8,17 @@
 
         <header class="section-header">
             <h1 class="section-title">{{ page.title }}</h1>
-            <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date_to_string }}</time>{% for tag in page.tags %}, <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>{% endfor %}</span>
+ <span class="section-subtitle">by <strong>
+{% assign authors = page.author.size %}
+{% if authors > 1 %}
+{% for author in page.author %}
+{{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
+{% endfor %}
+{% else %}
+{{ author.name }}
+{% endif %}
+</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
+</div>
         </header>
       
         <section class="post-content">
