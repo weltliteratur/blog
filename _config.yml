@@ -4,7 +4,7 @@ highlighter:      rouge
 gems:             [jekyll-paginate]
 
 # Permalinks
-permalink:        /:title
+permalink:        /:title/
 
 # Setup
 name:             'A Black Market for the Digital Humanities'
