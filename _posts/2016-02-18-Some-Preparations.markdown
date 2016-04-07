@@ -3,12 +3,12 @@ title: Some Preparations
 layout: post
 author: [christopher, frank]
 comments: true
-date: 2016-02-18
+date: 2016-04-07
 ---
 
 This is our test query, go to [http://query.wikidata.org](http://query.wikidata.org) and paste this in the box:
 
-~~~ xml
+~~~ sql
 prefix schema: <http://schema.org/>
 prefix wd: <http://www.wikidata.org/entity/>
 prefix wdt: <http://www.wikidata.org/prop/direct/>
