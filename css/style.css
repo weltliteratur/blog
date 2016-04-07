@@ -210,7 +210,7 @@ h4 + p {
 	margin-bottom: 15px;
 }
 .section-title, h3.section-title {
-	font-size: 18px;
+	font-size: 40px;
 	line-height: 24px;
 	color: #212121;
 	text-transform: uppercase;
@@ -223,7 +223,7 @@ h4 + p {
 	text-transform: uppercase;
 	font-weight: 700;
 	display: block;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 /* --------------------------------------
