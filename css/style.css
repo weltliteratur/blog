@@ -210,7 +210,7 @@ h4 + p {
 	margin-bottom: 15px;
 }
 .section-title, h3.section-title {
-	font-size: 40px;
+	font-size: 24px;
 	line-height: 24px;
 	color: #212121;
 	text-transform: uppercase;
@@ -385,6 +385,7 @@ h4 + p {
 	border: none;
 }
 #posts-list h3 {
+
 	font-weight: 400;
 }
 
