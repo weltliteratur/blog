@@ -4,7 +4,7 @@ highlighter:      rouge
 gems:             [jekyll-paginate]
 
 # Permalinks
-permalink:        pretty
+permalink:        title
 
 # Setup
 name:             'A Black Market for the Digital Humanities'
@@ -18,8 +18,9 @@ base: http://weltliteratur.net/
 author:           Frank, Robert & friends
 
 authors:
-  Frank:          http://www.gcdh.de/frank.fischer
-  Robert:	        http://www.kbs.uni-hannover.de/~jaeschke/
+  Frank:	http://www.gcdh.de/frank.fischer
+  Robert:	http://www.kbs.uni-hannover.de/~jaeschke/
+  Mathias:	http://mathias-goebel.github.io
 
 paginate:         10
 
