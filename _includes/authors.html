@@ -8,53 +8,7 @@
 
                             	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo">  <span class="author-label">Author</span>
                             <h1>{{ site.authors[author].name }}</h1>
-                            <p>
-	<!-- span class="author">{{ author.display_name }}</span -->
-				        {% if site.authors[author].twitter %}
-				        <a href="https://twitter.com/{{ site.authors[author].twitter }}">
-				            <span class="fa-stack fa-lg">
-				                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-				                <i class="fa fa-twitter fa-stack-1x"></i>
-				            </span>
-				        </a>
-				        {% endif %}
-				        {% if site.authors[author].google_plus %}
-				        <a href="{{ site.authors[author].google_plus }}">
-				            <span class="fa-stack fa-lg">
-				                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-				                <i class="fa fa-google-plus fa-stack-1x"></i>
-				            </span>
-				        </a>
-				        {% endif %}
-				        {% if site.authors[author].instagram %}
-				        <a href="https://instagram.com/{{ site.authors[author].instagram }}">
-				            <span class="fa-stack fa-lg">
-				                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-				                <i class="fa fa-instagram fa-stack-1x"></i>
-				            </span>
-				        </a>
-				        {% endif %}
-				        {% if site.authors[author].github %}
-				        <a href="https://github.com/{{ site.authors[author].github }}">
-				            <span class="fa-stack fa-lg">
-				                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-				                <i class="fa fa-github fa-stack-1x"></i>
-				            </span>
-				        </a>
-				        {% endif %}
-				        {% if site.authors[author].facebook %}
-				        <a href="https://facebook.com/{{ site.authors[author].facebook }}">
-				            <span class="fa-stack fa-lg">
-				                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-				                <i class="fa fa-facebook fa-stack-1x"></i>
-				            </span>
-				        </a>
-				        {% endif %}
-		             </p>
-		             {% if page.title == 'Network Analysis of Dramatic Texts' %}
-		             <p>{{ site.authors[author].description }}</p>
-		             {% endif %}
-		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}. You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
+                            		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}. You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
         		</section>
                 </div>
             </div>
