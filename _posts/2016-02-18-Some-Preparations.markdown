@@ -1,7 +1,7 @@
 ---
 title: Some Preparations
 layout: post
-author: [Christopher, Frank]
+author: [Christopher, frank]
 comments: true
 date: 2016-02-18
 ---
