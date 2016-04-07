@@ -2,15 +2,13 @@
 {% assign authors = page.author.size %}
 {% for author in page.author %}
             <div class="author-info" {% if forloop.first != true %} style="margin-top: -7rem;" {% endif %}  >
-                <div class="row">
-                    <section class="author small-12 columns">
+                    <section class="author">
                         {% assign author = site.authors[author] %}
 
                             	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo">  <span class="author-label">Author</span>
                             <h1>{{ site.authors[author].name }}</h1>
                             		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}. You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
         		</section>
-                </div>
             </div>
 {% endfor %}
 </div>
