@@ -13,7 +13,7 @@ tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
 url:              http://weltliteratur.net
 baseurl:          /
-base: http://weltliteratur.net/
+base: http://weltliteratur.net
 
 author:           Frank, Robert & friends
 
