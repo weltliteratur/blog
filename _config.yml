@@ -18,7 +18,14 @@ base: http://weltliteratur.net/
 author:           Frank, Robert & friends
 
 authors:
-  Frank:	http://www.gcdh.de/frank.fischer
+  frank:
+    name: Frank Fischer
+    display_name: Frank
+    gravatar: 0e4f5ff81e5b1b1976c939b57207bb2d
+    email: frank.fischer@sub.uni-goettingen.de
+    web: http://www.umblaetterer.de
+    twitter: umblaetterer
+    github: lehkost
   Robert:	http://www.kbs.uni-hannover.de/~jaeschke/
   Mathias:	http://mathias-goebel.github.io
 
