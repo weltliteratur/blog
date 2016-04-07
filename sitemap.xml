@@ -5,21 +5,15 @@
 
 	<!-- Pages -->
 	<url>
-		<loc>{{ site.url }}</loc>
+		<loc>{{ site.url }}/</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>{{ site.url }}/blog/</loc>
-		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-		<changefreq>daily</changefreq>
+		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>{{ site.url }}/about/</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-		<changefreq>daily</changefreq>
+		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 
