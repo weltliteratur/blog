@@ -26,8 +26,25 @@ authors:
     web: http://www.umblaetterer.de
     twitter: umblaetterer
     github: lehkost
-  Robert:	http://www.kbs.uni-hannover.de/~jaeschke/
-  Mathias:	http://mathias-goebel.github.io
+    description: Frank is a friendly bot.
+  christopher:
+    name: Christopher Johnson
+    display_name: Christopher
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: christopher-johnson
+  mathias:
+    name: Mathias Göbel
+    display_name: Mathias
+    email: goebel@sub.uni-goettingen.de
+    web: http://mathias-goebel.github.io
+    twitter: goebel_m
+    github: mathias-goebel
+    gravatar: 6cfefa5456ac7fd4f39298f29c05fae8
+    description: Since more than 30 years Mathias plays this Real Life game with mixed results. After an inspiring lecture on 'Digital Humanities' he started combining statistics and literary studies, where he can use his close affinity to the computer and novice skills in writing scripts and programs to explore literary texts. Since then he tries to become familiar with &#35;!/bin/bash, the eXist-db and D3.js and server architecture in general.
+  robert:	http://www.kbs.uni-hannover.de/~jaeschke/
 
 paginate:         10
 
