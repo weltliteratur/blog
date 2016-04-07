@@ -1,4 +1,5 @@
 <div class="authors">
+ <div class="wrapper">
 {% assign authors = page.author.size %}
 {% for author in page.author %}
             <div class="author-info" {% if forloop.first != true %} style="margin-top: -7rem;" {% endif %}  >
@@ -11,5 +12,6 @@
         		</section>
             </div>
 {% endfor %}
+</div>
 </div>
 
