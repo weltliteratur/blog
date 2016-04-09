@@ -13,7 +13,7 @@ tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
 url:              http://weltliteratur.net
 baseurl:          /
-base: http://weltliteratur.net
+base: 		  http://weltliteratur.net
 
 author:           Frank, Robert & friends
 
@@ -21,8 +21,8 @@ authors:
   robert:
     name: Robert Jäschke
     display_name: Robert
-    gravatar: 
-    email: 
+    gravatar: 2c9c581ae0a3d3590563d9f4120b1861
+    email: jaeschke@L3S.de
     web: https://www.kbs.uni-hannover.de/~jaeschke/
     twitter: 
     github: rjoberon
@@ -30,7 +30,7 @@ authors:
     name: Mathias Göbel
     display_name: Mathias
     email: goebel@sub.uni-goettingen.de
-    web: http://mathias-goebel.github.io
+    web: http://mathias-goebel.github.io/
     twitter: goebel_m
     github: mathias-goebel
     gravatar: 6cfefa5456ac7fd4f39298f29c05fae8
@@ -40,7 +40,7 @@ authors:
     display_name: Frank
     gravatar: 0e4f5ff81e5b1b1976c939b57207bb2d
     email: frank.fischer@sub.uni-goettingen.de
-    web: http://www.umblaetterer.de
+    web: http://www.umblaetterer.de/
     twitter: umblaetterer
     github: lehkost
     description: Frank is a friendly bot.
