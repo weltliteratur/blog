@@ -10,7 +10,7 @@
 {% assign authors = site.authors.size %}
 {% if authors > 1 %}
 {% for author in site.authors %}
-{{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
+{{ author.name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
 {% endfor %}
 {% else %}
 {{ author.name }}
