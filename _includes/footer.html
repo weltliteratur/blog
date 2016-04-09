@@ -6,8 +6,15 @@
 
         <div class="wrapper">
 
-            <p data="{{ site.authors[0].name }}" class="copy"><img src="https://raw.githubusercontent.com/dlina/dlina.github.io/master/images/cc-by.png"/> 
-{% for author in [mathias, frank] %}
+            <p data="
+{% for author in site.authors %}
+  {% for item in author %}
+    {{ item[0] }} {{ item[1] }}
+  {% endfor %}
+{% endfor %}
+
+" class="copy"><img src="https://raw.githubusercontent.com/dlina/dlina.github.io/master/images/cc-by.png"/> 
+{% for author in [ mathias,frank ] %}
 {{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
 {% endfor %}
 	</p>
