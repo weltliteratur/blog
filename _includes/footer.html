@@ -7,7 +7,6 @@
         <div class="wrapper">
 
             <p data="" class="copy"><img src="https://raw.githubusercontent.com/dlina/dlina.github.io/master/images/cc-by.png"/> 
-{% assign authors = site.authors.size %}
 {% for author in site.authors %}
 {{ site.authors.author.name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
 {% endfor %}
