@@ -6,7 +6,16 @@
 
         <div class="wrapper">
 
-            <p class="copy"><img src="https://raw.githubusercontent.com/dlina/dlina.github.io/master/images/cc-by.png"/> Frank Fischer, Robert Jäschke, Mathias Göbel</p>
+            <p class="copy"><img src="https://raw.githubusercontent.com/dlina/dlina.github.io/master/images/cc-by.png"/> 
+{% assign authors = site.authors.size %}
+{% if authors > 1 %}
+{% for author in site.authors %}
+{{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
+{% endfor %}
+{% else %}
+{{ author.name }}
+{% endif %}
+	</p>
 
         </div>
 
