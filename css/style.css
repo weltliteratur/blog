@@ -2,7 +2,7 @@
 p.copy > img {
 	height:14px;
 }
-.author-avatar {
+.authorwrapper {
     float: left;
 }
 .author-info {clear:both;
