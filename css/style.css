@@ -11,6 +11,7 @@ p.copy > img {
     opacity: 0.4;
     margin-right: 25px;
 }
+.avatarwrapper:hover {opacity:1.0;}
 .authors {#f2f2f2 none repeat scroll 0 0}
 /* --------------------------------------
 -----   Reset   -----
