@@ -5,7 +5,7 @@
             <div class="author-info" {% if forloop.first != true %} {% endif %}  >
                     <section class="author">
                         {% assign author = site.authors[author] %}
-<div class="avatarwrapper"><div id="greymaker"></div>
+<div class="avatarwrapper">
                             	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo">  <span class="author-label">Author</span>
                             	</div>
                             <h1>{{ site.authors[author].name }}</h1>
