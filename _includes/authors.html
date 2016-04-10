@@ -2,7 +2,7 @@
  <div class="wrapper">
 {% assign authors = page.author.size %}
 {% for author in page.author %}
-            <div class="author-info" {% if forloop.first != true %} style="margin-top: -7rem;" {% endif %}  >
+            <div class="author-info" {% if forloop.first != true %} {% endif %}  >
                     <section class="author">
                         {% assign author = site.authors[author] %}
 
