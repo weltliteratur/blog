@@ -6,8 +6,9 @@
                     <section class="author">
                         {% assign author = site.authors[author] %}
 <div class="avatarwrapper">
-                            	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo">  <span class="author-label">Author</span>
+                            	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo"> 
                             	</div>
+                            	<span class="author-label">Author</span>
                             <h1>{{ site.authors[author].name }}</h1>
                             		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}. You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
         		</section>
