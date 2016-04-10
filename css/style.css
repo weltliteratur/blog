@@ -7,8 +7,9 @@ p.copy > img {
 }
 .author-info + .author-info {margin-top:25px;}
 .avatarwrapper {
-	float:left;
+    float:left;
     opacity: 0.4;
+    margin-right: 25px;
 }
 .authors {#f2f2f2 none repeat scroll 0 0}
 /* --------------------------------------
