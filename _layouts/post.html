@@ -46,6 +46,17 @@
 
 </article>
 
+
+{% if site.disqus and page.comments == true %}
+	<section class="disqus">
+		<div class="wrapper"
+			<h1 class="comments-header">Comments</h1>
+			<div id="disqus_thread"></div>
+			{% include disqus.html %}
+		</div>
+	</section>
+{% endif %}
+
 {% include footer.html %}
 
 {% include bottom.html %}
