@@ -25,7 +25,9 @@ p.copy > img {
     font-size: larger;
     font-weight: bold;
 }
-
+.author-info:first-child {
+    padding-top: 15px;
+}
 /* --------------------------------------
 -----   Reset   -----
 ------------------------------------------*/
