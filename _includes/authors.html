@@ -10,7 +10,11 @@
                             	</div>
                             	<span class="author-label">Author</span>
                             <h1>{{ site.authors[author].name }}</h1>
-                            		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}. You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
+                            		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}.</p>
+<p>{{ site.authors[author].description }}</p>
+{% if site.authors[author].web %}
+<p>You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
+{% endif %}
         		</section>
             </div>
 {% endfor %}
