@@ -578,9 +578,10 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
 	.one-half {
 		width: 100%;
 	}
+	/* weltliteratur.net
 	#posts-list time {
 		display: none;
-	}
+	} */
 
 }
 
