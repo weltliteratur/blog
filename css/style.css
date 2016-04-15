@@ -21,6 +21,16 @@ p.copy > img {
 .author {
     min-height: 155px;
 }
+#authors {
+    font-size: 1.5em;
+    margin-left: 165px;
+    margin-bottom: 30px;
+    display: block;
+}
+.author > span {
+    font-size: larger;
+    font-weight: bold;
+}
 
 /* --------------------------------------
 -----   Reset   -----
