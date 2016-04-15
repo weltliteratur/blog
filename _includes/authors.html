@@ -1,5 +1,5 @@
 <div class="authors">
- <div class="wrapper">
+ <div class="wrapper"><span id="authors">Authors</span>
 {% assign authors = page.author.size %}
 {% for author in page.author %}
             <div class="author-info" {% if forloop.first != true %} {% endif %}  >
@@ -8,13 +8,20 @@
 <div class="avatarwrapper">
                             	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo"> 
                             	</div>
-                            	<span class="author-label">Author</span>
                             <h1>{{ site.authors[author].name }}</h1>
-                            		             <p>If you have further questions leave a comment or send an <a href="mailto:{{ site.authors[author].email }}" class="author-website">email</a> to {{ site.authors[author].display_name }}.</p>
-<p>{{ site.authors[author].description }}</p>
+<ul>
 {% if site.authors[author].web %}
-<p>You should not miss his outstanding <a href="{{ site.authors[author].web }}">website</a>.</p>
+<li><a href="{{ site.authors[author].web }}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
 {% endif %}
+{% if site.authors[author].twitter %}
+<li><a href="https://twitter.com/{{ site.authors[author].twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+{% endif %}
+{% if site.authors[author].github %}
+<li><a href="https://github.com/{{ site.authors[author].github }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+{% endif %}
+</ul>
+<p>{{ site.authors[author].description }}</p>
+
         		</section>
             </div>
 {% endfor %}
