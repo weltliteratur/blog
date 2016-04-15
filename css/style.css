@@ -28,6 +28,10 @@ p.copy > img {
 .author-info:first-child {
     padding-top: 15px;
 }
+.author a {
+    border-bottom: none;
+}
+
 /* --------------------------------------
 -----   Reset   -----
 ------------------------------------------*/
