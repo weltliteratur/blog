@@ -18,6 +18,9 @@ p.copy > img {
     display: inline-block;
     margin-right: 10px;
 }
+.author {
+    min-height: 155px;
+}
 
 /* --------------------------------------
 -----   Reset   -----
