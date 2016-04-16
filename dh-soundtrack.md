@@ -3,7 +3,7 @@ layout: page
 title: DH Soundtrack
 ---
 
-*Kawoom. This is our very own and very official 😇 Digital Humanities soundtrack. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates. This editorial note was written in mid-April, 2016, but we can already state as a fact that 2016 is so much better a year than 2015.*
+*Kawoom. This is our very own and very official* 😇 *Digital Humanities soundtrack. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates. This editorial note was written in mid-April, 2016, but we can already state as a fact that 2016 is so much better a year than 2015.*
 
 *SK, FF*
 
@@ -21,7 +21,7 @@ title: DH Soundtrack
   + Wild Nothing: Reichpop   ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ))
   + Kanye West: Famous
   + Alan Walker: Faded   ([youtube](https://www.youtube.com/watch?v=60ItHLz5WEA))
-  + Kendrick Lamar: untitled 03 | 05.28.2013
+  + Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
 
 ## Update History
 
