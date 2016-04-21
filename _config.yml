@@ -52,6 +52,15 @@ authors:
     web: 
     twitter: 
     github: christopher-johnson
+  ubbo:
+    name: Ubbo Veentjer
+    display_name: Ubbo
+    gravatar: 
+    email: veentjer@sub.uni-goettingen.de
+    web: 
+    twitter: 
+    github: ubbo
+    description: "Den Code dokumentieren wir später."
 
 paginate:         10
 
