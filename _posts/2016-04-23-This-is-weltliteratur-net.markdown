@@ -3,7 +3,7 @@ title: This is weltliteratur.net
 layout: post
 author: [frank, mathias, robert]
 comments: true
-date: 2016-04-23
+date: 2016-04-22
 ---
 
 "Welcome! Welcome! Welcome!" (Quoting John Oliver, of course.) Now this is, believe it or not, the sky over Göttingen #OnThisDay, April 23, 2016:
