@@ -13,7 +13,7 @@ tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
 url:              http://weltliteratur.net
 baseurl:          /
-base: 		  http://weltliteratur.net
+base: 	      	  http://weltliteratur.net
 
 author:           Frank, Robert & friends
 
@@ -26,7 +26,7 @@ authors:
     web: https://www.kbs.uni-hannover.de/~jaeschke/
     twitter: 
     github: rjoberon
-    description: 
+    description: Professor for Web Science at the University of Hanover.
   mathias:
     name: Mathias Göbel
     display_name: Mathias
