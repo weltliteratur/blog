@@ -26,6 +26,7 @@ authors:
     web: https://www.kbs.uni-hannover.de/~jaeschke/
     twitter: 
     github: rjoberon
+    description: 
   mathias:
     name: Mathias Göbel
     display_name: Mathias
@@ -39,11 +40,11 @@ authors:
     name: Frank Fischer
     display_name: Frank
     gravatar: 0e4f5ff81e5b1b1976c939b57207bb2d
-    email: frank.fischer@sub.uni-goettingen.de
-    web: http://www.umblaetterer.de/
+    email: frank.fischer@zentr.uni-goettingen.de
+    web: http://www.gcdh.de/frank.fischer
     twitter: umblaetterer
     github: lehkost
-    description: Frank is a friendly bot.
+    description: Doing Digital Humanities at the Higher School of Economics in Moscow.
   christopher:
     name: Christopher Johnson
     display_name: Christopher
@@ -52,6 +53,7 @@ authors:
     web: 
     twitter: 
     github: christopher-johnson
+    description: 
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
