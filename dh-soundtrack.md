@@ -3,9 +3,9 @@ layout: page
 title: DH Soundtrack
 ---
 
-*Kawoom. This is our very own and very official* 😇 *Digital Humanities soundtrack. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates. This editorial note was written in mid-April, 2016, but we can already state as a fact that 2016 is so much better a year than 2015.*
+*Kawoom. What you find here is our very own take on assembling a bleeding-edge Digital Humanities soundtrack. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates. This editorial note was written in mid-April, 2016, but we can already state as a fact that 2016 is so much better a year than 2015.*
 
-*SK, FF*
+*[Sebastian Klinge](https://twitter.com/DasAnsagenfeuil)* · *[Frank Fischer](https://twitter.com/umblaetterer)*
 
 * * *
 
