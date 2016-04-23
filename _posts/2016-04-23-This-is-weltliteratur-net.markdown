@@ -15,7 +15,7 @@ Now this is, believe it or not, the sky over Göttingen #OnThisDay, April 23, 20
   <img src="https://raw.githubusercontent.com/weltliteratur/blog/gh-pages/images/sky_over_goettingen.jpg" alt="Sky over Göttingen." style="width:1040px;" />
 </figure>
 
-Göttingen (and Hannover) were the places where we first started to think about a blog called **weltliteratur.net**, a neat and plushy think tank where we could publish some of our musings on Digital Humanities-related things that might or might not be or become part of a bigger research project.
+Göttingen (and Hanover) were the places where we first started to think about a blog called **weltliteratur.net**, a neat and plushy think tank where we could publish some of our musings on Digital Humanities-related things that might or might not be or become part of a bigger research project.
 
 Now that some of us are scattered to the four winds (to Potsdam, Sheffield, Moscow, etc.) we're planning to use this site as a place to continue discussing and exploring ideas emanating from our daily DH'ing. Let's see how it goes.
 
