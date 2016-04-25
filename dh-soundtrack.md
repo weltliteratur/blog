@@ -18,9 +18,9 @@ title: DH Soundtrack
   5. Deftones: Prayers/Triangles   ([youtube](https://www.youtube.com/watch?v=D5BG_B8FWhI))
   6. Explosions in the Sky: Tangle Formations   ([youtube](https://www.youtube.com/watch?v=h2PagQXYQIE))
   7. Savages: Adore   ([vimeo](https://vimeo.com/150766416))
-  8. DIIV: Under the Sun   ([youtube](https://www.youtube.com/watch?v=zKbqyuaXolg)) · ([soundcloud](https://soundcloud.com/capturedtracks/diiv-under-the-sun-official-single))
+  8. DIIV: Under the Sun   ([youtube](https://www.youtube.com/watch?v=zKbqyuaXolg)) ([soundcloud](https://soundcloud.com/capturedtracks/diiv-under-the-sun-official-single))
   9. Animal Collective: Bagels in Kiev
-  10. Wild Nothing: Reichpop   ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ))
+  10. Wild Nothing: Reichpop   ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ)) ([soundcloud](https://soundcloud.com/bella-union/wild-nothing-reichpop))
   11. Kanye West: Famous
   12. Alan Walker: Faded   ([youtube](https://www.youtube.com/watch?v=60ItHLz5WEA))
   13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
