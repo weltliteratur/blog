@@ -6,7 +6,7 @@ comments: true
 date: 2016-04-25
 ---
 
-You can currently access and contribute to [281 active Wikipedia language versions](https://meta.wikimedia.org/wiki/List_of_Wikipedias). What follows is a top-25 list of 'books' ranked by the number of Wikipedia language dedicated to these 'books' (results first, explanation thereafter):
+You can currently access and contribute to [281 active Wikipedia language versions](https://meta.wikimedia.org/wiki/List_of_Wikipedias). What follows is a top-25 list of 'books' ranked by the number of articles dedicated to these 'books' in different Wikipedia language editions (results first, explanation thereafter):
 
 | Wikidata item                                       | Title                                     | Authorlabel                | Linkcount | 
 |-----------------------------------------------------|-------------------------------------------|----------------------------|-----------| 
