@@ -10,31 +10,31 @@ You can currently access and contribute to [281 active Wikipedia language versio
 
 | Wikidata item                                       | Title                                     | Authorlabel                | Linkcount | 
 |-----------------------------------------------------|-------------------------------------------|----------------------------|-----------| 
-| [http://www.wikidata.org/entity/Q8258](Q8258)       | One Thousand and One Nights               | anonymous                  | 116       | 
-| [http://www.wikidata.org/entity/Q15228](Q15228)     | The Lord of the Rings                     | J. R. R. Tolkien           | 115       | 
-| [http://www.wikidata.org/entity/Q480](Q480)         | Don Quixote                               | Miguel de Cervantes        | 113       | 
-| [http://www.wikidata.org/entity/Q25338](Q25338)     | Le Petit Prince                           | Antoine de Saint-Exupéry   | 110       | 
-| [http://www.wikidata.org/entity/Q40591](Q40591)     | The Communist Manifesto                   | Karl Marx/Friedrich Engels | 108       | 
-| [http://www.wikidata.org/entity/Q459842](Q459842)   | Book of Mormon                            | Joseph Smith               | 106       | 
-| [http://www.wikidata.org/entity/Q208460](Q208460)   | Nineteen Eighty-Four                      | George Orwell              | 102       | 
-| [http://www.wikidata.org/entity/Q8251](Q8251)       | The Art of War                            | Sun Tzu                    | 95        | 
-| [http://www.wikidata.org/entity/Q92640](Q92640)     | Alice's Adventures in Wonderland          | Lewis Carroll              | 93        | 
-| [http://www.wikidata.org/entity/Q8279](Q8279)       | Shahnameh                                 | Ferdowsi                   | 93        | 
-| [http://www.wikidata.org/entity/Q74287](Q74287)     | The Hobbit                                | J. R. R. Tolkien           | 91        | 
-| [http://www.wikidata.org/entity/Q43361](Q43361)     | Harry Potter and the Philosopher's Stone  | J. K. Rowling              | 86        | 
-| [http://www.wikidata.org/entity/Q1396889](Q1396889) | Animal Farm                               | George Orwell              | 85        | 
-| [http://www.wikidata.org/entity/Q8265](Q8265)       | Dream of the Red Chamber                  | Cao Xueqin                 | 82        | 
-| [http://www.wikidata.org/entity/Q41675](Q41675)     | Guinness World Records                    | Craig Glenday              | 80        | 
-| [http://www.wikidata.org/entity/Q48244](Q48244)     | Mein Kampf                                | Adolf Hitler               | 80        | 
-| [http://www.wikidata.org/entity/Q8269](Q8269)       | The Tale of Genji                         | Murasaki Shikibu           | 79        | 
-| [http://www.wikidata.org/entity/Q165318](Q165318)   | Crime and Punishment                      | Fyodor Dostoyevsky         | 77        | 
-| [http://www.wikidata.org/entity/Q47209](Q47209)     | Harry Potter and the Chamber of Secrets   | J. K. Rowling              | 77        | 
-| [http://www.wikidata.org/entity/Q47598](Q47598)     | Harry Potter and the Prisoner of Azkaban  | J. K. Rowling              | 75        | 
-| [http://www.wikidata.org/entity/Q46887](Q46887)     | Harry Potter and the Half-Blood Prince    | J. K. Rowling              | 75        | 
-| [http://www.wikidata.org/entity/Q80817](Q80817)     | Harry Potter and the Order of the Phoenix | J. K. Rowling              | 75        | 
-| [http://www.wikidata.org/entity/Q123397](Q123397)   | The Republic                              | Plato                      | 74        | 
-| [http://www.wikidata.org/entity/Q170583](Q170583)   | Pride and Prejudice                       | Jane Austen                | 74        | 
-| [http://www.wikidata.org/entity/Q147787](Q147787)   | Anna Karenina                             | Leo Tolstoy                | 73        | 
+| [Q8258](http://www.wikidata.org/entity/Q8258)       | One Thousand and One Nights               | anonymous                  | 116       | 
+| [Q15228](http://www.wikidata.org/entity/Q15228)     | The Lord of the Rings                     | J. R. R. Tolkien           | 115       | 
+| [Q480](http://www.wikidata.org/entity/Q480)         | Don Quixote                               | Miguel de Cervantes        | 113       | 
+| [Q25338](http://www.wikidata.org/entity/Q25338)     | Le Petit Prince                           | Antoine de Saint-Exupéry   | 110       | 
+| [Q40591](http://www.wikidata.org/entity/Q40591)     | The Communist Manifesto                   | Karl Marx/Friedrich Engels | 108       | 
+| [Q459842](http://www.wikidata.org/entity/Q459842)   | Book of Mormon                            | Joseph Smith               | 106       | 
+| [Q208460](http://www.wikidata.org/entity/Q208460)   | Nineteen Eighty-Four                      | George Orwell              | 102       | 
+| [Q8251](http://www.wikidata.org/entity/Q8251)       | The Art of War                            | Sun Tzu                    | 95        | 
+| [Q92640](http://www.wikidata.org/entity/Q92640)     | Alice's Adventures in Wonderland          | Lewis Carroll              | 93        | 
+| [Q8279](http://www.wikidata.org/entity/Q8279)       | Shahnameh                                 | Ferdowsi                   | 93        | 
+| [Q74287](http://www.wikidata.org/entity/Q74287)     | The Hobbit                                | J. R. R. Tolkien           | 91        | 
+| [Q43361](http://www.wikidata.org/entity/Q43361)     | Harry Potter and the Philosopher's Stone  | J. K. Rowling              | 86        | 
+| [Q1396889](http://www.wikidata.org/entity/Q1396889) | Animal Farm                               | George Orwell              | 85        | 
+| [Q8265](http://www.wikidata.org/entity/Q8265)       | Dream of the Red Chamber                  | Cao Xueqin                 | 82        | 
+| [Q41675](http://www.wikidata.org/entity/Q41675)     | Guinness World Records                    | Craig Glenday              | 80        | 
+| [Q48244](http://www.wikidata.org/entity/Q48244)     | Mein Kampf                                | Adolf Hitler               | 80        | 
+| [Q8269](http://www.wikidata.org/entity/Q8269)       | The Tale of Genji                         | Murasaki Shikibu           | 79        | 
+| [Q165318](http://www.wikidata.org/entity/Q165318)   | Crime and Punishment                      | Fyodor Dostoyevsky         | 77        | 
+| [Q47209](http://www.wikidata.org/entity/Q47209)     | Harry Potter and the Chamber of Secrets   | J. K. Rowling              | 77        | 
+| [Q47598](http://www.wikidata.org/entity/Q47598)     | Harry Potter and the Prisoner of Azkaban  | J. K. Rowling              | 75        | 
+| [Q46887](http://www.wikidata.org/entity/Q46887)     | Harry Potter and the Half-Blood Prince    | J. K. Rowling              | 75        | 
+| [Q80817](http://www.wikidata.org/entity/Q80817)     | Harry Potter and the Order of the Phoenix | J. K. Rowling              | 75        | 
+| [Q123397](http://www.wikidata.org/entity/Q123397)   | The Republic                              | Plato                      | 74        | 
+| [Q170583](http://www.wikidata.org/entity/Q170583)   | Pride and Prejudice                       | Jane Austen                | 74        | 
+| [Q147787](http://www.wikidata.org/entity/Q147787)   | Anna Karenina                             | Leo Tolstoy                | 73        | 
 
 Sports commentator proclaims: Legendary Arabian story collection first, the Lord of the Rings a close runner-up, Spanish hack Cervantes completing the podium! But let's curb our enthusiasm for this quirky race for a moment. You cannot be cautious enough when interpreting this kind of lists/rankings. There are a hundred things you'd have to involve when doing this.
 
