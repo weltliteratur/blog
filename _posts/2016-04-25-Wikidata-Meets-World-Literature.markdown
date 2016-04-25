@@ -42,7 +42,7 @@ Our ranking reveals nothing on the nature or quality of, let's say, these 110 la
 
 Let's start slowly. What this ranking suggests to show is a list of 25 'books' (we'll come back to this term later) that are of whatsoever importance across many countries/cultures/language communities. It is not at all a proper basis to redefine the term 'world literature' for the digital age. But it does include the idea of 'world' as part of 'world literature', meaning 'books' that transcend national and language borders, also if their literary value may vary considerably. In any case, before starting to interpret anything, you'll always have to communicate how exactly you generated this kind of results. So …
 
-… as an example of how the Wikidata Query Service can facilitate this type of quantitative analysis, we wrote a SPARQL query that orders 'instances of' 'books' with an author by 'site link'. This means that if a work of literature has the statement 'instance of book' in Wikidata, and it has a Wikpedia page, it can be ranked by the number of Wikipedias that have a page for it.
+… as an example of how the Wikidata Query Service can facilitate this type of quantitative analysis, we wrote a SPARQL query that orders 'instances of' 'books' with an author by 'site link'. This means that if a work of literature has the statement 'instance of book' in Wikidata, and it has a Wikipedia page, it can be ranked by the number of Wikipedias that have a page for it.
 
 This is easily reproducible for you at your own machines, just head over to [http://query.wikidata.org](http://query.wikidata.org) and copy & paste this in the upper box, then hit "Execute" (and while the query is being processed, throw a glance at Alan Liu's [criticism of the concentration "on pushing the 'execute' button" in the Digital Humanities](http://dhdebates.gc.cuny.edu/debates/text/20)):
 
@@ -67,7 +67,6 @@ WHERE {
 
 Did it work for you?
 
-By the way, changing the object criteria from 'book to 'literary work' (wd:Q7725634) returns a different result, that includes books of the Bible (that are not classified as 'instance of book'). Running it without the author, also yields a slightly different result, as there are a few works without an author that are very widely translated (like, for example, today's winner, "One Thousand and One Nights").
+By the way, changing the object criteria from 'book' to 'literary work' (wd:Q7725634) returns a different result, that includes books of the Bible (that are not classified as 'instance of book'). Running it without the author, also yields a slightly different result, as there are a few works without an author that are very widely translated (like, for example, today's winner, "One Thousand and One Nights").
 
-The query that yielded the above ranking was run today (April 25, 2016) at 08:25 CEST. If you save the results of your query (which can be done directly in Wikidata's Query Service) and compare it to the same query conducted at a later date, you would have a useful rudiment for the analysis of how certain works gain or lose importance in the Wikipedian universe. Something we might come back to later.
-
+The query that yielded the above ranking was run today (April 25, 2016) at 08:25 CEST. If you save the results of your query (which can be done directly in Wikidata's Query Service) and compare it to the same query conducted at a later date, you would have a useful rudiment for the analysis of how certain works gain or lose importance in the Wikipedian universe. Something we might come back to later. Until then, happy SPARQL'ing!
