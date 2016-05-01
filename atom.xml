@@ -22,8 +22,7 @@ layout: null
      <name>
        {% for author in post.author %}
          {% assign author = site.authors[author] %}
-         {{ site.authors[author].name }}
-	 {% if forloop.first != last %}, {% endif %}
+         {{ site.authors[author].name }}{% unless forloop.last %}, {% endunless %}
        {% endfor %}
      </name>
    </author>
