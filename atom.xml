@@ -22,6 +22,15 @@ layout: null
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
+   <author>
+     <name>
+       {% for author in post.author %}
+         {% assign author = site.authors[author] %}
+         {{ site.authors[author].name }}
+	 {% if forloop.first != last %}, {% endif %}
+       {% endfor %}
+     </name>
+   </author>
  </entry>
  {% endfor %}
 
