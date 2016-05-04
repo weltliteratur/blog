@@ -24,7 +24,7 @@ authors:
     gravatar: 2c9c581ae0a3d3590563d9f4120b1861
     email: jaeschke@L3S.de
     web: https://www.kbs.uni-hannover.de/~jaeschke/
-    twitter: 
+    twitter:
     github: rjoberon
     description: Professor for Web Science at the University of Hanover.
   mathias:
@@ -54,13 +54,22 @@ authors:
     twitter: 
     github: christopher-johnson
     description: Researcher for the Göttingen Academy of Sciences.
+  peer:
+    name: Peer Trilcke
+    display_name: Peer
+    gravatar: 3995a022afbaf45c8afdd0514d099e63
+    email: trilcke@uni-potsdam.de
+    web: http://www.peertrilcke.de/
+    twitter: peertrilcke
+    github: peertrilcke
+    description: Assistant Professor (Juniorprofessor) of Modern German Literature and Media at the University of Potsdam.
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
-    gravatar: 
+    gravatar:
     email: veentjer@sub.uni-goettingen.de
-    web: 
-    twitter: 
+    web:
+    twitter:
     github: ubbo
     description: "Den Code dokumentieren wir später."
 
@@ -68,6 +77,6 @@ paginate:         10
 
 # Custom vars
 version:          0.0.1
-disqus:		  weltliteratur
+disqus:           weltliteratur
 github:
-  repo:           https://github.com/weltliteratur
+repo:             https://github.com/weltliteratur
