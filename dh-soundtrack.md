@@ -21,10 +21,20 @@ title: DH Soundtrack
   8. DIIV: Under the Sun   ([youtube](https://www.youtube.com/watch?v=zKbqyuaXolg)) ([soundcloud](https://soundcloud.com/capturedtracks/diiv-under-the-sun-official-single))
   9. Animal Collective: Bagels in Kiev
   10. Wild Nothing: Reichpop   ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ)) ([soundcloud](https://soundcloud.com/bella-union/wild-nothing-reichpop))
-  11. Kanye West: Famous
+  11. Kanye West: Famous · ([youtube="unofficial/official video"](https://www.youtube.com/watch?v=Q821mNXNw-I))
   12. Alan Walker: Faded   ([youtube](https://www.youtube.com/watch?v=60ItHLz5WEA))
   13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
+  14. Bad Lip Reading: Bushes of Love · ([youtube](https://www.youtube.com/watch?v=RySHDUU2juM))
+  15. DMA'S: Step Up the Morphine · ([youtube](https://www.youtube.com/watch?v=vYTXXhkHHG0))
+  16. Beyoncé: Sorry
+  17. Anohni: Drone Bomb Me · ([vimeo](https://vimeo.com/152637866))
+  18. LUH: Beneath the Concrete · ([vimeo](https://vimeo.com/163403615))
+  19. Drangsal: Allan Align · ([youtube](https://www.youtube.com/watch?v=99o3AkxzTcQ))
+  20. Ry X: Deliverance · ([youtube](https://www.youtube.com/watch?v=Es4THnMzefA)) ([soundcloud](https://soundcloud.com/ry-x/deliverance1))
+  21. Bring Me the Horizon: Throne · ([vevo](http://www.vevo.com/watch/bring-me-the-horizon/throne/GB1101500803)) ([youtube](https://www.youtube.com/watch?v=uD7dM1wol6g))
+
 
 ## Update History
 
   - April 23, 2016: Initial 2016 release.
+  - May 4, 2016: Added 13–21. Added (youtube) to 11. Note to self: Anohni's *Hopelessness* album of the year, possibly.
