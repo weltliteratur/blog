@@ -3,7 +3,7 @@ layout: page
 title: DH Soundtrack
 ---
 
-*Kawoom. The following list of songs consitutes our very own, bleeding-edge Digital Humanities soundtrack, music we listen to before, after and, much to our own surprise, while conducting our research. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates (see Update History below). Links are only provided if we came across an official audio or video. Working hypothesis: music = liquid architecture, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
+*Kawoom. The following list of songs consitutes our very own, bleeding-edge Digital Humanities soundtrack, music we listen to before, after and, much to our own surprise, while conducting our research. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates (see Update History below). Links are only provided if we came across an official audio or video. Working hypothesis: music = liquid architecture, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).*
 
 *[Sebastian Klinge](https://twitter.com/DasAnsagenfeuil)* &middot; *[Frank Fischer](https://twitter.com/umblaetterer)*
 
