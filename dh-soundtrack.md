@@ -3,7 +3,7 @@ layout: page
 title: DH Soundtrack
 ---
 
-*Kawoom. What you find here is our very own take on a bleeding-edge Digital Humanities soundtrack, a growing list of newly-minted songs we listen to before, after and, much to our own surprise, while conducting our research. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates (see Update History below). Links are only provided if we came across an official audio or video. This editorial note was written in mid-April, 2016, but we can already state as a fact that 2016 is so much better a year than 2015.*
+*Kawoom. The following list of songs consitutes our very own, bleeding-edge Digital Humanities soundtrack, music we listen to before, after and, much to our own surprise, while conducting our research. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates (see Update History below). Links are only provided if we came across an official audio or video. Working hypothesis: music = liquid architecture, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
 
 *[Sebastian Klinge](https://twitter.com/DasAnsagenfeuil)* &middot; *[Frank Fischer](https://twitter.com/umblaetterer)*
 
@@ -12,7 +12,7 @@ title: DH Soundtrack
 ## 2016 Edition
 
   1. Poliça: Top Coat &middot; ([youtube/live](https://www.youtube.com/watch?v=EIoAs9wpaco))
-  2. M83: Go! &middot; ([youtube](https://www.youtube.com/watch?v=U3YZTYXftzg)) ([clipfish](http://www.clipfish.de/musikvideos/video/4306367/m83-go/))
+  2. M83: Go! &middot; ([youtube](https://www.youtube.com/watch?v=U3YZTYXftzg))
   3. Moderat: Ghostmother &middot; ([soundcloud](https://soundcloud.com/moderat-official/ghostmother))
   4. Mogwai: Tzar
   5. Deftones: Prayers/Triangles &middot; ([youtube](https://www.youtube.com/watch?v=D5BG_B8FWhI))
@@ -21,7 +21,7 @@ title: DH Soundtrack
   8. DIIV: Under the Sun &middot; ([youtube](https://www.youtube.com/watch?v=zKbqyuaXolg)) ([soundcloud](https://soundcloud.com/capturedtracks/diiv-under-the-sun-official-single))
   9. Animal Collective: Bagels in Kiev
   10. Wild Nothing: Reichpop &middot; ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ)) ([soundcloud](https://soundcloud.com/bella-union/wild-nothing-reichpop))
-  11. Kanye West: Famous &middot; ([youtube=&#34;unofficial official video&#34;](https://www.youtube.com/watch?v=Q821mNXNw-I))
+  11. Kanye West: Famous &middot; ([youtube/&#34;unofficial official video&#34;](https://www.youtube.com/watch?v=Q821mNXNw-I), cf. [here](http://www.theverge.com/2016/4/28/11526342/kanye-west-famous-music-video-aziz-ansari-eric-wareheim-tlop))
   12. Alan Walker: Faded &middot; ([youtube](https://www.youtube.com/watch?v=60ItHLz5WEA))
   13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
   14. Bad Lip Reading: Bushes of Love &middot; ([youtube](https://www.youtube.com/watch?v=RySHDUU2juM))
