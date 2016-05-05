@@ -3,7 +3,7 @@ title: Distant Reading with Foucault?
 layout: post
 author: [frank, peer]
 comments: true
-date: 2016-05-06
+date: 2016-05-04
 ---
 
 Half a year ago, November 14, 2015, we participated in a workshop at the Institute of Science and Art in Vienna, entitled ["Distant Reading and Discourse Analysis"](http://www.iwk.ac.at/events/distant-reading-und-diskursanalyse). Our talk, which went under the headline "Distant Reading with Foucault?", promised to give thoughts on "the practice of distant reading" and ponder potential "operationalisations of Foucauldian discourse analysis".
