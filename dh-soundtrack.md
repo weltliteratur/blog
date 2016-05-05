@@ -38,5 +38,5 @@ title: DH Soundtrack
 ## Update History
 
   - April 23, 2016: Initial 2016 release.
-  - May 4, 2016: Added 13–21. Added (soundcloud) to 3. Added (youtube) to 11. Note to self: Anohni's *Hopelessness* album of the year, possibly.
+  - May 4, 2016: Added 14–21. Added (soundcloud) to 3. Added (youtube) to 11. Note to self: Anohni's *Hopelessness* album of the year, possibly.
   - May 5, 2016: Added 22.
