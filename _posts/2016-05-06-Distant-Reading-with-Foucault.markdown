@@ -12,11 +12,11 @@ A revised version of the talk was published last week as a featured article in t
 
 What we tried to do in the first place was to define what Distant Reading is, or rather: *what it was* in the past 15 years since Moretti coined the term in his essay *Conjectures on World Literature*. We considered five possible answers. Distant Reading, was it …
 
-1. "a joke"?
-2. a polemical term, a buzzword?
-3. a computer-based method for the analysis of literature?
-4. Moretti's attempt towards a 'canon-critical' large-scale literary historiography?
-5. a failed or at least terminated project?
+* … "a joke"?
+* … a polemical term, a buzzword?
+* … a computer-based method for the analysis of literature?
+* … Moretti's attempt towards a 'canon-critical' large-scale literary historiography?
+* … a failed or at least terminated project?
 
 All of these possible answers had their grains of truth in them. However, what Distant Reading certainly did not provide in the past one and a half decade, was a reliable methodology. Scholars using this term usually thought it enough to reference Moretti. At the same time, one of Moretti's main epistemic moves seems to have been that of following analogies, as has been suggested by scholars such as [Christopher Prendergast (2005)](https://newleftreview.org/II/34/christopher-prendergast-evolution-and-literary-history) or [Katja Mellmann (2009)](http://www.literaturkritik.de/public/rezension.php?rez_id=12719), something Moretti is not unaware of given that he himself, for one, discussed the problematic analogy between World-Systems Theory and a "World-Literary System" (in *More Conjectures*).
 
@@ -25,6 +25,8 @@ All of these possible answers had their grains of truth in them. However, what D
 When rereading Moretti for this talk we were kind of surprised to find that Distant Reading in its original form has nothing at all to do with the practices of the Digital Humanities. It is hard to find Moretti talking about technological implications, he never mentions standards, protocols, scripts, databases and all the nerve-racking little problems you encounter when trying to squeeze literary data for meaningful findings. There was no freely available corpus or code or documentation that made his theses reproducible.
 
 In Vienna, while strolling up and down Berg-Gasse and [climbing the notorious Strudlhofstiege a.k.a. Stiedlhufstroge](https://twitter.com/peertrilcke/status/666702587438243840), we were discussing what our quasi-obituary for Old Distant Reading meant for our own research. Because at the very same time we were preparing a data-driven poster for the annual Digital Humanities conference of the German-speaking countries which took place in March, 2016. Our poster set out to be a "Distant-Reading Showcase: 200 Years of German-Language Drama at a Glance" ([you find it on figshare](https://dx.doi.org/10.6084/m9.figshare.3101203.v1)).
+
+<iframe src="https://widgets.figshare.com/articles/3101203/embed?show_title=1" width="568" height="716" frameborder="0"></iframe>
 
 We wrote about the making of the poster [in our DLINA project blog](https://dlina.github.io/Distant-Reading-Showcase-Poster-DHd2016-Leipzig/) ([**D**igital] **Li**terary **N**etwork **A**nalysis"), where we also give examples of what you can "distantly read" when looking at this obscure bulk of network graphs. What is important here is that our own project confronted us with the question: What would a renewed Distant Reading should be like? While we shouldn't cling to the term, we can state that Distant Reading (or Macroanalysis, or whatever you call it) should be reproducible, which includes all the above-mentioned aspects: freely available corpus, code, documentation, data, something that can cost months of additional work, but something we regard as essential as the eventual presentation of the results.
 
