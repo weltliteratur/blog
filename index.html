@@ -14,13 +14,13 @@ title: weltliteratur.net
 -->
         </header>
 
-        <ul id="posts-list">
+        <ul id="posts-list" itemtype="http://schema.org/ItemList" itemscope="">
 
             {% for post in site.posts %}
 
-            <li class="clearfix">
+            <li class="clearfix" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                 <time datetime="{{ post.date }}" pubdate>{{ post.date | date_to_string }}</time>
-                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                <a itemprop="item" href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
             </li>
             
             {% endfor %}
