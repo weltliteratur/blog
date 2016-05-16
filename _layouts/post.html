@@ -2,32 +2,38 @@
 
 {% include header.html %}
 
-<article class="main-content">
+<article class="main-content" itemid="{{ page.url }}" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <div class="wrapper">
 
-    <div class="wrapper">
-
-        <header class="section-header">
-            <h1 class="section-title">{{ page.title }}</h1>
- <span class="section-subtitle">by <strong>
-{% assign authors = page.author.size %}
-{% if authors > 1 %}
-{% for author in page.author %}
-{{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
-{% endfor %}
-{% else %}
-{{ author.name }}
-{% endif %}
-</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
-</span>
-        </header>
+    <header class="section-header">
+      <h1 class="section-title" itemprop="headline">{{ page.title }}</h1>
       
-        <section class="post-content">
-
-        	{{ page.content | markdownify }}
-
-            <div class="post-nav">
-
-                <span class="section-subtitle">Share on <a href="https://twitter.com/home?status={{ page.title }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
+      <span class="section-subtitle">by
+	<strong>
+	  {% assign authors = page.author.size %}
+	  {% if authors > 1 %}
+	    {% for author in page.author %}
+              {{ site.authors[author].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
+            {% endfor %}
+          {% else %}
+            {{ author.name }}
+          {% endif %}
+	</strong> &#8212;
+	{% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
+	<strong><time itemprop="datePublished" content="{{ page.date | date: '%Y-%m-%d' }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong>
+      </span>
+    </header>
+      
+    <section class="post-content" itemprop="articleBody">
+      {{ page.content | markdownify }}
+      
+      <div class="post-nav">
+	
+        <span class="section-subtitle">
+	  Share on
+	  <a href="https://twitter.com/home?status={{ page.title | uri_escape }}+{{ site.base }}{{ page.url }}" target="_blank">Twitter</a>,
+	  <a href="https://www.facebook.com/share.php?u={{ site.base }}{{ page.url }}&amp;title={{ page.title | uri_escape }}" target="_blank">Facebook</a>,
+	  <a href="https://plus.google.com/share?url={{ site.base }}{{ page.url }}" target="_blank">Google+</a></span><br>
 
 				{% if page.previous.url %} 
                 	<a href="{{page.previous.url}}" class="button">Prev</a>
@@ -48,13 +54,13 @@
 
 
 {% if site.disqus and page.comments == true %}
-	<section class="disqus">
-		<div class="wrapper"
-			<h1 class="comments-header">Comments</h1>
-			<div id="disqus_thread"></div>
-			{% include disqus.html %}
-		</div>
-	</section>
+<section class="disqus">
+  <div class="wrapper">
+    <h1 class="comments-header">Comments</h1>
+    <div id="disqus_thread"></div>
+    {% include disqus.html %}
+  </div>
+</section>
 {% endif %}
 
 {% include footer.html %}

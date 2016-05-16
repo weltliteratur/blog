@@ -1,17 +1,17 @@
 <div class="authors">
- <div class="wrapper">
-{% assign authors = page.author.size %}
-{% for author in page.author %}
-            <div class="author-info" {% if forloop.first != true %} {% endif %}  >
-                    <section class="author">
-                        {% assign author = site.authors[author] %}
-<div class="avatarwrapper">
-                            	<img src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo"> 
-                            	</div>
-                            <span>{{ site.authors[author].name }}</span>
+  <div class="wrapper">
+    {% assign authors = page.author.size %}
+    {% for author in page.author %}
+      <div class="author-info" {% if forloop.first != true %} {% endif %}>
+        <section class="author" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
+          {% assign author = site.authors[author] %}
+	  <div class="avatarwrapper">
+            <img itemprop="image" src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo"> 
+          </div>
+          <h2 itemprop="name">{{ site.authors[author].name }}</h2>
 <ul>
 {% if site.authors[author].web %}
-<li><a href="{{ site.authors[author].web }}"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+<li><a href="{{ site.authors[author].web }}" itemprop="url"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
 {% endif %}
 {% if site.authors[author].twitter %}
 <li><a href="https://twitter.com/{{ site.authors[author].twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -20,7 +20,7 @@
 <li><a href="https://github.com/{{ site.authors[author].github }}"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 {% endif %}
 </ul>
-<p>{{ site.authors[author].description }}</p>
+<p itemprop="description">{{ site.authors[author].description }}</p>
 
         		</section>
             </div>

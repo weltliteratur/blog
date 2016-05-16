@@ -1,24 +1,18 @@
 <section class="main-header regular">
+  <div class="vertical-container">
+    <div class="wrapper clearfix">
+      <header>
+	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+	  <h1 id="main-title">weltliteratur.net</h1>
+	  <h2 id="main-subtitle">A Black Market for the Digital Humanities</h2>
+	{% if page.path != 'index.html' %}</a>{% endif %}
+      </header>
 
-    <div class="vertical-container">
-
-    	<div class="wrapper clearfix">
-
-	        <header>
-	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
-		            <h1 id="main-title">weltliteratur.net</h1>
-		            <h2 id="main-subtitle">A Black Market for the Digital Humanities</h2>
-	        	{% if page.path != 'index.html' %}</a>{% endif %}
-	        </header>
-
-	        <nav id="main-nav" role="navigation">
-				<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
-				<a href="/dh-soundtrack/" class="{% if page.url == '/dh-soundtrack/index.html' %}selected{% endif %}">DH Soundtrack</a>
-				<a href="http://data.weltliteratur.net/">Data</a>
-			</nav>
-
-		</div>
-
+      <nav id="main-nav">
+	<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
+	<a href="/dh-soundtrack/" class="{% if page.url == '/dh-soundtrack/index.html' %}selected{% endif %}">DH Soundtrack</a>
+	<a href="http://data.weltliteratur.net/">Data</a>
+      </nav>
     </div>
-
+  </div>
 </section>
