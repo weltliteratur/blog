@@ -31,7 +31,9 @@ WHERE {
 This query [returns][query-book] a list of resources which have been
 assigned the class
 [Book](http://mappings.dbpedia.org/server/ontology/classes/Book) in
-the DBpedia ontology together with their authors.
+the
+[DBpedia ontology](http://mappings.dbpedia.org/server/ontology/classes/)
+together with their authors.
 
 To rank those books, in our original post we used the number of
 Wikipdia language editions in which those books appear. We can try
