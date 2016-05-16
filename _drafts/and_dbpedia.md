@@ -8,11 +8,11 @@ date: 2016-05-16
 
 After our
 [first blog post on Wikidata](Wikidata-Meets-World-Literature) some
-enthusiasts might have asked "... and DBpedia?" Here we try to deliver
-an answer.
+enthusiasts might have asked "... and DBpedia?" In this post we try to
+deliver an answer.
 
-Let us start with a simplified translation of the original SPARQL
-query to match the DBpedia ontology:
+We start with a simplified translation of the original SPARQL query to
+match the DBpedia ontology:
 
 ~~~ sql
 SELECT ?s ?desc ?authorlabel
@@ -28,17 +28,16 @@ WHERE {
 }
 ~~~
 
-This query
-[returns](http://dbpedia.org/snorql/?query=SELECT+%3Fs+%3Fdesc+%3Fauthorlabel%0D%0AWHERE+{%0D%0A++%3Fs+rdf%3Atype+dbo%3ABook+.%0D%0A++%3Fs+dbo%3Aauthor+%3Fauthor%0D%0A++OPTIONAL+{%0D%0A++++%3Fs+rdfs%3Alabel+%3Fdesc+FILTER+%28lang%28%3Fdesc%29+%3D+%22en%22%29.%0D%0A++}%0D%0A++OPTIONAL+{%0D%0A++++%3Fauthor+rdfs%3Alabel+%3Fauthorlabel+FILTER+%28lang%28%3Fauthorlabel%29+%3D+%22en%22%29.%0D%0A++}%0D%0A}%0D%0A)
-a list of resources which have been assigned the class
+This query [returns][query-book] a list of resources which have been
+assigned the class
 [Book](http://mappings.dbpedia.org/server/ontology/classes/Book) in
 the DBpedia ontology together with their authors.
 
-To rank those books, we used the number of Wikipdia language editions
-in which those books appear. We can try something similar in DBpedia
-by counting the number of labels a book has, since for each language
-edition in Wikipedia where a resource was extracted by DBpedia its
-label is stored using the
+To rank those books, in our original post we used the number of
+Wikipdia language editions in which those books appear. We can try
+something similar in DBpedia by counting the number of labels a book
+has, since for each language edition in Wikipedia where a resource was
+extracted by DBpedia its label is stored using the
 [rdfs:label](https://www.w3.org/TR/2004/REC-rdf-schema-20040210/#ch_label)
 property:
 
@@ -57,7 +56,7 @@ WHERE {
 } GROUP BY ?s ?desc ?authorlabel ORDER BY DESC(?labelcount)
 ~~~
 
-Unfortunately, [the result](http://dbpedia.org/snorql/?query=SELECT+%3Fs+%3Fdesc+%3Fauthorlabel+%28COUNT%28DISTINCT+%3Flabel%29+as+%3Flabelcount%29%0D%0AWHERE+{%0D%0A++%3Fs+rdf%3Atype+dbo%3ABook+.%0D%0A++%3Fs+rdfs%3Alabel+%3Flabel+.%0D%0A++%3Fs+dbo%3Aauthor+%3Fauthor%0D%0A++OPTIONAL+{%0D%0A++++%3Fs+rdfs%3Alabel+%3Fdesc+FILTER+%28lang%28%3Fdesc%29+%3D+%22en%22%29.%0D%0A++}%0D%0A++OPTIONAL+{%0D%0A++++%3Fauthor+rdfs%3Alabel+%3Fauthorlabel+FILTER+%28lang%28%3Fauthorlabel%29+%3D+%22en%22%29.%0D%0A++}%0D%0A}+GROUP+BY+%3Fs+%3Fdesc+%3Fauthorlabel+ORDER+BY+DESC%28%3Flabelcount%29+LIMIT+20) is quite disappionting:
+Unfortunately, [the result][query-labels] is quite disappionting:
 
 | s                                      | desc                                       | authorlabel                     | labelcount |
 |----------------------------------------|--------------------------------------------|---------------------------------|------------|
@@ -88,16 +87,15 @@ It seems that books have been extracted for only 12 language editions
 books. Other properties like
 [dbo:abstract](http://dbpedia.org/snorql/?property=http%3A//dbpedia.org/ontology/abstract)
 or [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs) that could be
-linked to the number of language editions showed the same
-behavior. (For an overview on potential properties, have a look at all
-the properties of
+linked to the number of language editions show the same behavior. (For
+an overview on potential properties, have a look at all the properties
+of
 [The Adventues of Tom Sawyer](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer).)
-
 
 Upon looking for alternatives, we found the
 [PageRank dataset](http://people.aifb.kit.edu/ath/) by Andreas
 Thalhammer which is loaded into the DBpedia SPARQL endpoint. Instead
-of counting the number of language editions, we now use the
+of counting the number of language editions, we can use the
 [PageRank](https://en.wikipedia.org/wiki/PageRank) of each page within
 the English Wikipedia as a measure of importance:
 
@@ -120,7 +118,8 @@ WHERE {
 } GROUP BY ?s ORDER BY DESC(?rank)
 ~~~
 
-The result is much closer to what we would expect:
+We have modifed the query to group authors for multi-author books into
+one row.  The result is much closer to what we would expect:
 
 
 | s                                 | label                                 | author                                                    |    rank |
@@ -146,3 +145,10 @@ The result is much closer to what we would expect:
 | :Histories_(Herodotus)            | "Histories (Herodotus)"@en            | "Herodotus"                                               | 29.4831 |
 | :The_Hobbit                       | "The Hobbit"@en                       | "J. R. R. Tolkien"                                        | 29.4576 |
 
+These are the top 20 books from the English Wikipedia, ranked by their
+PageRank within the English Wikipedia.
+
+
+[query-book]: http://dbpedia.org/snorql/?query=SELECT+%3Fs+%3Fdesc+%3Fauthorlabel%0D%0AWHERE+{++%3Fs+rdf%3Atype+dbo%3ABook+.%0D%0A++%3Fs+dbo%3Aauthor+%3Fauthor%0D%0A++OPTIONAL+{++++%3Fs+rdfs%3Alabel+%3Fdesc+FILTER+%28lang%28%3Fdesc%29+%3D+%22en%22%29.%0D%0A++}%0D%0A++OPTIONAL+{++++%3Fauthor+rdfs%3Alabel+%3Fauthorlabel+FILTER+%28lang%28%3Fauthorlabel%29+%3D+%22en%22%29.%0D%0A++}%0D%0A}%0D%0A
+
+[query-labels]: http://dbpedia.org/snorql/?query=SELECT+%3Fs+%3Fdesc+%3Fauthorlabel+%28COUNT%28DISTINCT+%3Flabel%29+as+%3Flabelcount%29%0D%0AWHERE+{++%3Fs+rdf%3Atype+dbo%3ABook+.%0D%0A++%3Fs+rdfs%3Alabel+%3Flabel+.%0D%0A++%3Fs+dbo%3Aauthor+%3Fauthor%0D%0A++OPTIONAL+{++++%3Fs+rdfs%3Alabel+%3Fdesc+FILTER+%28lang%28%3Fdesc%29+%3D+%22en%22%29.%0D%0A++}%0D%0A++OPTIONAL+{++++%3Fauthor+rdfs%3Alabel+%3Fauthorlabel+FILTER+%28lang%28%3Fauthorlabel%29+%3D+%22en%22%29.%0D%0A++}%0D%0A}+GROUP+BY+%3Fs+%3Fdesc+%3Fauthorlabel+ORDER+BY+DESC%28%3Flabelcount%29+LIMIT+20
