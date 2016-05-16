@@ -128,26 +128,26 @@ one row.  The result is much closer to what we would expect:
 
 | s                                 | label                                 | author                                                    |    rank |
 |-----------------------------------|---------------------------------------|-----------------------------------------------------------|---------|
-| :The_World_Factbook               | "The World Factbook"@en               | "Central Intelligence Agency"                             | 146.277 |
-| :Systema_Naturae                  | "Systema Naturae"@en                  | "Carl Linnaeus"                                           | 68.6522 |
-| :Natural_History_(Pliny)          | "Natural History (Pliny)"@en          | "Pliny the Elder"                                         | 64.9683 |
-| :On_the_Origin_of_Species         | "On the Origin of Species"@en         | "Charles Darwin"                                          | 56.7624 |
-| :The_Rolling_Stone_Album_Guide    | "The Rolling Stone Album Guide"@en    | "Anthony DeCurtis, Dave Marsh"                            | 47.9486 |
-| :Don_Quixote                      | "Don Quixote"@en                      | "Miguel de Cervantes"                                     | 45.3332 |
-| :All_Music_Guide_to_Jazz          | "All Music Guide to Jazz"@en          | "Vladimir Bogdanov (editor), Stephen Thomas Erlewine"     |  44.641 |
-| :Alice's_Adventures_in_Wonderland | "Alice's Adventures in Wonderland"@en | "Lewis Carroll"                                           | 42.4669 |
-| :All_Music_Guide_to_the_Blues     | "All Music Guide to the Blues"@en     | "Vladimir Bogdanov, Stephen Thomas Erlewine"              | 40.9857 |
-| :Records_of_the_Grand_Historian   | "Records of the Grand Historian"@en   | "Sima Qian"                                               |  40.262 |
-| :Nineteen_Eighty-Four             | "Nineteen Eighty-Four"@en             | "George Orwell"                                           | 39.9243 |
-| :The_Republic_(Plato)             | "The Republic (Plato)"@en             | "Plato"                                                   | 38.9124 |
-| :The_Wealth_of_Nations            | "The Wealth of Nations"@en            | "Adam Smith"                                              | 37.4529 |
-| :Euclid's_Elements                | "Euclid's Elements"@en                | "Euclid"                                                  | 36.0581 |
-| :Paradise_Lost                    | "Paradise Lost"@en                    | "John Milton"                                             | 32.8596 |
-| :Moby-Dick                        | "Moby-Dick"@en                        | "Herman Melville"                                         |  32.632 |
-| :Encyclopædia_Iranica             | "Encyclopædia Iranica"@en             | "Ehsan Yarshater"                                         | 30.9694 |
-| :Dracula                          | "Dracula"@en                          | "Bram Stoker"                                             | 29.6592 |
-| :Histories_(Herodotus)            | "Histories (Herodotus)"@en            | "Herodotus"                                               | 29.4831 |
-| :The_Hobbit                       | "The Hobbit"@en                       | "J. R. R. Tolkien"                                        | 29.4576 |
+| [:The_World_Factbook](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_World_Factbook)              | "The World Factbook"@en               | "Central Intelligence Agency"                             | 146.277 |
+| [:Systema_Naturae](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Systema_Naturae)                 | "Systema Naturae"@en                  | "Carl Linnaeus"                                           | 68.6522 |
+| [:Natural_History_(Pliny)](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Natural_History_(Pliny))         | "Natural History (Pliny)"@en          | "Pliny the Elder"                                         | 64.9683 |
+| [:On_the_Origin_of_Species](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/On_the_Origin_of_Species)        | "On the Origin of Species"@en         | "Charles Darwin"                                          | 56.7624 |
+| [:The_Rolling_Stone_Album_Guide](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Rolling_Stone_Album_Guide)   | "The Rolling Stone Album Guide"@en    | "Anthony DeCurtis, Dave Marsh"                            | 47.9486 |
+| [:Don_Quixote](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Don_Quixote)                     | "Don Quixote"@en                      | "Miguel de Cervantes"                                     | 45.3332 |
+| [:All_Music_Guide_to_Jazz](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/All_Music_Guide_to_Jazz)         | "All Music Guide to Jazz"@en          | "Vladimir Bogdanov (editor), Stephen Thomas Erlewine"     |  44.641 |
+| [:Alice's_Adventures_in_Wonderland](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Alice's_Adventures_in_Wonderland)| "Alice's Adventures in Wonderland"@en | "Lewis Carroll"                                           | 42.4669 |
+| [:All_Music_Guide_to_the_Blues](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/All_Music_Guide_to_the_Blues)    | "All Music Guide to the Blues"@en     | "Vladimir Bogdanov, Stephen Thomas Erlewine"              | 40.9857 |
+| [:Records_of_the_Grand_Historian](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Records_of_the_Grand_Historian)  | "Records of the Grand Historian"@en   | "Sima Qian"                                               |  40.262 |
+| [:Nineteen_Eighty-Four](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Nineteen_Eighty-Four)            | "Nineteen Eighty-Four"@en             | "George Orwell"                                           | 39.9243 |
+| [:The_Republic_(Plato)](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Republic_(Plato))            | "The Republic (Plato)"@en             | "Plato"                                                   | 38.9124 |
+| [:The_Wealth_of_Nations](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Wealth_of_Nations)           | "The Wealth of Nations"@en            | "Adam Smith"                                              | 37.4529 |
+| [:Euclid's_Elements](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Euclid's_Elements)               | "Euclid's Elements"@en                | "Euclid"                                                  | 36.0581 |
+| [:Paradise_Lost](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Paradise_Lost)                   | "Paradise Lost"@en                    | "John Milton"                                             | 32.8596 |
+| [:Moby-Dick](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Moby-Dick)                       | "Moby-Dick"@en                        | "Herman Melville"                                         |  32.632 |
+| [:Encyclopædia_Iranica](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Encyclopædia_Iranica)            | "Encyclopædia Iranica"@en             | "Ehsan Yarshater"                                         | 30.9694 |
+| [:Dracula](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Dracula)                         | "Dracula"@en                          | "Bram Stoker"                                             | 29.6592 |
+| [:Histories_(Herodotus)](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Histories_(Herodotus))           | "Histories (Herodotus)"@en            | "Herodotus"                                               | 29.4831 |
+| [:The_Hobbit](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Hobbit)                      | "The Hobbit"@en                       | "J. R. R. Tolkien"                                        | 29.4576 |
 
 These are the top 20 books from the English Wikipedia, ranked by their
 PageRank within the English Wikipedia.
