@@ -60,28 +60,30 @@ WHERE {
 
 Unfortunately, [the result][query-labels] is quite disappionting:
 
+http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer
+
 | s                                      | desc                                       | authorlabel                     | labelcount |
 |----------------------------------------|--------------------------------------------|---------------------------------|------------|
-| :The_Adventures_of_Tom_Sawyer          | "The Adventures of Tom Sawyer"@en          | "Mark Twain"@en                 |         12 |
-| :Strange_Case_of_Dr_Jekyll_and_Mr_Hyde | "Strange Case of Dr Jekyll and Mr Hyde"@en | "Robert Louis Stevenson"@en     |         12 |
-| :Fifty_Shades_of_Grey                  | "Fifty Shades of Grey"@en                  | "E. L. James"@en                |         12 |
-| :Gray's_Anatomy                        | "Gray's Anatomy"@en                        | "Henry Gray"@en                 |         12 |
-| :Sense_and_Sensibility                 | "Sense and Sensibility"@en                 | "Jane Austen"@en                |         12 |
-| :A_Brief_History_of_Time               | "A Brief History of Time"@en               | "Stephen Hawking"@en            |         12 |
-| :Mein_Kampf                            | "Mein Kampf"@en                            | "Adolf Hitler"@en               |         12 |
-| :Crime_and_Punishment                  | "Crime and Punishment"@en                  | "Fyodor Dostoyevsky"@en         |         12 |
-| :Catching_Fire                         | "Catching Fire"@en                         | "Suzanne Collins"@en            |         12 |
-| :David_Copperfield                     | "David Copperfield"@en                     | "Charles Dickens"@en            |         12 |
-| :Mansfield_Park                        | "Mansfield Park"@en                        | "Jane Austen"@en                |         12 |
-| :Les_Liaisons_dangereuses              | "Les Liaisons dangereuses"@en              | "Pierre Choderlos de Laclos"@en |         12 |
-| :Murder_on_the_Orient_Express          | "Murder on the Orient Express"@en          | "Agatha Christie"@en            |         12 |
-| :The_Sign_of_the_Four                  | "The Sign of the Four"@en                  | "Arthur Conan Doyle"@en         |         12 |
-| :The_Republic_(Plato)                  | "The Republic (Plato)"@en                  | "Plato"@en                      |         12 |
-| :The_Communist_Manifesto               | "The Communist Manifesto"@en               | "Friedrich Engels"@en           |         12 |
-| :From_the_Earth_to_the_Moon            | "From the Earth to the Moon"@en            | "Jules Verne"@en                |         12 |
-| :Buddenbrooks                          | "Buddenbrooks"@en                          | "Thomas Mann"@en                |         12 |
-| :The_Brothers_Karamazov                | "The Brothers Karamazov"@en                | "Fyodor Dostoyevsky"@en         |         12 |
-| :The_Trial                             | "The Trial"@en                             | "Franz Kafka"@en                |         12 |
+| [:The_Adventures_of_Tom_Sawyer](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer)         | "The Adventures of Tom Sawyer"@en          | "Mark Twain"@en                 |         12 |
+| [:Strange_Case_of_Dr_Jekyll_and_Mr_Hyde](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde)| "Strange Case of Dr Jekyll and Mr Hyde"@en | "Robert Louis Stevenson"@en     |         12 |
+| [:Fifty_Shades_of_Grey](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Fifty_Shades_of_Grey)                 | "Fifty Shades of Grey"@en                  | "E. L. James"@en                |         12 |
+| [:Gray's_Anatomy](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Gray's_Anatomy)                       | "Gray's Anatomy"@en                        | "Henry Gray"@en                 |         12 |
+| [:Sense_and_Sensibility](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Sense_and_Sensibility)                | "Sense and Sensibility"@en                 | "Jane Austen"@en                |         12 |
+| [:A_Brief_History_of_Time](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/A_Brief_History_of_Time)              | "A Brief History of Time"@en               | "Stephen Hawking"@en            |         12 |
+| [:Mein_Kampf](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Mein_Kampf)                           | "Mein Kampf"@en                            | "Adolf Hitler"@en               |         12 |
+| [:Crime_and_Punishment](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Crime_and_Punishment)                 | "Crime and Punishment"@en                  | "Fyodor Dostoyevsky"@en         |         12 |
+| [:Catching_Fire](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Catching_Fire)                        | "Catching Fire"@en                         | "Suzanne Collins"@en            |         12 |
+| [:David_Copperfield](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/David_Copperfield)                    | "David Copperfield"@en                     | "Charles Dickens"@en            |         12 |
+| [:Mansfield_Park](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Mansfield_Park)                       | "Mansfield Park"@en                        | "Jane Austen"@en                |         12 |
+| [:Les_Liaisons_dangereuses](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Les_Liaisons_dangereuses)             | "Les Liaisons dangereuses"@en              | "Pierre Choderlos de Laclos"@en |         12 |
+| [:Murder_on_the_Orient_Express](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Murder_on_the_Orient_Express)         | "Murder on the Orient Express"@en          | "Agatha Christie"@en            |         12 |
+| [:The_Sign_of_the_Four](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Sign_of_the_Four)                 | "The Sign of the Four"@en                  | "Arthur Conan Doyle"@en         |         12 |
+| [:The_Republic_(Plato)](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Republic_(Plato))                 | "The Republic (Plato)"@en                  | "Plato"@en                      |         12 |
+| [:The_Communist_Manifesto](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Communist_Manifesto)              | "The Communist Manifesto"@en               | "Friedrich Engels"@en           |         12 |
+| [:From_the_Earth_to_the_Moon](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/From_the_Earth_to_the_Moon)           | "From the Earth to the Moon"@en            | "Jules Verne"@en                |         12 |
+| [:Buddenbrooks](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Buddenbrooks)                         | "Buddenbrooks"@en                          | "Thomas Mann"@en                |         12 |
+| [:The_Brothers_Karamazov](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Brothers_Karamazov)               | "The Brothers Karamazov"@en                | "Fyodor Dostoyevsky"@en         |         12 |
+| [:The_Trial](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Trial)                            | "The Trial"@en                             | "Franz Kafka"@en                |         12 |
 
 It seems that books have been extracted for only 12 language editions
 ... or only in those 12 languages there exists a
