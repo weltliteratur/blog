@@ -8,7 +8,7 @@ date: 2016-05-18
 
 Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [heise online](http://www.heise.de/) newsticker, their xkcd, and their daily Fefe.
 
-Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/) since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (anyway, according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf); newer numbers would be helpful, though).
+Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/)** since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (anyway, according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf); newer numbers would be helpful, though).
 
 We don't know if pressing F5 at least three times a day in the browser tab reserved for "Fefes Blog" makes us part of the fan base. Either way, we couldn't abstain from sneaking a peek behind the curtain and wanted to analyse some traits of Fefe's characteristic style and tone. They are, in fact, so characteristic that he was even [mimicked by the ultimate German satire magazine "Titanic"](http://www.titanic-magazin.de/news/was-passiert-eigentlich-gerade-auf-fefes-blog-6220/), which sure counts for something.
 
@@ -183,7 +183,7 @@ The 7-grams are the best and prove to be **real Fefe earworms**, don't they?
 | 30   | 24        | da fühlt man sich doch gleich viel          |
 | 33   | 21        | gar nicht so viel fressen wie man           |
 
-## Fun Part I: Names of German IT Guys
+## Fun Part I: Given Names of German IT Guys
 
 When Fefe posts a link, hint or story that someone sent him, he gives due credit, the pattern being "(Danke, [name].)" So we also looked into 2-grams starting with "danke", and while the result was somehow predictable, it is still quite funny, isn't it? It not only sheds a light on who Fefe's fiercest audience is, but also shows the opulence of names given to German boys in the 1970ies and 1980ies.
 
@@ -235,7 +235,6 @@ And now, this: Let's generate some pseudo random Fefe text by using Markov chain
 
 This is far from being anything worthwhile and the mere result of toying around with this juicy corpus. But alright, let's generate another one:
 
-> Mit Terrorismus hat das mit Cyberangriffen deutlich anders aus, Stichwort Lawful Interception. Wieder was gelernt, diesmal über amerikanische Studenten: Ich habe ehrlich gesagt nicht so aus, dass der vor Gericht erstreiten muss, kann ich nur mit Adblocker nicht zu uns, denn in westlichen Demokratien wie der öffentliche GNU-CVS-Server, furchtbar überlastet ist, und daher muss auch sein Lebensunterhalt direkt davon abhängt, dass er jetzt alles seine Ordnung" um. Denn die Labels daran zugrunde gehen werden. Francesco-Parisi-Universität Styrum — endlich mal was tun diesmal! Sonst lassen die Regierung mit den Nazis damals funktionieren. Zweitens: Wir merken es oft nicht gelöscht würden. im
+> Mit Terrorismus hat das mit Cyberangriffen deutlich anders aus, Stichwort Lawful Interception. Wieder was gelernt, diesmal über amerikanische Studenten: Ich habe ehrlich gesagt nicht so aus, dass der vor Gericht erstreiten muss, kann ich nur mit Adblocker nicht zu uns, denn in westlichen Demokratien wie der öffentliche GNU-CVS-Server, furchtbar überlastet ist, und daher muss auch sein Lebensunterhalt direkt davon abhängt, dass er jetzt alles seine Ordnung" um. Denn die Labels daran zugrunde gehen werden. Francesco-Parisi-Universität Styrum — endlich mal was tun diesmal! Sonst lassen die Regierung mit den Nazis damals funktionieren. Zweitens: Wir merken es oft nicht gelöscht würden.
 
 The code is quite simple and can sure be optimised in many ways, but for today the Fefe Research Institute pulls the plug.
-
