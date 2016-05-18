@@ -4,9 +4,7 @@
   <div class="vertical-container">
     <div class="wrapper">
       <p class="copy">
-	<a href="https://creativecommons.org/licenses/by/4.0/" itemprop="license">
-	  <img src="/images/cc-by.png" alt="CC-BY" width="80" height="15"/>
-	</a>
+	<a href="https://creativecommons.org/licenses/by/4.0/" itemprop="license"><img src="/images/cc-by.png" alt="CC-BY" width="80" height="15"/></a>
 	{% for author in site.authors %}
 	{{ author[1].name }}{% unless forloop.rindex0 < 2 %}, {% endunless %}{% if forloop.rindex0 == 1 %} and {% endif %}
         {% endfor %}
