@@ -6,7 +6,7 @@ p.copy > img {
 .author-info {clear:both;
 }
 .author-info + .author-info {margin-top:25px;}
-.avatarwrapper {ta
+.avatarwrapper {
     float:left;
     opacity: 0.4;
     margin-right: 25px;
