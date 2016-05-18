@@ -86,7 +86,7 @@ We can also add time as a component, so here's a line chart showing Fefe's inter
   <img src="/images/fefe_time_countries.svg" alt="Mentions of countries over time in Fefes Blog." />
 </figure>
 
-This chart we can actually try to read out loud a bit: The Snowden year, 2013, marks the beginning of an increasing coverage of the USA and Great Britain. In 2014, Russia and Ukraine are peaking, for obvious reasons. One more interesting thing is the slow but steady decline of interest in Israel and Iran since 2005. Greece is starting to be covered in late 2009 with the beginning of the Greek government-debt crisis. So as can be expected from the list of his main sources seen above, Fefes Blog more or less mirrors mainstream media coverage.
+This chart we can actually try to read out loud a bit: The Snowden year, 2013, marks the beginning of an increasing coverage of the USA and Great Britain. In 2014, Russia and Ukraine are peaking, for obvious reasons. One more interesting thing is the slow but steady decline of interest in Israel and Iran since 2005. Greece is starting to be covered in late 2009 with the beginning of the Greek government-debt crisis. So as can be expected from the list of his main sources seen above, "Fefes Blog" more or less mirrors mainstream media coverage.
 
 ## Acronyms
 
