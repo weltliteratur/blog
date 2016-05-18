@@ -6,7 +6,7 @@ p.copy > img {
 .author-info {clear:both;
 }
 .author-info + .author-info {margin-top:25px;}
-.avatarwrapper {
+.avatarwrapper {ta
     float:left;
     opacity: 0.4;
     margin-right: 25px;
@@ -148,6 +148,8 @@ table {
    width: 100%;
    border: 1px solid #e9e9e9;
    text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 table thead h4 {
    font-size: 10px;
