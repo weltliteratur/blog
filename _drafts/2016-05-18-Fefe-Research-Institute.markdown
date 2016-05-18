@@ -8,7 +8,7 @@ date: 2016-05-18
 
 Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [heise online](http://www.heise.de/) newsticker, their xkcd, and their daily Fefe.
 
-Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/)** since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (anyway, according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf); newer numbers would be helpful, though).
+Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/)** since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf), anyway; newer numbers would be helpful, though).
 
 We don't know if pressing F5 at least three times a day in the browser tab reserved for "Fefes Blog" makes us part of the fan base. Either way, we couldn't abstain from sneaking a peek behind the curtain and wanted to analyse some traits of Fefe's characteristic style and tone. They are, in fact, so characteristic that he was even [mimicked by the ultimate German satire magazine "Titanic"](http://www.titanic-magazin.de/news/was-passiert-eigentlich-gerade-auf-fefes-blog-6220/), which sure counts for something.
 
@@ -127,7 +127,7 @@ Let's now look at some n-grams (we used [AntConc](http://www.laurenceanthony.net
 | 49   | 173       | bug des tages                    |
 | 56   | 166       | die amis haben                   |
 
-Runner-up among the 3-grams is "das ist ja", and then we have "das ist ein" and "was für eine" ranking 4th and 5th. Sure, all these high-frequent 3-grams add to Fefe's stylometric fingerprint, but since we're not (yet) doing stylometry here, we decided to curate the n-gram lists a bit to now overthrow you with endless lists of boring syntagmas.
+Runner-up among the 3-grams is "das ist ja", and then we have "das ist ein" and "was für eine" ranking 4th and 5th. Sure, all these high-frequent 3-grams add to Fefe's stylometric fingerprint, but since we're not (yet) doing stylometry here, we decided to curate the n-gram lists a bit to not overthrow you with endless lists of boring syntagmas.
 
 ## 4-Grams
 
@@ -225,11 +225,13 @@ When Fefe posts a link, hint or story that someone sent him, he gives due credit
 | 34   | 36        | danke simon     |
 | 35   | 35        | danke bernd     |
 
-If you know some of Fefe's friends and colleagues, you will know who is behind some of the credits pinned to a name (disclosure: we, the authors of this article, have been thanked at least twice, too, if we recall correctly). And by the by, somebody suggested to put the names in a word cloud, but we hate word clouds. :)
+Somebody suggested to put the names in a word cloud, but we hate word clouds. :)
 
-## Fun Part II: Markov Generator to Generate Fefe Texts
+If you happen to know some of Fefe's friends and colleagues, you can surely guess who is behind some of the credits pinned to a name (disclosure: we, the authors of this article, have been thanked at least twice, too, if we recall correctly).
 
-And now, this: Let's generate some pseudo random Fefe text by using Markov chains. For this experiment we just forked dellis23's [markov.py script](https://gist.github.com/dellis23/6174914) and adjusted it, the chain size we worked with is 3 and gives us results like this:
+## Fun Part II: Using Markov Chains to Generate Fefe Texts
+
+And now, this: Let's generate some pseudo random Fefe text by using Markov chains. For this experiment we quickly forked dellis23's [markov.py script](https://gist.github.com/dellis23/6174914) and adjusted it, the chain size we worked with is 3 and gives us results like this:
 
 > Ziegen fickt", erklärte drastisch US-Präsident Harry S. Truman einem nachdenklichen Kongressabgeordneten. "Wenn er aus und das Ende des Tages: Die Belegschaft sagt, dass die Behörden so 2009 herum angefangen, missliebige Mitbürgern nach allen Regeln der Kunst auseinandernehmen. Ich weiß, welches T-Shirt ich ab jetzt haben, wo sie den Hartz IV kürzen will, stürmen noch schnell und lautlos miterledigen. Keine weiteren Fragen. Die Mühlen der Full-Disclosure-Fraktion bei Sicherheitslücken: Der Jeep-Hack neulich wurde noch der Presse. Erstens: Nachtsicht- und GPS-Geräte kaufen -> 3 Jahre Haft vorgeschlagen. (Danke, Marcel) Die Russen sind schlauer als der losredete, war das in der Türkei.
 
