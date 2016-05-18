@@ -166,7 +166,7 @@ Runner-up among the 3-grams is "das ist ja", and then we have "das ist ein" and 
 
 ## 7-Grams
 
-The 7-grams are the best and prove to be **real Fefe earworms**, don't they?
+The 7-grams are simply a class of their own and prove to be **real Fefe earworms**, don't they?
 
 | Rank | Frequency | Phrase                                      |
 |------|-----------|---------------------------------------------|
