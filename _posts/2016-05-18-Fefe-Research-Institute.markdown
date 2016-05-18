@@ -6,7 +6,7 @@ comments: true
 date: 2016-05-18
 ---
 
-Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [heise online](http://www.heise.de/) newsticker, their xkcd, and their daily Fefe.
+Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [Heise Online](http://www.heise.de/) newsticker, their xkcd, and their daily Fefe.
 
 Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/)** since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf), anyway; newer numbers would be helpful, though).
 
@@ -83,10 +83,10 @@ We matched our dataset against the list of countries provided [by datendieter.de
 We can also add time as a component, so here's a line chart showing Fefe's interest in the 12 most-mentioned countries over time:
 
 <figure>
-  <img src="https://raw.githubusercontent.com/weltliteratur/blog/gh-pages/images/fefe_time_countries.png" alt="Mentioning of countries over time in Fefes Blog." />
+  <img src="/images/fefe_time_countries.svg" alt="Mentions of countries over time in Fefes Blog." />
 </figure>
 
-This chart we can actually try to read out loud a bit: The Snowden year, 2013, marks the beginning of an increasing coverage of the USA and Great Britain. In 2014, Russia and Ukraine are peaking, for obvious reasons. One more interesting thing is the slow but steady decline of interest in Israel and Iran since 2005. Greece is starting to be covered in late 2009 with the beginning of the Greek government-debt crisis. So as can be expected from the list of his main sources seen above, Fefe's blog more or less mirrors mainstream media coverage.
+This chart we can actually try to read out loud a bit: The Snowden year, 2013, marks the beginning of an increasing coverage of the USA and Great Britain. In 2014, Russia and Ukraine are peaking, for obvious reasons. One more interesting thing is the slow but steady decline of interest in Israel and Iran since 2005. Greece is starting to be covered in late 2009 with the beginning of the Greek government-debt crisis. So as can be expected from the list of his main sources seen above, Fefes Blog more or less mirrors mainstream media coverage.
 
 ## Acronyms
 
