@@ -12,7 +12,7 @@ Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/F
 
 We don't know if pressing F5 at least three times a day in the browser tab reserved for "Fefes Blog" makes us part of the fan base. Either way, we couldn't abstain from sneaking a peek behind the curtain and wanted to analyse some traits of Fefe's characteristic style and tone. They are, in fact, so characteristic that he was even [mimicked by the ultimate German satire magazine "Titanic"](http://www.titanic-magazin.de/news/was-passiert-eigentlich-gerade-auf-fefes-blog-6220/), which sure counts for something.
 
-Before we get to it: There have been other attempts to analyse Fefe's language, just take the inspiring 2012 blog post ["Darüber lacht Fefe"](http://www.security-informatics.de/blog/?p=956) by Joachim Scharloth. What we're going to do is, in fact, something very basic, we're basically looking for word (and URL) frequencies and n-grams. For that purpose, we wrote a little Python script which does the following three things:
+Before we get to it: There have been other attempts to analyse Fefe's language, just take the inspiring 2012 blog post ["Darüber lacht Fefe"](http://www.security-informatics.de/blog/?p=956) by Joachim Scharloth. What we're going to do is, in fact, something very basic, we're primarily looking for word (and URL) frequencies and n-grams. For that purpose, we wrote a little Python script which does the following three things:
 
 * download the whole blog (easy on bandwidth, because, one: "Fefes Blog" really features the lightest HTML code imaginable, and two: `time.sleep(random.randint(1, 10))` while scraping)
 * parse HTML files: extract date, post identifier and the actual post and put them into a single 3-column TSV file (this is really some of the cleanest data you can work with, what a feast!)
@@ -51,7 +51,7 @@ So this list shows Fefe's main sources. Now, it's part of his irony to urge his 
 
 ## Countries Mentioned
 
-This list is a bit half-baked, since we're only counting exact hits and only added synonyms for two countries (GB, USA). Wales, Scotland and England where, too, mapped to Great Britain. All a bit hasty, but anyway:
+This list is a bit half-baked, since we're only counting exact hits and only added synonyms for two countries (GB, USA). Wales, Scotland and England were, too, mapped to Great Britain. All a bit hasty, but anyway:
 
 | Rank | Country        | Frequency | 
 |------|----------------|-----------| 
@@ -80,7 +80,7 @@ We matched our dataset against the list of countries provided [by datendieter.de
 
 ## Countries Mentioned Over Time
 
-We can also add time as a component, so here's a line chart showing Fefe's interest in the 12 most-mentioned countries over time:
+We can also add time as a component, so we let Gnuplot draw a line chart showing Fefe's interest in the 12 most-mentioned countries over time:
 
 <figure>
   <img src="/images/fefe_time_countries.svg" alt="Mentions of countries over time in Fefes Blog." />
@@ -166,7 +166,7 @@ Runner-up among the 3-grams is "das ist ja", and then we have "das ist ein" and 
 
 ## 7-Grams
 
-The 7-grams are the best and prove to be **real Fefe earworms**, don't they?
+The 7-grams are simply a class of their own and prove to be **real Fefe earworms**, don't they?
 
 | Rank | Frequency | Phrase                                      |
 |------|-----------|---------------------------------------------|
