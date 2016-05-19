@@ -60,8 +60,6 @@ WHERE {
 
 Unfortunately, [the result][query-labels] is quite disappionting:
 
-http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer
-
 | s                                      | desc                                       | authorlabel                     | labelcount |
 |----------------------------------------|--------------------------------------------|---------------------------------|------------|
 | [:The_Adventures_of_Tom_Sawyer](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer)         | "The Adventures of Tom Sawyer"@en          | "Mark Twain"@en                 |         12 |
