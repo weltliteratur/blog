@@ -12,7 +12,7 @@ date: 2016-04-23
 Now this is, believe it or not, the sky over Göttingen #OnThisDay, April 23, 2016, after just some minimal photoshopping (turning light grey into summery light blue):
 
 <figure>
-  <img src="https://raw.githubusercontent.com/weltliteratur/blog/gh-pages/images/sky_over_goettingen.jpg" alt="Sky over Göttingen." style="width:1040px;" />
+  <img src="/images/sky_over_goettingen.jpg" alt="Sky over Göttingen." style="width:1040px;" />
 </figure>
 
 Göttingen (and Hanover) were the places where we first started to think about a blog called **weltliteratur.net**, a neat and plushy think tank where we could publish some of our musings on Digital Humanities-related things that might or might not be or become part of a bigger research project.
