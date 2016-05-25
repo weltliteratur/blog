@@ -41,7 +41,7 @@ Btw, we started this little project as part of a spontaneous 4-hour hackathon la
 
 First and foremost, you have to be aware of the history of the German National Library to know what you can expect from any query result. The gist of it is: They were a bit late compared to other national libraries in Europe and began collecting "all German and German-language publications from 1913, foreign publications about Germany, translations of German works, and the works of German-speaking emigrants published abroad between 1933 and 1945" (quoting the official ["About us" page](http://www.dnb.de/EN/Wir/wir_node.html)).
 
-Before we bore you with how we did it, let's go for some results. As a proof of concept, let's see which authors are the ones with the most books in the catalogue, let's generate a top 25:
+Before we bore you with how we did it, let's go for some results. As a proof of concept, let's see which authors are the ones with the most books in the catalogue (`dcterms:creator`), let's generate a top 25:
 
 <figure>
   <img src="/images/dnb-25-authors-with-most-books.png" alt="Bar chart: 25 authors with most books in the German National Library." />
@@ -188,4 +188,4 @@ The somewhat weird original idea we had when initiating the hackathon was this: 
 
 What saves us time now is that we already described our mechanism [on GitHub](https://github.com/lehkost/DNBTitel-Elasticsearch) where we also provide all the info you need to rebuild our machine. We basically reorganised the whole thing as a Docker project, which will create a container running Elasticsearch/Kibana. The repo also features shell scripts for downloading the current version of the German National Library title catalogue. Some selected data fields from every book in that catalogue are then transformed into JSON and pushed to the Elasticsearch instance. After that you will be able to query the DNB catalogue data with Elasticsearch to create nice outputs with Kibana. As should be clear from the text above, the data fields we're focusing on are mainly the number of pages per book and some book metadata (author, title, year, publisher, etc.) for identification.
 
-That's it for now. And lest we forget, special thanks go to Carsten Thiel for writing the XSLT, "as quick as boiled asparagus", so to speak, it was only because of him that we could go on with what we *actually* wanted to do.
+That's it for now. And lest we forget, special thanks to Max Buddenbohm and Carsten Thiel for writing the XSLT and helping with the shell scripting, "as quick as boiled asparagus", so to speak, it was only because of them that we could go on with what we *actually* wanted to do. [The next Uludağ is on us!](https://twitter.com/umblaetterer/status/679317574740533248) ;)
