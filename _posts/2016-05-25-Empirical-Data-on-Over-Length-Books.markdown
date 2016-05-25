@@ -18,9 +18,8 @@ Let's start with this panoramic view of the German Library in Leipzig, predecess
 
 <figure>
   <img src="/images/dnb-german-library-leipzig-2008.jpg" alt="Panoramic view of the German national Library, source: Wikimedia Commons." />
+  <figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Deutsche_Buecherei_(German_Library)_2008-Feb.jpg">Wikimedia Commons</a> (CC BY-SA 3.0)</figcaption>
 </figure>
-
-<small>Source: <a href="https://commons.wikimedia.org/wiki/File:Deutsche_Buecherei_(German_Library)_2008-Feb.jpg">Wikimedia Commons</a> (CC BY-SA 3.0)</small>
 
 Really nice, yes, but it's another kind of picture of the actual German National Library that we're going to show you, one that is much more to the point. When we came across the [data-service page of the German National Library](http://datendienst.dnb.de/cgi-bin/mabit.pl?userID=opendata&pass=opendata&cmd=login), we were almost enthusiastic. They offer different kind of sets, from which we chose the "DNBTitel.rdf.gz" one (1,5 GB in size, which makes for an uncompressed 21,3 GB) comprising the records for all entities archived at the DNB library, in RDF format. There's no SPARQL endpoint yet, where you could query the data directly (but you can register for access via [OAI](http://www.dnb.de/oai) and [SRU](http://www.dnb.de/sru)). So we downloaded the whole file and started to build our own query thing.
 
