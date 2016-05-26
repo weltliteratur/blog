@@ -1,18 +1,14 @@
 ---
-title: ... and DBpedia?
+title: DBpedia and World Literature
 layout: post
 author: [robert, frank]
 comments: true
-date: 2016-05-16
+date: 2016-05-27
 ---
 
-After our
-[first blog post on Wikidata](Wikidata-Meets-World-Literature) some
-enthusiasts might have asked "... and DBpedia?" In this post we try to
-deliver an answer.
+After our blog post ["Wikidata Meets World Literature"][Wikidata-Meets-World-Literature]) some might have mumbled into their tea cups, "ok yeah, but what about DBpedia?" Accordingly, let's add some technological diversity to our initial experiment. [DBpedia](https://en.wikipedia.org/wiki/DBpedia) is a great project and follows its very own approach, it's also a few years older than Wikidata. More on the differences between the two projects can be found [on this Quora page](https://www.quora.com/What-is-the-difference-between-Wikidata-and-DBpedia).
 
-We start with a simplified translation of the original SPARQL query to
-match the DBpedia ontology:
+So, DBpedia and World Literature. Let's kick off by translating/simplifying the original SPARQL query to match the DBpedia ontology:
 
 ~~~ sql
 SELECT ?s ?desc ?authorlabel
@@ -28,20 +24,9 @@ WHERE {
 }
 ~~~
 
-This query [returns][query-book] a list of resources which have been
-assigned the class
-[Book](http://mappings.dbpedia.org/server/ontology/classes/Book) in
-the
-[DBpedia ontology](http://mappings.dbpedia.org/server/ontology/classes/)
-together with their authors.
+This query **[returns][query-book]** a list of resources that have been assigned the class [Book](http://mappings.dbpedia.org/server/ontology/classes/Book) in the [DBpedia ontology](http://mappings.dbpedia.org/server/ontology/classes/), along with their authors. (Yes, just **[click][query-book]**, this will auto-execute the query and show you the results.)
 
-To rank those books, in our original post we used the number of
-Wikipdia language editions in which those books appear. We can try
-something similar in DBpedia by counting the number of labels a book
-has, since for each language edition in Wikipedia where a resource was
-extracted by DBpedia its label is stored using the
-[rdfs:label](https://www.w3.org/TR/2004/REC-rdf-schema-20040210/#ch_label)
-property:
+In our original post we used the number of Wikipedia language versions per book to rank them, with "One Thousand and One Nights" taking away all the glory (for the time being, that is). We can try something similar in DBpedia by counting the number of labels per book. Each Wikipedia language edition from which a resource was extracted by DBpedia has its label stored using the [rdfs:label](https://www.w3.org/TR/2004/REC-rdf-schema-20040210/#ch_label) property. This is our query:
 
 ~~~ sql
 SELECT ?s ?desc ?authorlabel (COUNT(DISTINCT ?label) as ?labelcount)
@@ -58,7 +43,7 @@ WHERE {
 } GROUP BY ?s ?desc ?authorlabel ORDER BY DESC(?labelcount)
 ~~~
 
-Unfortunately, [the result][query-labels] is quite disappionting:
+Unfortunately, **[the output][query-labels]** is a bit disappointing:
 
 | s                                      | desc                                       | authorlabel                     | labelcount |
 |----------------------------------------|--------------------------------------------|---------------------------------|------------|
@@ -83,23 +68,9 @@ Unfortunately, [the result][query-labels] is quite disappionting:
 | [:The_Brothers_Karamazov](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Brothers_Karamazov)               | "The Brothers Karamazov"@en                | "Fyodor Dostoyevsky"@en         |         12 |
 | [:The_Trial](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Trial)                            | "The Trial"@en                             | "Franz Kafka"@en                |         12 |
 
-It seems that books have been extracted for only 12 language editions
-... or only in those 12 languages there exists a
-[page template](https://en.wikipedia.org/wiki/Help:Template) for
-books. Other properties like
-[dbo:abstract](http://dbpedia.org/snorql/?property=http%3A//dbpedia.org/ontology/abstract)
-or [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs) that could be
-linked to the number of language editions show the same behavior. (For
-an overview on potential properties, have a look at all the properties
-of
-[The Adventues of Tom Sawyer](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer).)
+Seems that books have been extracted from only 12 language editions (ar, de, en, es, fr, it, ja, nl, pl, pt, ru, zh). Or, only these 12 languages feature a [page template](https://en.wikipedia.org/wiki/Help:Template) for books. Other properties like [dbo:abstract](http://dbpedia.org/snorql/?property=http%3A//dbpedia.org/ontology/abstract) or [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs) that could be linked to the number of language editions show the same behavior. (For an overview of potential properties stake a look at the DBpedia entry on ["The Adventures of Tom Sawyer"](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer).)
 
-Upon looking for alternatives, we found the
-[PageRank dataset](http://people.aifb.kit.edu/ath/) by Andreas
-Thalhammer which is loaded into the DBpedia SPARQL endpoint. Instead
-of counting the number of language editions, we can use the
-[PageRank](https://en.wikipedia.org/wiki/PageRank) of each page within
-the English Wikipedia as a measure of importance:
+When looking for alternatives we found the [PageRank dataset](http://people.aifb.kit.edu/ath/) by Andreas Thalhammer. Fortunately, it is deployed on the official DBpedia SPARQL endpoint and so, instead of counting the number of language editions, we can easily use the [PageRank](https://en.wikipedia.org/wiki/PageRank) of each page within the English Wikipedia as a measure of importance:
 
 ~~~ sql
 PREFIX vrank:<http://purl.org/voc/vrank#>
@@ -120,9 +91,7 @@ WHERE {
 } GROUP BY ?s ORDER BY DESC(?rank)
 ~~~
 
-We have modifed the query to group authors for multi-author books into
-one row.  The result is much closer to what we would expect:
-
+We modified the query so it groups authors of multi-author books into one row. Despite some Wikipedia-related distortions, the result is much more meaningful:
 
 | s                                 | label                                 | author                                                    |    rank |
 |-----------------------------------|---------------------------------------|-----------------------------------------------------------|---------|
@@ -147,9 +116,7 @@ one row.  The result is much closer to what we would expect:
 | [:Histories_(Herodotus)](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Histories_(Herodotus))           | "Histories (Herodotus)"@en            | "Herodotus"                                               | 29.4831 |
 | [:The_Hobbit](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Hobbit)                      | "The Hobbit"@en                       | "J. R. R. Tolkien"                                        | 29.4576 |
 
-These are the top 20 books from the English Wikipedia, ranked by their
-PageRank within the English Wikipedia.
-
+These are the top 20 books, ranked by their PageRank within the English Wikipedia. One thing still blocking the view a bit are the popular encyclopedic works, of course. The many, many in-links earned by [the "World Factbook"](https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/The_World_Factbook&limit=500) or [the "Rolling Stone Album Guide"](https://en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/The_Rolling_Stone_Album_Guide&limit=500) will not speak for their unrivalled literary quality, supposedly. Sorting out the literary works from this set of (all kinds of) books would be the obvious next step.
 
 [query-book]: http://dbpedia.org/snorql/?query=SELECT+%3Fs+%3Fdesc+%3Fauthorlabel%0D%0AWHERE+{++%3Fs+rdf%3Atype+dbo%3ABook+.%0D%0A++%3Fs+dbo%3Aauthor+%3Fauthor%0D%0A++OPTIONAL+{++++%3Fs+rdfs%3Alabel+%3Fdesc+FILTER+%28lang%28%3Fdesc%29+%3D+%22en%22%29.%0D%0A++}%0D%0A++OPTIONAL+{++++%3Fauthor+rdfs%3Alabel+%3Fauthorlabel+FILTER+%28lang%28%3Fauthorlabel%29+%3D+%22en%22%29.%0D%0A++}%0D%0A}%0D%0A
 
