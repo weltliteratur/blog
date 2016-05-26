@@ -4,7 +4,7 @@ layout: post
 author: [frank, ubbo]
 comments: true
 date: 2016-05-25
----r
+---
 
 (Little note upfront: The technical part of this posting involves Docker, RDF→XSLT→JSON, Elasticsearch and Kibana. More on this at the bottom of this page or without further ado [on our GitHub repo](https://github.com/lehkost/DNBTitel-Elasticsearch). Our solution is the result of nothing more than a 4-hour hackathon, so don't expect anything polished.)
 
