@@ -4,7 +4,7 @@ layout: post
 author: [frank, ubbo]
 comments: true
 date: 2016-05-25
----
+---r
 
 (Little note upfront: The technical part of this posting involves Docker, RDF→XSLT→JSON, Elasticsearch and Kibana. More on this at the bottom of this page or without further ado [on our GitHub repo](https://github.com/lehkost/DNBTitel-Elasticsearch). Our solution is the result of nothing more than a 4-hour hackathon, so don't expect anything polished.)
 
@@ -21,7 +21,7 @@ Let's start with this panoramic view of the German Library in Leipzig, predecess
   <figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Deutsche_Buecherei_(German_Library)_2008-Feb.jpg">Wikimedia Commons</a> (CC BY-SA 3.0)</figcaption>
 </figure>
 
-Really nice, yes, but it's another kind of picture of the actual German National Library that we're going to show you, one that is much more to the point. When we came across the [data-service page of the German National Library](http://datendienst.dnb.de/cgi-bin/mabit.pl?userID=opendata&pass=opendata&cmd=login), we were almost enthusiastic. They offer different kinds of sets (all licenced under CC0 1.0!), from which we chose the "DNBTitel.rdf.gz" one (1,5 GB in size, which makes for an uncompressed 21,3 GB) comprising the records for all entities archived at the DNB library, in RDF format. There's no SPARQL endpoint (yet?) by which users could query the catalogue data directly (but you can register for access via [OAI](http://www.dnb.de/oai) and [SRU](http://www.dnb.de/sru)). So, as said before, we decided to download the RDF file and started to build our own query thing.
+Really nice, yes, but it's another kind of picture of the actual German National Library that we're going to show you, one that is much more to the point. When we came across the [data-service page of the German National Library](http://datendienst.dnb.de/cgi-bin/mabit.pl?userID=opendata&pass=opendata&cmd=login), we were almost enthusiastic. They offer different kinds of sets in different formats (all licenced under CC0 1.0!), from which we chose the "DNBTitel.rdf.gz" one comprising the records for all books/items archived at the DNB library (the dump was generated on March 10, 2016, and is 1,5 GB in size, which makes for an uncompressed 21,3 GB). There's no SPARQL endpoint (yet?) by which users could query the catalogue data directly (but you can register for access via [OAI](http://www.dnb.de/oai) and [SRU](http://www.dnb.de/sru)). So, as said before, we decided to download the RDF file and started to build our own query thing.
 
 Now, the other picture of the German National Library we wanted to show you is this:
 
@@ -47,41 +47,41 @@ Before we bore you with how we did it, let's go for some results. As a proof of 
   <img src="/images/dnb-25-authors-with-most-books.png" alt="Bar chart: 25 authors with most books in the German National Library." />
 </figure>
 
-In the bar chart above, the authors are identified by their GND record. Very well then, let's resolve them:
+In the bar chart above, the authors are identified by their GND records. Very well then, let's resolve them:
 
-| DNB Identifier                              | # of records | Author                      |
-|---------------------------------------------|--------------|-----------------------------|
-| [118540238](http://d-nb.info/gnd/118540238) | 5792         | Goethe, Johann Wolfgang von |
-| [118617443](http://d-nb.info/gnd/118617443) | 3881         | Steiner, Rudolf             |
-| [118577166](http://d-nb.info/gnd/118577166) | 3402         | Mann, Thomas                |
-| [11855042X](http://d-nb.info/gnd/11855042X) | 3336         | Hesse, Hermann              |
-| [11856515X](http://d-nb.info/gnd/11856515X) | 3227         | Konsalik, Heinz G.          |
-| [118637479](http://d-nb.info/gnd/118637479) | 2995         | Zweig, Stefan               |
-| [118542257](http://d-nb.info/gnd/118542257) | 2840         | Grimm, Jacob                |
-| [118578537](http://d-nb.info/gnd/118578537) | 2732         | Marx, Karl                  |
-| [118542265](http://d-nb.info/gnd/118542265) | 2721         | Grimm, Wilhelm              |
-| [118530380](http://d-nb.info/gnd/118530380) | 2504         | Engels, Friedrich           |
-| [12002179X](http://d-nb.info/gnd/12002179X) | 2478         | Schaal, Eric                |
-| [118607626](http://d-nb.info/gnd/118607626) | 2405         | Schiller, Friedrich         |
-| [118618725](http://d-nb.info/gnd/118618725) | 2133         | Storm, Theodor              |
-| [118514768](http://d-nb.info/gnd/118514768) | 2132         | Brecht, Bertolt             |
-| [118559230](http://d-nb.info/gnd/118559230) | 2100         | Kafka, Franz                |
-| [118559206](http://d-nb.info/gnd/118559206) | 2086         | Kästner, Erich              |
-| [118818651](http://d-nb.info/gnd/118818651) | 2080         | May, Karl                   |
-| [118613723](http://d-nb.info/gnd/118613723) | 2070         | Shakespeare, William        |
-| [11856109X](http://d-nb.info/gnd/11856109X) | 1828         | Keller, Gottfried           |
-| [118512676](http://d-nb.info/gnd/118512676) | 1818         | Böll, Heinrich              |
-| [118601024](http://d-nb.info/gnd/118601024) | 1794         | Rilke, Rainer Maria         |
-| [118587943](http://d-nb.info/gnd/118587943) | 1781         | Nietzsche, Friedrich        |
-| [118534262](http://d-nb.info/gnd/118534262) | 1755         | Fontane, Theodor            |
-| [118533436](http://d-nb.info/gnd/118533436) | 1677         | Fischer, Marie Louise       |
-| [118520628](http://d-nb.info/gnd/118520628) | 1674         | Christie, Agatha            |
+| DNB Identifier                              | Number of Records | Author                      |
+|---------------------------------------------|-------------------|-----------------------------|
+| [118540238](http://d-nb.info/gnd/118540238) | 5792              | Goethe, Johann Wolfgang von |
+| [118617443](http://d-nb.info/gnd/118617443) | 3881              | Steiner, Rudolf             |
+| [118577166](http://d-nb.info/gnd/118577166) | 3402              | Mann, Thomas                |
+| [11855042X](http://d-nb.info/gnd/11855042X) | 3336              | Hesse, Hermann              |
+| [11856515X](http://d-nb.info/gnd/11856515X) | 3227              | Konsalik, Heinz G.          |
+| [118637479](http://d-nb.info/gnd/118637479) | 2995              | Zweig, Stefan               |
+| [118542257](http://d-nb.info/gnd/118542257) | 2840              | Grimm, Jacob                |
+| [118578537](http://d-nb.info/gnd/118578537) | 2732              | Marx, Karl                  |
+| [118542265](http://d-nb.info/gnd/118542265) | 2721              | Grimm, Wilhelm              |
+| [118530380](http://d-nb.info/gnd/118530380) | 2504              | Engels, Friedrich           |
+| [12002179X](http://d-nb.info/gnd/12002179X) | 2478              | Schaal, Eric                |
+| [118607626](http://d-nb.info/gnd/118607626) | 2405              | Schiller, Friedrich         |
+| [118618725](http://d-nb.info/gnd/118618725) | 2133              | Storm, Theodor              |
+| [118514768](http://d-nb.info/gnd/118514768) | 2132              | Brecht, Bertolt             |
+| [118559230](http://d-nb.info/gnd/118559230) | 2100              | Kafka, Franz                |
+| [118559206](http://d-nb.info/gnd/118559206) | 2086              | Kästner, Erich              |
+| [118818651](http://d-nb.info/gnd/118818651) | 2080              | May, Karl                   |
+| [118613723](http://d-nb.info/gnd/118613723) | 2070              | Shakespeare, William        |
+| [11856109X](http://d-nb.info/gnd/11856109X) | 1828              | Keller, Gottfried           |
+| [118512676](http://d-nb.info/gnd/118512676) | 1818              | Böll, Heinrich              |
+| [118601024](http://d-nb.info/gnd/118601024) | 1794              | Rilke, Rainer Maria         |
+| [118587943](http://d-nb.info/gnd/118587943) | 1781              | Nietzsche, Friedrich        |
+| [118534262](http://d-nb.info/gnd/118534262) | 1755              | Fontane, Theodor            |
+| [118533436](http://d-nb.info/gnd/118533436) | 1677              | Fischer, Marie Louise       |
+| [118520628](http://d-nb.info/gnd/118520628) | 1674              | Christie, Agatha            |
 
 Looks plausible, in a way. And interesting enough for an interpretation (which, for the time being, we won't deliver). One thing becomes clearer now, though, we should really talk about "items", rather than "books". Photographer Eric Schaal, for example, didn't get into this top 25 by writing more than two thousand books. To be honest, we made a top 25 just to get at least some women into this board of men, ranking 24th and 25th. And stating the obvious, Goethe also didn't write almost six thousand books since 1913, what really puts weight on the authors is the substantial number of re-editions, of course.
 
 ## Number of Books/Items in the Catalogue
 
-We've got 11.373.862 items altogether. In **5.874.504 cases** we successfully parsed the [`isbd:P1053`](http://iflastandards.info/ns/isbd/elements/P1053) element (= "has extent") into a usable number of pages, summing up to a total number of 969.846.170 pages. The max number of pages in this set is 2.711.111, which is obviously the result of a metadata apocalypse, somebody must have slipped on the `1` key ([**this** is the book that's said to have more than two million pages](http://d-nb.info/965667081)).
+We've got 11.373.862 items altogether (some didn't make it into the Elasticsearch index since we didn't really address error handling or validation; the regexps in our XSLT weren't perfect either, things we can improve next time we're not high-speed hackathoning). Anyway, in **5.874.504 cases** we successfully parsed the [`isbd:P1053`](http://iflastandards.info/ns/isbd/elements/P1053) element (= "has extent") into a usable number of pages, summing up to a total number of 969.846.170 pages. The max number of pages in this set is 2.711.111, which is obviously the result of a metadata apocalypse, somebody must have slipped on the `1` key ([**this** is the book that's said to have more than two million pages](http://d-nb.info/965667081)).
 
 You can glean from our [XSLT file](https://github.com/lehkost/DNBTitel-Elasticsearch/blob/master/dnb2es/rdf2json.xsl) that we're only using extent information if we found a number succeeded by " S." (= "pages") in the `isbd:P1053` string. So we're not using at least 5.499.358 items out of the 11.373.862. Either they had no information on the book extent/number of pages or we didn't parse it because we just used a very basic pattern. But with this simple method we still managed to cover 51,65% of all the books/items stored in the German National Library. We can sure improve our data extraction, but for the time being we're good with what we have. After all, we're still speaking about almost six million book records.
 
