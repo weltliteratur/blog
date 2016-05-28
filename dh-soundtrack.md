@@ -33,10 +33,13 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   20. Ry X: Deliverance &middot; ([youtube](https://www.youtube.com/watch?v=Es4THnMzefA)) ([soundcloud](https://soundcloud.com/ry-x/deliverance1))
   21. Bring Me the Horizon: Throne &middot; ([vevo](http://www.vevo.com/watch/bring-me-the-horizon/throne/GB1101500803)) ([youtube](https://www.youtube.com/watch?v=uD7dM1wol6g))
   22. Radiohead: Burn the Witch &middot; ([youtube](https://www.youtube.com/watch?v=yI2oS2hoL0k))
-
+  23. Radiohead: Daydreaming &middot; ([youtube](https://www.youtube.com/watch?v=TTAU7lLDZYU))
+  24. James Blake: Radio Silence &middot; ([youtube](https://www.youtube.com/watch?v=TTglDb7qjvQ))
+  25. Pantha du Prince: The Winter Hymn &middot; ([youtube](https://www.youtube.com/watch?v=yBWo9xsJxGo))
 
 ## Update History
 
   - April 23, 2016: Initial 2016 release.
   - May 4, 2016: Added 14–21. Added (soundcloud) to 3. Added (youtube) to 11. Note to self: Anohni's *Hopelessness* album of the year, possibly.
   - May 5, 2016: Added 22.
+  - May 28, 2016: Added 23–25.
