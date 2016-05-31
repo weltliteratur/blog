@@ -95,7 +95,7 @@ Seems that books have been extracted from only 12 language editions
 (ar, de, en, es, fr, it, ja, nl, pl, pt, ru, zh). Or, only these 12
 languages feature a
 [page template for books](https://en.wikipedia.org/wiki/Help:Template). Or
-... well -- let's stop speculating and have look: DBpedia features a
+... well -- let's stop speculating and have a look: DBpedia features a
 page with
 [statistics about the extracted data](http://wiki.dbpedia.org/services-resources/datasets/cross-language-overlap-statistics)
 and there we can see at "Cross-Language Instance Overlap" that there
