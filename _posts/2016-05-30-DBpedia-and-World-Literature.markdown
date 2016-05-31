@@ -7,7 +7,7 @@ date: 2016-05-30
 ---
 
 After our blog post
-[Wikidata Meets World Literature](Wikidata-Meets-World-Literature])
+["Wikidata Meets World Literature"](Wikidata-Meets-World-Literature)
 some might have mumbled into their tea cups, "ok yeah, but what about
 DBpedia?" Accordingly, let us add some technological diversity to our
 initial experiment. [DBpedia](http://www.dbpedia.org/) is a great
@@ -94,22 +94,22 @@ Unfortunately, [the output][query-labels] is a bit disappointing:
 Seems that books have been extracted from only 12 language editions
 (ar, de, en, es, fr, it, ja, nl, pl, pt, ru, zh). Or, only these 12
 languages feature a
-[page template for books](https://en.wikipedia.org/wiki/Help:Template). Or
-... well -- let's stop speculating and have a look: DBpedia features a
+[page template for books](https://en.wikipedia.org/wiki/Help:Template).
+Or … well, let's stop speculating and have a look: DBpedia features a
 page with
 [statistics about the extracted data](http://wiki.dbpedia.org/services-resources/datasets/cross-language-overlap-statistics)
-and there we can see at "Cross-Language Instance Overlap" that there
-are, for instance, 268 books which appear in 16 language editions.
-However, not all datasets from all language versions are available on
+and we can see in the "Cross-Language Instance Overlap" table that
+there are, for instance, 268 books appearing in 16 language editions.
+However, not all datasets from all language versions are available at
 the
 [public SPARQL endpoint](http://wiki.dbpedia.org/OnlineAccess#1.1%20Public%20SPARQL%20Endpoint).
 [This list](http://downloads.dbpedia.org/2015-04/core/) shows that
 currently a "labels" dataset has been loaded for exactly the 12
-language versions we have identified.  For the same reason, other
+language versions we mentioned above. For the same reason, other
 properties like
 [dbo:abstract](http://dbpedia.org/snorql/?property=http%3A//dbpedia.org/ontology/abstract)
 or [owl:sameAs](http://www.w3.org/2002/07/owl#sameAs) that could be
-linked to the number of language editions show the same behavior. (For
+linked to the number of language editions show the same behaviour. (For
 an overview of potential properties take a look at the DBpedia entry
 on
 ["The Adventures of Tom Sawyer"](http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Adventures_of_Tom_Sawyer).)
