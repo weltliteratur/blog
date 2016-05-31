@@ -7,7 +7,7 @@ date: 2016-05-30
 ---
 
 After our blog post
-["Wikidata Meets World Literature"](Wikidata-Meets-World-Literature)
+["Wikidata Meets World Literature"](/Wikidata-Meets-World-Literature/)
 some might have mumbled into their tea cups, "ok yeah, but what about
 DBpedia?" Accordingly, let us add some technological diversity to our
 initial experiment. [DBpedia](http://www.dbpedia.org/) is a great
