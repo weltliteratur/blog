@@ -3,7 +3,7 @@ title: DBpedia and World Literature
 layout: post
 author: [robert, frank]
 comments: true
-date: 2016-05-27
+date: 2016-05-30
 ---
 
 After our blog post
