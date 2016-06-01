@@ -182,7 +182,7 @@ This brings us a bit closer to our goal. But these lists also show the problems 
 
 We won't comment these lists now, although they make for some interesting discussions. You can obviously do much more with what we built here and we'll certainly get back to this later. So let's close this blog post with a short note on how we built this bridge from the freely available DNB catalogue data to the results shown above.
 
-## German National Library Goes Elastisearch
+## German National Library Goes Elasticsearch
 
 The somewhat weird original idea we had when initiating the hackathon was this: We wanted to know how much the German National Library weighs on books, and we wanted to find out by the number of pages of all the books it stores which we then would have multiplied by the average weight of a book page. Well, you can do the maths yourself now, you can find the total number of pages we counted above and then extrapolate, it will be a good enough approximation.
 
