@@ -36,6 +36,9 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   23. Radiohead: Daydreaming &middot; ([youtube](https://www.youtube.com/watch?v=TTAU7lLDZYU))
   24. James Blake: Radio Silence &middot; ([youtube](https://www.youtube.com/watch?v=TTglDb7qjvQ))
   25. Pantha du Prince: The Winter Hymn &middot; ([youtube](https://www.youtube.com/watch?v=yBWo9xsJxGo))
+  26. Era Istrefi: Bonbon &middot; ([youtube 1](https://www.youtube.com/watch?v=cedoBlUvBlI)) ([youtube 2](https://www.youtube.com/watch?v=qA5rsVEqEHc))
+  27. G-Eazy: Me, Myself & I &middot; ([youtube](https://www.youtube.com/watch?v=Tfs5GOQK4dU))
+  28. Tegan and Sara: Boyfriend &middot; ([youtube 1](https://www.youtube.com/watch?v=HJOHoiPGpac)) ([youtube 2](https://www.youtube.com/watch?v=Vp1kSFL3ESo))
 
 ## Update History
 
@@ -43,3 +46,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - May 4, 2016: Added 14–21. Added (soundcloud) to 3. Added (youtube) to 11. Note to self: Anohni's *Hopelessness* album of the year, possibly.
   - May 5, 2016: Added 22.
   - May 28, 2016: Added 23–25.
+  - June 5, 2016: Added 26–28.
