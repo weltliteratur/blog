@@ -121,6 +121,9 @@ a {
 	color: #888;
 	border-bottom: 1px dotted #888;
 }
+figcaption a {
+	color:#CCC;
+}
 p {
 	margin: 20px 0;
 }
