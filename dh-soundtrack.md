@@ -39,6 +39,9 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   26. Era Istrefi: Bonbon &middot; ([youtube 1](https://www.youtube.com/watch?v=cedoBlUvBlI)) ([youtube 2](https://www.youtube.com/watch?v=qA5rsVEqEHc))
   27. G-Eazy: Me, Myself & I &middot; ([youtube](https://www.youtube.com/watch?v=Tfs5GOQK4dU))
   28. Tegan and Sara: Boyfriend &middot; ([youtube 1](https://www.youtube.com/watch?v=HJOHoiPGpac)) ([youtube 2](https://www.youtube.com/watch?v=Vp1kSFL3ESo))
+  29. PUP: Can't Win &middot; ([bandcamp](https://puptheband.bandcamp.com/track/cant-win))
+  30. The Avalanches: Colours &middot; ([youtube](https://www.youtube.com/watch?v=zLRPDovCpmM)) ([soundcloud](https://soundcloud.com/theavalanches/colours))
+
 
 ## Update History
 
@@ -47,3 +50,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - May 5, 2016: Added 22.
   - May 28, 2016: Added 23–25.
   - June 5, 2016: Added 26–28.
+  - June 22, 2016: Added 29–30.
