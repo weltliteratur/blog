@@ -26,7 +26,7 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
   14. Bad Lip Reading: Bushes of Love &middot; ([youtube](https://www.youtube.com/watch?v=RySHDUU2juM))
   15. DMA'S: Step Up the Morphine &middot; ([youtube](https://www.youtube.com/watch?v=vYTXXhkHHG0))
-  16. Beyoncé: Sorry
+  16. Beyoncé: Sorry &middot; ([youtube](https://www.youtube.com/watch?v=QxsmWxxouIM))
   17. Anohni: Drone Bomb Me &middot; ([vimeo](https://vimeo.com/152637866))
   18. LUH: Beneath the Concrete &middot; ([vimeo](https://vimeo.com/163403615)) ([soundcloud](https://soundcloud.com/lostunderheaven/beneath-the-concrete))
   19. Drangsal: Allan Align &middot; ([youtube](https://www.youtube.com/watch?v=99o3AkxzTcQ))
@@ -41,6 +41,9 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   28. Tegan and Sara: Boyfriend &middot; ([youtube 1](https://www.youtube.com/watch?v=HJOHoiPGpac)) ([youtube 2](https://www.youtube.com/watch?v=Vp1kSFL3ESo))
   29. PUP: Can't Win &middot; ([bandcamp](https://puptheband.bandcamp.com/track/cant-win))
   30. The Avalanches: Colours &middot; ([youtube](https://www.youtube.com/watch?v=zLRPDovCpmM)) ([soundcloud](https://soundcloud.com/theavalanches/colours))
+  31. Beginner: Ahnma &middot; ([youtube](https://www.youtube.com/watch?v=C6_Uk_2rkQg))
+  32. Audio88 & Yassin: Halleluja &middot; ([youtube](https://www.youtube.com/watch?v=W5ZldUxaX7s))
+  33. Conner4Real: I'm So Humble &middot; ([youtube](https://www.youtube.com/watch?v=tIpbYyR0OOI)) ([youtube/live](https://www.youtube.com/watch?v=XzbAEHdy8oU))
 
 
 ## Update History
@@ -51,3 +54,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - May 28, 2016: Added 23–25.
   - June 5, 2016: Added 26–28.
   - June 22, 2016: Added 29–30.
+  - July 2, 2016: Added 31–33. Added (youtube) to 16.
