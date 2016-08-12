@@ -44,6 +44,9 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   31. Beginner: Ahnma &middot; ([youtube](https://www.youtube.com/watch?v=C6_Uk_2rkQg))
   32. Audio88 & Yassin: Halleluja &middot; ([youtube](https://www.youtube.com/watch?v=W5ZldUxaX7s))
   33. Conner4Real: I'm So Humble &middot; ([youtube](https://www.youtube.com/watch?v=tIpbYyR0OOI)) ([youtube/live](https://www.youtube.com/watch?v=XzbAEHdy8oU))
+  34. The Chainsmokers: Don't Let Me Down &middot; ([youtube](https://www.youtube.com/watch?v=1Oezjm6Mmm8))
+  35. Fortuna Ehrenfeld: Ein analoges Mädchen
+  36. Wild Beasts: Get My Bang &middot; ([youtube](https://www.youtube.com/watch?v=8nkdZhFzglA))
 
 
 ## Update History
@@ -55,3 +58,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - June 5, 2016: Added 26–28.
   - June 22, 2016: Added 29–30.
   - July 2, 2016: Added 31–33. Added (youtube) to 16.
+  - July 27, 2016: Added 34–36.
