@@ -1,5 +1,5 @@
 ---
-title: Identifying authors in Wikipedia
+title: Contributors to World Literature – Identifying Writers in Wikipedia, Part I
 layout: post
 author: [robert, frank]
 comments: true
