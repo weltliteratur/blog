@@ -6,12 +6,15 @@ comments: true
 date: 2016-08-16
 ---
 
-The first challenge one faces when trying to analyze the
-representation of world literature on Wikipedia is the identification
-of writers and works. Since our last posts have shown examples how to
-extract written works, we here focus on writers.
+The first challenge we face when trying to analyse the
+representation of world literature on Wikipedia is the automatic
+identification of writers and works across its 280+ language
+versions. Since our last posts have shown how to extract works
+that are possible candidates for a world-literary canon,
+we here focus on writers, i.e., possible contributors to world
+literature.
 
-Therefore, let us have a detailed look at a the
+For a start, let us have a detailed look at a the
 [Wikipedia page of John Irving](https://en.wikipedia.org/wiki/John_Irving):
 
 ![Wikipedia Page of John Irving](/images/wp_john_irving_all.png)
