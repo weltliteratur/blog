@@ -1,50 +1,76 @@
 ---
-title: Identifying authors in Wikipedia 2
+title: Contributors to World Literature – Identifying Writers in Wikipedia, Part II
 layout: post
 author: [robert, frank]
 comments: true
-date: 2016-07-22
+date: 2016-08-16
 ---
 
-Instead of providing a conclusive answer as to which approach is best,
-we would like to point out some observations which could aid the
-selection of an approach.
+
+In our [previous post]() we have presented five different features of
+Wikipedia pages about writers that can help us to identify that those
+pages are about writers.
+
+Instead of providing a conclusive answer as to which of these features
+is suited best, we here point out some observations which could aid
+the implementation of an approach for identifying writers on
+Wikipedia.
 
 ## First Sentence
-
 - The automatic processing of the sentences requires sophisticated
   natural language processing which would also need to be available
   for different languages. The quality of such approaches highly
   depends on the chosen language.
-- The results are quite ambigue, since even within one language
+- The results are quite ambiguous, since even within one language
   version there is no standardized way to describe writers.
-- **TODO**: "The DBpedia community already dealt with this problem by
-  providing specific datasets containing data extracted from the
-  running text of the article to classify persons." -- point to this
-  dataset and briefly explain it.
+- On the other hand, this feature is available throughout all language
+  versions.
+- DBpedia provides datasets which classify persons based on data
+  extracted from the running text of the article. **point to this
+  dataset and briefly explain it**
 
 ## Table of Contents
 - Not all pages of writers have a bibliography. In particular, less
   popular writers or writers which have written only few works lack a
-  bibliography. **examples**
+  bibliography. For instance, [the page of in the English Wikipedia]()
+  lacks a bibliography. **add link**
+- Extraction of this feature is straightforward for the English
+  Wikipedia, since finding the bibliography headline in the wiki
+  source code is easy. Finding equivalent headings in other language
+  versions requires some effort but should still be easy.
+- It is not clear, how much this feature is used in other language
+  versions.
+
+## List of Works
+- In our example page of
+  [John Irving](https://en.wikipedia.org/wiki/John_Irving), this
+  feature was implemented by
+  [template specific to John Irving](https://en.wikipedia.org/wiki/Template:John_Irving).
+  There exist other writers who also have such a template but in
+  general, this feature is not very widespread. **provide example** -
+  maybe there's a category for such templates?
 
 ## Occupation Property
-
-- language-dependent
-- ambigue: "writer", "novelist", "poet" -- decide which terms to consider
-- works only for languages which have an infobox (missing German,
-      etc.)
-- often lists several occupations
-- DBpedia: [infobox_properties]()
+- This property often contains many values, which means one has to
+  decide whether all values or only the first one is regarded.
+- The values in this property are highly language-dependent, therefore
+  it is rather difficult to use in a cross-language setting.
+- Even within one language, the values are ambigue: "writer",
+  "novelist", "poet" -- one has to decide which terms to consider.
+- Since the values are contained in the infoboxes, this works only for
+  language editions which have an infobox (which excludes, among
+  others, the German edition, since it lacks an infobox for
+  writers). **provide link/evidence**
+- DBpedia has extracted those properties, they are available in the
+  [infobox_properties dataset](). **do they include a language
+  mapping?**
 
 # Categories
-
 - The category graph is quite inconsistent, in particular it is not a
   tree. (cf. O. Medelyan, D. Milne, C. Legg, I.H. Witten. (2009)
-  Mining Meaning from Wikipedia. International Journal of
-  Human-Computer Studies 67(9):716–754.)
+  [Mining Meaning from Wikipedia](http://dx.doi.org/10.1016/j.ijhcs.2009.05.004))
 - As we have seen, there are many categories which could be used to
-  identify Irving as a writer, yet, they do not cover all
+  identify a person as a writer, yet, they do not cover all
   writers. Categories higher up the hierarchy **(e.g., )** would cover
   more writers but due to some dubious subcategories **(e.g., )** also
   cover pages which definitely are not writers.
@@ -62,7 +88,6 @@ selection of an approach.
   dataset which contains the category graph.
 
 # Writer Template
-
 - Not all language editions have or use a writer template. E.g., the
   German Wikipedia does not use the writer template and thus its page
   of
@@ -70,29 +95,19 @@ selection of an approach.
   lacks an infobox.
 - Each page can be assigned to exactly one template, which means that
   some persons do not have a writer template, although they are
-  clearly writers. This includes [Franz Kafka]() (who has a
-  [philosopher template]()) and [Geoffrey Chaucer]() (who as a
-  [template]()).
+  clearly writers. This includes
+  [Franz Kafka](https://en.wikipedia.org/wiki/Franz_Kafka) and
+  [Umberto Eco](https://en.wikipedia.org/wiki/Umberto_Eco) (who both
+  have a [philosopher template]()) and
+  [Geoffrey Chaucer](https://en.wikipedia.org/wiki/Geoffrey_Chaucer)
+  (who has a [template]()).
 - The association of Wikipedia pages to templates has been extracted
   by DBpedia which also includes a mapping between corresponding
   templates of different language versions. For the English Wikipedia,
   the mapping for the articles can be found in the
   [instance_types_en]() dataset.
-  
 
-(show counter examples, e.g., Kafka and Eco or Tom Cruise & Co.)
-- How easy is it to use this information? (Categories: difficult,
-  because ... occupation: difficult, because, etc.)
-
-- categories
-- inconsistent
-- refer to paper which judges the quality of the WP category graph
-- template: typically an infobox; one hint: no writer template in the
-  German Wikipedia!
-- content of infoboxes: occupation; sometimes as person data
-- here:just priniciple idea and some examples, more detailed eval in a
-  later blog post
-
-
-BTW: https://en.wikipedia.org/wiki/Umberto_Eco is also a philosopher 
-
+Given the large variety of properties the different features have, it
+is quite difficult to devise an approach to identify writers on
+Wikipedia that works across different language versions. In one of our
+next blog posts we show

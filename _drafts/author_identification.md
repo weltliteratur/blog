@@ -33,7 +33,7 @@ that John Irving is a writer:
    ![The infobox on the Wikipedia page of John Irving](/images/wp_john_irving_infobox.png)
 4. Scrolling down, the
    [template for John Irving](https://en.wikipedia.org/wiki/Template:John_Irving)
-   shows **works** by John Irving:
+   shows a **list of works** by John Irving:
 
    ![The "John Irving" template on the Wikipedia page of John Irving](/images/wp_john_irving_template_john_irving.png)
 5. Scrolling further down, we find a list of **categories**, among
