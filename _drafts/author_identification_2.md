@@ -3,17 +3,21 @@ title: Contributors to World Literature – Identifying Writers in Wikipedia, Pa
 layout: post
 author: [robert, frank]
 comments: true
-date: 2016-08-16
+date: 2016-08-19
 ---
 
-
-In our [last post]() we have identified five different features of
-Wikipedia pages about writers that can help us to ERKENNEN that those
-pages are about writers. The question now is, which of these features
-is suited best to automatically identify writers in Wikipedia?
-Instead of providing a conclusive answer, we here point out some
-observations which could aid the implementation of an approach for
-identifying writers on Wikipedia.
+In
+[the first post](/Contributors-to-World-Literature-Identifying-Writers-in-Wikipedia-Part-I/)
+of this 2-part series we introduced six features of Wikipedia pages on
+writers that might help us figure out if those pages are, in fact, about
+(literary) writers. Today we want to discuss which of these
+features are actually suited to reliably identify writers in
+Wikipedia. Our goal here is to build a set of contributors to world
+literature that we can further investigate (and keep updated, as
+Wikipedia evolves). Instead of providing a conclusive answer here,
+this post will concentrate on observations that could eventually help
+to implement an approach for the automated identification of literary
+writers in Wikipedia.
 
 ## First Sentence
 - This feature is available throughout all language versions.
