@@ -3,17 +3,20 @@ title: Contributors to World Literature – Identifying Writers in Wikipedia, Pa
 layout: post
 author: [robert, frank]
 comments: true
-date: 2016-08-16
+date: 2016-08-18
 ---
 
 The first challenge we face when trying to analyse the representation
 of world literature on Wikipedia is the automatic identification of
-writers and works across its 280+ language versions. Since our last
-posts have shown how to extract works that are possible candidates for
-a world-literary canon, we here focus on writers, i.e., possible
-contributors to world literature.
+literary writers and works across all 280+ language versions. Our last
+posts have shown how to extract **works** that are possible candidates
+for a Wikipedia-inherent world-literary canon
+([Wikidata-based](/Wikidata-Meets-World-Literature/) and
+[DBpedia-based](/DBpedia-and-World-Literature/)). In this 2-part post
+we focus on the extraction of **writers**, i.e., possible contributors
+to world literature.
 
-For a start, let us have a detailed look at a the
+For a start, let us have a detailed look at the
 [Wikipedia page of John Irving](https://en.wikipedia.org/wiki/John_Irving):
 
 ![Wikipedia Page of John Irving](/images/wp_john_irving_all.png)
