@@ -7,24 +7,22 @@ date: 2016-08-16
 ---
 
 
-In our [previous post]() we have presented five different features of
-Wikipedia pages about writers that can help us to identify that those
-pages are about writers.
-
-Instead of providing a conclusive answer as to which of these features
-is suited best, we here point out some observations which could aid
-the implementation of an approach for identifying writers on
-Wikipedia.
+In our [last post]() we have identified five different features of
+Wikipedia pages about writers that can help us to ERKENNEN that those
+pages are about writers. The question now is, which of these features
+is suited best to automatically identify writers in Wikipedia?
+Instead of providing a conclusive answer, we here point out some
+observations which could aid the implementation of an approach for
+identifying writers on Wikipedia.
 
 ## First Sentence
+- This feature is available throughout all language versions.
 - The automatic processing of the sentences requires sophisticated
   natural language processing which would also need to be available
   for different languages. The quality of such approaches highly
   depends on the chosen language.
 - The results are quite ambiguous, since even within one language
   version there is no standardized way to describe writers.
-- On the other hand, this feature is available throughout all language
-  versions.
 - DBpedia provides datasets which classify persons based on data
   extracted from the running text of the article. **point to this
   dataset and briefly explain it**
@@ -106,6 +104,15 @@ Wikipedia.
   templates of different language versions. For the English Wikipedia,
   the mapping for the articles can be found in the
   [instance_types_en]() dataset.
+
+| feature             | languages | usage    | effort |
+|---------------------+-----------+----------+--------|
+| first sentence      | all       | complete | high   |
+| table of contents   | all       | some     | low    |
+| list of works       | few       | few      |        |
+| occupation property | some      | many     |        |
+| categories          | all       | many     | high   |
+| writer template     | some      | many     | low    |
 
 Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
