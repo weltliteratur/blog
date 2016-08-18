@@ -9,8 +9,8 @@ date: 2016-08-19
 In
 [the first post](/Contributors-to-World-Literature-Identifying-Writers-in-Wikipedia-Part-I/)
 of this 2-part series we introduced six features of Wikipedia pages on
-writers that might help us figure out if those pages are, in fact, about
-(literary) writers. Today we want to discuss which of these
+writers that might help us figure out if those pages are, in fact,
+about (literary) writers. Today we want to discuss which of these
 features are actually suited to reliably identify writers in
 Wikipedia. Our goal here is to build a set of contributors to world
 literature that we can further investigate (and keep updated, as
@@ -20,6 +20,9 @@ to implement an approach for the automated identification of literary
 writers in Wikipedia.
 
 ## First Sentence
+
+![The first sentence on the Wikipedia Page of John Irving](/images/wp_john_irving_first_sentence.png)
+
 - This feature is available throughout all language versions.
 - The automated analysis of sentences requires some sophisticated
   natural language processing which should also be available for
@@ -27,14 +30,20 @@ writers in Wikipedia.
   depends on the chosen language.
 - The results are quite ambiguous, since even within one language
   version there is no standardised way to describe writers.
-- DBpedia provides datasets that classify persons based on data
+- DBpedia has implemented a
+  [framework for fact extraction](https://github.com/dbpedia/fact-extractor)
+  which could potentially extract this information.
+<!-- DBpedia provides datasets that classify persons based on data
   extracted from the running text of the article. **point to this
-  dataset and briefly explain it**
+  dataset and briefly explain it** -->
 
 ## Table of Contents
-- At first sight, a "Bibliography" chapter seems to be the prevalent
+
+![The table of contents on the Wikipedia page of John Irving](/images/wp_john_irving_toc.png)
+
+- At first sight, a "Bibliography" section seems to be the prevalent
   way to list original works of an author in the English Wikipedia.
-  But not all writers have one. Also, the name of the chapter is
+  But not all writers have one. Also, the name of the section is
   not consistent (e.g., "Works", as can be seen in the article on
   [John Milton](https://en.wikipedia.org/wiki/John_Milton#Works)).
   "Bibliography" can also refer to a list of secondary literature
@@ -45,20 +54,36 @@ writers in Wikipedia.
   language versions would require some effort, though.
 - It is unclear if and how this feature is used in other language
   versions.
+- The section structure of articles is currently not provided by
+  DBpedia.
 
 ## Occupation Property
+
+![The infobox on the Wikipedia page of John Irving](/images/wp_john_irving_infobox.png)
+
 - This property often contains several (ambiguous) values without
   further distinctions ("writer", "novelist", "poet", etc.).
-- Values of this property are highly language-dependent, it
-  is rather difficult to make use of in this cross-language
-  environment.
+- Values of this property are highly language-dependent, it is rather
+  difficult to make use of it in a cross-language environment.
 - Not all language editions permit infoboxes for writers (among
   others, the German edition).
-- If available, DBpedia extracted occupation properties, they can
-  be found in the [infobox_properties dataset](). **do they include a language
-  mapping?**
+- If available, the infobox properties are extracted by DBpedia. They
+  can be found in the [infobox properties dataset][dbpedia-infobox]
+  and in the
+  [mapping-based properties dataset][dbpedia-mapping]. The
+  [latest dataset](http://wiki.dbpedia.org/Downloads2015-10) contains
+  this information only in the infobox properties dataset:
+
+  ````xml
+<http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Novelist"@en .
+<http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Screenwriter"@en .
+  ````
+
 
 ## List of Works
+
+![The "John Irving" template on the Wikipedia page of John Irving](/images/wp_john_irving_template_john_irving.png)
+
 - In our example page on
   [John Irving](https://en.wikipedia.org/wiki/John_Irving), this
   feature was implemented using a specific
@@ -69,6 +94,9 @@ writers in Wikipedia.
   ["Category:Novelist navigational boxes"](https://en.wikipedia.org/wiki/Category:Novelist_navigational_boxes).
 
 ## Categories
+
+![The categories of the Wikipedia page of John Irving](/images/wp_john_irving_categories.png)
+
 - The category graph is quite inconsistent. In particular, it is not a
   tree. (cf. O. Medelyan, D. Milne, C. Legg, I. H. Witten (2009),
   [Mining Meaning from Wikipedia](http://dx.doi.org/10.1016/j.ijhcs.2009.05.004))
@@ -92,6 +120,9 @@ writers in Wikipedia.
   dataset which contains the category graph.
 
 ## Writer Template
+
+![The source code of the "writer" template of the Wikipedia page of John Irving](/images/wp_john_irving_template_writer.png)
+
 - Not all language editions have or use a writer template. E.g., the
   German Wikipedia does not use the 'writer' template and, thus, its page
   on
@@ -123,3 +154,8 @@ Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
 Wikipedia that works across different language versions. In one of our
 next blog posts we show
+
+
+
+[dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
+[dbpedia-mapping]: http://wiki.dbpedia.org/services-resources/documentation/datasets#mappingbasedliterals
