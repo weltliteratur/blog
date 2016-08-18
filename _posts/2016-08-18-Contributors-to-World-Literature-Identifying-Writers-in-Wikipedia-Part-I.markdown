@@ -51,8 +51,9 @@ them:
 
    ![The categories of the Wikipedia page of John Irving](/images/wp_john_irving_categories.png)
 6. In addition, by looking at
-   [the wiki source code of the page][source-code] we realise that
-   the infobox uses the **writer template**:
+   [the wiki source code of the page][source-code] we realise that the
+   infobox uses the
+   **[writer template](https://en.wikipedia.org/wiki/Template:Infobox_writer)**:
 
    ![The source code of the "writer" template of the Wikipedia page of John Irving](/images/wp_john_irving_template_writer.png)
 
