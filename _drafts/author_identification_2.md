@@ -171,10 +171,11 @@ Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
 Wikipedia that works across different language versions. This 2-part
 blog post was a preliminary introduction to get a sense of the problem.
-We proposed a solution that basically works across different language
-versions in a still unpublished paper (on which we will keep you
-posted) and will introduce a pragmatic and extensible solution that
-can be used for a variety of purposes in one of our next blog posts.
+We proposed and applied a solution that basically works across
+different language versions in a still unpublished paper (on which we
+will keep you posted) and will introduce a pragmatic and manageable
+set that can be used for a variety of purposes in one of our next
+blog posts.
 
 
 [dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
