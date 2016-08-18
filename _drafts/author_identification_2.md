@@ -72,13 +72,12 @@ writers in Wikipedia.
   and in the
   [mapping-based properties dataset][dbpedia-mapping]. The
   [latest dataset](http://wiki.dbpedia.org/Downloads2015-10) contains
-  this information only in the infobox properties dataset:
+  this information in the infobox properties dataset:
 
   ````xml
 <http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Novelist"@en .
 <http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Screenwriter"@en .
   ````
-
 
 ## List of Works
 
@@ -88,10 +87,15 @@ writers in Wikipedia.
   [John Irving](https://en.wikipedia.org/wiki/John_Irving), this
   feature was implemented using a specific
   [John Irving template](https://en.wikipedia.org/wiki/Template:John_Irving).
-  Other popular/canonised writers also have that kind of template, yet in
-  general, this feature is not very widespread. There are categories for
-  such templates, like
-  ["Category:Novelist navigational boxes"](https://en.wikipedia.org/wiki/Category:Novelist_navigational_boxes).
+  Other popular/canonised writers also have that kind of template, yet
+  in general, this feature is not very widespread.
+- There are categories for such templates, like
+  [Category:Novelist navigational boxes](https://en.wikipedia.org/wiki/Category:Novelist_navigational_boxes)
+  where one can easily see which writers have such a template.
+- It seems that the only other language editions which have such a
+  template are
+  [Romanian](https://ro.wikipedia.org/wiki/Categorie:Formate_romancieri)
+  and [Farsi](https://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D8%AC%D8%B9%D8%A8%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%86%D8%A7%D9%88%D8%A8%D8%B1%DB%8C_%D8%B1%D9%85%D8%A7%D9%86%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3).
 
 ## Categories
 
@@ -102,9 +106,13 @@ writers in Wikipedia.
   [Mining Meaning from Wikipedia](http://dx.doi.org/10.1016/j.ijhcs.2009.05.004))
 - As we have seen, there are many categories that could be used to
   identify a person as a writer, but they do not cover all
-  writers. Categories higher up the hierarchy **(e.g., )** would cover
-  more writers but due to some dubious subcategories **(e.g., )** also
-  cover pages that are definitely not about writers.
+  writers. Categories higher up the hierarchy (e.g.,
+  [Writers by century](https://en.wikipedia.org/wiki/Category:Writers_by_century))
+  would cover more writers but due to some dubious subcategories
+  (e.g.,
+  [Baconian theory of Shakespeare authorship](https://en.wikipedia.org/wiki/Category:Baconian_theory_of_Shakespeare_authorship))
+  also cover pages that are definitely not about writers (e.g.,
+  [Honorificabilitudinitatibus](https://en.wikipedia.org/wiki/Honorificabilitudinitatibus)).
 - For instance, starting the traversal at the
   [Writers by Century](https://en.wikipedia.org/wiki/Category:Writers_by_century)
   category in the English version, the set would contain persons like
@@ -115,9 +123,10 @@ writers in Wikipedia.
   positives would need to be repeated for each language.
 - Articles are usually assigned to several categories which would enable
   identification of writers which also had other occupations.
-- DBpedia provides the [article_categories]() dataset which contains
-  the assignment of categories to articles and the [skos_categories]()
-  dataset which contains the category graph.
+- DBpedia provides the [article_categories][dbpedia-article] dataset
+  which contains the assignment of categories to articles and the
+  [skos_categories][dbpedia-skos] dataset which contains the category
+  graph.
 
 ## Writer Template
 
@@ -132,30 +141,41 @@ writers in Wikipedia.
   some persons do not have a writer template, although we'd clearly
   like to have them in our set. This includes
   [Franz Kafka](https://en.wikipedia.org/wiki/Franz_Kafka) (neutral
-  person template) and
-  [Umberto Eco](https://en.wikipedia.org/wiki/Umberto_Eco) (tied to
-  a [philosopher template]()).
+  [person template](https://en.wikipedia.org/wiki/Template:Infobox_person))
+  and [Umberto Eco](https://en.wikipedia.org/wiki/Umberto_Eco) (tied
+  to a
+  [philosopher template](https://en.wikipedia.org/wiki/Template:Infobox_philosopher)).
 - The association of Wikipedia pages to templates has been extracted
-  by DBpedia which also includes a mapping between corresponding
-  templates of different language versions. For the English Wikipedia,
-  the mapping for the articles can be found in the
-  [instance_types_en]() dataset.
+  by DBpedia in the [instance types dataset][dbpedia-instancetypes].
+  The value is provided in the `type` property.  For John Irving, it
+  contains the following information:
 
-| feature             | languages | usage    | effort |
-|---------------------+-----------+----------+--------|
-| first sentence      | all       | complete | high   |
-| table of contents   | all       | some     | low    |
-| list of works       | few       | few      |        |
-| occupation property | some      | many     |        |
-| categories          | all       | many     | high   |
-| writer template     | some      | many     | low    |
+  ````xml
+<http://dbpedia.org/resource/John_Irving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer> .
+  ````
+
+# Conclusion
+
+Summarizing the above findings in a table, we get the following result:
+
+| feature             | language editions | usage within language editions | effort | ambiguity |
+|---------------------+-------------------+--------------------------------+--------+-----------|
+| first sentence      | all               | all                            | high   | high      |
+| table of contents   | all               | some                           | low    | medium    |
+| occupation property | some              | many                           | medium | high      |
+| list of works       | few               | few                            | low    | low       |
+| categories          | all               | many                           | high   | high      |
+| writer template     | some              | many                           | low    | low       |
 
 Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
-Wikipedia that works across different language versions. In one of our
-next blog posts we show
-
+Wikipedia that works across different language versions.  In one of
+our next blog posts we will propose an approach that basically works
+across different language versions.
 
 
 [dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
 [dbpedia-mapping]: http://wiki.dbpedia.org/services-resources/documentation/datasets#mappingbasedliterals
+[dbpedia-article]: http://wiki.dbpedia.org/services-resources/documentation/datasets#articlecategories
+[dbpedia-skos]: http://wiki.dbpedia.org/services-resources/documentation/datasets#skoscategories
+[dbpedia-instancetypes]: http://wiki.dbpedia.org/services-resources/documentation/datasets#instancetypes
