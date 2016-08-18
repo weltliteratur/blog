@@ -132,7 +132,7 @@ ul {
 	margin: 20px 0;
 }
 ol {
-	list-style: decimal-leading-zero inside;
+	list-style: decimal inside;
 	margin: 20px 0;
 }
 
