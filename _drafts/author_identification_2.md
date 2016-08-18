@@ -12,7 +12,7 @@ of this 2-part series we introduced six features of Wikipedia pages on
 writers that might help us figure out if those pages are, in fact,
 about (literary) writers. Today we want to discuss which of these
 features are actually suited to reliably identify writers in
-Wikipedia. Our goal here is to build a set of contributors to world
+Wikipedia. Our goal is to build a set of contributors to world
 literature that we can further investigate (and keep updated, as
 Wikipedia evolves). Instead of providing a conclusive answer here,
 this post will concentrate on observations that could eventually help
@@ -44,10 +44,10 @@ writers in Wikipedia.
 - At first sight, a "Bibliography" section seems to be the prevalent
   way to list original works of an author in the English Wikipedia.
   But not all writers have one. Also, the name of the section is
-  not consistent (e.g., "Works", as can be seen in the article on
-  [John Milton](https://en.wikipedia.org/wiki/John_Milton#Works)).
-  "Bibliography" can also refer to a list of secondary literature
-  (see the article on
+  not consistent (e.g., in the article on
+  [John Milton](https://en.wikipedia.org/wiki/John_Milton#Works) it
+  is called "Works"). "Bibliography" can also refer to a list of
+  secondary literature (see the article on
   [Gabriel García Márquez](https://en.wikipedia.org/wiki/Gabriel_García_Márquez#Bibliography)).
 - Albeit its ambiguity, finding the "Bibliography" headline in the
   wiki source code is easy. Finding equivalent headings in other
@@ -90,10 +90,10 @@ writers in Wikipedia.
   Other popular/canonised writers also have that kind of template, yet
   in general, this feature is not very widespread.
 - There are categories for such templates, like
-  [Category:Novelist navigational boxes](https://en.wikipedia.org/wiki/Category:Novelist_navigational_boxes)
-  where one can easily see which writers have such a template.
-- It seems that the only other language editions which have such a
-  template are
+  [Category:Novelist navigational boxes](https://en.wikipedia.org/wiki/Category:Novelist_navigational_boxes),
+  making it easy to check which writers have such a template.
+- Apparently, there are only two other language editions with such a
+  template,
   [Romanian](https://ro.wikipedia.org/wiki/Categorie:Formate_romancieri)
   and [Farsi](https://fa.wikipedia.org/wiki/%D8%B1%D8%AF%D9%87:%D8%AC%D8%B9%D8%A8%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%86%D8%A7%D9%88%D8%A8%D8%B1%DB%8C_%D8%B1%D9%85%D8%A7%D9%86%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3).
 
@@ -103,7 +103,7 @@ writers in Wikipedia.
 
 - The category graph is quite inconsistent. In particular, it is not a
   tree. (cf. O. Medelyan, D. Milne, C. Legg, I. H. Witten (2009),
-  [Mining Meaning from Wikipedia](http://dx.doi.org/10.1016/j.ijhcs.2009.05.004))
+  [Mining meaning from Wikipedia](http://dx.doi.org/10.1016/j.ijhcs.2009.05.004))
 - As we have seen, there are many categories that could be used to
   identify a person as a writer, but they do not cover all
   writers. Categories higher up the hierarchy (e.g.,
@@ -132,8 +132,8 @@ writers in Wikipedia.
 
 ![The source code of the "writer" template of the Wikipedia page of John Irving](/images/wp_john_irving_template_writer.png)
 
-- Not all language editions have or use a writer template. E.g., the
-  German Wikipedia does not use the 'writer' template and, thus, its page
+- Not all language editions have or use such template. E.g., the
+  German Wikipedia does not permit the writer template and, thus, its page
   on
   [Johann Wolfgang von Goethe](https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe)
   lacks an infobox.
@@ -156,7 +156,7 @@ writers in Wikipedia.
 
 # Conclusion
 
-Summarizing the above findings in a table, we get the following result:
+Summarising the above findings in a table, we get the following result:
 
 | feature             | language editions | usage within language editions | effort | ambiguity |
 |---------------------+-------------------+--------------------------------+--------+-----------|
@@ -169,9 +169,12 @@ Summarizing the above findings in a table, we get the following result:
 
 Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
-Wikipedia that works across different language versions.  In one of
-our next blog posts we will propose an approach that basically works
-across different language versions.
+Wikipedia that works across different language versions. This 2-part
+blog post was a preliminary introduction to get a sense of the problem.
+We proposed a solution that basically works across different language
+versions in a still unpublished paper (on which we will keep you
+posted) and will introduce a pragmatic and extensible solution that
+can be used for a variety of purposes in one of our next blog posts.
 
 
 [dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
