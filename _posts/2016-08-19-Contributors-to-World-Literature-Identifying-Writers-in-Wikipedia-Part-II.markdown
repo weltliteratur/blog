@@ -158,14 +158,14 @@ writers in Wikipedia.
 
 Summarising the above findings in a table, we get the following result:
 
-| feature             | language editions | usage within language editions | DBpedia dataset                        | effort | ambiguity |
-|---------------------+-------------------+--------------------------------+----------------------------------------+--------+-----------|
-| first sentence      | all               | all                            | -                                      | high   | high      |
-| table of contents   | all               | some                           | -                                      | low    | medium    |
-| occupation property | some              | many                           | infobox properties                     | medium | high      |
-| list of works       | few               | few                            | -                                      | low    | low       |
-| categories          | all               | many                           | article categories and skos categories | high   | high      |
-| writer template     | some              | many                           | instance types                         | low    | low       |
+| feature             | language editions | usage within language editions | DBpedia dataset                                          | effort | ambiguity |
+|---------------------+-------------------+--------------------------------+----------------------------------------------------------+--------+-----------|
+| first sentence      | all               | all                            | -                                                        | high   | high      |
+| table of contents   | all               | some                           | -                                                        | low    | medium    |
+| occupation property | some              | many                           | [infobox properties][dbp-i]                              | medium | high      |
+| list of works       | few               | few                            | -                                                        | low    | low       |
+| categories          | all               | many                           | [article categories][dbp-c] and [skos categories][dbp-s] | high   | high      |
+| writer template     | some              | many                           | [instance types][dbp-t]                                  | low    | low       |
 
 Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
@@ -177,7 +177,10 @@ will keep you posted) and will introduce a pragmatic and manageable
 set that can be used for a variety of purposes in one of our next
 blog posts.
 
-
+[dbp-i]: http://downloads.dbpedia.org/2015-10/core-i18n/en/infobox_properties_en.ttl.bz2
+[dbp-c]: http://downloads.dbpedia.org/2015-10/core-i18n/en/article_categories_en.ttl.bz2
+[dbp-s]: http://downloads.dbpedia.org/2015-10/core-i18n/en/skos_categories_en.ttl.bz2
+[dbp-p]: http://downloads.dbpedia.org/2015-10/core-i18n/en/instance_types_en.ttl.bz2
 [dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
 [dbpedia-mapping]: http://wiki.dbpedia.org/services-resources/documentation/datasets#mappingbasedliterals
 [dbpedia-article]: http://wiki.dbpedia.org/services-resources/documentation/datasets#articlecategories
