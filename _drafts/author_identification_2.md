@@ -158,14 +158,14 @@ writers in Wikipedia.
 
 Summarising the above findings in a table, we get the following result:
 
-| feature             | language editions | usage within language editions | effort | ambiguity |
-|---------------------+-------------------+--------------------------------+--------+-----------|
-| first sentence      | all               | all                            | high   | high      |
-| table of contents   | all               | some                           | low    | medium    |
-| occupation property | some              | many                           | medium | high      |
-| list of works       | few               | few                            | low    | low       |
-| categories          | all               | many                           | high   | high      |
-| writer template     | some              | many                           | low    | low       |
+| feature             | language editions | usage within language editions | DBpedia dataset                        | effort | ambiguity |
+|---------------------+-------------------+--------------------------------+----------------------------------------+--------+-----------|
+| first sentence      | all               | all                            | -                                      | high   | high      |
+| table of contents   | all               | some                           | -                                      | low    | medium    |
+| occupation property | some              | many                           | infobox properties                     | medium | high      |
+| list of works       | few               | few                            | -                                      | low    | low       |
+| categories          | all               | many                           | article categories and skos categories | high   | high      |
+| writer template     | some              | many                           | instance types                         | low    | low       |
 
 Given the large variety of properties the different features have, it
 is quite difficult to devise an approach to identify writers on
