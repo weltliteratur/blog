@@ -180,7 +180,7 @@ blog posts.
 [dbp-i]: http://downloads.dbpedia.org/2015-10/core-i18n/en/infobox_properties_en.ttl.bz2
 [dbp-c]: http://downloads.dbpedia.org/2015-10/core-i18n/en/article_categories_en.ttl.bz2
 [dbp-s]: http://downloads.dbpedia.org/2015-10/core-i18n/en/skos_categories_en.ttl.bz2
-[dbp-p]: http://downloads.dbpedia.org/2015-10/core-i18n/en/instance_types_en.ttl.bz2
+[dbp-t]: http://downloads.dbpedia.org/2015-10/core-i18n/en/instance_types_en.ttl.bz2
 [dbpedia-infobox]: http://wiki.dbpedia.org/services-resources/documentation/datasets#infoboxproperties
 [dbpedia-mapping]: http://wiki.dbpedia.org/services-resources/documentation/datasets#mappingbasedliterals
 [dbpedia-article]: http://wiki.dbpedia.org/services-resources/documentation/datasets#articlecategories
