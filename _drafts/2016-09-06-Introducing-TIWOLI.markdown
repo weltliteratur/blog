@@ -6,22 +6,25 @@ comments: true
 date: 2016-09-06
 ---
 
-(This could become a whole new series: "**Fancy by-products of Digital Humanities research projects**"…)
+(This could become a whole new series: **Fancy by-products of Digital Humanities research projects…**)
 
 Why don't we jump right into it and name five famous days that world literature has come up with:
 
-1. On which day unfolds the plot of James Joyce's "Ulysses"? Of course, [Bloomsday](https://en.wikipedia.org/wiki/Bloomsday), [Lá Bloom](https://ga.wikipedia.org/wiki/L%C3%A1_Bloom). June 16!
+- On which day unfolds the plot of James Joyce's "Ulysses"? (Of course, [Bloomsday](https://en.wikipedia.org/wiki/Bloomsday), [Lá Bloom](https://ga.wikipedia.org/wiki/L%C3%A1_Bloom). June 16!)
 
-Now it gets trickier. Most people will know that these things did happen, fictionally, but won't typically have the dates in mind, let's check:
+Easy enough, yet the world beyond this über-day of world literature is trickier. Most people will know about the fictional events we're ging to itemise, but won't typically have the exact dates in mind, let's check:
 
-2. When, on which day, did Robinson Crusoe set foot on his island? (September 30) On which day he returns to England eventually, after 35 years of absence? (June 11)
-3. When is the deadline for Phileas Fogg's travel around the earth in eighty days? (December 21)
-4. What's Tristram Shandy's birthday? (November 5) – Funny enough, there still seem to be [people drinking to Tristram Shandy's health](http://edwardiansisterhood.blogspot.de/2009/11/hill-times.html).
-5. On what day did Charlie visit the Chocolate Factory? (February 1) – Especially interesting to note that [in the 1971 movie](https://en.wikipedia.org/wiki/Willy_Wonka_%26_the_Chocolate_Factory), the golden ticket points to "the first day of October", for whatever reason.
+- When, on which day, did Robinson Crusoe set foot on his island? (September 30) On which day he eventually returned to England, after 35 years of absence? (June 11)
+- When is the deadline for Phileas Fogg's travel around the earth in eighty days? (December 21)
+- What's Tristram Shandy's birthday? (November 5) – Funny enough, there still seem to be [people drinking to Tristram Shandy's health](http://edwardiansisterhood.blogspot.de/2009/11/hill-times.html).
+- When did Goethe's "Young Werther" commit suicide? (December 21)
+- On what day did Charlie visit the Chocolate Factory? (February 1) – Especially interesting to note here that [in the 1971 movie](https://en.wikipedia.org/wiki/Willy_Wonka_%26_the_Chocolate_Factory), the golden ticket refers to "the first day of October", for whatever reason.
 
-This should be sufficient to introduce our subject, which is famous days in world-literary fiction.
+Our subject is hereby introduced, **(in)famous days in world-literary fiction**.
 
-At the DH2015 conference in Sydney we delivered a talk on the question "When does (German) literature take place?" ([slides](http://dbs.ifi.uni-heidelberg.de/fileadmin/Team/jannik/publications/dh2015-sydney-fischer-stroetgen-german-literature-slides.pdf)) In order to answer that unheard-of question, we extracted exact dates and months from a corpus of 2.700+ works of German-language fiction from 1510 to the 1940s. Our results showed that "the marvellous month of May" is preeminent in our German corpus, but we presented many other findings at the conference, and a more in-depth paper will follow shortly. Anyway, as a by-product, we coded a native Android app to showcase the best of our findings. The app is called "Tiwoli" (short for "Today in World Literature") and is **[available on the Google Play Store](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. (There's also a version for iOS, done by our friend Thomas Bögel, but updates will kick in a bit slower on that platform.)
+How did this come about? – At the DH2015 conference in Sydney we delivered a talk on the question "When does (German) literature take place?" ([slides](http://dbs.ifi.uni-heidelberg.de/fileadmin/Team/jannik/publications/dh2015-sydney-fischer-stroetgen-german-literature-slides.pdf)) In order to answer that unheard-of question, we extracted exact dates and months from a corpus of 2.700+ works of German-language fiction from 1510 to the 1940s. Our results suggested that "the marvellous month of May" is preeminent in our corpus of German fiction. There is enough evidence to claim that May (at least in the Northern hemisphere) is the favourite month of poets, and Heinrich Heine (whom we quoted earlier on his "marvellous month") is just one example. But May's preeminence in prose was a real finding and there are a whole bunch of explanations, but this (along with many other insights yielded by this whole date-extraction-from-fiction business) shall happen in the corresponding research paper, not here.
+
+Anyway, as a by-product (and no more than that), we coded a native Android app to showcase the more exciting and self-explanatory of our results. We called our app **TIWOLI** (short for "Today in World Literature") and made it **[available via the Google Play Store](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. (There's also a version for iOS, done by our friend Thomas Bögel, but updates will kick in a bit slower on that platform.)
 
 Now what TIWOLI does is give you the opportunity to zigzag through an entire world-literary year, a calendar filled with fictional happenings. Here some screenshots with some of the examples from above:
 
@@ -35,18 +38,18 @@ Now what TIWOLI does is give you the opportunity to zigzag through an entire wor
 </div>
 <div style="clear:left;" />
 
-That way, you can browse through this righteous calendar of world literature. We're currently curating three corpora for the app, an English one, a German and a Spanish one. In some cases, you can even switch between translations of one and the same passage (but this is an exception, our corpora are very different per language). Let us give you a 1st of January example, from Balzac's novel "Eugénie Grandet":
+We're currently curating three corpora for the app, an **English**, a **Spanish** and a **German** one. In some cases, you can even switch between translations of one and the same passage (not in all cases, though, the contents of our corpora are very different per language). This is a 1st of January example from Balzac's novel "Eugénie Grandet":
 
 <div id="tiwoligallery">
  <ul>
   <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-en-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-es-01-01-balzac-eugenia" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-de-01-01-balzac-eugenie" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-es-01-01-balzac-eugenia.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-de-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
 
-The interface was also translated into these languages (it will fall back to English if your system language is not matched). Here are the three versions of our welcome screen, plus the English version of the settings page:
+The interface was also translated into the three languages (it will fall back to English if your system language cannot be matched). Here are the three versions of our welcome screen, plus the English version of the settings page:
 
 <div id="tiwoligallery">
  <ul>
@@ -58,7 +61,7 @@ The interface was also translated into these languages (it will fall back to Eng
 </div>
 <div style="clear:left;" />
 
-If you like you can set the alarm to be alerted with a fictional event that happened that day.
+If you like you can set the alarm so it informs you about fictional events that "happened" on the current day.
 
 It was not all that easy to fill up a whole year with suitable quotes for every day. To replenish the English corpus with nice enough quotes we are very grateful to Mark Algee-Hewitt and the Stanford Literary Lab who helped us out with their corpus of English-language fiction. Let's give you some more:
 
@@ -84,7 +87,7 @@ For each corpus, the app contains quotes from translated world-literary works, t
 </div>
 <div style="clear:left;" />
 
-The dates in the Russian calendar point to the Julian calendar, of course (which in the 19th century was 12 days behind the Gregorian). Some more translated literature:
+The dates from the Russian 19th-century novels point to the Julian calendar, of course (which was 12 days behind the Gregorian back then). Some more translated literature:
 
 <div id="tiwoligallery">
  <ul>
@@ -96,7 +99,7 @@ The dates in the Russian calendar point to the Julian calendar, of course (which
 </div>
 <div style="clear:left;" />
 
-For every quote we provide a link to the full-text source (gutenberg.org, gutenberg.net.au, archive.org, books.google.com, …). Epitexts and links/metadata are generated automatically. The portraits/pictures were not chosen by us, we're relying on the 'principal image' provided by Wikidata, a great way to easily enrich an app. Let's give you the Defoe examples from above, accompanied (for the sake of rhyming names) by Poe:
+For every quote we provide a link to the full-text source (gutenberg.org, gutenberg.net.au, archive.org, books.google.com, …). Epitexts and links/metadata are generated automatically. The portraits/pictures were not chosen by us, we're relying on the 'principal image' provided by Wikidata, a great way to easily enrich an app. Let's give you the Defoe examples from above, accompanied by Poe (for the sake of rhyming names):
 
 <div id="tiwoligallery">
  <ul>
@@ -108,7 +111,7 @@ For every quote we provide a link to the full-text source (gutenberg.org, gutenb
 </div>
 <div style="clear:left;" />
 
-Some more German literature in translation:
+Some more German literature in translation, including the aforementioned destiny of storm-and-stressy Werther:
 
 <div id="tiwoligallery">
  <ul>
@@ -120,7 +123,7 @@ Some more German literature in translation:
 </div>
 <div style="clear:left;" />
 
-The first ones are from Fontane's "Effi Briest", a somewhat German version of "Madame Bovary". The second quote alludes to Effi's and Instetten's wedding which coincides with the national day of Germany (not a good omen, given the outcome of the novel 😇).
+The first two quotes are from Fontane's "Effi Briest", in many respects the righteous German counterpart to "Madame Bovary". The second quote alludes to Effi's and Instetten's wedding which coincides with the national day of Germany (not a good omen, given the tragic outcome of the novel 😇).
 
 Four last examples from the English corpus:
 
@@ -134,7 +137,9 @@ Four last examples from the English corpus:
 </div>
 <div style="clear:left;" />
 
-We also harvested some newer books as you can see in the Auster example below (the picture is not the best, somebody should upload a better one to Wikimedia Commons). There's also one more Brontë quote and two nice quotes from the time-travel novel by Bellamy (where times and dates are the actual sujet):
+The last quote, from "Jekyll &amp; Hyde", is interesting insofar as it can be regarded a mistake by the author that went into several print editions ([see here](https://books.google.com/books?id=sk7zCQAAQBAJ&pg=PA64), for example).
+
+We also harvested some newer books as you can see in the Auster example below (the picture is not the best, but somebody might upload a better one to Wikimedia Commons someday). There's also one more Brontë quote and two nice quotes from the time-travel novel by Bellamy (where times and dates are the actual sujet):
 
 <div id="tiwoligallery">
  <ul>
@@ -146,7 +151,7 @@ We also harvested some newer books as you can see in the Auster example below (t
 </div>
 <div style="clear:left;" />
 
-Let's sneak a peek at the Spanish corpus. You can easily switch to the other corpora at any point from within the app.
+Now let's sneak a peek at the Spanish corpus. You can easily switch to the other corpora at any point from within the app.
 
 <div id="tiwoligallery">
  <ul>
@@ -158,7 +163,7 @@ Let's sneak a peek at the Spanish corpus. You can easily switch to the other cor
 </div>
 <div style="clear:left;" />
 
-We can also follow the chronology Borges' "La muerte y la brújula" ("Death and the Compass"):
+We can also follow the chronology of Borges' cuento "La muerte y la brújula" ("Death and the Compass"):
 
 <div id="tiwoligallery">
  <ul>
@@ -194,9 +199,9 @@ On to the German corpus:
 </div>
 <div style="clear:left;" />
 
-The first one is probably one of the most famous first sentences. In the second one, Schnitzler's Leutnant Gustl is pondering his destiny on 4th of april, resulting in **not** killing himself. In the third one, the government of the Martian States takes over control of the Earth, because the earthlings are not capable of maintaining peace (the author of the passage, Kurd Lasswitz, can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a 'meta' 'way, as a combination of a printed number and a word, which serve as intellectual nourishment for the imprisoned intellectual.
+The first one, from Georg Büchner's novella fragment "Lenz", is probably one of the most famous first sentences. In the second one, Schnitzler's "Leutnant Gustl" is pondering his destiny on 4th of april, resulting in **not** killing himself. In the third one, the government of the Martian States takes control over our planet, because we earthlings are not capable of maintaining peace (the author of the passage, Kurd Lasswitz, can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a 'meta' 'way, as a combination of a printed number and a word, which serves as intellectual nourishment for the imprisoned intellectual.
 
-We already featured Fontane with some passages transalted to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure that anyone has looked into that yet:
+We already featured Fontane with some passages translated to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure if anyone has looked into that yet:
 
 <div id="tiwoligallery">
  <ul>
@@ -207,7 +212,7 @@ We already featured Fontane with some passages transalted to English. But what i
 </div>
 <div style="clear:left;" />
 
-Fitfully, we would included some quote from contemporary fiction. The given sources contain page numbers as they point to actual books:
+Fitfully, we would include some quote from contemporary fiction. The given sources contain page numbers as they point to print editions of the works:
 
 <div id="tiwoligallery">
  <ul>
@@ -230,9 +235,9 @@ Some more:
 </div>
 <div style="clear:left;" />
 
-The first quote from the 1972 novel points to a future date, 7th of October, 2014. At least one major newspaper published an article about this fictional event two years ago (German weekly "Die Zeit": ["The story starts now."](http://www.zeit.de/2014/43/arno-schmidt-tellingstedt-die-schule-der-atheisten)), spot on.
+The first quote from Arno Schmidt's 1972 novel ["The School for Atheists"](https://en.wikipedia.org/wiki/The_School_for_Atheists) points to a future date, 7th of October, 2014. When we traversed this point in time two years ago, at least one major newspaper published an article about this long-imminent event (German weekly "Die Zeit": ["The story starts now."](http://www.zeit.de/2014/43/arno-schmidt-tellingstedt-die-schule-der-atheisten)).
 
-How about Jean Paul, May lover:
+How about Jean Paul, the greatest of all May lovers:
 
 <div id="tiwoligallery">
  <ul>
@@ -243,7 +248,7 @@ How about Jean Paul, May lover:
 </div>
 <div style="clear:left;" />
 
-And last ot least, some christmas quotes:
+And last not least, some Christmas quotes:
 
 <div id="tiwoligallery">
  <ul>
@@ -254,11 +259,15 @@ And last ot least, some christmas quotes:
  </ul>
 </div>
 
-Uh-oh, this turned out to be a BuzzFeed-like uber post, far too long with far too many pics.
+(Admittedly, this turned out to be a BuzzFeed-like über-post, far too long with far too many pics.)
 
-Anyway, what did our research tell us? Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", "on a warm summer night", etc. But exact dates do occur, of course. And if they do, they have a tendency to mean something. (Mind you, epistolary and historic novels are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins, Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
+So much for our app, TIWOLI. Also if it wasn't part of our original research, it helped to sharpen our notion of dates and month names in fictional texts.. Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", ["It was a dark and stormy night"](https://en.wikipedia.org/wiki/It_was_a_dark_and_stormy_night), etc. But sometimes exact dates do occur, of course. And if they do, they have a tendency to mean something. (Mind you, epistolary and historic novels are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins, Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
 
-By the way, there's an easter-egg somewhere in the app. Whoever finds it first, is our hero/ine!
+We also have two cliffhangers for you:
+
+1. The Cologne Center for eHumanities ([CCeH](http://www.cceh.uni-koeln.de/)) is currently building a web interface with our data. Prototypes look very promising.
+
+2. There's an easter egg somewhere in the app. Whoever finds it first, is our hero/ine!
 
 
 
