@@ -27,16 +27,36 @@ Now what TIWOLI does is give you the opportunity to zigzag through an entire wor
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-16-joyce-ulysses" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-01-dahl-charlie" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-05-sterne-tristram" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-21-verne-eighty" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-en-06-16-joyce-ulysses.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-en-02-01-dahl-charlie.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-en-11-05-sterne-tristram.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="http://weltliteratur.net/images/tiwoli/tiwoli-en-12-20-verne-eighty.png" alt="Screenshot from TIWOLI app."></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
 
-That way, you can browse through this righteous calendar of world literature. We're currently curating three corpora for the app, an English one, a German and a Spanish one. The interface was also translated into these languages (it will reset to English if your system language is not matched). Here are the three versions of our welcome screen, plus the English version of the settings page:
+That way, you can browse through this righteous calendar of world literature. We're currently curating three corpora for the app, an English one, a German and a Spanish one. In some cases, you can even switch between translations of one and the same passage (but this is an exception, our corpora are very different per language). Let us give you a 1st of January example, from Balzac:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-01-01-balzac-eugenia" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-01-balzac-eugenie" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
+
+The interface was also translated into these languages (it will reset to English if your system language is not matched). Here are the three versions of our welcome screen, plus the English version of the settings page:
+
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-welcome
 tiwoli-bienvenido
 tiwoli-willkommen
@@ -46,6 +66,15 @@ If you like you can set the alarm to be alerted with a fictional event that happ
 
 It was not that easy to fill up a whole year with quotes for every day. To replenish the English corpus with nice enough quotes we are very grateful to Mark Algee-Hewitt and the Stanford Literary Lab who helped us out with their corpus of English-language fiction. Let's give you some more:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-01-15-bronte-jane-eyre
 tiwoli-en-02-01-twain-wilson
 tiwoli-en-02-22-fitzgerald-beautiful
@@ -53,6 +82,15 @@ tiwoli-en-03-04-doyle-scarlet
 
 For each corpus, the app contains quotes from translated world-literary works, too:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-03-16-novalis-ofterdingen
 tiwoli-en-03-25-hugo-hunchback
 tiwoli-en-04-07-gogol-nose
@@ -60,6 +98,15 @@ tiwoli-en-05-20-turgenev-fathers
 
 The dates in the Russian calendar point to the Julian calendar, of course (which in the 19th century was 12 days behind the Gregorian). Some more translated literature:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-06-12-hamsun-mysteries
 tiwoli-en-07-05-voltaire-micromegas
 tiwoli-en-07-27-zweig-chess
@@ -67,6 +114,15 @@ tiwoli-en-09-23-hoffmann-pot
 
 For every quote we provide a link to the full-text source (gutenberg.org, gutenberg.net.au, archive.org, books.google.com, …). Epitexts and links/metadata are generated automatically. The portraits/pictures were not chosen by us, we're relying on the 'principal image' provided by Wikidata, a great way to easily enrich an app. Let's give you the Defoe examples from above, accompanied (for the sake of rhyming names) by Poe:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-06-22-poe-roget
 tiwoli-en-07-10-poe-maelstrom
 tiwoli-en-09-30-defoe-robinson
@@ -74,6 +130,15 @@ tiwoli-en-12-19-defoe-robinson
 
 Some more German literature in translation:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-09-27-fontane-effi
 tiwoli-en-10-03-fontane-effi
 tiwoli-en-10-30-hoffmann-sandman
@@ -83,6 +148,15 @@ The first ones are from Fontane's "Effi Briest", a somewhat German version of "M
 
 Four last examples from the English corpus:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-07-31-shelley-frankenstein
 tiwoli-en-11-02-eliot-bede
 tiwoli-en-11-09-wilde-dorian
@@ -90,6 +164,15 @@ tiwoli-en-12-10-stevenson-hyde
 
 We also harvested some newer books as you can see in the Auster example below (the picture is not the best, somebody should upload a better one to Wikimedia Commons). There's also one more Bronttë quote and two nice quotes from the time-travel novel by Bellamy (where times and dates are the actual sujet):
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-en-03-20-bronte-heights
 tiwoli-en-05-19-auster-glass
 tiwoli-en-05-30-bellamy-2000
@@ -97,6 +180,15 @@ tiwoli-en-09-10-bellamy-2000
 
 Let's sneak a peek at the Spanish corpus. You can easily switch to the other corpora at any point from within the app.
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-es-04-22-valera-pepita
 tiwoli-es-06-15-caballero-gaviota
 tiwoli-es-07-12-baroja-silvestre
@@ -104,6 +196,15 @@ tiwoli-es-07-20-cervantes-quijote
 
 We can also follow the chronology Borges' "La muerte y la brújula" ("Death and the Compass"):
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-es-12-03-borges-brujula
 tiwoli-es-01-03-borges-brujula
 tiwoli-es-02-03-borges-brujula
@@ -111,6 +212,15 @@ tiwoli-es-03-01-borges-brujula
 
 Some last Spanish examples:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-es-02-28-dumas-montecristo
 tiwoli-es-12-21-goethe-werther
 tiwoli-es-10-11-marquez-soledad
@@ -118,6 +228,15 @@ tiwoli-es-12-31-aira-fantasmas
 
 On to the German corpus:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-de-01-20-buechner-lenz
 tiwoli-de-04-04-schnitzler-gustl
 tiwoli-de-04-12-lasswitz-planeten
@@ -127,13 +246,31 @@ The first one is probably one of the most famous first sentences. In the second 
 
 Fitfully, we would included some quote from contemporary fiction. The given sources contain page numbers as they point to actual books:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-de-07-19-zeh-unterleuten
 tiwoli-de-07-23-goetz-holtrop
 tiwoli-de-08-15-werner-abgang
-tiwoli-de-09-19-enzensberger-robert
+tiwoli-de-12-12-enzensberger-robert
 
 Some more:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-de-10-07-schmidt-atheisten
 tiwoli-de-10-12-stein-rabbi
 tiwoli-de-11-09-richter-gran-via
@@ -142,6 +279,15 @@ The first quote from the 1972 novel points to a future date, 7th of October, 201
 
 How about Jean Paul, May lover:
 
+<div id="tiwoligallery">
+ <ul>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+ </ul>
+</div>
+<div style="clear:left;" />
 tiwoli-de-05-01-jean-paul-hesperus
 tiwoli-de-05-03-jean-paul-quintus
 tiwoli-de-05-16-jean-paul-quintus
@@ -155,7 +301,7 @@ tiwoli-de-12-24-mann-buddenbrooks
 
 Uh-oh, this turned out to be a BuzzFeed-like uber post, far too long with far too many pics.
 
-Anyway, what did our research tell us? Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", "on a warm summer night", etc. But exact dates do occur, of course. And if they do, they have a tendency to mean something. (Mind you, epistolary and historic novels are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins, Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. ;-)
+Anyway, what did our research tell us? Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", "on a warm summer night", etc. But exact dates do occur, of course. And if they do, they have a tendency to mean something. (Mind you, epistolary and historic novels are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins, Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
 
 By the way, there's an easter-egg somewhere in the app. Whoever finds it first, is our hero/ine!
 
@@ -163,8 +309,10 @@ By the way, there's an easter-egg somewhere in the app. Whoever finds it first, 
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/…" alt="Screenshot from TIWOLI app."><figcaption>Neuber, Friederike Caroline <br />(1697–1760)</figcaption></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/…" alt="Screenshot from TIWOLI app."><figcaption>Bodmer, Johann Jacob <br />(1698–1783)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/.png" alt="Screenshot from TIWOLI app."></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
