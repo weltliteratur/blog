@@ -628,3 +628,20 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
 	}
 
 }
+
+/* TIWOLI Gallery stuff, added on Sep 6, 2016 */
+#tiwoligallery ul {list-style-type:none;}
+#tiwoligallery ul li {
+    float:left;
+    width:25%;
+    border:0px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#tiwoligallery figcaption {
+    font-size:0.6em;
+    font-style:normal;
+}
+#tiwoligallery img {height: 150px;}
+
