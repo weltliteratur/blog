@@ -72,6 +72,15 @@ authors:
     twitter:
     github: ubbo
     description: "Den Code dokumentieren wir später."
+  jannik:
+    name: Jannik Strötgen
+    display_name: Jannik
+    gravatar: 
+    email: jannik.stroetgen@mpi-inf.mpg.de
+    web: https://people.mpi-inf.mpg.de/~jstroetge/
+    twitter: jannikstroetgen
+    github: JannikStroetgen
+    description: Researcher at Max Planck Institute for Informatics.
 
 paginate:         10
 
