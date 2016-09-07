@@ -103,10 +103,10 @@ For every quote we provide a link to the full-text source (gutenberg.org, gutenb
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-22-poe-roget.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-10-poe-maelstrom.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-30-defoe-robinson.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-19-defoe-robinson.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-22-poe-roget.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/2147">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-10-poe-maelstrom.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://en.wikisource.org/wiki/Tales_(Poe)/A_Descent_into_the_Maelstr%C3%B6m">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-30-defoe-robinson.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/521">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-19-defoe-robinson.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/521">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -115,10 +115,10 @@ Some more German literature in translation, including the aforementioned destiny
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-27-fontane-effi.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-10-03-fontane-effi.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-10-30-hoffmann-sandman.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-21-goethe-werther.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-27-fontane-effi.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://archive.org/stream/EffiBriest/fontane_theodor_1819_1898_effi_briest#page/n91/mode/2up">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-10-03-fontane-effi.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://archive.org/stream/EffiBriest/fontane_theodor_1819_1898_effi_briest#page/n31/mode/2up">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-10-30-hoffmann-sandman.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/32046">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-21-goethe-werther.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/2527">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -129,10 +129,10 @@ Four final examples from the English corpus:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-31-shelley-frankenstein.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-02-eliot-bede.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-09-wilde-dorian.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-10-stevenson-hyde.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-31-shelley-frankenstein.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/84">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-02-eliot-bede.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/507">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-09-wilde-dorian.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/174">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-10-stevenson-hyde.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/43">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -143,10 +143,10 @@ We also harvested some newer books as you can see in the Auster example below (t
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-20-bronte-heights.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-19-auster-glass.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-30-bellamy-2000.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-10-bellamy-2000.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-20-bronte-heights.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/768">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-19-auster-glass.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://books.google.com/books?id=VRfe-QG_ls4C&pg=PA10">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-30-bellamy-2000.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/624">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-10-bellamy-2000.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/624">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -155,10 +155,10 @@ Now let's sneak a peek at the Spanish corpus. You can easily switch to the other
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-04-22-valera-pepita.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-06-15-caballero-gaviota.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-07-12-baroja-silvestre.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-07-20-cervantes-quijote.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-04-22-valera-pepita.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://es.wikisource.org/wiki/Pepita_Jim%C3%A9nez:_08">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-06-15-caballero-gaviota.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://es.wikisource.org/wiki/La_gaviota_(Caballero):_17">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-07-12-baroja-silvestre.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://oreneta.com/kalebeul/2006/06/14/silvester-paradox-meets-mr-macbeth/">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-07-20-cervantes-quijote.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://cvc.cervantes.es/literatura/clasicos/quijote/edicion/parte2/cap36/default.htm">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -167,10 +167,10 @@ We can also follow the chronology of Borges' cuento "La muerte y la brújula" ("
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-03-borges-brujula.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-01-03-borges-brujula.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-02-03-borges-brujula.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-03-01-borges-brujula.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-03-borges-brujula.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.literatura.us/borges/lamuerte.html">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-01-03-borges-brujula.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.literatura.us/borges/lamuerte.html">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-02-03-borges-brujula.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.literatura.us/borges/lamuerte.html">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-03-01-borges-brujula.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.literatura.us/borges/lamuerte.html">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -179,10 +179,10 @@ Some concluding Spanish examples:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-02-28-dumas-montecristo.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-21-goethe-werther.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-10-11-marquez-soledad.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-31-aira-fantasmas.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-02-28-dumas-montecristo.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://es.wikisource.org/wiki/El_conde_de_Montecristo:_1-15">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-21-goethe-werther.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://ciudadseva.com/texto/werther/">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-10-11-marquez-soledad.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://mgarci.aas.duke.edu/cibertextos/EDICIONES-BILINGUES/GARCIA-MARQUEZ-G/CIEN-ANOS-SOLEDAD/CAP13.HTM">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-12-31-aira-fantasmas.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://books.google.com/books?id=LJPxQvuMd-oC&pg=PA7">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -191,10 +191,10 @@ On to the German corpus:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-20-buechner-lenz.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-04-schnitzler-gustl.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-12-lasswitz-planeten.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-27-zweig-schachnovelle.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-20-buechner-lenz.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.zeno.org/Literatur/M/B%C3%BCchner,+Georg/Erz%C3%A4hlung/Lenz">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-04-schnitzler-gustl.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/5342/1">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-12-lasswitz-planeten.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3118/50">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-27-zweig-schachnovelle.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/7318/2">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -205,9 +205,9 @@ We already featured Fontane with some passages translated to English. But what i
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-birnbaum.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-effi.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-stechlin.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-birnbaum.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/4437/20">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-effi.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/4446/5">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-03-fontane-stechlin.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/4434/2">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -216,10 +216,10 @@ Fitfully, we included some quotations from contemporary fiction. The given sourc
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-19-zeh-unterleuten.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-23-goetz-holtrop.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-08-15-werner-abgang.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-12-enzensberger-robert.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-19-zeh-unterleuten.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/1078450226">source</a>, p. 287)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-23-goetz-holtrop.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/1017662762">source</a>, p. 275)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-08-15-werner-abgang.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/840734891">source</a>, p. 116)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-12-enzensberger-robert.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/954601262">source</a>, p. 31)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -228,9 +228,9 @@ Some more:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-07-schmidt-atheisten.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-12-stein-rabbi.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-11-09-richter-gran-via.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-07-schmidt-atheisten.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/942534050">source</a>, p. 11)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-10-12-stein-rabbi.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/1045299928">source</a>, pp. 72)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-11-09-richter-gran-via.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/1008856525">source</a>, p. 144)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -241,9 +241,9 @@ How about Jean Paul, the greatest of all May lovers:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-01-jean-paul-hesperus.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-03-jean-paul-quintus.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-16-jean-paul-quintus.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-01-jean-paul-hesperus.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3193/6">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-03-jean-paul-quintus.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3209/31">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-16-jean-paul-quintus.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3209/34">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -252,10 +252,10 @@ And last not least, some Christmas quotes:
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-droste-huelshoff-judenbuche.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-hesse-unterm-rad.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-hoffmann-nussknacker-und-mausekoenig.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-mann-buddenbrooks.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-droste-huelshoff-judenbuche.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/2837/7">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-hesse-unterm-rad.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/1025308913">source</a>, p. 204)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-hoffmann-nussknacker-und-mausekoenig.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3083/1">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-12-24-mann-buddenbrooks.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://d-nb.info/970666128">source</a>, p. 582)</figcaption></figure></li>
  </ul>
 </div>
 
