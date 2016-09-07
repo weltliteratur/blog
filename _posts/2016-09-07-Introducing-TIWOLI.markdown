@@ -30,10 +30,10 @@ Now what TIWOLI does is give you the opportunity to zigzag through an entire wor
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-16-joyce-ulysses.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-01-dahl-charlie.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-05-sterne-tristram.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-20-verne-eighty.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-16-joyce-ulysses.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/4300">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-01-dahl-charlie.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://books.google.com/books?id=v7WeJp2CU-QC&pg=PT55">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-11-05-sterne-tristram.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/1079">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-12-20-verne-eighty.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/103">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
