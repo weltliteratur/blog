@@ -1,5 +1,5 @@
 ---
-title: Introducing TIWOLI: Today in World Literature, a Calendar App of Fictional Events
+title: Introducing TIWOLI ("Today in World Literature"), a Calendar App of Fictional Events
 layout: post
 author: [frank, jannik]
 comments: true
