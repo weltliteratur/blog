@@ -47,7 +47,8 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   34. The Chainsmokers: Don't Let Me Down &middot; ([youtube](https://www.youtube.com/watch?v=1Oezjm6Mmm8))
   35. Fortuna Ehrenfeld: Ein analoges Mädchen
   36. Wild Beasts: Get My Bang &middot; ([youtube](https://www.youtube.com/watch?v=8nkdZhFzglA))
-
+  37. Bon Iver: 10 d E A T h b R E a s T ⚄ ⚄ &middot; ([youtube](https://www.youtube.com/watch?v=HNy7VtSsmu8))
+  38. James Blake: I Need a Forest Fire &middot; ([youtube](https://www.youtube.com/watch?v=sAJgs1P-uUE))
 
 ## Update History
 
@@ -59,3 +60,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - June 22, 2016: Added 29–30.
   - July 2, 2016: Added 31–33. Added (youtube) to 16.
   - July 27, 2016: Added 34–36.
+  - September 7, 2016: Added 37–38.
