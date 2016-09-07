@@ -8,7 +8,7 @@ date: 2016-09-07
 
 (This could become a whole new series: **Fancy by-products of Digital Humanities research projects…**)
 
-Why don't we jump right into it and name five famous days in world literature:
+Why don't we jump right into it and name seven famous days in world literature:
 
 - The day of James Joyce's "Ulysses"? (Of course, [Bloomsday](https://en.wikipedia.org/wiki/Bloomsday), [Lá Bloom](https://ga.wikipedia.org/wiki/L%C3%A1_Bloom), June 16!)
 
@@ -22,7 +22,7 @@ That is an easy start, but the world beyond this über-day of world literature i
 
 So this is the subject of our blogpost, **(in)famous days in world-literary fiction**.
 
-How did this come about? At the DH2015 conference in Sydney, we delivered a talk called "When does (German) literature take place?" ([slides](http://dbs.ifi.uni-heidelberg.de/fileadmin/Team/jannik/publications/dh2015-sydney-fischer-stroetgen-german-literature-slides.pdf)) In order to answer that unusual question, we extracted exact dates and months from a corpus of 2,700+ works of German-language fiction from 1510 to the 1940s. Our results suggested that ["the marvellous month of May"](https://de.wikisource.org/wiki/Im_wundersch%C3%B6nen_Monat_Mai) (Heinrich Heine) is preeminent in our corpus of German fiction. There is enough evidence to claim that May (at least in the northern hemisphere) is the favourite month of poets, and Heine is just one example. But May's preeminence in prose was a real finding and there are a bunch of explanations, but this (along with many other insights yielded by this whole date-extraction-from-fiction business) shall happen in the corresponding research paper, not here.
+How did this come about? At the annual ADHO Digital Humanities conference 2015 ([DH2015](http://dh2015.org/)) in Sydney, we delivered a talk called "When does (German) literature take place?" ([slides](http://dbs.ifi.uni-heidelberg.de/fileadmin/Team/jannik/publications/dh2015-sydney-fischer-stroetgen-german-literature-slides.pdf)) In order to answer that unusual question, we extracted exact dates and months from a corpus of 2,700+ works of German-language fiction from 1510 to the 1940s. Our results suggested that ["the marvellous month of May"](https://de.wikisource.org/wiki/Im_wundersch%C3%B6nen_Monat_Mai) (Heinrich Heine) is preeminent in our corpus of German fiction. There was already enough evidence to claim that May is the favourite month of poets (at least in the northern hemisphere), and Heine is just one example. But May's preeminence in prose was a real finding and there are a bunch of explanations, but this (along with many other insights yielded by this whole date-extraction-from-fiction business) shall happen in the corresponding research paper, not here.
 
 As a by-product (and no more than that), we coded a native Android app to showcase the more exciting and self-explanatory of our results. We called our app **TIWOLI** (short for "Today in World Literature") and made it **[available via the Google Play Store](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. (There's also a version for iOS, done by our dear friend [Thomas Bögel](http://thboegel.de/), but updates will kick in a bit slower on that platform.)
 
@@ -163,7 +163,7 @@ Now let's sneak a peek at the Spanish corpus. You can easily switch to the other
 </div>
 <div style="clear:left;" />
 
-We can also follow the chronology of Borges' cuento "La muerte y la brújula" ("Death and the Compass"):
+We can also follow the chronology of Borges' cuento "La muerte y la brújula" (["Death and the Compass"](https://en.wikipedia.org/wiki/Death_and_the_Compass)):
 
 <div id="tiwoligallery">
  <ul>
@@ -187,21 +187,21 @@ Some concluding Spanish examples:
 </div>
 <div style="clear:left;" />
 
-On to the German corpus:
+On to the German-language corpus:
 
 <div id="tiwoligallery">
  <ul>
   <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-20-buechner-lenz.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://www.zeno.org/Literatur/M/B%C3%BCchner,+Georg/Erz%C3%A4hlung/Lenz">source</a>)</figcaption></figure></li>
   <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-04-schnitzler-gustl.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/5342/1">source</a>)</figcaption></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-04-12-lasswitz-planeten.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/3118/50">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-05-12-lasswitz-planeten.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/8473/17">source</a>)</figcaption></figure></li>
   <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-07-27-zweig-schachnovelle.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/7318/2">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
 
-The first one, from Georg Büchner's novella fragment "Lenz", is probably one of the most famous first sentences. In the second one, Schnitzler's "Leutnant Gustl" is pondering his destiny on 4th of April, resulting in **not** killing himself. In the third one, the government of the Martian States takes control over our planet, because we earthlings are not capable of maintaining peace (the author of the passage, Kurd Lasswitz, can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a "meta" way, as a combination of a printed number and a word, which serves as intellectual nourishment for the imprisoned intellectual.
+The first quotation, from Georg Büchner's novella fragment ["Lenz"](https://en.wikipedia.org/wiki/Lenz_(fragment)), is probably one of the most famous first sentences. On the second screenshot, Schnitzler's ["Leutnant Gustl"](http://www.encyclopedia.com/article-1G2-3408300617/none-but-brave-leutnant.html) is pondering his destiny on 4th of April, resulting in **not** killing himself. On the third one, the government of the Martian States takes control over our planet, because we earthlings are not capable of maintaining peace (the author of the passage, [Kurd Lasswitz](https://en.wikipedia.org/wiki/Kurd_Lasswitz), can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a "meta" way, as a combination of a printed number and a word, which serves as intellectual nourishment for the imprisoned intellectual.
 
-We already featured Fontane with some passages translated to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure if anyone has looked into that yet:
+We already featured Theodor Fontane with some passages translated to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure if anyone has looked into that yet:
 
 <div id="tiwoligallery">
  <ul>
@@ -259,12 +259,9 @@ And last not least, some Christmas quotes:
  </ul>
 </div>
 
-(Admittedly, this turned out to be a BuzzFeed-like über-post, far too long with far too many pics.)
+So much for our app, TIWOLI. Also if it wasn't part of our original research, it helped to sharpen our notion of dates and month names in fictional texts. Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", ["It was a dark and stormy night"](https://en.wikipedia.org/wiki/It_was_a_dark_and_stormy_night), etc. But sometimes exact dates do occur, of course. And if they do, they have a tendency to mean something. (Unless, of course, they occur in epistolary, adventure or historical novels which are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins. Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
 
-So much for our app, TIWOLI. Also if it wasn't part of our original research, it helped to sharpen our notion of dates and month names in fictional texts. Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", ["It was a dark and stormy night"](https://en.wikipedia.org/wiki/It_was_a_dark_and_stormy_night), etc. But sometimes exact dates do occur, of course. And if they do, they have a tendency to mean something. (Mind you, epistolary and historic novels are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins, Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
+Before we conclude this admittedly BuzzFeed-like über-post with far too many pics we have two cliffhangers for you:
 
-We also have two cliffhangers for you:
-
-1. The Cologne Center for eHumanities ([CCeH](http://www.cceh.uni-koeln.de/)) is currently building a web interface with our data. Prototypes look very promising.
-
-2. There's an easter egg somewhere in the app. Whoever finds it first is our hero/ine!
+- The Cologne Center for eHumanities ([CCeH](http://www.cceh.uni-koeln.de/)) is currently building a web interface with our data. Prototypes look very promising.
+- There's an **easter egg** somewhere in the app. Whoever finds it first is our hero/ine!
