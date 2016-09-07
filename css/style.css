@@ -640,8 +640,13 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     margin-bottom:20px;
 }
 #tiwoligallery figcaption {
-    font-size:0.6em;
-    font-style:normal;
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+    text-transform: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
 }
 #tiwoligallery img {width: 225px; height: 400px;}
 
