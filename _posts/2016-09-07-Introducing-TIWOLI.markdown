@@ -38,7 +38,7 @@ Now what TIWOLI does is give you the opportunity to zigzag through an entire wor
 </div>
 <div style="clear:left;" />
 
-We're currently curating three corpora for the app, in **English**, **Spanish** and **German**. In some cases, you can even switch between translations of one and the same passage (not in all cases, though, the contents of our corpora are very different per language). This is a 1st of January example from Balzac's novel "Eugénie Grandet":
+We're currently curating three corpora for the app, in **English**, **Spanish** and **German**. In some cases, you can even switch between translations of one and the same passage (not in all cases, though, the contents of our corpora are very different per language). This is a 1st-of-January example from Balzac's novel "Eugénie Grandet":
 
 <div id="tiwoligallery">
  <ul>
@@ -137,7 +137,7 @@ Four final examples from the English corpus:
 </div>
 <div style="clear:left;" />
 
-The last quote, from "Jekyll &amp; Hyde", is interesting insofar as it can be regarded a mistake by the author that went into several print editions ([see here](https://books.google.com/books?id=sk7zCQAAQBAJ&pg=PA64), for example).
+The last quote, from "Jekyll &amp; Hyde", is interesting insofar as the given date can be regarded a mistake by the author that went into several print editions (as [discussed here](https://books.google.com/books?id=sk7zCQAAQBAJ&pg=PA64), for example).
 
 We also harvested some newer books as you can see in the Auster example below (the picture is not the best, but somebody might upload a better one to Wikimedia Commons someday). There's also one more Brontë quote and two nice quotes from the time-travel novel by Bellamy (where times and dates are the actual subject):
 
@@ -199,9 +199,9 @@ On to the German-language corpus:
 </div>
 <div style="clear:left;" />
 
-The first quotation, from Georg Büchner's novella fragment ["Lenz"](https://en.wikipedia.org/wiki/Lenz_(fragment)), is probably one of the most famous first sentences. On the second screenshot, Schnitzler's ["Leutnant Gustl"](http://www.encyclopedia.com/article-1G2-3408300617/none-but-brave-leutnant.html) is pondering his destiny on 4th of April, resulting in **not** killing himself. On the third one, the government of the Martian States takes control over our planet, because we earthlings are not capable of maintaining peace (the author of the passage, [Kurd Lasswitz](https://en.wikipedia.org/wiki/Kurd_Lasswitz), can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a "meta" way, as a combination of a printed number and a word, which serves as intellectual nourishment for the imprisoned intellectual.
+The first quotation, from Georg Büchner's novella fragment ["Lenz"](https://en.wikipedia.org/wiki/Lenz_(fragment)), is probably one of the most famous first sentences. On the second screenshot, Schnitzler's ["Leutnant Gustl"](http://www.encyclopedia.com/article-1G2-3408300617/none-but-brave-leutnant.html) is pondering his destiny on 4th of April, resulting in **not** killing himself. On the third one, the government of the Martian States takes control over our planet, because we earthlings are not capable of maintaining peace (the author of the passage, [Kurd Lasswitz](https://en.wikipedia.org/wiki/Kurd_Lasswitz), can be regarded a pioneer of German sci-fi lit). The fourth quote is especially interesting, since the "27th of July" is also discussed in a "meta" way, as a combination of a printed number and a word, which serves as intellectual nourishment for the imprisoned intellectual (if you didn't install the app yet, check the English translation of this passage [on Google Books](https://books.google.com/books?id=Uv4UAgAAQBAJ&pg=PT31)).
 
-We already featured Theodor Fontane with some passages translated to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure if anyone has looked into that yet:
+We already featured Theodor Fontane with some paragraphs translated to English. But what is it with the Prussian author and the 3rd of October? It is an eventful day in many of his novels, and we're not sure if anyone has looked into that yet:
 
 <div id="tiwoligallery">
  <ul>
@@ -237,7 +237,7 @@ Some more:
 
 The first quote from Arno Schmidt's 1972 novel ["The School for Atheists"](https://en.wikipedia.org/wiki/The_School_for_Atheists) points to a future date, the 7th of October, 2014. When we traversed this point in time two years ago, at least one major newspaper published an article about this long-imminent event (German weekly "Die Zeit": ["The story starts now."](http://www.zeit.de/2014/43/arno-schmidt-tellingstedt-die-schule-der-atheisten)).
 
-How about Jean Paul, the greatest of all May lovers:
+How about [Jean Paul](https://en.wikipedia.org/wiki/Jean_Paul), the greatest of all May lovers:
 
 <div id="tiwoligallery">
  <ul>
@@ -259,9 +259,9 @@ And last not least, some Christmas quotes:
  </ul>
 </div>
 
-So much for our app, TIWOLI. Also if it wasn't part of our original research, it helped to sharpen our notion of dates and month names in fictional texts. Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", ["It was a dark and stormy night"](https://en.wikipedia.org/wiki/It_was_a_dark_and_stormy_night), etc. But sometimes exact dates do occur, of course. And if they do, they have a tendency to mean something. (Unless, of course, they occur in epistolary, adventure or historical novels which are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins. Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
+So much for our app, TIWOLI. Also if it wasn't part of the original research, it helped to sharpen our notion of dates and month names in fictional texts. Literature as a genre has an inclination to waive exact dates and prefers temporal settings like "at the beginning of November", ["It was a dark and stormy night"](https://en.wikipedia.org/wiki/It_was_a_dark_and_stormy_night), etc. But sometimes exact dates do occur, of course. And if they do, they have a tendency to mean something. (Unless, of course, they occur in epistolary, adventure or historical novels which are usually full of exact dates. We tried to exclude them from the app and just used some as fill-ins. Goethe's "Werther", all Jules Verne novels and Benito Pérez Galdós proved especially useful. 😊)
 
 Before we conclude this admittedly BuzzFeed-like über-post with far too many pics we have two cliffhangers for you:
 
-- Some friends from the University of Cologne ([Spinfo](http://www.spinfo.phil-fak.uni-koeln.de/)/[CCeH](http://www.cceh.uni-koeln.de/)) are currently building a web interface with our data. Prototypes look very promising.
+- Our friends from the University of Cologne ([Spinfo](http://www.spinfo.phil-fak.uni-koeln.de/)/[CCeH](http://www.cceh.uni-koeln.de/)) are currently building a web interface with our data. Prototypes look very promising.
 - There's an **easter egg** somewhere in the app. Whoever finds it first is our hero/ine!
