@@ -643,5 +643,5 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     font-size:0.6em;
     font-style:normal;
 }
-#tiwoligallery img {height: 400px;}
+#tiwoligallery img {width: 225px; height: 400px;}
 
