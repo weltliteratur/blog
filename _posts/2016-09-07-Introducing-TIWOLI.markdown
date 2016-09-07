@@ -91,10 +91,10 @@ The dates from the Russian 19th-century novels point to the Julian calendar, of 
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-12-hamsun-mysteries.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-05-voltaire-micromegas.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-27-zweig-chess.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-23-hoffmann-pot.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-06-12-hamsun-mysteries.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://books.google.com/books?id=xB6nAgAAQBAJ&pg=PT4">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-05-voltaire-micromegas.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://en.wikisource.org/wiki/Micromegas/Chapter_3">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-07-27-zweig-chess.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://books.google.com/books?id=Uv4UAgAAQBAJ&pg=PT31">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-09-23-hoffmann-pot.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.net.au/ebooks06/0605801h.html">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
