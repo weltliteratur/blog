@@ -630,8 +630,8 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
 }
 
 /* TIWOLI Gallery stuff, added on Sep 6, 2016 */
-#tiwoligallery ul {list-style-type:none;}
-#tiwoligallery ul li {
+.tiwoligallery ul {list-style-type:none;}
+.tiwoligallery ul li {
     float:left;
     width:25%;
     border:0px;
@@ -639,7 +639,7 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     margin-top:0px;
     margin-bottom:0px;
 }
-#tiwoligallery figcaption {
+.tiwoligallery figcaption {
     bottom: 0px;
     padding-right: 10px;
     padding-left: 10px;
@@ -654,17 +654,17 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     text-align: center;
     right: 0px;
 }
-#tiwoligallery figcaption a {
+.tiwoligallery figcaption a {
 	color: #888;
 	border-bottom: 1px dotted #888;
 }
 
-#tiwoligallery img {width: 225px; height: 400px;}
+.tiwoligallery img {width: 225px; height: 400px;}
 
 @media all and (max-width: 1024px) {
-	#tiwoligallery img {width: 135px; height: 240px;}
+	.tiwoligallery img {width: 135px; height: 240px;}
 }
 
 @media all and (max-width: 620px) {
-	#tiwoligallery img {width: 90px; height: 160px;}
+	.tiwoligallery img {width: 90px; height: 160px;}
 }
