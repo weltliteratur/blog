@@ -42,9 +42,9 @@ We're currently curating three corpora for the app, in **English**, **Spanish** 
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-01-01-balzac-eugenia.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/1715">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-es-01-01-balzac-eugenia.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://es.wikisource.org/wiki/Eugenia_Grandet">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-de-01-01-balzac-eugenie.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="http://gutenberg.spiegel.de/buch/4850/3">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -67,10 +67,10 @@ It was not all that easy to fill up a whole year with suitable quotes for every 
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-01-15-bronte-jane-eyre.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-01-twain-wilson.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-22-fitzgerald-beautiful.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-04-doyle-scarlet.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-01-15-bronte-jane-eyre.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/1260">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-01-twain-wilson.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/102">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-02-22-fitzgerald-beautiful.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/9830">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-04-doyle-scarlet.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/244">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
@@ -79,10 +79,10 @@ For each corpus, the app contains quotes from translated world-literary works, t
 
 <div id="tiwoligallery">
  <ul>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-16-novalis-ofterdingen.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-25-hugo-hunchback.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-04-07-gogol-nose.png" alt="Screenshot from TIWOLI app."></figure></li>
-  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-20-turgenev-fathers.png" alt="Screenshot from TIWOLI app."></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-16-novalis-ofterdingen.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/31873">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-03-25-hugo-hunchback.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/2610">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-04-07-gogol-nose.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/36238">source</a>)</figcaption></figure></li>
+  <li><figure><img src="{{ site.url }}/images/tiwoli/tiwoli-en-05-20-turgenev-fathers.png" alt="Screenshot from TIWOLI app."><figcaption>(<a href="https://www.gutenberg.org/ebooks/30723">source</a>)</figcaption></figure></li>
  </ul>
 </div>
 <div style="clear:left;" />
