@@ -263,5 +263,5 @@ So much for our app, TIWOLI. Also if it wasn't part of our original research, it
 
 Before we conclude this admittedly BuzzFeed-like über-post with far too many pics we have two cliffhangers for you:
 
-- The Cologne Center for eHumanities ([CCeH](http://www.cceh.uni-koeln.de/)) is currently building a web interface with our data. Prototypes look very promising.
+- Some friends from the University of Cologne ([Spinfo](http://www.spinfo.phil-fak.uni-koeln.de/)/[CCeH](http://www.cceh.uni-koeln.de/)) are currently building a web interface with our data. Prototypes look very promising.
 - There's an **easter egg** somewhere in the app. Whoever finds it first is our hero/ine!
