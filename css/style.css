@@ -652,6 +652,7 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     padding-top: 0.6rem;
     padding-bottom: 0.8rem;
     text-align: center;
+    right: 0px;
 }
 #tiwoligallery figcaption a {
 	color: #888;
