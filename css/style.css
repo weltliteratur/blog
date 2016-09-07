@@ -636,10 +636,12 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     width:25%;
     border:0px;
     text-align:center;
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 #tiwoligallery figcaption {
+    color: #222;
+    background: #ff9;
     font-size: 12px;
     line-height: 12px;
     position: relative;
@@ -648,6 +650,11 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
     padding-bottom: 0.8rem;
     text-align: center;
 }
+#tiwoligallery figcaption a {
+	color: #888;
+	border-bottom: 1px dotted #888;
+}
+
 #tiwoligallery img {width: 225px; height: 400px;}
 
 @media all and (max-width: 1024px) {
