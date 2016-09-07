@@ -645,10 +645,10 @@ a, #posts-list li, #posts-list time, .projects-list .caption {
 }
 #tiwoligallery img {width: 225px; height: 400px;}
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 1024px) {
 	#tiwoligallery img {width: 135px; height: 240px;}
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 620px) {
 	#tiwoligallery img {width: 90px; height: 160px;}
 }
