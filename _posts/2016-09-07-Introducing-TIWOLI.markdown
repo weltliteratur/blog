@@ -6,9 +6,11 @@ comments: true
 date: 2016-09-07
 ---
 
-(This could become a whole new series: **Fancy by-products of Digital Humanities research projects…**)
+This could become a whole new series: **Fancy by-products of Digital Humanities research projects…**
 
-Why don't we jump right into it and name seven famous days in world literature:
+Short version: Download TIWOLI for Android **[here](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. Meanwhile, the iOS version vanished from the app store for the funniest reason, we kind of forgot to pay the annual dev fee, so you might want to check back later…
+
+And now let's jump right into it and name seven famous days in world literature:
 
 - The day of James Joyce's "Ulysses"? (Of course, [Bloomsday](https://en.wikipedia.org/wiki/Bloomsday), [Lá Bloom](https://ga.wikipedia.org/wiki/L%C3%A1_Bloom), June 16!)
 
