@@ -150,9 +150,9 @@ writers in Wikipedia.
   The value is provided in the `type` property.  For John Irving, it
   contains the following information:
 
-  ````xml
+````xml
 <http://dbpedia.org/resource/John_Irving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer> .
-  ````
+````
 
 # Conclusion
 
