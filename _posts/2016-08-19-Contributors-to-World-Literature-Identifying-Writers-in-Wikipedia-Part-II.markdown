@@ -74,10 +74,10 @@ writers in Wikipedia.
   [latest dataset](http://wiki.dbpedia.org/Downloads2015-10) contains
   this information in the infobox properties dataset:
 
-  ````xml
+  ```xml
 <http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Novelist"@en .
 <http://dbpedia.org/resource/John_Irving> <http://dbpedia.org/property/occupation> "Screenwriter"@en .
-  ````
+  ```
 
 ## List of Works
 
