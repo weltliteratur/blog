@@ -34,7 +34,7 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   21. Bring Me the Horizon: Throne &middot; ([vevo](http://www.vevo.com/watch/bring-me-the-horizon/throne/GB1101500803)) ([youtube](https://www.youtube.com/watch?v=uD7dM1wol6g))
   22. Radiohead: Burn the Witch &middot; ([youtube](https://www.youtube.com/watch?v=yI2oS2hoL0k))
   23. Radiohead: Daydreaming &middot; ([youtube](https://www.youtube.com/watch?v=TTAU7lLDZYU))
-  24. James Blake: Radio Silence &middot; ([youtube](https://www.youtube.com/watch?v=TTglDb7qjvQ))
+  24. ~~James Blake: Radio Silence &middot; ([youtube](https://www.youtube.com/watch?v=TTglDb7qjvQ))~~
   25. Pantha du Prince: The Winter Hymn &middot; ([youtube](https://www.youtube.com/watch?v=yBWo9xsJxGo))
   26. Era Istrefi: Bonbon &middot; ([youtube 1](https://www.youtube.com/watch?v=cedoBlUvBlI)) ([youtube 2](https://www.youtube.com/watch?v=qA5rsVEqEHc))
   27. G-Eazy: Me, Myself & I &middot; ([youtube](https://www.youtube.com/watch?v=Tfs5GOQK4dU))
@@ -60,4 +60,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - June 22, 2016: Added 29–30.
   - July 2, 2016: Added 31–33. Added (youtube) to 16.
   - July 27, 2016: Added 34–36.
-  - September 7, 2016: Added 37–38.
+  - September 7, 2016: Added 37–38, removed 24.
