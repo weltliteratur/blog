@@ -49,6 +49,14 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   36. Wild Beasts: Get My Bang &middot; ([youtube](https://www.youtube.com/watch?v=8nkdZhFzglA))
   37. Bon Iver: 10 d E A T h b R E a s T ⚄ ⚄ &middot; ([youtube](https://www.youtube.com/watch?v=HNy7VtSsmu8))
   38. James Blake: I Need a Forest Fire &middot; ([youtube](https://www.youtube.com/watch?v=sAJgs1P-uUE))
+  39. Portishead: SOS &middot; ([youtube](https://www.youtube.com/watch?v=WVe-9VWIcCo))
+  40. Jamie T: Joan of Arc
+  41. The Divine Comedy: Catherine the Great &middot; ([vimeo](https://vimeo.com/171561867)) ([youtube/live](https://www.youtube.com/watch?v=2nJuX-1jINY))
+  42. Gold Panda: In My Car &middot; ([youtube](https://www.youtube.com/watch?v=6YVhAILmqyo))
+  43. Glass Animals: Youth &middot; ([youtube](https://www.youtube.com/watch?v=_ZdsmLgCVdU)) ([vevo](http://www.vevo.com/watch/glass-animals/youth-(official-video)/GB2DY1600050))
+  44. Touché Amoré: Displacement &middot; ([youtube](https://www.youtube.com/watch?v=B9dVDKYsmu0)) ([soundcloud](https://soundcloud.com/epitaph-records/touche-amore-displacement))
+  45. Warpaint: Whiteout &middot; ([youtube](https://www.youtube.com/watch?v=K1BqwONm4TE))
+  46. Trentemøller: River In Me &middot; ([youtube](https://www.youtube.com/watch?v=0KMLyQjI5mI))
 
 ## Update History
 
@@ -61,3 +69,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - July 2, 2016: Added 31–33. Added (youtube) to 16.
   - July 27, 2016: Added 34–36.
   - September 7, 2016: Added 37–38, removed 24.
+  - September 29, 2016: Added 39–46.
