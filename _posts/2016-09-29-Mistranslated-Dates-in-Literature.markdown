@@ -1,14 +1,14 @@
 ---
 title: Mistranslated Dates in Literature
 layout: post
-author: [frank]
+author: frank
 comments: true
 date: 2016-09-29
 ---
 
 (This posting is about a phenomenon that I can only partly explain. It seems to be more than just a couple of random incidents. Maybe somebody else has some hints?)
 
-When translating numbers and dates, strange things happen at times. Some of them are still explicable, one of which is the following. Take "Othello", Act I, beginning of Scene 3 ([Wikisource](https://en.wikisource.org/wiki/The_Tragedy_of_Othello,_The_Moor_of_Venice#ACT_1._SCENE_III._A_council-chamber.)):
+When translating numbers and dates, strange things happen at times. Some of them are still explicable, one of which is the following. Take "Othello", Act I, beginning of Scene 3 ([Wikisource](https://en.wikisource.org/wiki/The_Tragedy_of_Othello,_The_Moor_of_Venice#ACT_1._SCENE_III._A_council-chamber.)), just look at the numbers:
 
 > DUKE OF VENICE<br />
 > There is no composition in these news<br />
@@ -42,7 +42,7 @@ Here's how Wolf Graf Baudissin translated the passage into German ([Gutenberg-DE
 > Meins zweihundert.<br />
 > (…)
 
-Ok, nobody seems to know the exact number of ships anyway, why not translate 106 instead of 107? Voss also translated 106 ([Google Books](https://books.google.com/books?id=7AQ5AQAAMAAJ&pg=PA24)), while Wieland sticked to the 107 ([Wikisource](https://de.wikisource.org/wiki/Seite:Wieland_Shakespear_Theatralische_Werke_VII.djvu/198)).
+Ok, none of the characters seems to know the exact number of ships anyway, so why not translate **106** instead of **107**? Voss also translated 106 ([Google Books](https://books.google.com/books?id=7AQ5AQAAMAAJ&pg=PA24)), while Wieland sticked to the 107 ([Wikisource](https://de.wikisource.org/wiki/Seite:Wieland_Shakespear_Theatralische_Werke_VII.djvu/198)).
 
 As insinuated before, that one's easy to solve. Wieland chose to translate "Othello" in prose, the other two wanted to stick to Shakespeare's blank verse. So for metrical reasons, they had to get rid of the second syllable of "sieben", and how do you do that? Make it a "sechs". Things like that happen a lot in metrical translations. (And I have to thank [Thomas Efer](http://asv.informatik.uni-leipzig.de/staff/Thomas_Efer) for this and many other examples.)
 
@@ -150,6 +150,8 @@ The same passage in Spanish:
 
 For all we know, this last example could be another honest mistake (mistyping a number, happens). Maybe all these examples can be traced back to simple mistakes that go unnoticed by the common reader (unless you're part of a research project whose purpose it is to extract dates from literary corpora :-)… Anyway, we got more findings like this. You'll find some examples in [TIWOLI, our app for Android and iOS](/Introducing-TIWOLI/). We didn't dare to correct wrong dates, we wanted to preserve them as they were. After all, that's how every reader of these elder translations encountered them.
 
-Many of the translations are from the 19th or early 20th century when transations didn't yet meet our idea of a proper translation. For example, the first German translation of Huxley's "Brave New World" changed the location [from "London" to "Berlin"](https://de.wikipedia.org/wiki/Sch%C3%B6ne_neue_Welt#Deutsche_.C3.9Cbersetzung) (which was authorised by the author, by the way; but this wouldn't pull through nowadays, I guess). Some sort of weird adaptation could be the reason for some of the above-cited examples. But I don't really know. The question is: Are all these examples plain and utter mistakes? Or are there reasons for the way those dates where mistranslated?
+Many of the translations are from the 19th or early 20th century when transations didn't yet meet our idea of a proper, authentic translation. For example, the first German translation of Huxley's "Brave New World" changed the location [from "London" to "Berlin"](https://de.wikipedia.org/wiki/Sch%C3%B6ne_neue_Welt#Deutsche_.C3.9Cbersetzung) (which was authorised by the author, by the way; but this wouldn't pull through nowadays, I guess).
+
+Some sort of weird adaptation could be the reason for some of the above-cited examples. But I really don't know. The question is: Are all these examples plain and utter mistakes? Or are there reasons for the way those dates where mistranslated?
 
 (For hints, drop me a line [on Twitter](https://twitter.com/umblaetterer), via mail, or use the comment field below.)
