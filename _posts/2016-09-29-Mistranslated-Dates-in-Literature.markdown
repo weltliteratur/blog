@@ -136,7 +136,7 @@ Which, in a Spanish translation, looks like this:
 
 > El 7 de mayo de 1815 hacía dos días que las señoras habían vuelto de un precioso viajecito a Milán; estaban paseándose por la hermosa avenida de plátanos que había sido prolongada hacía poco tiempo hasta el borde mismo del lago. ([edu.mec.gub.uy](http://www.edu.mec.gub.uy/biblioteca_digital/libros/s/Stendhal%20-%20La%20cartuja%20de%20Parma.pdf))
 
-May? March!
+March? May!
 
 ## Jules Verne
 
@@ -146,12 +146,14 @@ The same passage in Spanish:
 
 > El 19 de mayo de aquel año, un pastor apacentaba su rebaño a la orilla de un verde prado, al pie del Retyezat, que domina un valle fértil, cubierto de árboles de rama-je recto y enriquecido con bellas plantaciones. ([biblioteca.org.ar](http://www.biblioteca.org.ar/libros/656189.pdf))
 
+29th? 19th!
+
 ## Explanation(s)?
 
 For all we know, this last example could be another honest mistake (mistyping a number, happens). Maybe all these examples can be traced back to simple mistakes that go unnoticed by the common reader (unless you're part of a research project whose purpose it is to extract dates from literary corpora :-)… Anyway, we got more findings like this. You'll find some examples in [TIWOLI, our app for Android and iOS](/Introducing-TIWOLI/). We didn't dare to correct wrong dates, we wanted to preserve them as they were. After all, that's how every reader of these elder translations encountered them.
 
 Many of the translations are from the 19th or early 20th century when transations didn't yet meet our idea of a proper, authentic translation. For example, the first German translation of Huxley's "Brave New World" changed the location [from "London" to "Berlin"](https://de.wikipedia.org/wiki/Sch%C3%B6ne_neue_Welt#Deutsche_.C3.9Cbersetzung) (which was authorised by the author, by the way; but this wouldn't pull through nowadays, I guess).
 
-Some sort of weird adaptation could be the reason for some of the above-cited examples. But I really don't know. The question is: Are all these examples plain and utter mistakes? Or are there reasons for the way those dates where mistranslated?
+Some sort of weird adaptation could be the reason for some of the above-cited examples. But I really don't know. The question is: Are all these examples plain mistakes? Or are there reasons for the way those dates were mistranslated?
 
 (For hints, drop me a line [on Twitter](https://twitter.com/umblaetterer), via mail, or use the comment field below.)
