@@ -57,6 +57,7 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   44. Touché Amoré: Displacement &middot; ([youtube](https://www.youtube.com/watch?v=B9dVDKYsmu0)) ([soundcloud](https://soundcloud.com/epitaph-records/touche-amore-displacement))
   45. Warpaint: Whiteout &middot; ([youtube](https://www.youtube.com/watch?v=K1BqwONm4TE))
   46. Trentemøller: River In Me &middot; ([youtube](https://www.youtube.com/watch?v=0KMLyQjI5mI))
+  47. Banks: Gemini Feed &middot; ([youtube](https://www.youtube.com/watch?v=2IeyrEUkBSk))
 
 ## Update History
 
@@ -70,3 +71,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - July 27, 2016: Added 34–36.
   - September 7, 2016: Added 37–38, removed 24.
   - September 29, 2016: Added 39–46.
+  - October 25, 2016: Added 47.
