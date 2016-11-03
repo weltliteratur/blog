@@ -8,7 +8,7 @@ date: 2016-11-03
 
 Exploring the influence that authors have (or might have) exerted on other authors is among the standard procedures pursued by scholars of (Comparative) Literary Studies. Provided the right type of data, these kinds of relations can be easily visualised in a network graph with arrows pointing in myriad directions: X influenced Y and, possibly, vice versa. What we have here, though, is a collection of unidirectional pointers which – in the form of streams of movements, events, works, and authors of world literature – exert their influence on one particular, ever-broader river: German literature, its manifold protagonists and epochs.
 
-It is Cäsar Flaischlen's **"Graphische Litteratur Tafel"** (Graphic Literature Table) we're talking about, a 58×86.5-cm poster published in 1890, and a flamboyantly beautiful one:
+It is Cäsar Flaischlen's **"Graphische Litteratur-Tafel"** (Graphic Literature Table) we're talking about, a 58×86.5-cm poster published in 1890, and a flamboyantly beautiful one:
 
 <figure>
   <img src="/images/graphische_litteratur-tafel_1040px.jpg" alt="Graphische Litteratur-Tafel (1890)" style="width:1040px;" />
