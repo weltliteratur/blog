@@ -14,7 +14,7 @@ It is Cäsar Flaischlen's **"Graphische Litteratur Tafel"** (Graphic Literature 
   <img src="/images/graphische_litteratur-tafel_1040px.jpg" alt="Graphische Litteratur-Tafel (1890)" style="width:1040px;" />
 </figure>
 
-We came across this table just a couple of weeks ago, and quickly purchased a copy via ZVAB.com, scanned it, OCRed the 8-column preface, encoded both the text and the graphic table in TEI and put up a website to present the data, at **[litteratur-tafel.weltliteratur.net](http://litteratur-tafel.weltliteratur.net/)** (still in alpha!). Simultaneously, we had another copy scanned by the Göttingen University and State Library; you can download their hi-res version [here (PDF format, 4.5 MB)](http://gdz.sub.uni-goettingen.de/pdfcache/PPN860488233/PPN860488233___LOG_0004.pdf).
+We came across this table just a couple of weeks ago, and quickly purchased a copy via ZVAB.com, scanned it, OCRed the 8-column preface, encoded both the text and the graphic table in TEI and put up a website to present the data, at **[litteratur-tafel.weltliteratur.net](http://litteratur-tafel.weltliteratur.net/)** (still in alpha!). Simultaneously, we had another copy scanned by the Digitisation Centre of Göttingen's University and State Library; you can download their hi-res version [here (PDF format, 4.5 MB)](http://gdz.sub.uni-goettingen.de/pdfcache/PPN860488233/PPN860488233___LOG_0004.pdf).
 
 # The Author
 
@@ -22,7 +22,7 @@ How did this chart come about? Cäsar Flaischlen (1864–1920) was not much of a
 
 # Context I: Positivism
 
-Flaischlen does not mention any of the sources from which he compiled his graphic table. The canon of authors and other entities he mentions is not in the least controversial and was part of the literary-historical consensus taught at universities at the time. Flaischlen's impressive visualisation calls upon the power (and shortcomings, too) of positivist thinking (there are some remarks on the outdatedness of Flaischlen's approach in [https://books.google.de/books?id=XT7nBQAAQBAJ&pg=PA36](this 2012 introduction to Comparative Literature, p. 36).
+Flaischlen does not mention any of the sources from which he compiled his graphic table. The canon of authors and other entities he mentions is not in the least controversial and was part of the literary-historical consensus taught at universities at the time. Flaischlen's impressive visualisation calls upon the power (and shortcomings, too) of positivist thinking (there are remarks on the outdatedness of Flaischlen's approach in [this 2012 introduction to Comparative Literature](https://books.google.de/books?id=XT7nBQAAQBAJ&pg=PA36)).
 
 Positivism is largely seen in a negative light today, but one of the aspects behind it has been vividly discussed recently in the attempt to reinvent the Humanities along the lines of the natural sciences. "The natural sciences ride triumphantly in the chariot of victory to which we are all chained", [wrote Wilhelm Scherer](https://books.google.ru/books?id=QJuJAgAAQBAJ&pg=PA47), a central representative of positivism in the 1870s and 1880s. Trying to establish Literary Studies as an "exact science" was by no means unusual, as we can see in another quote by Shakespeare scholar Wilhelm Wetz who, in the 1890s, wanted to prove that Literary Studies, too, ["can rise to the ranks of the exact sciences" (p. VII)](https://archive.org/stream/shakespearevoms01wetzgoog#page/n12/mode/2up).
 
@@ -56,15 +56,15 @@ Bernard, Andreas: **Das totale Archiv. Zur Funktion des Nicht-Wissens in der dig
  
 Flaischlen, Cäsar: **Graphische Litteratur-Tafel. Die deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf von Beginn einer schriftlichen Überlieferung an bis heute in graphischer Darstellung.** Stuttgart, Göschen, 1890. (2. Tausend: Stuttgart, Göschen, 1890; 3. Tausend: Berlin, Behr, 1890)
  
-Minor, Jakob: **[Review of Flaischlen's Dissertation on Otto von Gemmingen.]** Anzeiger für deutsches Alterthum und deutsche Litteratur, XVII, 2 (April 1891), pp. 147–149. ([digizeitschriften.de](http://www.digizeitschriften.de/dms/img/?PID=PPN345204123_0035%7Clog84&physid=phys600#navi)
+Minor, Jakob: **[Review of Flaischlen's Dissertation on Otto von Gemmingen.]** Anzeiger für deutsches Alterthum und deutsche Litteratur, XVII, 2 (April 1891), pp. 147–149. ([digizeitschriften.de](http://www.digizeitschriften.de/dms/img/?PID=PPN345204123_0035%7Clog84&physid=phys600#navi))
  
 Nebrig, Alexander: **Vergleichen als Wissenschaft: Zur Fachgeschichte.** Evi Zemanek, Alexander Nebrig (eds.): Komparatistik. Berlin, Akademie Verlag, 2012, pp. 35–36. ([books.google.com](https://books.google.com/books?id=XT7nBQAAQBAJ&pg=PA35))
  
 Rosenberg, Daniel; Grafton, Anthony: **Cartographies of Time.** Princeton Architectural Press, New York, 2010, pp. 143–149.
  
-Schmidt, Erich: **Wege und Ziele der deutschen Literaturgeschichte. Eine Antrittsvorlesung.** Charakteristiken. Vol. I. Berlin, Weidmann, 1886, pp. 480–498. ([archive.org][https://archive.org/stream/charakteristiken01schmuoft#page/480/mode/2up])
+Schmidt, Erich: **Wege und Ziele der deutschen Literaturgeschichte. Eine Antrittsvorlesung.** Charakteristiken. Vol. I. Berlin, Weidmann, 1886, pp. 480–498. ([archive.org](https://archive.org/stream/charakteristiken01schmuoft#page/480/mode/2up])
  
-Weschenfelder, Anke: **Flaischlen, Cäsar (Otto Hugo).** Deutsches Literatur-Lexikon. Das 20. Jahrhundert. Vol. 9. Zurich/Munich, K. G. Saur, 2006, col. 33–37. ([books.google.com](https://books.google.com/books?id=mLI6ZB6vrFEC&pg=PA1996))
+Weschenfelder, Anke: **Flaischlen, Cäsar (Otto Hugo).** Deutsches Literatur-Lexikon. Das 20. Jahrhundert. Vol. 9. Zurich/Munich, K.G. Saur, 2006, cols. 33–37. ([books.google.com](https://books.google.com/books?id=mLI6ZB6vrFEC&pg=PA1996))
  
 Wetz, Wilhelm: **Shakespeare vom Standpunkte der vergleichenden Litteraturgeschichte.** Vol. I: **Die Menschen in Shakespeare Dramen.** Hamburg, Haendke & Lehmkuhl, 1897. ([archive.org](https://archive.org/details/shakespearevoms01wetzgoog))
  
