@@ -8,7 +8,9 @@ date: 2016-09-07
 
 This could become a whole new series: **Fancy by-products of Digital Humanities research projects…**
 
-Short version: Download TIWOLI for Android **[here](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. (And there's an **update** on the iOS version [Sep 11, 2016]: TIWOLI for Apple devices [was just updated](https://twitter.com/umblaetterer/status/774920972654743553) and will be available in the App Store soon.)
+**Short version:** Download TIWOLI for Android **[here](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. Download TIWOLI for iOS **[here](https://appsto.re/de/I69sfb.i)**.
+
+**Update (Oct 29, 2016):** The iOS version is finally available in the App Store. The article was updated accordingly.
 
 And now let's jump right into it and name seven famous days in world literature:
 
@@ -26,7 +28,7 @@ So this is the subject of our blogpost, **(in)famous days in world-literary fict
 
 How did this come about? At the annual ADHO Digital Humanities conference 2015 ([DH2015](http://dh2015.org/)) in Sydney, we delivered a talk called "When does (German) literature take place?" ([slides](http://dbs.ifi.uni-heidelberg.de/fileadmin/Team/jannik/publications/dh2015-sydney-fischer-stroetgen-german-literature-slides.pdf)) In order to answer that unusual question, we extracted exact dates and months from a corpus of 2,700+ works of German-language fiction from 1510 to the 1940s. Our results suggested that ["the marvellous month of May"](https://de.wikisource.org/wiki/Im_wundersch%C3%B6nen_Monat_Mai) (Heinrich Heine) is preeminent in our corpus of German fiction. There was already enough evidence to claim that May is the favourite month of poets (at least in the northern hemisphere), and Heine is just one example. But May's preeminence in prose was a real finding and there are a bunch of explanations, but this (along with many other insights yielded by this whole date-extraction-from-fiction business) shall happen in the corresponding research paper, not here.
 
-As a by-product (and no more than that), we coded a native Android app to showcase the more exciting and self-explanatory of our results. We called our app **TIWOLI** (short for "Today in World Literature") and made it **[available via the Google Play Store](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. (The iOS version, done by our dear friend [Thomas Bögel](http://thboegel.de/project/), will be available by mid-September.)
+As a by-product (and no more than that), we coded a native Android app to showcase the more exciting and self-explanatory of our results. We called our app **TIWOLI** (short for "Today in World Literature") and made it **[available via the Google Play Store](https://play.google.com/store/apps/details?id=de.wannauchimmer.apps.tiwoli)**. This was followed by **[the iOS version](https://appsto.re/de/I69sfb.i)**, done by our dear friend [Thomas Bögel](http://thboegel.de/project/).
 
 Now what TIWOLI does is give you the opportunity to zigzag through an entire world-literary year, a calendar filled with fictional happenings. Here some screenshots with some of the examples from above:
 
@@ -265,5 +267,5 @@ So much for our app, TIWOLI. Also if it wasn't part of the original research, it
 
 Before we conclude this admittedly BuzzFeed-like über-post with far too many pics we have two cliffhangers for you:
 
-- Our friends at the University of Cologne ([Spinfo](http://www.spinfo.phil-fak.uni-koeln.de/)/[CCeH](http://www.cceh.uni-koeln.de/)) are currently building a web interface with our data. Prototypes look very promising.
+- Our friends at the University of Cologne ([Spinfo](http://www.spinfo.phil-fak.uni-koeln.de/)/[CCeH](http://www.cceh.uni-koeln.de/)) are currently building a web interface with our data. [Prototype looks very promising.](https://twitter.com/spinfocl/status/794147295084314624)
 - There's an **easter egg** somewhere in the app. Whoever finds it first is our hero/ine!
