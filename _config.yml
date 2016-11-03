@@ -81,6 +81,25 @@ authors:
     twitter: jannikstroetgen
     github: JannikStroetgen
     description: Researcher at the Max Planck Institute for Informatics.
+  angelika:
+    name: Angelika Hechtl
+    display_name: Angelika
+    gravatar: 6582da0c012547f6d3f3529d84c98673
+    email: angelika.hechtl@wu.ac.at
+    web: http://www.likeanga.at/
+    twitter: angelikah
+    github: likeanga
+    description: Doing Linguistics and Digital Humanities at WU Wien.
+  ingo:
+    name: Ingo Börner
+    display_name: Ingo
+    gravatar: b434058e5eaec527f2f0dfc62e0c0542
+    email: ingo.boerner@univie.ac.at
+    web: 
+    twitter: ingoboerner
+    github: ingoboerner
+    description: …
+    
 
 paginate:         10
 
