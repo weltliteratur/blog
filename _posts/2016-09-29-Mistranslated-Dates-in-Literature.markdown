@@ -6,7 +6,7 @@ comments: true
 date: 2016-09-29
 ---
 
-(This posting is about a phenomenon that I can only partly explain. It seems to be more than just a couple of random incidents. Maybe somebody else has some hints?)
+(This posting is about a phenomenon that I can only partly explain. It seems to be more than just a couple of random incidents. Maybe somebody else has some hints?) (**Update** Oct 3, 2016: Jürgen Hermes closely examined the "Count of Monte Christo" example and explains some of the "mistranslation", scroll to the bottom of the page for more info.)
 
 When translating numbers and dates, strange things happen at times. Some of them are still explicable, one of which is the following. Take "Othello", Act I, beginning of Scene 3 ([Wikisource](https://en.wikisource.org/wiki/The_Tragedy_of_Othello,_The_Moor_of_Venice#ACT_1._SCENE_III._A_council-chamber.)), just look at the numbers:
 
@@ -157,3 +157,7 @@ Many of the translations are from the 19th or early 20th century when transation
 Some sort of weird adaptation could be the reason for some of the above-cited examples. But I really don't know. The question is: Are all these examples plain mistakes? Or are there reasons for the way those dates were mistranslated?
 
 (For hints, drop me a line [on Twitter](https://twitter.com/umblaetterer), via mail, or use the comment field below.)
+
+## Update
+
+On October 3rd, Jürgen Hermes published a great follow-up to this post (in German): **["Zum Tag der Daten-Einheit"](https://texperimentales.hypotheses.org/1813)**. In which he interprets the "mistranslations" relating to "The Count of Monte Cristo" as "belated copyediting" by German and Polish translators. Especially the Polish translator applied some effort to repair the flawed timeline of the original novel. The same effort might be behind some of the other mistranslations, too. The example from "Jekyll and Hyde" was also pointing into that direction.
