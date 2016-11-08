@@ -6,7 +6,7 @@ comments: true
 date: 2016-09-29
 ---
 
-(This posting is about a phenomenon that I can only partly explain. It seems to be more than just a couple of random incidents. Maybe somebody else has some hints?) (**Update** Oct 3, 2016: Jürgen Hermes closely examined the "Count of Monte Christo" example and explains some of the "mistranslation", scroll to the bottom of the page for more info.)
+(This posting is about a phenomenon that I can only partly explain. It seems to be more than just a couple of random incidents. Maybe somebody else has some hints?) (**Update** Oct 3, 2016: Jürgen Hermes closely examined the "Count of Monte Cristo" example and explains some of the "mistranslations", scroll to the bottom of the page for more info.)
 
 When translating numbers and dates, strange things happen at times. Some of them are still explicable, one of which is the following. Take "Othello", Act I, beginning of Scene 3 ([Wikisource](https://en.wikisource.org/wiki/The_Tragedy_of_Othello,_The_Moor_of_Venice#ACT_1._SCENE_III._A_council-chamber.)), just look at the numbers:
 
