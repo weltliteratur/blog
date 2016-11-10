@@ -1,5 +1,5 @@
 ---
-title: A Giant 1890 Flowchart of Foreign Influences on German Literature (Throughout 12 Centuries)
+title: A Giant 1890 Flowchart of Foreign Influences on German Literature (Spanning 12 Centuries)
 layout: post
 author: [ingo, angelika, frank, peer]
 comments: true
