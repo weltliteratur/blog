@@ -58,6 +58,9 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   45. Warpaint: Whiteout &middot; ([youtube](https://www.youtube.com/watch?v=K1BqwONm4TE))
   46. Trentemøller: River In Me &middot; ([youtube](https://www.youtube.com/watch?v=0KMLyQjI5mI))
   47. Banks: Gemini Feed &middot; ([youtube](https://www.youtube.com/watch?v=2IeyrEUkBSk))
+  48. Rae Sremmurd: Black Beatles &middot; ([youtube](https://www.youtube.com/watch?v=b8m9zhNAgKs))
+  49. Jidenna: Long Live the Chief &middot; ([youtube](https://www.youtube.com/watch?v=H_AQFnqMY3E))
+  50. MØ: Final Song &middot; ([youtube](https://www.youtube.com/watch?v=WUcXQ--yGWQ))
 
 ## Update History
 
@@ -72,3 +75,4 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   - September 7, 2016: Added 37–38, removed 24.
   - September 29, 2016: Added 39–46.
   - October 25, 2016: Added 47.
+  - December 15, 2016: Added 48–50.
