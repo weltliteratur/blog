@@ -240,3 +240,5 @@ This is far from being anything worthwhile and the mere result of toying around 
 > Mit Terrorismus hat das mit Cyberangriffen deutlich anders aus, Stichwort Lawful Interception. Wieder was gelernt, diesmal über amerikanische Studenten: Ich habe ehrlich gesagt nicht so aus, dass der vor Gericht erstreiten muss, kann ich nur mit Adblocker nicht zu uns, denn in westlichen Demokratien wie der öffentliche GNU-CVS-Server, furchtbar überlastet ist, und daher muss auch sein Lebensunterhalt direkt davon abhängt, dass er jetzt alles seine Ordnung" um. Denn die Labels daran zugrunde gehen werden. Francesco-Parisi-Universität Styrum — endlich mal was tun diesmal! Sonst lassen die Regierung mit den Nazis damals funktionieren. Zweitens: Wir merken es oft nicht gelöscht würden.
 
 The code is quite simple and can sure be optimised in many ways, but for today the Fefe Research Institute pulls the plug.
+
+<img src="http://vg07.met.vgwort.de/na/db1f895be9d44f8c8e5d2f9f2dfe8c24" width="1" height="1" alt="">

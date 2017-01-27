@@ -71,3 +71,6 @@ We will discuss these questions tomorrow in the 2nd part of this blog post.
 
 
 [source-code]: https://en.wikipedia.org/w/index.php?title=John_Irving&action=edit&editintro=Template:BLP_editintro
+
+
+<img src="http://vg07.met.vgwort.de/na/dc38a9fd7d4c4b3d85d1fb78941ebb1b" width="1" height="1" alt="">

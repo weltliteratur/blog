@@ -172,3 +172,5 @@ These are the top 20 books, ranked by their PageRank within the English Wikipedi
 [the-republic]: http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/The_Republic_(Plato)
 [natural-history]: http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Natural_History_(Pliny)
 [histories]: http://dbpedia.org/snorql/?describe=http%3A//dbpedia.org/resource/Histories_(Herodotus)
+
+<img src="http://vg07.met.vgwort.de/na/d738ac9ec4fb4d3c93330958bddcd03c" width="1" height="1" alt="">

@@ -186,3 +186,5 @@ blog posts.
 [dbpedia-article]: http://wiki.dbpedia.org/services-resources/documentation/datasets#articlecategories
 [dbpedia-skos]: http://wiki.dbpedia.org/services-resources/documentation/datasets#skoscategories
 [dbpedia-instancetypes]: http://wiki.dbpedia.org/services-resources/documentation/datasets#instancetypes
+
+<img src="http://vg07.met.vgwort.de/na/9c7df397f1404f1e9d7b43220540abf8" width="1" height="1" alt="">
