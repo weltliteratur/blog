@@ -6,7 +6,7 @@ comments: true
 date: 2016-05-18
 ---
 
-Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [Heise Online](http://www.heise.de/) newsticker, their xkcd, and their daily Fefe.
+Ok, the headline is a joke, of course. But let's start at the beginning. There are three things German computer scientists/IT guys must not miss: their [Heise Online](https://www.heise.de/) newsticker, their [xkcd](https://xkcd.com/), and their daily Fefe.
 
 Fefe is the nom de guerre of [Felix von Leitner](https://en.wikipedia.org/wiki/Felix_von_Leitner), a C programmer (check [dietlibc](https://en.wikipedia.org/wiki/Dietlibc)), IT security adept and blogger, running his own speaker's corner **["Fefes Blog"](https://blog.fefe.de/)** since 2005. This blog is notorious for its "cut the crap" non-layout and his author for his brash comments on incidents in the broad field of IT security and their political implications, especially regarding the industry of mass surveillance. His reach is enormous and will surely beat that of many established newspapers (according to [this 2011 post](https://blog.fefe.de/?ts=b3d1b6bf), anyway; newer numbers would be helpful, though).
 
@@ -76,7 +76,7 @@ This list is a bit half-baked, since we're only counting exact hits and only add
 | 19   | Italien        | 167       | 
 | 20   | Schweden       | 158       | 
 
-We matched our dataset against the list of countries provided [by datendieter.de](http://www.datendieter.de/item/Verzeichnis_aller_Staaten_der_Welt). (Btw, it's very probably that Daten-Dieter is a close friend of [MS-DOS-Manfred, BIOS-Bernhard, Hardware-Hanspeter and Lötkolben-Ludwig](https://www.youtube.com/watch?v=2Nlm2XSBJmQ), but that's a whole different story.)
+We matched our dataset against the list of countries provided [by datendieter.de](http://www.datendieter.de/item/Verzeichnis_aller_Staaten_der_Welt). (Btw, it's very probable that Daten-Dieter is a close friend of [MS-DOS-Manfred, BIOS-Bernhard, Hardware-Hanspeter and Lötkolben-Ludwig](https://www.youtube.com/watch?v=2Nlm2XSBJmQ), but that's a whole different story.)
 
 ## Countries Mentioned Over Time
 
