@@ -1,7 +1,7 @@
 ---
 title: Network Analysis of the 9th Season of "Curb Your Enthusiasm"
 layout: post
-author: [frank]
+author: frank
 comments: true
 date: 2018-01-01
 ---
