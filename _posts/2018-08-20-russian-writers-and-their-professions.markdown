@@ -15,8 +15,7 @@ This is a little experiment which we conducted in a limited amount of time (one 
 <figure>
   <img src="/images/russian-writers/figure_3.jpg" alt="Figure 3" style="width:1200px;" />
 </figure>
-
-<small>Fig. 3. The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</small>
+<center>**Fig. 3.** The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</center>
 
 No surprise there, writers generally tended to (also) be journalists, translators, literary critics. But now onto some details of our exercise:
 
