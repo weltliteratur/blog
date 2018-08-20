@@ -132,6 +132,6 @@ paginate:         10
 
 # Custom vars
 version:          0.0.1
-disqus:           weltliteratur
+disqus:           
 github:
 repo:             https://github.com/weltliteratur
