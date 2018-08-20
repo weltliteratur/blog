@@ -108,7 +108,7 @@ However, the main problem we encountered was connected to bot testing within the
 
 # 5. Results and Tentative Interpretations
 
-We identified 8160 Russian writers in Wikidata meeting our eligibility criteria. Not all the fields were filled in for all of them, so those who lacked important pieces of information were excluded from the relative analysis. For example, we couldn't put writers without year of death on our timeline. The amount of data on those who already have attributed a year of death can be seen in figure 1. As expected, the period best covered is the 20th century. The amount of data for the 19th century was significantly lower, and the first half of the 21st century appears to be under-represented, too, for obvious reasons.
+We identified 8160 Russian writers in Wikidata meeting our eligibility criteria. Not all the fields were filled in for all of them, so those who lacked some pieces of information were excluded from the corresponding analysis. For example, we couldn't put writers without year of death in our timeline. The amount of data on those who already have attributed a year of death can be seen in figure 1. As expected, the period best covered is the 20th century. The amount of data for the 19th century was significantly lower, and the first half of the 21st century appears to be under-represented, too, for obvious reasons.
 
 <figure>
   <img src="/images/russian-writers/figure_1.png" alt="Figure 1" style="width:1200px;" />
@@ -120,16 +120,16 @@ We identified 8160 Russian writers in Wikidata meeting our eligibility criteria.
 
 ### 5.1.1. General
 
-Figure 2 shows the distribution of occupations of Russian writers. Unsurprisingly, the most popular professions are those where the ability to write well is a prerequisite: journalism, translation, literary criticism.
+Figure 2 shows the distribution of different occupations of Russian writers. Unsurprisingly, the most popular professions are those where the ability to write well is a prerequisite: journalism, translation, literary criticism.
 
 <figure>
   <img src="/images/russian-writers/figure_2.jpg" alt="Figure 2" style="width:1200px;" />
 </figure>
-<center><b>Fig. 2.</b> Percentage of occupations among Russian authors.</center>
+<center><b>Fig. 2.</b> Percentage of different occupations among Russian authors.</center>
 
 ### 5.1.2. By Time
 
-Figure 3 only shows the professions that had more than 5 people in each period. We witness the decline of linguistics, philosophy, criticism, translation, diplomacy, history, education over the centuries, possibly also due to a diversifying landscape of professions, and the rise of journalism.
+Figure 3 only shows the professions that had more than 5 people assigned to them in each period. We witness the decline of linguistics, philosophy, criticism, translation, diplomacy, history, education over the centuries, possibly also due to a diversifying landscape of professions, and the rise of journalism.
 
 <figure>
   <img src="/images/russian-writers/figure_3.jpg" alt="Figure 3" style="width:1200px;" />
@@ -143,16 +143,16 @@ Figure 4 shows that women writers had fewer professional options in past centuri
 <figure>
   <img src="/images/russian-writers/figure_4.jpg" alt="Figure 4" style="width:1200px;" />
 </figure>
-<center><b>Fig. 4.</b> Popularity of professions among male and female writers.</center>
+<center><b>Fig. 4.</b> Popularity of professions among male and female writers.<br /></center>
 
 ### 5.1.4. Just a Writer (by Time & Gender)
 
-Figure 5 shows the percentage of writers who are marked as writers on Wikidata and are not attributed additional occupations. The situation remains quite stable considering men, whereas the percentage for women falls from 100% to approximately 70% by the beginning of 19th century and then gradually declines to 45–50%. We tend to explain this by the fact that women gradually entered the labour market. Towards the 21st century, there is a 50% chance that being a writer means that a person also has an additional profession, according to Wikidata.
+Figure 5 shows the percentage of writers only marked as *writers* on Wikidata without additional occupations. The situation remains quite stable considering men, whereas the percentage of women falls from 100% to approximately 70% by the beginning of 19th century and then gradually declines to 45–50%. We tend to explain this by the fact that women gradually entered the labour market. Towards the 21st century, there is a 50% chance that being a writer means that a person also has an additional profession, according to Wikidata.
 
 <figure>
   <img src="/images/russian-writers/figure_5.png" alt="Figure 5" style="width:1200px;" />
 </figure>
-<center><b>Fig. 5.</b> Percentage of writers whose only profession in Wikidata is writer.</center>
+<center><b>Fig. 5.</b> Percentage of writers whose only profession in Wikidata is writer.<br /></center>
 
 ## 5.2. Languages Spoken
 ### 5.2.1. General
@@ -162,7 +162,7 @@ Figure 6 shows the distribution of additional languages Russian writers spoke or
 <figure>
   <img src="/images/russian-writers/figure_6.jpg" alt="Figure 6" style="width:1200px;" />
 </figure>
-<center><b>Fig. 6.</b> Popularity of additional languages mastered by Russian writers.</center>
+<center><b>Fig. 6.</b> Popularity of additional languages mastered by Russian writers.<br /></center>
 
 ### 5.2.2. By Gender
 
@@ -171,16 +171,16 @@ Figure 7 uncovers some interesting tendencies. Women writers in our data set mas
 <figure>
   <img src="/images/russian-writers/figure_7.jpg" alt="Figure 7" style="width:1200px;" />
 </figure>
-<center><b>Fig. 7.</b> Languages spoken by Russian writers, divided by gender.</center>
+<center><b>Fig. 7.</b> Languages spoken by Russian writers, divided by gender.<br /></center>
 
 ### 5.2.3. By Time
 
-The distribution of languages spoken by Russian writers by time (figure 8) can reflect cultural influences of given periods. Between 1800–1850 the most popular language was German, which might be due to the German-orientated culture established by Peter the Great. During the second half of the 19th century (1850–1900), the most popular language was French, which corresponds to the great influence that French culture had on Russia at the time. At the beginning of the 20th century (1900–1950), the most popular languages were Ukrainian, French and Yiddish. During the second half of the 20th century (1950–2000), English joined the parade. In the most contemporary period, the most popular additional languages are French, Ukrainian and English. It is worth noting that the gap between popular and unpopular languages decreased over time, possibly an effect of globalisation, leading to a mix of contemporary cultures exerting an influence on Russian literary life.
+The distribution of languages spoken by Russian writers by time (figure 8) can reflect cultural influences of given periods. Between 1800–1850, the most popular language was German, which might be due to the German-orientated culture established by Peter the Great. During the second half of the 19th century (1850–1900), the most popular language was French, which corresponds to the big influence that French culture had on Russian culture at the time. At the beginning of the 20th century (1900–1950), the most popular languages were Ukrainian, French and Yiddish. During the second half of the 20th century (1950–2000), English joined the parade. In the most contemporary period, the most popular additional languages are French, Ukrainian and English. It is worth noting that the gap between popular and unpopular languages decreased over time, possibly an effect of globalisation, leading to a mix of contemporary cultures and languages exerting an influence on Russian literary life.
 
 <figure>
   <img src="/images/russian-writers/figure_8.jpg" alt="Figure 8" style="width:1200px;" />
 </figure>
-<center><b>Fig. 8.</b> Languages spoken by Russian writers, divided by time.</center>
+<center><b>Fig. 8.</b> Languages spoken by Russian writers, divided by time.<br /></center>
 
 # 6. Appendix
 
