@@ -7,14 +7,16 @@ date: 2018-08-20
 ---
 
 # 1. Introduction
+
 ## 1.1. TL;DR
 
 This is a little experiment which we conducted in a limited amount of time (one week). We wanted to find out how the range of jobs practised by Russian writers throughout history is represented in [Wikidata](https://www.Wikidata.org/). Since Wikidata is primarily filled in an automated fashion, we wanted to look for systematic errors in that process. However, we have also dared to interpret the data on Russian authors at least a little, even if they are at this point neither complete nor specifically curated in Wikidata. As an appetiser, here’s fig. 3:
 
 <figure>
-  <img src="/images/russian-writers/figure_3.png" alt="Amount of Russian writers in Wikipedia (according to their year of death, in 50-year steps)" style="width:1200px;" />
-  <figcaption>Fig. 3. The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</figcaption>
+  <img src="/images/russian-writers/figure_3.jpg" alt="Figure 3" style="width:1200px;" />
 </figure>
+
+<small>Fig. 3. The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</small>
 
 No surprise there, writers generally tended to (also) be journalists, translators, literary critics. But now onto some details of our exercise:
 
@@ -81,6 +83,7 @@ Our queries initially had every writer occur as many times as he had professions
 The created dictionary was used to visualise information with by help of the following Python libraries: pandas, seaborn and matplotlib. At first, the data was reorganised into tables in order to create pandas dataframes. Thereafter, the seaborn graphs were compiled based on the aforementioned dataframes. Visual aspects were set up such as labels of the axes, captions, colour palettes, fonts, etc. Finally, all the charts were saved and displayed via matplotlib library.
 
 # 4. Wikidata Errors
+
 ## 4.1. Mistranslations
 
 Most of the problems we faced in our research were systematic, for example, mistranslations. It is quite obvious that [Yanka Kupala](https://en.wikipedia.org/wiki/Yanka_Kupala) was not an "imagemaker". The error occurred due to automatic translation. In the Russian WP he was marked as "публицист" (transcribed "publicist" = "opinion journalist"), but the automatic translated the publicist back to ["имиджмейкер"](https://www.wikidata.org/wiki/Q4178004) ("imagemaker").
