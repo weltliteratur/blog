@@ -143,7 +143,7 @@ Figure 4 shows that women writers had fewer professional options in past centuri
 <figure>
   <img src="/images/russian-writers/figure_4.jpg" alt="Figure 4" style="width:1200px;" />
 </figure>
-<center><b>Fig. 4.</b> Popularity of professions among male and female writers.<br /></center>
+<center><b>Fig. 4.</b> Popularity of professions among male and female writers.<br /> </center>
 
 ### 5.1.4. Just a Writer (by Time & Gender)
 
@@ -152,7 +152,7 @@ Figure 5 shows the percentage of writers only marked as *writers* on Wikidata wi
 <figure>
   <img src="/images/russian-writers/figure_5.png" alt="Figure 5" style="width:1200px;" />
 </figure>
-<center><b>Fig. 5.</b> Percentage of writers whose only profession in Wikidata is writer.<br /></center>
+<center><b>Fig. 5.</b> Percentage of writers whose only profession in Wikidata is writer.<br /> </center>
 
 ## 5.2. Languages Spoken
 ### 5.2.1. General
@@ -162,7 +162,7 @@ Figure 6 shows the distribution of additional languages Russian writers spoke or
 <figure>
   <img src="/images/russian-writers/figure_6.jpg" alt="Figure 6" style="width:1200px;" />
 </figure>
-<center><b>Fig. 6.</b> Popularity of additional languages mastered by Russian writers.<br /></center>
+<center><b>Fig. 6.</b> Popularity of additional languages mastered by Russian writers.<br /> </center>
 
 ### 5.2.2. By Gender
 
@@ -171,7 +171,7 @@ Figure 7 uncovers some interesting tendencies. Women writers in our data set mas
 <figure>
   <img src="/images/russian-writers/figure_7.jpg" alt="Figure 7" style="width:1200px;" />
 </figure>
-<center><b>Fig. 7.</b> Languages spoken by Russian writers, divided by gender.<br /></center>
+<center><b>Fig. 7.</b> Languages spoken by Russian writers, divided by gender.<br /> </center>
 
 ### 5.2.3. By Time
 
@@ -180,7 +180,7 @@ The distribution of languages spoken by Russian writers by time (figure 8) can r
 <figure>
   <img src="/images/russian-writers/figure_8.jpg" alt="Figure 8" style="width:1200px;" />
 </figure>
-<center><b>Fig. 8.</b> Languages spoken by Russian writers, divided by time.<br /></center>
+<center><b>Fig. 8.</b> Languages spoken by Russian writers, divided by time.<br /> </center>
 
 # 6. Appendix
 
