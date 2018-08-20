@@ -99,6 +99,33 @@ authors:
     twitter: ingoboerner
     github: ingoboerner
     description: …
+  galina:
+    name: Galina Ryazanskaya
+    display_name: Galina
+    gravatar: 
+    email: galka1999@gmail.com
+    web: 
+    twitter: 
+    github: brouhahaha
+    description: HSE, Moscow.
+  alena:
+    name: Alena Shchevyeva
+    display_name: Alena
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: 
+    description: HSE, Moscow.
+  maria:
+    name: Maria Suvorova
+    display_name: Maria
+    gravatar: 
+    email: galka1999@gmail.com
+    web: 
+    twitter: 
+    github: 
+    description: HSE, Moscow.
     
 
 paginate:         10
