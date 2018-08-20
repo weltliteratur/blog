@@ -15,7 +15,7 @@ This is a little experiment which we conducted in a limited amount of time (one 
 <figure>
   <img src="/images/russian-writers/figure_3.jpg" alt="Figure 3" style="width:1200px;" />
 </figure>
-<center>**Fig. 3.** The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</center>
+<center><b>Fig. 3.</b> The 16 most popular professions among Russian writers between 1700 and 2000 (in 50-year spans).</center>
 
 No surprise there, writers generally tended to (also) be journalists, translators, literary critics. But now onto some details of our exercise:
 
@@ -107,8 +107,8 @@ We identified 8160 Russian writers in Wikidata meeting our eligibility criteria.
 
 <figure>
   <img src="/images/russian-writers/figure_1.png" alt="Figure 1" style="width:1200px;" />
-  <figcaption>Fig. 1. Amount of Russian writers in Wikidata (y-axis) by year of death, in 50-year steps (x-axis). Green line: overall. Blue line: female writers. Orange line: male writers.</figcaption>
 </figure>
+<center><b>Fig. 1.</b> Amount of Russian writers in Wikidata.</center>
 
 ## 5.1. Occupations
 ### 5.1.1. General
