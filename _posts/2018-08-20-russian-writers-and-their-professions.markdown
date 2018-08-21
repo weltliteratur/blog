@@ -98,7 +98,7 @@ In many cases there was a generic name instead of the actual job title (mostly d
 
 ## 4.3. Redundancies
 
-The last systematic problem we came across was the replication or synonymous labelling of entities such as "police officer" (Q361593 and Q384593) or ethnologist (Q1371378) versus ethnographer (Q12347522). Yet sometimes it is not quite clear whether articles should be merged. It is not obvious whether "official" ("должностное лицо", Q599151), "official" ("чиновник", Q382887) and civil servant ("государственный служащий", Q212238) convey the same meaning.
+The last systematic problem we came across was the replication or synonymous labelling of entities such as "police officer" (Q361593 and Q384593) or ethnologist (Q1371378) versus ethnographer (Q12347522). Yet sometimes it is not quite clear whether articles should be merged. It is not obvious whether "official" ("должностное лицо", Q599151), "official" ("чиновник", Q382887) and "civil servant" ("государственный служащий", Q212238) convey the same meaning.
 
 ## 4.4. Wikibot for Error Correction
 
