@@ -1,5 +1,5 @@
 ---
-title: "Russian Poetics in Translation" (10 Volumes, 1975–1983)
+title: '"Russian Poetics in Translation" (10 Volumes, 1975–1983)'
 layout: post
 author: [ingo, angelika, frank]
 comments: true
