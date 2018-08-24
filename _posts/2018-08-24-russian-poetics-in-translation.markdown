@@ -14,9 +14,9 @@ In Russia, the core texts are very present in everyday university life. Beyond R
   <img src="/images/russian-poetics-vols-1-to-5.jpg" alt="Volumes 1 to 5." style="width:625px;" />
 </figure>
 
-The collection is not available in a lot of libraries, it seems. If you're lucky, you find one or two volumes in your nearest library, but probably not the whole collection. This is why a shout-out is due to [Niederösterreichische Landesbibliothek (NÖLB)](https://de.wikipedia.org/wiki/Niederösterreichische_Landesbibliothek) in St. Pölten which holds almost the entire set, donated by [Joseph P. Strelka](https://de.wikipedia.org/wiki/Joseph_P._Strelka), a former professor at SUNY Albany.
+The collection is not available in a lot of libraries, it seems. If you're lucky, you find one or two volumes in your nearest library, but probably not the whole collection. This is why a shout-out is due to [Niederösterreichische Landesbibliothek (NÖLB)](https://de.wikipedia.org/wiki/Niederösterreichische_Landesbibliothek) in St. Pölten which holds almost the entire set, donated by [Joseph P. Strelka](https://de.wikipedia.org/wiki/Joseph_P._Strelka), a former professor at SUNY Albany. Thus, we didn't have to go far to get hold of most of the volumes. The rest we gathered worldwide with the help of friends, and before long we were proud owners of (copies of) all volumes.
 
-In our experience, even online it is hard to throw a glance at the tables of contents per volume. Having said that, the volumes seem to be available as e-books via Amazon since 2013 (incl. the "look inside" option), yet we didn't check these versions and are unsure about how they were converted and how readable/quotable they ultimately are (if you have any experience with them, feel free to tell us).
+Now, in our experience, even online it is hard to throw a glance at the tables of contents per volume. Having said that, the volumes seem to be available as e-books via Amazon since 2013 (incl. the "look inside" option), yet we didn't check these versions and are unsure about how they were converted and how readable/quotable they ultimately are (if you have any experience with them, feel free to tell us).
 
 In any case, to convey the richness of this collection, we decided to create a bibliography of all articles in all 10 volumes and publish it on this web page. We also created a [Zotero group](https://www.zotero.org/groups/2113340/russian_poetics_in_translation/items) in which we listed all articles. We hope this will inspire those of you who have never heard of this collection before.
 
@@ -101,5 +101,5 @@ In any case, to convey the richness of this collection, we decided to create a b
 * V. N. Voloshinov [M. M. Bakhtin]: **Literary Stylistics 1: What is Language?** Translated by Noel Owen. (pp. 93–113)
 * V. N. Voloshinov [M. M. Bakhtin]: **Literary Stylistics 2: The Construction of the Utterance.** Translated by Noel Owen. (pp. 114–138)
 * V. N. Voloshinov [M. M. Bakhtin]: **Literary Stylistics 3: The Word and its Social Function.** Translated by Joe Andrew. (pp. 139–152)
-* Glossary of Key Terms (pp. 153–155)
-* Bibliography (p. 156)
+* Glossary of Key Terms. (pp. 153–155)
+* Bibliography. (p. 156)
