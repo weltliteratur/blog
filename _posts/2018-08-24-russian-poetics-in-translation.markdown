@@ -64,7 +64,7 @@ In any case, to convey the richness of this collection, we decided to create a b
 
 ## Vol. 6. Dramatic Structure; Poetic and Cognitive Semantics (1979, 96pp.)
 * Yu. K. Scheglov: **The Poetics of Molière's Comedies [1977].** Part One: The Structural Invariants. Translated by L. M. O'Toole. Part Two: The Structure of One Comedy: *M. de Pourceaugnac*. Translated by N. F. C. Owen. (pp. 1–83)
-* Yu. M. Lotman: **Culture as Collective Intellect and the Problems of Artificial Intelligence.** Translated by Ann Shukman. (pp. 84–96)
+* Yu. M. Lotman: **Culture as Collective Intellect and the Problems of Artificial Intelligence.** Translated by Ann Shukman. (pp. 84–96) (**[PDF](https://www.flfi.ut.ee/sites/default/files/www_ut/lotman_1979_culture_as_collective_intellect.pdf)**)
 
 ## Vol. 7. Metre, Rhythm, Stanza, Rhyme (1980, 105pp.)
 * M. L. Gasparov: **Quantitative Methods in Russian Metrics: Achievements and Prospects [1974].** Translated by G. S. Smith. (pp. 1–19)
