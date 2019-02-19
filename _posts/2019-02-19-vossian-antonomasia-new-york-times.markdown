@@ -1,20 +1,22 @@
 ---
-title: 'Vossian Antonomasia in "The New York Times" (New Paper Out!)'
+title: 'Vossian Antonomasia in "The New York Times"'
 layout: post
-author: [frank]
+author: frank
 comments: true
 date: 2019-02-19
 ---
+
+## New Paper Out!
 
 We've been collecting and studying **Vossian antonomasia** (VA, or, vossanto) for about a decade now. This stylistic device, named after Dutch humanist [Gerardus Vossius](https://en.wikipedia.org/wiki/Gerardus_Vossius), occurs when someone is called ["the Jay Leno of Tel Aviv"](https://www.nytimes.com/2006/12/31/movies/31farb.html) or ["the Marilyn Monroe of the Arab world"](https://www.nytimes.com/1999/09/22/arts/tahia-carioca-79-dies-a-renowned-belly-dancer.html) etc. etc.
 
 We just published a new paper about this phenomenon …
 
-* Frank Fischer; Robert Jäschke: **‘The Michael Jordan of greatness’—Extracting Vossian antonomasia from two decades of The New York Times, 1987–2007.** *Digital Scholarship in the Humanities.* 2019. (DOI:10.1093/llc/fqy087) (Preprint tba)
+* Frank Fischer; Robert Jäschke: **‘The Michael Jordan of greatness’—Extracting Vossian antonomasia from two decades of The New York Times, 1987–2007.** *Digital Scholarship in the Humanities.* 2019. (DOI:[10.1093/llc/fqy087](https://doi.org/10.1093/llc/fqy087)) (Preprint: [arXiv:1902.06428](https://arxiv.org/abs/1902.06428))
 
 … plus a website with our code and some more interesting results for you to explore:
 
-* https://vossanto.weltliteratur.net/
+* [https://vossanto.weltliteratur.net/](https://vossanto.weltliteratur.net/)
 
 But let's rewind a bit. Some years ago we published a [hand-picked list](https://www.umblaetterer.de/datenzentrum/vossianische-antonomasien.html) with our favourite VA expressions from 2009 to 2014 (mainly from German-language media) and published what we thought would be our [final article on the subject](https://www.umblaetterer.de/wp-content/uploads/2014/12/vossanto_fas.png) in *Frankfurter Allgemeine Sonntagszeitung* in December 2014.
 
@@ -26,9 +28,8 @@ So before long we were back in the game and started hacking. We wanted to find a
 
 A couple of months later we had the idea that took our research to a new level. Thanks to a research scholarship granted to me by the [Information School at the University of Sheffield](https://www.sheffield.ac.uk/is), Robert and I were able to spend two weeks hacking together in May, 2017. And then, probably during one of our lunches at the [Red Deer](http://www.red-deer-sheffield.co.uk/) (Vegetarian Haggis ftw!), we came to talk about **Wikidata** and then it occurred to us that it could help us out of our NER concerns. Here are the two things we brought together:
 
-1. We want to extract paragons, that is, well-known, infamous people. People that would definitely have a Wikipedia entry in some language, or else they wouldn't be well-known enough to serve as source for Vossian antonomasia.
-
-2. Wikidata inherits these famous people from all the different Wikipedia language versions and has all kinds of facts about them in a well-structured format, including nicknames and alternative spelling of names (which we would need).
+* 1. We want to extract paragons, that is, well-known, infamous people. People that would definitely have a Wikipedia entry in some language, or else they wouldn't be well-known enough to serve as source for Vossian antonomasia.
+* 2. Wikidata inherits these famous people from all the different Wikipedia language versions and has all kinds of facts about them in a well-structured format, including nicknames and alternative spelling of names (which we would need).
 
 Please note that this solution was really carved out for our specific research question, because Wikidata arguably holds exactly those named entities that we would need. Yet it probably wouldn't be the best choice for other NER purposes.
 
@@ -50,7 +51,7 @@ We also generated a gallery of those 40 people by pulling their principal images
 <figure>
   <img src="/images/gallery-top-39-sources-vossian-antonomasia.jpg" alt="Top-39 sources for Vossian antonomiasa in the NYT 1987–2007" style="width:1200px;" />
 </figure>
-<center>*Btw, if you did the counting you'll only find 39 images. One of the entities does not have an image in Wikidata.)*</center>
+<center><small>Btw, if you did the counting you'll only find 39 images. One of the entities does not have an image in Wikidata.)</small><br /></center>
 
 ## Next Steps
 
