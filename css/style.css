@@ -32,9 +32,6 @@ p.copy > img {
     border-bottom: none;
 }
 
-/* until fontawsome includes ORCID, see https://github.com/FortAwesome/Font-Awesome/issues/4401 */
-.fa-orcid:before{content: url(images/orcid.png);}
-
 /* --------------------------------------
 -----   Reset   -----
 ------------------------------------------*/
