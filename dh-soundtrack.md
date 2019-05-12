@@ -45,7 +45,7 @@ Sebastian Klinge &middot; [Frank Fischer](https://twitter.com/umblaetterer)
   32. Audio88 & Yassin: Halleluja &middot; ([youtube](https://www.youtube.com/watch?v=W5ZldUxaX7s))
   33. Conner4Real: I'm So Humble &middot; ([youtube](https://www.youtube.com/watch?v=tIpbYyR0OOI)) ([youtube/live](https://www.youtube.com/watch?v=XzbAEHdy8oU))
   34. The Chainsmokers: Don't Let Me Down &middot; ([youtube](https://www.youtube.com/watch?v=1Oezjm6Mmm8))
-  35. Fortuna Ehrenfeld: Ein analoges Mädchen
+  35. Fortuna Ehrenfeld: Ein analoges Mädchen &middot; ([youtube](https://www.youtube.com/watch?v=UOOqFea4kwU))
   36. Wild Beasts: Get My Bang &middot; ([youtube](https://www.youtube.com/watch?v=8nkdZhFzglA))
   37. Bon Iver: 10 d E A T h b R E a s T ⚄ ⚄ &middot; ([youtube](https://www.youtube.com/watch?v=HNy7VtSsmu8))
   38. James Blake: I Need a Forest Fire &middot; ([youtube](https://www.youtube.com/watch?v=sAJgs1P-uUE))
