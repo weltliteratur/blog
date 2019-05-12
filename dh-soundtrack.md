@@ -1,11 +1,11 @@
 ---
 layout: page
-title: DH Soundtrack &#35;musicliquidarchitecture
+title: DH Soundtrack 2016
 ---
 
 Kawoom. The following list of songs constitutes our very own, bleeding-edge Digital Humanities soundtrack, music we listen to before, after and, much to our own surprise, while conducting our research. All annual editions are [rolling releases](https://en.wikipedia.org/wiki/Rolling_release) receiving regular updates (see Update History below). Links are only provided if we came across an official audio or video. Working hypothesis: **music = liquid architecture**, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
 
-[Sebastian Klinge](https://twitter.com/DasAnsagenfeuil) &middot; [Frank Fischer](https://twitter.com/umblaetterer)
+Sebastian Klinge &middot; [Frank Fischer](https://twitter.com/umblaetterer)
 
 * * *
 
@@ -14,16 +14,16 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   1. Poliça: Top Coat &middot; ([youtube/live](https://www.youtube.com/watch?v=EIoAs9wpaco))
   2. M83: Go! &middot; ([youtube](https://www.youtube.com/watch?v=U3YZTYXftzg))
   3. Moderat: Ghostmother &middot; ([soundcloud](https://soundcloud.com/moderat-official/ghostmother))
-  4. Mogwai: Tzar
+  4. Mogwai: Tzar &middot; ([youtube](https://www.youtube.com/watch?v=zvq6NEabA2Y))
   5. Deftones: Prayers/Triangles &middot; ([youtube](https://www.youtube.com/watch?v=D5BG_B8FWhI))
   6. Explosions in the Sky: Tangle Formations &middot; ([youtube](https://www.youtube.com/watch?v=h2PagQXYQIE))
   7. Savages: Adore &middot; ([vimeo](https://vimeo.com/150766416))
   8. DIIV: Under the Sun &middot; ([youtube](https://www.youtube.com/watch?v=zKbqyuaXolg)) ([soundcloud](https://soundcloud.com/capturedtracks/diiv-under-the-sun-official-single))
-  9. Animal Collective: Bagels in Kiev
+  9. Animal Collective: Bagels in Kiev &middot; ([youtube](https://www.youtube.com/watch?v=u1ijmmuJ2p8))
   10. Wild Nothing: Reichpop &middot; ([youtube](https://www.youtube.com/watch?v=2R8xrvVRztQ)) ([soundcloud](https://soundcloud.com/bella-union/wild-nothing-reichpop))
   11. Kanye West: Famous &middot; ([youtube/&#34;unofficial official video&#34;](https://www.youtube.com/watch?v=Q821mNXNw-I), cf. [here](http://www.theverge.com/2016/4/28/11526342/kanye-west-famous-music-video-aziz-ansari-eric-wareheim-tlop))
   12. Alan Walker: Faded &middot; ([youtube](https://www.youtube.com/watch?v=60ItHLz5WEA))
-  13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013
+  13. Kendrick Lamar: untitled 03 &#x7c; 05.28.2013 &middot; ([youtube](https://www.youtube.com/watch?v=04HPkc6zRu0))
   14. Bad Lip Reading: Bushes of Love &middot; ([youtube](https://www.youtube.com/watch?v=RySHDUU2juM))
   15. DMA'S: Step Up the Morphine &middot; ([youtube](https://www.youtube.com/watch?v=vYTXXhkHHG0))
   16. Beyoncé: Sorry &middot; ([youtube](https://www.youtube.com/watch?v=QxsmWxxouIM))
@@ -50,7 +50,7 @@ Kawoom. The following list of songs constitutes our very own, bleeding-edge Digi
   37. Bon Iver: 10 d E A T h b R E a s T ⚄ ⚄ &middot; ([youtube](https://www.youtube.com/watch?v=HNy7VtSsmu8))
   38. James Blake: I Need a Forest Fire &middot; ([youtube](https://www.youtube.com/watch?v=sAJgs1P-uUE))
   39. Portishead: SOS &middot; ([youtube](https://www.youtube.com/watch?v=WVe-9VWIcCo))
-  40. Jamie T: Joan of Arc
+  40. Jamie T: Joan of Arc &middot; ([youtube](https://www.youtube.com/watch?v=U1K2YjlmcwY))
   41. The Divine Comedy: Catherine the Great &middot; ([vimeo](https://vimeo.com/171561867)) ([youtube/live](https://www.youtube.com/watch?v=2nJuX-1jINY))
   42. Gold Panda: In My Car &middot; ([youtube](https://www.youtube.com/watch?v=6YVhAILmqyo))
   43. Glass Animals: Youth &middot; ([youtube](https://www.youtube.com/watch?v=_ZdsmLgCVdU)) ([vevo](http://www.vevo.com/watch/glass-animals/youth-(official-video)/GB2DY1600050))
