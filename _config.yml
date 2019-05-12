@@ -24,6 +24,7 @@ authors:
     gravatar: 2c9c581ae0a3d3590563d9f4120b1861
     email: jaeschke@L3S.de
     web: https://amor.cms.hu-berlin.de/~jaeschkr/
+    orcid: 0000-0003-3271-9653
     twitter:
     github: rjoberon
     description: Professor at Humboldt-Universität zu Berlin.
@@ -41,6 +42,7 @@ authors:
     display_name: Frank
     gravatar: 0e4f5ff81e5b1b1976c939b57207bb2d
     email: ffischer@hse.ru
+    orcid: 0000-0003-2419-6629
     web: https://www.hse.ru/en/org/persons/182492735
     twitter: umblaetterer
     github: lehkost
@@ -89,6 +91,7 @@ authors:
     web: http://www.likeanga.at/
     twitter: angelikah
     github: likeanga
+    orcid: 0000-0001-6104-7484
     description: Doing Linguistics and Digital Humanities at WU Wien.
   ingo:
     name: Ingo Börner
@@ -98,6 +101,7 @@ authors:
     web: 
     twitter: ingoboerner
     github: ingoboerner
+    orcid: 0000-0001-8294-2541
     description: …
   galina:
     name: Galina Ryazanskaya
