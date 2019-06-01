@@ -10,14 +10,14 @@ date: 2019-06-01
 
 A new volume of "Journal of Literary Theory" was published in March (vol. 13, no. 1: ["Moscow Formalism and Literary History"](https://www.degruyter.com/view/j/jlt.2019.13.issue-1/issue-files/jlt.2019.13.issue-1.xml)), a special issue prepared and edited by us comprising three translations (by Craig Saunders) from the Russian plus preface:
 
-* Frank Fischer, Marina Akimova, Boris Orekhov: <br />[**Preface: Data-Driven Formalism**](https://doi.org/10.1515/jlt-2019-0001)
-* Boris I. Yarkho: <br />[**Speech Distribution in Five-Act Tragedies (A Question of Classicism and Romanticism)**](https://doi.org/10.1515/jlt-2019-0002) (1935–1938, first published 1997)
-* Mikhail L. Gasparov: <br />[**The Evolution of Russian Rhyme**](https://doi.org/10.1515/jlt-2019-0003) (1984)
-* Maksim I. Shapir: <br />[**"For Thee There Is No Weight nor Measure". The Possibilities and Limitations of "Exact" Methods in the Humanities**](https://doi.org/10.1515/jlt-2019-0004) (2005)
+* Frank Fischer, Marina Akimova, Boris Orekhov: [**Preface: Data-Driven Formalism**](https://doi.org/10.1515/jlt-2019-0001)
+* Boris I. Yarkho: [**Speech Distribution in Five-Act Tragedies (A Question of Classicism and Romanticism)**](https://doi.org/10.1515/jlt-2019-0002) (1935–1938, first published 1997)
+* Mikhail L. Gasparov: [**The Evolution of Russian Rhyme**](https://doi.org/10.1515/jlt-2019-0003) (1984)
+* Maksim I. Shapir: [**"For Thee There Is No Weight nor Measure". The Possibilities and Limitations of "Exact" Methods in the Humanities**](https://doi.org/10.1515/jlt-2019-0004) (2005)
 
-<figure>
-<img src="/images/moscow-formalism/moscow-formalism-yarkho.jpg" alt="Figure 1a" style="height:450px;" />
-<img src="/images/moscow-formalism/moscow-formalism-yarkho.jpg" alt="Figure 1b" style="height:450px;" />
+<figure style="text-align:center;>
+<img src="/images/moscow-formalism/moscow-formalism-cover.jpg" alt="Figure 1a" style="height:450px;" />
+<img src="/images/moscow-formalism/moscow-formalism-cover-toc.png" alt="Figure 1b" style="height:450px;" />
 </figure>
 <center><b>Fig. 1.</b> Book cover and table of contents.</center>
 
@@ -27,8 +27,8 @@ The idea to this volume goes back to a chat that Asya Bonch-Osmolovskaya and I h
 
 So we assembled the team, Boris Orekhov and Marina Akimova joined as co-editors and Craig Saunders as translator. The first few pages of Yarkho's text arrived in November 2017 with Craig admitting to "feel a little charmed by the way he [Yarkho] writes".
 
-<figure>
-  <img src="/images/moscow-formalism/moscow-formalism-yarkho.jpg" alt="Figure 3" style="width:450px;" />
+<figure style="text-align:center;>
+  <img src="/images/moscow-formalism/moscow-formalism-yarkho.jpg" alt="Figure 2" style="width:450px;" />
 </figure>
 <center><b>Fig. 2.</b> Boris Yarkho (1889–1942). (source: https://urokiistorii.ru/article/52560)</center>
 
@@ -40,15 +40,11 @@ Yarkho's description of his data and experimental setup are so accurate that it 
 
 Here are two examples:
 
-<figure>
-  <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 3" style="width:500px;" />
+<figure style="text-align:center;>
+  <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 3a" style="width:440px;" />
+  <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 3b" style="width:440px;" />
 </figure>
-<center><b>Fig. 3.</b> Speech distribution for Lessing's "Emilia Galotti". (source: [dracor.org](https://dracor.org/ger/lessing-emilia-galotti#speech))</center>
-
-<figure>
-  <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 4" style="width:500px;" />
-</figure>
-<center><b>Fig. 4.</b> Speech distribution for Ozerov's "Dmitry Donskoy". (source: [dracor.org](https://dracor.org/rus/ozerov-dmitrij-donskoj#speech))</center>
+<center><b>Fig. 3.</b> Speech distributions for Lessing's "Emilia Galotti" (source: <a href="https://dracor.org/ger/lessing-emilia-galotti#speech">dracor.org) and Ozerov's "Dmitry Donskoy" (source: <a href="https://dracor.org/rus/ozerov-dmitrij-donskoj#speech">dracor.org)</center>
 
 ## Summer in Moscow
 
@@ -61,4 +57,4 @@ Most of the work was done by the summer of 2018 when the World Cup was being hel
 Thanks to the Leibniz Center for Literary and Cultural Research (ZfL) in Berlin, we will have the opportunity to present our volume and the larger context in a panel discussion on June, 12th, 2019. Marina and I will be joined on stage by ZfL's Siarhei Biareyshik, and Zaal Andronikashvili will chair the event.
 
 More information:<br />
-http://www.zfl-berlin.org/veranstaltungen-detail/items/moscow-formalism-and-literary-history.html
+[http://www.zfl-berlin.org/veranstaltungen-detail/items/moscow-formalism-and-literary-history.html](http://www.zfl-berlin.org/veranstaltungen-detail/items/moscow-formalism-and-literary-history.html)
