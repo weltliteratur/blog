@@ -15,9 +15,9 @@ A new volume of "Journal of Literary Theory" was published in March (vol. 13, no
 * Mikhail L. Gasparov: [**The Evolution of Russian Rhyme**](https://doi.org/10.1515/jlt-2019-0003) (1984)
 * Maksim I. Shapir: [**"For Thee There Is No Weight nor Measure". The Possibilities and Limitations of "Exact" Methods in the Humanities**](https://doi.org/10.1515/jlt-2019-0004) (2005)
 
-<figure style="text-align:center;>
-<img src="/images/moscow-formalism/moscow-formalism-cover.jpg" alt="Figure 1a" style="height:450px;" />
-<img src="/images/moscow-formalism/moscow-formalism-cover-toc.png" alt="Figure 1b" style="height:450px;" />
+<figure style="text-align:center;">
+<img src="/images/moscow-formalism/moscow-formalism-cover.jpg" alt="Figure 1a" style="height:600px;" />
+<img src="/images/moscow-formalism/moscow-formalism-cover-toc.png" alt="Figure 1b" style="height:600px;" />
 </figure>
 <center><b>Fig. 1.</b> Book cover and table of contents.</center>
 
@@ -27,10 +27,10 @@ The idea to this volume goes back to a chat that Asya Bonch-Osmolovskaya and I h
 
 So we assembled the team, Boris Orekhov and Marina Akimova joined as co-editors and Craig Saunders as translator. The first few pages of Yarkho's text arrived in November 2017 with Craig admitting to "feel a little charmed by the way he [Yarkho] writes".
 
-<figure style="text-align:center;>
+<figure style="text-align:center;">
   <img src="/images/moscow-formalism/moscow-formalism-yarkho.jpg" alt="Figure 2" style="width:450px;" />
 </figure>
-<center><b>Fig. 2.</b> Boris Yarkho (1889–1942). (source: https://urokiistorii.ru/article/52560)</center>
+<center><b>Fig. 2.</b> Boris Yarkho (1889–1942). (source: <a href="https://urokiistorii.ru/article/52560">https://urokiistorii.ru/article/52560</a>)</center>
 
 Except for a draft plan of Yarkho's "Methodology for a Precise Science of Literature" (transl. by L. M. O’Toole, publ. 1977 in vol. 4 of ["Russian Poetics in Translation"](https://weltliteratur.net/russian-poetics-in-translation/)) and Gasparov's early account of ["Boris Yarkho’s works on literary theory"](https://doi.org/10.12697/smp.2016.3.2.05) (transl. by Michael Lavery and Marina Tarlinskaja, publ. 2016 in "Studia Metrica et Poetica"), there's not much info on Yarkho in English.
 
@@ -40,11 +40,11 @@ Yarkho's description of his data and experimental setup are so accurate that it 
 
 Here are two examples:
 
-<figure style="text-align:center;>
+<figure style="text-align:center;">
   <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 3a" style="width:440px;" />
   <img src="/images/moscow-formalism/speech-distribution-lessing-emilia-galotti.png" alt="Figure 3b" style="width:440px;" />
 </figure>
-<center><b>Fig. 3.</b> Speech distributions for Lessing's "Emilia Galotti" (source: <a href="https://dracor.org/ger/lessing-emilia-galotti#speech">dracor.org) and Ozerov's "Dmitry Donskoy" (source: <a href="https://dracor.org/rus/ozerov-dmitrij-donskoj#speech">dracor.org)</center>
+<center><b>Fig. 3.</b> Speech distributions for Lessing's "Emilia Galotti" (source: <a href="https://dracor.org/ger/lessing-emilia-galotti#speech">dracor.org</a>) and Ozerov's "Dmitry Donskoy" (source: <a href="https://dracor.org/rus/ozerov-dmitrij-donskoj#speech">dracor.org</a>)</center>
 
 ## Summer in Moscow
 
