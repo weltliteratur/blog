@@ -1,11 +1,11 @@
 ---
 layout: page
-title: DH Mixtape 2019
+title: 2019 🎶
 ---
 
 [2016](/dh-mixtape-2016/) was a great year for music. 2017 totally wasn't. 2018 followed in this vein of fuckups. But here is 2019. So, again. This is music we listen to before, after and, much to our own surprise, while conducting our research. Links are only provided if we came across an official audio or video. Working hypothesis: **music = liquid architecture**, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
 
-SK&middot;[FF](https://twitter.com/umblaetterer)
+SK &middot; [FF](https://twitter.com/umblaetterer)
 
 * * *
 
@@ -32,3 +32,5 @@ SK&middot;[FF](https://twitter.com/umblaetterer)
   19. Jungle: Cherry ([youtube](https://www.youtube.com/watch?v=Mva_EluErSA)) (from 2018)
   20. Joywave: Like a Kennedy ([youtube](https://www.youtube.com/watch?v=736XW09hJg4))
   21. Aurora: The Seed ([youtube](https://www.youtube.com/watch?v=_Mc_OM5oNA8))
+
+to be continued…
