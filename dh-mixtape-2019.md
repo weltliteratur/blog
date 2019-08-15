@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 2019 🎶
+title: DH Mixtape 2019
 ---
 
-[2016](/dh-mixtape-2016/) was a great year for music. 2017 totally wasn't. 2018 followed in this vein of fuckups. But here is 2019. So, again. This is music we listen to before, after and, much to our own surprise, while conducting our research. Links are only provided if we came across an official audio or video. Working hypothesis: **music = liquid architecture**, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
+[2016](/dh-mixtape-2016/) was a great year for music. 2017 totally wasn't. 2018 followed in this vein of fuckups. But here is **2019**. So, again. This is music we listen to before, after and, much to our own surprise, while conducting our research. Links are only provided if we came across an official audio or video. Working hypothesis: **music = liquid architecture**, as stated [on page 313 in this 1853 book](http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10598676_00329.html?zoom=1).
 
 SK &middot; [FF](https://twitter.com/umblaetterer)
 
