@@ -32,5 +32,9 @@ SK &middot; [FF](https://twitter.com/umblaetterer)
   19. Jungle: Cherry ([youtube](https://www.youtube.com/watch?v=Mva_EluErSA)) (from 2018)
   20. Joywave: Like a Kennedy ([youtube](https://www.youtube.com/watch?v=736XW09hJg4))
   21. Aurora: The Seed ([youtube](https://www.youtube.com/watch?v=_Mc_OM5oNA8))
+  22. Мукка: Девочка с каре ([youtube](https://www.youtube.com/watch?v=SS2JL82B0eU)
+  23. Grimes: Violence ([youtube](https://www.youtube.com/watch?v=M9SGYBHY0qs)
+  24. Felix Blume: Alles auf Null ([youtube](https://www.youtube.com/watch?v=VCK0wHjhoDk)
+  25. FKA twigs: Cellophane ([youtube](https://www.youtube.com/watch?v=YkLjqFpBh84)
 
 to be continued…
