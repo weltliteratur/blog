@@ -130,6 +130,16 @@ authors:
     twitter: 
     github: brouhahaha
     description: HSE, Moscow.
+  eduard:
+    name: Eduard Grigoryev
+    display_name: Eduard
+    gravatar: fbb29909af51d8ab9f2517330d0d4388
+    email: 
+    web: 
+    twitter: happypuffin7
+    github: ldsad7
+    orcid: 
+    description: HSE, Moscow.
     
 
 paginate:         10
