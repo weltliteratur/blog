@@ -41,13 +41,13 @@ authors:
   frank:
     name: Frank Fischer
     display_name: Frank
-    gravatar: 0e4f5ff81e5b1b1976c939b57207bb2d
+    gravatar: aecc8f451ee6e45197bfe4ab02ba5271
     email: ffischer@hse.ru
     orcid: 0000-0003-2419-6629
     web: https://www.hse.ru/en/org/persons/182492735
     twitter: umblaetterer
     github: lehkost
-    description: Doing Digital Humanities at the Higher School of Economics in Moscow.
+    description: Doing Digital Humanities at Higher School of Economics in Moscow. Director of DARIAH-EU.
   christopher:
     name: Christopher Johnson
     display_name: Christopher
@@ -65,7 +65,7 @@ authors:
     web: http://www.peertrilcke.de/
     twitter: peertrilcke
     github: peertrilcke
-    description: Assistant Professor (Juniorprofessor) of Modern German Literature and Media at the University of Potsdam.
+    description: Assistant Professor (Juniorprofessor) of Modern German Literature and Media at University of Potsdam.
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
@@ -130,6 +130,16 @@ authors:
     web: 
     twitter: 
     github: brouhahaha
+    description: HSE, Moscow.
+  eduard:
+    name: Eduard Grigoryev
+    display_name: Eduard
+    gravatar: fbb29909af51d8ab9f2517330d0d4388
+    email: 
+    web: 
+    twitter: happypuffin7
+    github: ldsad7
+    orcid: 
     description: HSE, Moscow.
     
 

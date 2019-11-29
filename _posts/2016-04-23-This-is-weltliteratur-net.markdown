@@ -23,7 +23,7 @@ Today is World Book Day, thanks to Shakespeare and Cervantes, who both died exac
 
 Our first non-meta article will be delivered on Monday, something about Wikidata meeting World Literature, [a small blogpost on how you can try to grasp what this fuzzy corpus called world literature is](/Wikidata-Meets-World-Literature/), according to Wikipedia/Wikidata.
 
-Oh, one other USP of **weltliteratur.net** is the very unofficial **[DH Soundtrack](/dh-soundtrack/)**, a growing list of current songs we listen to before, after and, of course: *while* conducting our research. So if some of our entries seem to make no sense to you, try switching on our official *[musikbett](https://de.wikipedia.org/wiki/Musikbett)* to ponder a supposed deeper meaning.
+Oh, one other USP of **weltliteratur.net** is the very unofficial **[DH Soundtrack](/dh-mixtape-2016/)**, a growing list of current songs we listen to before, after and, of course: *while* conducting our research. So if some of our entries seem to make no sense to you, try switching on our official *[musikbett](https://de.wikipedia.org/wiki/Musikbett)* to ponder a supposed deeper meaning.
 
 This, by and large, is it.
 
