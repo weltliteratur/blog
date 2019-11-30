@@ -38,5 +38,7 @@ SK &middot; [FF](https://twitter.com/umblaetterer)
   25. FKA twigs: Cellophane ([youtube](https://www.youtube.com/watch?v=YkLjqFpBh84))
   26. Alyona Shvets: Одуванчик ([youtube](https://www.youtube.com/watch?v=m2PjlGAFbr8))
   27. Ivan Dorn & Vakula: Во сне ([youtube](https://www.youtube.com/watch?v=u14SHz-mVFg))
+  28. Kanye West: Use This Gospel ([youtube](https://www.youtube.com/watch?v=8yQVcGkbpAc))
+  29. Bon Iver: Faith (youtube) ([youtube](https://www.youtube.com/watch?v=wU-s_Zxv_MQ))
 
 to be continued…
