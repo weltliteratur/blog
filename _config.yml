@@ -11,6 +11,7 @@ name:             'A Black Market for the Digital Humanities'
 title:            weltliteratur.net
 tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
+keywords:	  digital humanities, weltliteratur, world literature, blog
 url:              https://weltliteratur.net
 baseurl:          /
 base: 	      	  https://weltliteratur.net
