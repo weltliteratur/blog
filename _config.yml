@@ -141,6 +141,36 @@ authors:
     github: ldsad7
     orcid: 
     description: HSE, Moscow.
+  laure:
+    name: Laure Barbot
+    display_name: Laure
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: 
+    orcid: 0000-0002-6008-7959
+    description: Project officer at DARIAH-EU, Berlin.
+  yoann:
+    name: Yoann Moranville
+    display_name: Yoann
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: yoannspace
+    orcid: 
+    description: Developer at DARIAH. Technical Coordinator of OPERAS.
+  ivan:
+    name: Ivan Pozdniakov
+    display_name: Ivan
+    gravatar: 
+    email: 
+    web: 
+    twitter: 
+    github: 
+    orcid: 
+    description: Higher School of Economics, Moscow.
     
 
 paginate:         10
