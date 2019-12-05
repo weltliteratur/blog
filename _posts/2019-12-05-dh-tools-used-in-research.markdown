@@ -10,7 +10,7 @@ Not that we didn't know that, but Gephi is the most popular DH tool actually use
 
 We know this because we did some counting. So let's explain:
 
-The longest-standing tool directory in the Digital Humanities, the Canadian portal [TAPoR](http://tapor.ca/home) lead by Geoffrey Rockwell, has around 1.500 DH tools in its database (including historic ones). We were wondering how this richness of means and utilities in our field is manifested in actual research work. To gain some first insights, we decided to extract the names of tools from TAPoR (which is easy thanks to their API) and match them with the proceedings of the largest and broadest event series in the Digital Humanities, ADHO's annual DH conferences. The proceedings from DH2015 to DH2019 are [freely available](https://github.com/ADHO/) (licensed under CC BY 4.0), so that was our chosen source:
+The longest-standing tool directory in the Digital Humanities, the Canadian portal [TAPoR](http://tapor.ca/home) led by Geoffrey Rockwell, has around 1.500 DH tools in its database (including historic ones). We were wondering how this richness of means and utilities in our field is manifested in actual research work. To gain some first insights, we decided to extract the names of tools from TAPoR (which is easy thanks to their API) and match them with the proceedings of the largest and broadest event series in the Digital Humanities, ADHO's annual DH conferences. The proceedings from DH2015 to DH2019 are [freely available](https://github.com/ADHO/) (licensed under CC BY 4.0, thx to Fabio Ciotti for giving us early access to the DH2019 data), so that was our chosen source:
 
 * DH2015, Sydney
 * DH2016, Kraków
@@ -18,12 +18,11 @@ The longest-standing tool directory in the Digital Humanities, the Canadian port
 * DH2018, Ciudad de México
 * DH2019, Utrecht
 
-Altogether, **238 tools** were mentioned at least once in these five years, and we counted **1.498 mentions** of tools altogether in all the proceedings. To extract this kind of data, we had written a little Java tool called [**ToolXtractor**](https://github.com/lehkost/ToolXtractor/), which you can run yourself with alternative source material if you like and also with different lists of tools. Since this is simple string matching, we had to throw out some false positives manually (not too many, though).
+Altogether, **238 tools** were mentioned at least once in these five years, and we counted **1.498 mentions** of tools altogether in all the proceedings. To extract this kind of data, we wrote a little Java tool called [**ToolXtractor**](https://github.com/lehkost/ToolXtractor/), which you can run yourself with alternative source material if you like and also with different lists of tools. Since this is simple string matching, we had to throw out some false positives manually (not too many, though).
 
-There is a complete list with all tool mentions including a link to corresponding conference abstracts for verification:
-* [Tools mentioned in the proceedings of the annual ADHO conferences (2015–2019)](https://lehkost.github.io/tools-dh-proceedings/index.html)
+There is another website featuring the complete list with all mentioned tools including a link to corresponding conference abstracts for verification: ["Tools mentioned in the proceedings of the annual ADHO conferences (2015–2019)"](https://lehkost.github.io/tools-dh-proceedings/index.html)
 
-Please also check the [**ranking**](#ranking) of all tools at the very bottom of this blog post.
+Please also check the [**ranking**](#ranking) of all tools at the very bottom of this blog post for further insights.
 
 ## 40 Most Used Tools
 
@@ -33,14 +32,14 @@ Here are the 40 tools with most mentions:
   <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:900px;" />
 </figure>
 
-Online version (interactive): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
+Online version (interactive and with dynamic captions): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
 
 ## Known Issues
 
-Before we continue with some visualisations, some caveats:
+Before we continue with more visualisations, some caveats:
 
 * Of course, this is not a complete list of all tools mentioned in the proceedings, only of those tools comprised in the TAPoR database (the vast majority should be covered, though).
-* We decided to leave programming languages like Python or JavaScript in, just like social networks (Twitter) and other things that are not DH tools in a narrower sense.
+* We decided to leave programming languages like Python or JavaScript in, just like social networks (Twitter) and other things that are not DH tools in a narrower sense. Given that we published the data, it is easy to take them out to get a clearer view at actual DH tools.
 * We had to use a stopword list containing tools with names that are also frequent terms, like ["Processing"](https://processing.org/), and we also left out one-letter programming languages, like R and C. Especially R is quite popular in our community and it would be great to compare it to its biggest contender: Python. But this would be future work. (Stopword list etc. to be found in the [ToolXtractor repo](https://github.com/lehkost/ToolXtractor/).)
 
 Btw, everyone is welcome to do their own viz, [the dataset is freely available (in CSV format)](https://lehkost.github.io/tools-dh-proceedings/tools-dh-proceedings.csv).
