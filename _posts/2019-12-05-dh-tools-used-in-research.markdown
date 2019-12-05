@@ -20,7 +20,7 @@ The longest-standing tool directory in the Digital Humanities, the Canadian port
 
 Altogether, **238 tools** were mentioned at least once in these five years, and we counted **1.498 mentions** of tools altogether in all the proceedings. To extract this kind of data, we wrote a little Java tool called [**ToolXtractor**](https://github.com/lehkost/ToolXtractor/), which you can run yourself with alternative source material if you like and also with different lists of tools. Since this is simple string matching, we had to throw out some false positives manually (not too many, though).
 
-There is another website featuring the complete list with all mentioned tools including a link to corresponding conference abstracts for verification: ["Tools mentioned in the proceedings of the annual ADHO conferences (2015–2019)"](https://lehkost.github.io/tools-dh-proceedings/index.html)
+We set up another website providing a complete list of all mentioned tools including a link to corresponding conference abstracts for verification: ["Tools mentioned in the proceedings of the annual ADHO conferences (2015–2019)"](https://lehkost.github.io/tools-dh-proceedings/index.html)
 
 Please also check the [**ranking**](#ranking) of all tools at the very bottom of this blog post for further insights.
 
@@ -32,7 +32,7 @@ Here are the 40 tools with most mentions:
   <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:900px;" />
 </figure>
 
-Online version (interactive and with dynamic captions): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
+Online version (interactive): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
 
 ## Known Issues
 
@@ -52,7 +52,7 @@ All tools and their mentions per year:
   <img src="/images/dh-tools-used-in-research/streamgraph.png" alt="Streamgraph" style="width:925px;" />
 </figure>
 
-Online version (interactive): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
+Online version (interactive and with dynamic captions): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
 
 ## Line Chart and Bar Plot (Top-10 Tools)
 
