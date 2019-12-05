@@ -33,7 +33,7 @@ Here are the 40 tools with most mentions:
   <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:000px;" />
 </figure>
 
-Online version (interactive): https://datawrapper.dwcdn.net/L96xg/
+Online version (interactive): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
 
 ## Known Issues
 
@@ -53,15 +53,12 @@ All tools and their mentions per year:
   <img src="/images/dh-tools-used-in-research/streamgraph.png" alt="Streamgraph" style="width:925px;" />
 </figure>
 
-Online version (interactive): https://rpubs.com/Pozdniakov/stream_dh
+Online version (interactive): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
 
 ## Line Chart and Bar Plot (Top-10 Tools)
 
 <figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/linechart-top-10-tools.jpg" alt="" style="width:489px;" />
-</figure>
-
-<figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/bar-plot-top-10-tools.jpg" alt="" style="width:489px;" />
 </figure>
 
@@ -69,15 +66,12 @@ Online version (interactive): https://rpubs.com/Pozdniakov/stream_dh
 
 <figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/bar-plot-all-tools.jpg" alt="" style="width:489px;" />
-</figure>
-
-<figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/stacked-area-all-tools.jpg" alt="" style="width:489px;" />
 </figure>
 
 ## Ranking
 
-All 238 tools mentioned with the number of occurrences 2015–2019:
+All 238 tools mentioned with number of occurrences 2015–2019:
 
 1. Python (125)
 2. Twitter (82)
@@ -92,7 +86,7 @@ All 238 tools mentioned with the number of occurrences 2015–2019:
 11. Excel (30)
 12. MySQL (27)
 13. D3.js (23)
-14. Natural Language Toolkit | NLTK (23)
+14. Natural Language Toolkit · NLTK (23)
 15. WordPress (20)
 16. Drupal (19)
 17. TextGrid (19)
@@ -114,7 +108,7 @@ All 238 tools mentioned with the number of occurrences 2015–2019:
 33. ArcGIS (12)
 34. Music Encoding Initiative (12)
 35. Transkribus (12)
-36. Carto | CartoDB (11)
+36. Carto · CartoDB (11)
 37. Juxta (10)
 38. KWIC (10)
 39. Perl (10)
@@ -124,8 +118,8 @@ All 238 tools mentioned with the number of occurrences 2015–2019:
 43. Jekyll (8)
 44. MediaWiki (8)
 45. Recogito (8)
-46. Ruby | Ruby on Rails (8)
-47. Tableau | Tableau Public (8)
+46. Ruby · Ruby on Rails (8)
+47. Tableau · Tableau Public (8)
 48. AntConc (7)
 49. Chrome (7)
 50. Firefox (7)
@@ -146,7 +140,7 @@ All 238 tools mentioned with the number of occurrences 2015–2019:
 65. WorldCat (6)
 66. CATMA (5)
 67. Google Scholar (5)
-68. LIWC | Linguistic Inquiry and Word Count (5)
+68. LIWC · Linguistic Inquiry and Word Count (5)
 69. QGIS (5)
 70. Blacklight (4)
 71. Bookworm (4)
@@ -159,7 +153,7 @@ All 238 tools mentioned with the number of occurrences 2015–2019:
 78. Protégé (4)
 79. Textual Communities (4)
 80. Tumblr (4)
-81. VARD | VARD 2 (4)
+81. VARD · VARD 2 (4)
 82. Weka (4)
 83. Wordle (4)
 84. WordSmith (4)
