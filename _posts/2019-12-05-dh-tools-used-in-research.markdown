@@ -26,13 +26,11 @@ Please also check the [**ranking**](#ranking) of all tools at the very bottom of
 
 ## 40 Most Used Tools
 
-Here are the 40 tools with most mentions:
+Here are the 40 tools with most mentions (an interactive version is here: [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)):
 
 <figure style="text-align:left;">
-  <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:900px;" />
+  <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:1000px;" />
 </figure>
-
-Online version (interactive): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
 
 ## Known Issues
 
