@@ -30,7 +30,7 @@ Please also check the [**ranking**](#ranking) of all tools at the very bottom of
 Here are the 40 tools with most mentions:
 
 <figure style="text-align:left;">
-  <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:000px;" />
+  <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:900px;" />
 </figure>
 
 Online version (interactive): [https://datawrapper.dwcdn.net/L96xg/](https://datawrapper.dwcdn.net/L96xg/)
