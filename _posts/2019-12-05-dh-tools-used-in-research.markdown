@@ -46,26 +46,24 @@ Btw, everyone is welcome to do their own viz, [the dataset is freely available (
 
 ## Streamgraph
 
-All tools and their mentions per year:
+This graph shows all tools and their mentions per year. But rather then staring at the graph below you should check out the interactive version of it (with dynamic captions): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
 
 <figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/streamgraph.png" alt="Streamgraph" style="width:925px;" />
 </figure>
 
-Online version (interactive and with dynamic captions): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
-
 ## Line Chart and Bar Plot (Top-10 Tools)
 
 <figure style="text-align:left;">
-  <img src="/images/dh-tools-used-in-research/linechart-top-10-tools.jpg" alt="" style="width:489px;" />
-  <img src="/images/dh-tools-used-in-research/bar-plot-top-10-tools.jpg" alt="" style="width:489px;" />
+  <img src="/images/dh-tools-used-in-research/linechart-top-10-tools.png" alt="" style="width:490px;" />
+  <img src="/images/dh-tools-used-in-research/bar-plot-top-10-tools.png" alt="" style="width:490px;" />
 </figure>
 
 ## Bar Plot and Stacked Area (All Tools)
 
 <figure style="text-align:left;">
-  <img src="/images/dh-tools-used-in-research/bar-plot-all-tools.jpg" alt="" style="width:489px;" />
-  <img src="/images/dh-tools-used-in-research/stacked-area-all-tools.jpg" alt="" style="width:489px;" />
+  <img src="/images/dh-tools-used-in-research/bar-plot-all-tools.png" alt="" style="width:490px;" />
+  <img src="/images/dh-tools-used-in-research/stacked-area-all-tools.png" alt="" style="width:490px;" />
 </figure>
 
 ## Ranking
