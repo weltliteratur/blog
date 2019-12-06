@@ -3,7 +3,7 @@ title: "Which DH Tools Are Actually Used in Research?"
 layout: post
 author: [laure, frank, yoann, ivan]
 comments: true
-date: 2019-12-05
+date: 2019-12-06
 ---
 
 Not that we didn't know that, but Gephi is the most popular DH tool actually used in research work. Followed by Omeka, stylo, MALLET, Excel, D3.js, the NLTK, WordPress, Drupal, TextGrid, CollateX, GeoNames, TXM, Solr and Voyant Tools.
@@ -44,7 +44,7 @@ Btw, everyone is welcome to do their own viz, [the dataset is freely available (
 
 ## Streamgraph
 
-This graph shows all tools and their mentions per year. But rather then staring at the graph below you should check out the interactive version of it (with dynamic captions): [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)
+This graph shows all tools and their mentions per year (but rather then staring at the graph below you should check out the interactive version of it featuring dynamic captions: [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)):
 
 <figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/streamgraph.png" alt="Streamgraph" style="width:925px;" />
