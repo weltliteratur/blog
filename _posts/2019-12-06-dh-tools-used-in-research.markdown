@@ -32,7 +32,7 @@ Here are the 40 tools with most mentions (an interactive version is here: [https
   <img src="/images/dh-tools-used-in-research/40-most-used-tools.png" alt="40 most used tools (via Datawrapper)" style="width:1000px;" />
 </figure>
 
-(We know that this line chart visually suggests a connection between tools that isn't there. We still consider this type of display to be beneficial – especially in the [interactive version](https://datawrapper.dwcdn.net/L96xg/) – since you can compare occurrences per tool per year. By hovering over the lines you will see that 2016 was the year of **stylo** and **TextGrid**, 2017 the year of **Leaflet**, 2018 the year of **Omeka** and 2019 the year of **Geonames** and **Transkribus**.)
+(**Ed.** We know that this line chart visually suggests a connection between tools that isn't there. We still consider this type of display to be beneficial – especially in the [interactive version](https://datawrapper.dwcdn.net/L96xg/) – since you can compare occurrences per tool per year. By hovering over the lines you will see that 2016 was the year of **stylo** and **TextGrid**, 2017 the year of **Leaflet**, 2018 the year of **Omeka** and 2019 the year of **Geonames** and **Transkribus**. – Big thx to Jan Horstmann for bringing this up.)
 
 ## Known Issues
 
