@@ -46,7 +46,7 @@ Btw, everyone is welcome to do their own viz, [the dataset is freely available (
 
 ## Streamgraph
 
-This graph shows all tools and their mentions per year (but rather then staring at the graph below you should check out the interactive version of it featuring dynamic captions: [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)):
+This graph shows all tools and their mentions per year (but rather than staring at the graph below you should check out the interactive version of it featuring dynamic captions: [https://rpubs.com/Pozdniakov/stream_dh](https://rpubs.com/Pozdniakov/stream_dh)):
 
 <figure style="text-align:left;">
   <img src="/images/dh-tools-used-in-research/streamgraph.png" alt="Streamgraph" style="width:925px;" />
