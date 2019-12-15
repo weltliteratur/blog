@@ -8,7 +8,7 @@ title: Projects
 [![Gerardus Johannes Vossius](../images/vossius.jpg "Automatic extraction of Vossian antonomasia from large newspaper corpora")](https://vossanto.weltliteratur.net/)
 
 {:.one-half}
-{:.second} 
+{:.last} 
 Description 1
 
 {:.one-half}
@@ -16,7 +16,7 @@ Description 1
 [![Dr. Cäsar Flaischlens Litteratur-Tafel](../images/flaischlen.png "Graphische Litteratur-Tafel. Die Deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf (1890)")](https://litteratur-tafel.weltliteratur.net/)
 
 {:.one-half}
-{:.second} 
+{:.last} 
 Description 2
 
 
@@ -26,6 +26,6 @@ Description 2
 
 
 {:.one-half}
-{:.second} 
+{:.last} 
 Description 3
 
