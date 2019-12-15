@@ -27,5 +27,10 @@ Description 2
 
 {:.one-half}
 {:.last} 
-Description 3
 
+# World Literatur According to Wikipedia
+
+Accompanying data for the preprint [World Literature According to
+Wikipedia: Introduction to a DBpedia-Based
+Framework](https://arxiv.org/abs/1701.00991) by Christoph Hube, Frank
+Fischer, Robert Jäschke, Gerhard Lauer, and Mads Rosendahl Thomsen.
