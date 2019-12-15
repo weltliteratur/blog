@@ -3,8 +3,8 @@
     <div class="wrapper clearfix">
       <header>
 	<a href="/">
-	  <h1 id="main-title">{% site.title %}</h1>
-	  <h2 id="main-subtitle">{% site.tagline %}</h2>
+	  <h1 id="main-title">{{ site.title }}</h1>
+	  <h2 id="main-subtitle">{{ site.tagline }}</h2>
 	</a>
       </header>
 
@@ -15,9 +15,10 @@
 	<a href="/projects/"        class="{% if page.url == '/projects/ %}selected{% endif %}">Projects</a>
       </nav>
 
-	  path: {% page.path %}
-	  url : {% page.url %}
-
+      <!--
+	  path: {{ page.path }}
+	  url : {{ page.url }}
+	-->
     </div>
   </div>
 </section>
