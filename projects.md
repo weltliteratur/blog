@@ -6,7 +6,7 @@ title: Projects
 
 <hr style="clear:both"/>
 
-{:style="float:left; margin: 0 20px 0 20px"}
+{:style="float:left; margin: 0 20px 20px 0"}
 [![Gerardus Johannes Vossius](../images/vossius.jpg "Automatic extraction of Vossian antonomasia from large newspaper corpora")](https://vossanto.weltliteratur.net/)
 
 # Vossian Antonomasia
@@ -17,7 +17,7 @@ Automatic extraction of Vossian antonomasia from large newspaper corpora.
 
 <hr style="clear:both"/>
 
-{:style="float:left; margin: 0 20px 0 20px"}
+{:style="float:left; margin: 0 20px 20px 0"}
 [![Dr. Cäsar Flaischlens Litteratur-Tafel](../images/flaischlen.png "Graphische Litteratur-Tafel. Die Deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf (1890)")](https://litteratur-tafel.weltliteratur.net/)
 
 # Graphische Litteratur-Tafel
@@ -31,7 +31,7 @@ development of literature.
 
 <hr style="clear:both"/>
 
-{:style="float:left; margin: 0 20px 0 20px"}
+{:style="float:left; margin: 0 20px 20px 0"}
 [![Wikipedia Logo](../images/wikipedia.png "World Literature According to Wikipedia")](https://data.weltliteratur.net/)
 
 # World Literatur According to Wikipedia
