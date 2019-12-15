@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-{:style="clear:both"}
-
 {:style="float:left"}
 [![Gerardus Johannes Vossius](../images/vossius.jpg "Automatic extraction of Vossian antonomasia from large newspaper corpora")](https://vossanto.weltliteratur.net/)
 
@@ -14,6 +12,8 @@ Automatic extraction of Vossian antonomasia from large newspaper corpora.
 
 
 {:style="clear:both"}
+----
+
 
 {:style="float:left"}
 [![Dr. Cäsar Flaischlens Litteratur-Tafel](../images/flaischlen.png "Graphische Litteratur-Tafel. Die Deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf (1890)")](https://litteratur-tafel.weltliteratur.net/)
@@ -27,6 +27,8 @@ development of literature.
 
 
 {:style="clear:both"}
+----
+
 
 {:style="float: left"}
 [![Wikipedia Logo](../images/wikipedia.png "World Literature According to Wikipedia")](https://data.weltliteratur.net/)
@@ -38,7 +40,7 @@ Wikipedia: Introduction to a DBpedia-Based
 Framework](https://arxiv.org/abs/1701.00991) by Christoph Hube, Frank
 Fischer, Robert Jäschke, Gerhard Lauer, and Mads Rosendahl Thomsen.
 
-{:style="font-size:-2"} 
+{:style="font-size:50%"} 
 (Wikipedia logo by [Nohat](https://meta.wikimedia.org/wiki/User:Nohat)
 (concept by
 [Paullusmagnus](https://meta.wikimedia.org/wiki/User:Paullusmagnus));
