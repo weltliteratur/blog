@@ -15,6 +15,8 @@ title: Projects
 Automatic extraction of Vossian antonomasia from large newspaper corpora. 
 
 
+
+{:style="clear:both"}
 {:.one-half}
 {:.first} 
 [![Dr. Cäsar Flaischlens Litteratur-Tafel](../images/flaischlen.png "Graphische Litteratur-Tafel. Die Deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf (1890)")](https://litteratur-tafel.weltliteratur.net/)
@@ -30,7 +32,7 @@ published in 1890 and is an early approach to visualise the historical
 development of literature.
 
 
-
+{:style="clear:both"}
 {:.one-half}
 {:.first} 
 [![Wikipedia Logo](../images/wikipedia.png "World Literature According to Wikipedia")](https://data.weltliteratur.net/)
