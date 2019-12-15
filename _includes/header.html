@@ -5,14 +5,14 @@
 	{% if page.path != 'index.html' %}<a href="/">{% endif %}
 	  <h1 id="main-title">weltliteratur.net</h1>
 	  <h2 id="main-subtitle">A Black Market for the Digital Humanities</h2>
-	{% if page.path != 'index.html' %}</a>{% endif %}
+	  {% if page.path != 'index.html' %}</a>{% endif %}
       </header>
 
       <nav id="main-nav">
-	<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
-  <a href="/dh-mixtape-2016/" class="{% if page.url == '/dh-mixtape-2016/index.html' %}selected{% endif %}">2016 🎶</a>
-  <a href="/dh-mixtape-2019/" class="{% if page.url == '/dh-mixtape-2019/index.html' %}selected{% endif %}">2019 🎶</a>
-	<a href="http://data.weltliteratur.net/">Data</a>
+	<a href="/about/"           class="{% if page.url == '/about/ %}selected{% endif %}">About</a>
+	<a href="/dh-mixtape-2016/" class="{% if page.url == '/dh-mixtape-2016/ %}selected{% endif %}">2016 🎶</a>
+	<a href="/dh-mixtape-2019/" class="{% if page.url == '/dh-mixtape-2019/ %}selected{% endif %}">2019 🎶</a>
+	<a href="/projects/"        class="{% if page.url == '/projects/ %}selected{% endif %}">Projects</a>
       </nav>
     </div>
   </div>
