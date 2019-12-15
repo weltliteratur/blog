@@ -2,10 +2,10 @@
   <div class="vertical-container">
     <div class="wrapper clearfix">
       <header>
-	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+	<a href="/">
 	  <h1 id="main-title">weltliteratur.net</h1>
 	  <h2 id="main-subtitle">A Black Market for the Digital Humanities</h2>
-	  {% if page.path != 'index.html' %}</a>{% endif %}
+	</a>
       </header>
 
       <nav id="main-nav">
@@ -14,6 +14,13 @@
 	<a href="/dh-mixtape-2019/" class="{% if page.url == '/dh-mixtape-2019/ %}selected{% endif %}">2019 🎶</a>
 	<a href="/projects/"        class="{% if page.url == '/projects/ %}selected{% endif %}">Projects</a>
       </nav>
+
+      <!--
+	  path: {% page.path %}
+	  url : {% page.url %}
+	  
+	-->
+      
     </div>
   </div>
 </section>
