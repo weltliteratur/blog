@@ -9,7 +9,11 @@ title: Projects
 
 {:.one-half}
 {:.last} 
-Description 1
+
+# Vossian Antonomasia
+
+Automatic extraction of Vossian antonomasia from large newspaper corpora. 
+
 
 {:.one-half}
 {:.first} 
@@ -17,13 +21,27 @@ Description 1
 
 {:.one-half}
 {:.last} 
-Description 2
+
+# Graphische Litteratur-Tafel
+
+The prototype of a digital edition of Cäsar Flaischlen’s Graphische
+Litteratur-Tafel. The giant flowchart of German literature was
+published in 1890 and is an early approach to visualise the historical
+development of literature.
+
 
 
 {:.one-half}
 {:.first} 
 [![Wikipedia Logo](../images/wikipedia.png "World Literature According to Wikipedia")](https://data.weltliteratur.net/)
 
+Wikipedia logo by [Nohat](https://meta.wikimedia.org/wiki/User:Nohat]
+(concept by
+[Paullusmagnus](https://meta.wikimedia.org/wiki/User:Paullusmagnus));
+Wikimedia,
+[Wikipedia-logo-v2](https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2.svg),
+[CC BY-SA
+3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode)
 
 {:.one-half}
 {:.last} 
