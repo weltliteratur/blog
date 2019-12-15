@@ -3,7 +3,7 @@ layout: page
 title: About weltliteratur.net
 ---
 
-## What Gives?
+## <br />What Gives?
 
 This blog accompanies our research in the field of **Digital Humanities**. It originated in our work on the (still unpublished) paper "World Literature According to Wikipedia" (there's [a preprint](https://arxiv.org/abs/1701.00991)).
 
