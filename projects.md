@@ -11,6 +11,9 @@ title: Projects
 
 # Vossian Antonomasia
 
+{:.section-subtitle}
+[vossanto.weltliteratur.net](https://vossanto.weltliteratur.net/)
+
 Automatic extraction of Vossian antonomasia from large newspaper corpora. 
 
 
@@ -21,6 +24,10 @@ Automatic extraction of Vossian antonomasia from large newspaper corpora.
 [![Dr. Cäsar Flaischlens Litteratur-Tafel](../images/flaischlen.png "Graphische Litteratur-Tafel. Die Deutsche Litteratur und der Einfluß fremder Litteraturen auf ihren Verlauf (1890)")](https://litteratur-tafel.weltliteratur.net/)
 
 # Graphische Litteratur-Tafel
+
+{:.section-subtitle}
+[litteratur-tafel.weltliteratur.net](https://litteratur-tafel.weltliteratur.net/)
+
 
 The prototype of a digital edition of Cäsar Flaischlen’s Graphische
 Litteratur-Tafel. The giant flowchart of German literature was
@@ -35,6 +42,10 @@ development of literature.
 [![Wikipedia Logo](../images/wikipedia.png "World Literature According to Wikipedia")](https://data.weltliteratur.net/)
 
 # World Literature According to Wikipedia
+
+{:.section-subtitle}
+[data.weltliteratur.net](https://data.weltliteratur.net/)
+
 
 Accompanying data for the preprint [World Literature According to
 Wikipedia: Introduction to a DBpedia-Based
