@@ -12,7 +12,7 @@ Automatic extraction of Vossian antonomasia from large newspaper corpora.
 
 
 
-----{:style="clear:both"}
+<hr style="clear:both"/>
 
 
 {:style="float:left"}
@@ -26,8 +26,7 @@ published in 1890 and is an early approach to visualise the historical
 development of literature.
 
 
-
-----{:style="clear:both"}
+<hr style="clear:both"/>
 
 
 {:style="float: left"}
