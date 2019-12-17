@@ -44,5 +44,7 @@ SK &middot; [FF](https://twitter.com/umblaetterer)
   31. Дельфин: МСКВ ([youtube](https://www.youtube.com/watch?v=pOrpmJ01ZVM))
   32. Bon Iver: Faith ([youtube](https://www.youtube.com/watch?v=wU-s_Zxv_MQ))
   33. Shortparis: Так закалялась сталь ([youtube](https://www.youtube.com/watch?v=WrDEAmSb9OY))
+  34. Grebz: Каракум ([youtube](https://www.youtube.com/watch?v=rZdzB0SBYvs))
+  35. Gang Starr: Family and Loyalty ([youtube](https://www.youtube.com/watch?v=iMsdzxuldQM))
 
 to be continued…
