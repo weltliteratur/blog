@@ -47,5 +47,3 @@ SK &middot; [FF](https://twitter.com/umblaetterer)
   34. Grebz: Каракум ([youtube](https://www.youtube.com/watch?v=rZdzB0SBYvs))
   35. Gang Starr: Family and Loyalty ([youtube](https://www.youtube.com/watch?v=iMsdzxuldQM))
   36. slowthai: Doorman ([youtube](https://www.youtube.com/watch?v=ICBkHaMOPXs)) (from 2018)
-
-to be continued…
