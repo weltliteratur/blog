@@ -8,7 +8,15 @@ date: 2020-01-17
 
 This is a little follow-up to our blog post [**"Which DH Tools Are Actually Used in Research?"**](/dh-tools-used-in-research/) – The idea is to get a general overview of tool mentionings in the fabulous lectures of [**"The Programming Historian"**](https://programminghistorian.org/) (PH). We again used our [ToolXtractor](https://github.com/lehkost/ToolXtractor/) to extract tool names from PH's 87 (English-language) lectures to date (including 7 retired ones), directly from [their Markdown source files](https://github.com/programminghistorian/jekyll/tree/gh-pages/en/lessons). Like last time, we used [TAPoR's](http://tapor.ca/home) database as positive list (for ToolXtractor relies on simple string matching). Any tool we failed to extract was not in TAPoR (yet), e.g., "Unity", "Notepad++", or "Atom" – an obvious shortcoming of this approach.
 
-No further analysis applied, just this overview:
+We also created a co-occurence graph (tools mentioned in the same lesson):
+
+<figure style="text-align:left;">
+  <img src="/images/proghist-co-occurrence-graph.png" alt="co-occurrence graph for tools mentioned in ProgHist lessons" style="width:1024px;" />
+</figure>
+
+You can spot Python, R, Excel, GitHub and Zotero at the core of teaching in the Digital Humanities. Publishing tools are grouped on the left, network tools on the upper right side. GIS tools are on the bottom right-hand side, text analysis tools are located right above the centre, etc. (The graph was generated in a heartbeat with our tool [ezlinavis](https://ezlinavis.dracor.org) and embellished with Gephi.)
+
+No further analysis, just this overview:
 
 ## [jupyter-notebooks](https://programminghistorian.org/en/lessons/jupyter-notebooks) (11)
 * GitHub
