@@ -6,7 +6,7 @@
         <section class="author" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
           {% assign author = site.authors[author] %}
 	  <div class="avatarwrapper">
-	    {% if site.authors[author].gravatar %}
+	    {% if site.authors[author].gravatar != '' %}
             <img itemprop="image" src="https://www.gravatar.com/avatar/{{ site.authors[author].gravatar }}?s=140" class="author-avatar" alt="{{ site.authors[author].name }}'s photo"> 
 	    {% endif %}
 	    {% if site.authors[author].img %}
