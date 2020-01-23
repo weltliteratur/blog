@@ -36,12 +36,12 @@ authors:
     web: http://mathias-goebel.github.io/
     twitter: goebel_m
     github: mathias-goebel
-    gravatar: 6cfefa5456ac7fd4f39298f29c05fae8
+    img: /images/mg.png
     description: code follows function
   frank:
     name: Frank Fischer
     display_name: Frank
-    gravatar: aecc8f451ee6e45197bfe4ab02ba5271
+    img: /images/ff.png
     email: ffischer@hse.ru
     orcid: 0000-0003-2419-6629
     web: https://www.hse.ru/en/org/persons/182492735
@@ -51,7 +51,7 @@ authors:
   christopher:
     name: Christopher Johnson
     display_name: Christopher
-    gravatar: 1677f037a1fd040cb5574babb9e24936
+    img: /images/cj.jpg
     email: 
     web: 
     twitter: 
@@ -60,7 +60,7 @@ authors:
   peer:
     name: Peer Trilcke
     display_name: Peer
-    gravatar: 3995a022afbaf45c8afdd0514d099e63
+    img: /images/pt.jpg
     email: trilcke@uni-potsdam.de
     web: http://www.peertrilcke.de/
     twitter: peertrilcke
@@ -69,7 +69,6 @@ authors:
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
-    gravatar:
     email: veentjer@sub.uni-goettingen.de
     web:
     twitter:
@@ -78,7 +77,6 @@ authors:
   jannik:
     name: Jannik Strötgen
     display_name: Jannik
-    gravatar: 
     email: jannik.stroetgen@mpi-inf.mpg.de
     web: https://people.mpi-inf.mpg.de/~jstroetge/
     twitter: jannikstroetgen
@@ -87,7 +85,7 @@ authors:
   angelika:
     name: Angelika Hechtl
     display_name: Angelika
-    gravatar: 6582da0c012547f6d3f3529d84c98673
+    img: /images/ah.jpg
     email: angelika.hechtl@wu.ac.at
     web: http://www.likeanga.at/
     twitter: angelikah
@@ -97,7 +95,7 @@ authors:
   ingo:
     name: Ingo Börner
     display_name: Ingo
-    gravatar: b434058e5eaec527f2f0dfc62e0c0542
+    img: /images/ib.jpg
     email: ingo.boerner@univie.ac.at
     web: 
     twitter: ingoboerner
@@ -107,7 +105,7 @@ authors:
   galina:
     name: Galina Ryazanskaya
     display_name: Galina
-    gravatar: eee73efd92998a68680c77aa045619ea
+    img: /images/gr.jpg
     email: galka1999@gmail.com
     web: 
     twitter: 
@@ -116,7 +114,6 @@ authors:
   alena:
     name: Alena Shchevyeva
     display_name: Alena
-    gravatar: 
     email: 
     web: 
     twitter: 
@@ -125,7 +122,6 @@ authors:
   maria:
     name: Maria Suvorova
     display_name: Maria
-    gravatar: 
     email: 
     web: 
     twitter: 
@@ -134,7 +130,7 @@ authors:
   eduard:
     name: Eduard Grigoryev
     display_name: Eduard
-    gravatar: fbb29909af51d8ab9f2517330d0d4388
+    img: /images/eg.jpg
     email: 
     web: 
     twitter: happypuffin7
@@ -144,7 +140,7 @@ authors:
   laure:
     name: Laure Barbot
     display_name: Laure
-    gravatar: 899351797828dec6cb2f92ca1a1e173f 
+    img: /images/lb.jpg
     email: 
     web: https://cmb.hu-berlin.de/en/team/profil/laure-barbot/
     twitter: 
@@ -154,7 +150,6 @@ authors:
   yoann:
     name: Yoann Moranville
     display_name: Yoann
-    gravatar: 
     email: 
     web: 
     twitter: 
@@ -164,7 +159,6 @@ authors:
   ivan:
     name: Ivan Pozdniakov
     display_name: Ivan
-    gravatar: 
     email: 
     web: 
     twitter: ivanpoz70536140
