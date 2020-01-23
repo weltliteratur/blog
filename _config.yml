@@ -22,7 +22,7 @@ authors:
   robert:
     name: Robert Jäschke
     display_name: Robert
-    img: images/rj.jpg
+    img: /images/rj.jpg
     email: jaeschke@L3S.de
     web: https://amor.cms.hu-berlin.de/~jaeschkr/
     orcid: 0000-0003-3271-9653
