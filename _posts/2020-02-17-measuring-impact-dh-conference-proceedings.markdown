@@ -10,7 +10,7 @@ We are still toying around with the proceedings of [ADHO conferences](https://ad
 
 Long story short, since no other meaningful metrics are at hand (or are there?), we have chosen **Google Scholar**'s citation counts. As a test case we decided to go with the **abstracts from DH2016** in Kraków, because 1. they are well covered in Google Scholar and 2. it has been three and a half years since the conference, so that enough time has passed to actually have an impact and attract citations.
 
-Our starting point was the fabulous **[DBLP](https://en.wikipedia.org/wiki/DBLP)**, a giant computer science bibliography founded at University of Trier. Fortunately they also cover ADHO conferences since some time, so here are all contributions to DH2016 in a concise and interoperable form: https://dblp1.uni-trier.de/db/conf/dihu/dh2016.html.
+Our starting point was the fabulous **[DBLP](https://en.wikipedia.org/wiki/DBLP)**, a giant computer science bibliography founded at University of Trier. Fortunately they also cover ADHO conferences since some time, so here are all contributions to DH2016 in a concise and interoperable form: [https://dblp1.uni-trier.de/db/conf/dihu/dh2016.html](https://dblp1.uni-trier.de/db/conf/dihu/dh2016.html).
 
 Before we dive into the data, some known issues:
 - Google Scholar is ["notoriously hard to mine"](https://www.nature.com/articles/d41586-018-04190-5), there's no API and access is limited (if you don't want to deal with CAPTCHAs and "We're sorry, but your computer network may be sending automated queries" you will have to apply some IP address magic).
@@ -72,7 +72,7 @@ EADH's journal "Digital Scholarship in the Humanities" (DSH) published a special
 * Elena González-Blanco, Clara Martínez Cantón, Gimena del Rio Riande, Salvador Ros, Rafael Pastor, Antonio Robles-Gómez, Agustín Caminero, María Luisa Díez Platas, Álvaro del Olmo, Miguel Urízar: <br />[EVI-LINHD, a virtual research environment for the Spanish-speaking community](https://doi.org/10.1093/llc/fqx025) – **5** (2) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=4672347431723511486))
 * Arianna Ciula: <br />[Digital palaeography: What is digital about it?](https://doi.org/10.1093/llc/fqx042) – **4** (0) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=1251668675601027055))
 * Katarzyna Bazarnik, Jakub Wróblewski: <br />[First We Feel Then We Fall: James Joyce’s Finnegans Wake as an interactive video application](https://doi.org/10.1093/llc/fqx027) – **4** (0) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=3232051797453798596))
-* David L Hoover: <br />[The microanalysis of style variation](https://doi.org/10.1093/llc/fqx022) – **3** (0) <br />https://scholar.google.com/scholar?cluster=6780436031879293349))
+* David L Hoover: <br />[The microanalysis of style variation](https://doi.org/10.1093/llc/fqx022) – **3** (0) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=6780436031879293349))
 * James O Gawley, A Caitlin Diddams: <br />[Comparing the intertextuality of multiple authors using Tesserae: A new technique for normalization](https://doi.org/10.1093/llc/fqx038) – **3** (0) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=13830734924028487386))
 * Marine Riguet, Suzanne Mpouli: <br />[At the crossroads between the scientific and the literary discourse: Comparison as a figure of dialogism](https://doi.org/10.1093/llc/fqx026) – **3** (3) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=4270286382363276284))
 * Martijn Kleppe, Marco Otte: <br />[Analysing and understanding news consumption patterns by tracking online user behaviour with a multimodal research design](https://doi.org/10.1093/llc/fqx030) – **3** (0) <br />([Google Scholar](https://scholar.google.com/scholar?cluster=3515976435227019090))
@@ -95,7 +95,7 @@ As it is not always possible to say whether a full paper is really the elaborate
 - Publishing a reworked conference abstract in a journal can (but doesn't have to) increase your impact.
 - It would be nice to have a more stable, sustainable, citable format for ADHO conference proceedings (think DOIs maybe?).
 - Case in point: proceedings of DH2015 in Sydney seem to have vanished into the internet ether, there are only a bunch of unrendered XML files left somewhere, not really citable.
-- DOIs for books of abstracts are already a step in the right direction (see, e.g., DOI:[10.5281/zenodo.2596095](https://doi.org/10.5281/zenodo.2596095) for DHd2019)
+- DOIs for books of abstracts are already a step in the right direction (see, e.g., DOI:[10.5281/zenodo.2596095](https://doi.org/10.5281/zenodo.2596095) for DHd2019).
 - Working with Google Scholar is still tedious. There are some Python libraries that are supposed to make it easier to work with it, but they don't cover the full range of Google Scholar functions, and the proprietary mechanism can change at any time without warning and render these libraries unusable.
 
 Anyway, so much for this little experiment. It's a beautiful day in Moscow, time to visit the ice rink in Gorky Park! ❄️
