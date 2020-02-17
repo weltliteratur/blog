@@ -6,9 +6,9 @@ comments: true
 date: 2020-02-17
 ---
 
-We are still toying around with the proceedings of [ADHO conferences](https://adho.org/conference). This time we are interested in the measurability of the scientific impact of published abstracts.
+We are still toying around with the proceedings of [ADHO's Digital Humanities conferences](https://adho.org/conference). This time we are interested in the measurability of the scientific impact of published abstracts.
 
-Long story short, since no other meaningful metrics are at hand (or are there?), we have chosen **Google Scholar**'s citation counts. As a test case we decided to go with the **abstracts from DH2016** in Kraków, because 1. they are well covered in Google Scholar and 2. it has been three and a half years since the conference, so that enough time has passed to actually have an impact and attract citations.
+Long story short, since no other meaningful metrics are at hand (or are there?), we have chosen **Google Scholar**'s citation counts. As a test case we decided to go with the **abstracts from DH2016** in Kraków, because 1.) they are well covered in Google Scholar and 2.) it has been three and a half years since the conference, so that enough time has passed to actually have an impact and attract citations.
 
 Our starting point was the fabulous **[DBLP](https://en.wikipedia.org/wiki/DBLP)**, a giant computer science bibliography founded at University of Trier. Fortunately they also cover ADHO conferences since some time, so here are all contributions to DH2016 in a concise and interoperable form: [https://dblp1.uni-trier.de/db/conf/dihu/dh2016.html](https://dblp1.uni-trier.de/db/conf/dihu/dh2016.html).
 
