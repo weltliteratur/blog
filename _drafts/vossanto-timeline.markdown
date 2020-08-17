@@ -1,5 +1,5 @@
 ---
-title: "Updates on Vossantos"
+title: "Updates on Vossian Antonomasia"
 layout: post
 author: [robert, frank]
 comments: true
@@ -9,12 +9,15 @@ date: 2020-08-17
 
 ## Timeline
 
-- new
+- new: visual exploration of the New York Times corpus of Vossian Antonomasia
 - example: https://vossanto.weltliteratur.net/timeline/#1077956_3
 
 ![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
 - explain screenshot
+
+- thanks [Sjaak Priester](https://github.com/sjaakp) for the excellent
+  [JavaScript Dateline widget](https://github.com/sjaakp/dateline)
 
 
 ## Automatic Detection of Vossantos
@@ -31,10 +34,32 @@ date: 2020-08-17
 
 ## Modifiers
 
-  - thus: Stats for Modifer available:
-	- https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#modifiers
+Since we need labelled data for training and evaluating our machine
+learning approaches, we went over more than 3000 Vossantos to also
+annotate their modifiers andtargets. Therefore, we can now present
+reliable statistics on the most frequent modifiers in the corpus. The
+top ten are:
 
-  for example: countries
+| count | modifier       |
+|-------|----------------|
+|    56 | his day        |
+|    34 | his time       |
+|    29 | Japan          |
+|    17 | China          |
+|    16 | tennis         |
+|    16 | his generation |
+|    16 | baseball       |
+|    14 | her time       |
+|    13 | our time       |
+|    13 | her day        |
+
+A [longer
+list](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#modifiers)
+together with many examples can be found on the latest [statistics
+page](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html).
+
+By filtering the modifiers we can create rankings for specific themes,
+for example, countries:
 
 
 | count |	country      |
@@ -51,7 +76,7 @@ date: 2020-08-17
 |     3 |	Spain        |
 
 
-or sports
+or sports:
 
 | count		 | sports                                                |
 |------------|-------------------------------------------------------|
