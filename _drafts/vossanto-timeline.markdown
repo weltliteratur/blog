@@ -9,17 +9,19 @@ date: 2020-08-17
 
 ## Timeline
 
-- new: Timeline
-  - link to https://vossanto.weltliteratur.net/timeline/#1077956_3
+- new
+- example: https://vossanto.weltliteratur.net/timeline/#1077956_3
 
-- screenshot with explanation?
+![Timeline Example: Michael Jordan](images/va_timeline_mj.png)
+
+- explain screenshot
 
 
 ## Automatic Detection of Vossantos
 
 
 - continuous improvements on the approach
-- EMNLP-IJCNLP 2019 paper
+- EMNLP-IJCNLP 2019 [paper](https://doi.org/10.18653/v1/D19-1647)
   - technical background
 - but also working on further improvements
   - sequence labelling
@@ -36,7 +38,7 @@ date: 2020-08-17
 
 
 | count |	country      |
-+-------+----------------+
+|-------|----------------|
 |    29 |	Japan        |
 |    17 |	China        |
 |    10 |	Brazil       |
@@ -52,7 +54,7 @@ date: 2020-08-17
 or sports
 
 | count		 | sports                                                |
-|------------+-------------------------------------------------------|
+|------------|-------------------------------------------------------|
 |         16 | tennis                                                |
 |         16 | baseball                                              |
 |         10 | basketball                                            |
@@ -135,3 +137,13 @@ und damit leichter nachnutzbar as well as links to
 }
 ```
 explanation for fields:
+
+
+
+## Future
+
+- other languages
+- better understand usage
+
+
+Finally, as always: all details on https://vossanto.weltliteratur.net/
