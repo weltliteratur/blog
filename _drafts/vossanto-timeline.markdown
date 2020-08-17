@@ -12,7 +12,7 @@ date: 2020-08-17
 - new
 - example: https://vossanto.weltliteratur.net/timeline/#1077956_3
 
-![Timeline Example: Michael Jordan](images/va_timeline_mj.png)
+![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
 - explain screenshot
 
