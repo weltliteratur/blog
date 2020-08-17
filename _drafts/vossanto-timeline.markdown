@@ -12,6 +12,7 @@ date: 2020-08-17
 - new: Timeline
   - link to https://vossanto.weltliteratur.net/timeline/#1077956_3
 
+- screenshot with explanation?
 
 
 ## Automatic Detection of Vossantos
