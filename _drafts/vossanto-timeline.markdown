@@ -135,6 +135,9 @@ or sports:
 |          1 | baseball cards                                        |
 
 
+lengths (number of words) of modifiers
+
+
 ## JSON Data Dump
 
 
