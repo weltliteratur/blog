@@ -6,19 +6,56 @@ comments: true
 date: 2020-08-17
 ---
 
+Our [last article on Vossian
+Antonomasia](https://weltliteratur.net/vossian-antonomasia-new-york-times/)
+appeared more than a year ago, yet, since then we were busy improving
+our methods, writing papers, and extending the [web
+page](https://vossanto.weltliteratur.net/). This blog post provides an
+update on recent developments.
+
 
 ## Timeline
 
-- new: visual exploration of the New York Times corpus of Vossian Antonomasia
-- example: https://vossanto.weltliteratur.net/timeline/#1077956_3
+Last year [our research
+group](https://www.ibi.hu-berlin.de/de/forschung/info_processing_analytics)
+run a small code sprint to create a platform to visually explore our
+New York Times corpus of Vossian Antonomasia. Thanks to [Sjaak
+Priester](https://github.com/sjaakp) and his excellent [JavaScript
+Dateline widget](https://github.com/sjaakp/dateline) we could quickly
+set up a [timeline](https://vossanto.weltliteratur.net/timeline/):
 
 ![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
-- explain screenshot
+It contains all Vossian Antonomasia from our [2019 EMNLP-IJCNLP
+paper](https://doi.org/10.18653/v1/D19-1647). Each Vossanto is
+represented by a circle and the name of its source (the entity whose
+properties or qualities are transferred to another entity). The color
+of the circle indicates the New York Times desk that is responsible
+for the corresponding article. By clicking on an entry more
+information is shown, as can be seen in the above screenshot:
 
-- thanks [Sjaak Priester](https://github.com/sjaakp) for the excellent
-  [JavaScript Dateline widget](https://github.com/sjaakp/dateline)
+- a photo from [Wikimedia Commons](https://commons.wikimedia.org/)
+  (for most sources),
+- the sentence containing the Vossian Antonomasia with **source** and
+  *modifier* highlighted,
+- the article id with a link to the article's web page,
+- the name of the author,
+- the name of the desk,
+- the source and license for the photo,
+- a permanent link to that Vossian Antonomasia.
 
+If you want to test it yourself, you can either scroll through the
+ [timeline](https://vossanto.weltliteratur.net/timeline/) or just
+ follow [this example](https://vossanto.weltliteratur.net/timeline/#1077956_3).
+
+Not just a gimmick but really helpful is another feature, almost
+hidden in the top left corner: the full text search facility. After
+typing some words it shows all Vossian Antonomasia that contain the
+word. Clicking on a match scrolls to the corresponding point in the
+timeline and shows the details. This provides many more opportunities
+to find interesting Vossian Antonomasia! For example, search for
+*Germany* or *Bill gates* to find where he was used as [the
+target](https://vossanto.weltliteratur.net/timeline/#1037053_0).
 
 ## Automatic Detection of Vossantos
 
