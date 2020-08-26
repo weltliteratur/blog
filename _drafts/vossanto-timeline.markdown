@@ -16,13 +16,14 @@ update on recent developments.
 
 ## Timeline
 
-Last year [our research
-group](https://www.ibi.hu-berlin.de/de/forschung/info_processing_analytics)
-run a small code sprint to create a platform to visually explore our
-New York Times corpus of Vossian Antonomasia. Thanks to [Sjaak
-Priester](https://github.com/sjaakp) and his excellent [JavaScript
-Dateline widget](https://github.com/sjaakp/dateline) we could quickly
-set up a [timeline](https://vossanto.weltliteratur.net/timeline/):
+Last year [our research group at
+IBI](https://www.ibi.hu-berlin.de/de/forschung/info_processing_analytics)
+run a small code sprint to create a visual exploration platform for
+our New York Times corpus of Vossian Antonomasia (Vossanto). Thanks to
+[Sjaak Priester](https://github.com/sjaakp) and his excellent
+[JavaScript Dateline widget](https://github.com/sjaakp/dateline) we
+could quickly set up a
+[timeline](https://vossanto.weltliteratur.net/timeline/):
 
 ![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
@@ -56,6 +57,14 @@ timeline and shows the details. This provides many more opportunities
 to find interesting Vossian Antonomasia! For example, search for
 *Germany* or *Bill gates* to find where he was used as [the
 target](https://vossanto.weltliteratur.net/timeline/#1037053_0).
+
+Alternative Suchbegriffe:
+- "literature" liefert
+  z.B. https://vossanto.weltliteratur.net/timeline/#1097313_0 mit
+  einer VA die eine Erklärung enthält
+- "Lenin" liefert
+  https://vossanto.weltliteratur.net/timeline/#0151446_0 etwas
+  literaturhistorisch interessantes
 
 ## Automatic Detection of Vossantos
 
