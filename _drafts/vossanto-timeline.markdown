@@ -202,13 +202,12 @@ spectators on that invariably brisk March 17 morning*. (source:
 As a side effect of the timeline, the [dataset is now also available
 in JSON
 format](https://github.com/weltliteratur/vossanto/blob/master/timeline/vossantos.json).
-which simplifies re-usability. As a bonus, the JSON data contains
-links to [Wikidata](https://www.wikidata.org/) as well as links to
-images for sources on [Wikimedia
-Commons](https://commons.wikimedia.org/) (including license
-information) and thus can easily be re-used for further analyses or
-use-cases. The following excerpt shows a JSON entry for an exemplary
-Vossanto:
+As a bonus, the JSON data contains links to
+[Wikidata](https://www.wikidata.org/) as well as links to images for
+sources on [Wikimedia Commons](https://commons.wikimedia.org/)
+(including license information) and thus can easily be re-used for
+further analyses or demos. The following excerpt shows a JSON entry
+for an exemplary Vossanto:
 
 ```json
 {
@@ -230,9 +229,9 @@ Vossanto:
 The fields contain the following information:
 
 | key             | content                                                                                    |
-|-----------------|--------------------------------------------------------------------------------------------|
-| id              | A unique identifier for the Vossanto (within that dataset).                                |
-| date            | Date of the NYT article.                                                                   |
+|-----------------@--------------------------------------------------------------------------------------------|
+| id              | A unique (within the dataset) identifier for the Vossanto.                                 |
+| date            | Publication date of the NYT article.                                                       |
 | sourceId        | The Wikidata id of the Vossanto's source.                                                  |
 | sourceLabel     | The (English) Wikidata label of the source.                                                |
 | sourceImId      | The name of the source's image on Wikimedia Commons.                                       |
@@ -246,9 +245,9 @@ The fields contain the following information:
 ## Future
 
 We are very much interested in analysing Vossantos in other languages
-than English (specifically, German) and are mainly interested in
-suitable corpora. Apart from that, our goal is to better understand
-their usage and variety.
+than English (specifically, German) and looking for suitable
+corpora. Apart from that, our goal is to better understand their usage
+and variety.
 
 
 Finally, as always: all details on https://vossanto.weltliteratur.net/
