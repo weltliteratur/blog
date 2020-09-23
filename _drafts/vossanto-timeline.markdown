@@ -229,7 +229,7 @@ for an exemplary Vossanto:
 The fields contain the following information:
 
 | key             | content                                                                                    |
-|-----------------@--------------------------------------------------------------------------------------------|
+|-----------------|--------------------------------------------------------------------------------------------|
 | id              | A unique (within the dataset) identifier for the Vossanto.                                 |
 | date            | Publication date of the NYT article.                                                       |
 | sourceId        | The Wikidata id of the Vossanto's source.                                                  |
