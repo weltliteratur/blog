@@ -53,7 +53,7 @@ hidden in the top left corner: the full text search facility. After
 typing some words it shows all Vossantos that contain the
 word. Clicking on a match scrolls to the corresponding point in the
 timeline and shows the details. This provides many more opportunities
-to find interesting Vossanto! For example, search for *literature to
+to find interesting Vossanto! For example, search for "literature" to
 find [a Vossanto together with its
 explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
@@ -199,13 +199,16 @@ spectators on that invariably brisk March 17 morning*. (source:
 
 ## JSON Data Dump
 
-
-- [data is now also available in
-JSON](https://github.com/weltliteratur/vossanto/blob/master/timeline/vossantos.json)
-which simplifies re-usability. As a bonus, links to images for sources
-on [Wikimedia Commons](https://commons.wikimedia.org/) are included
-und damit leichter nachnutzbar as well as links to
-[Wikidata](https://www.wikidata.org/). Example:
+As a side effect of the timeline, the [dataset is now also available
+in JSON
+format](https://github.com/weltliteratur/vossanto/blob/master/timeline/vossantos.json).
+which simplifies re-usability. As a bonus, the JSON data contains
+links to [Wikidata](https://www.wikidata.org/) as well as links to
+images for sources on [Wikimedia
+Commons](https://commons.wikimedia.org/) (including license
+information) and thus can easily be re-used for further analyses or
+use-cases. The following excerpt shows a JSON entry for an exemplary
+Vossanto:
 
 ```json
 {
@@ -223,14 +226,29 @@ und damit leichter nachnutzbar as well as links to
    "author": "Botstein, Leon", "desk": "Book Review Desk"
 }
 ```
-explanation for fields:
 
+The fields contain the following information:
+
+| key             | content                                                                                    |
+|-----------------+--------------------------------------------------------------------------------------------|
+| id              | A unique identifier for the Vossanto (within that dataset).                                |
+| date            | Date of the NYT article.                                                                   |
+| sourceId        | The Wikidata id of the Vossanto's source.                                                  |
+| sourceLabel     | The (English) Wikidata label of the source.                                                |
+| sourceImId      | The name of the source's image on Wikimedia Commons.                                       |
+| sourceImThumb   | The path to the source's image on Wikimedia Commons.                                       |
+| sourceImLicense | The license of the source's image.                                                         |
+| fId             | The id of the article's file in the NYT dataset.                                           |
+| aUrlId          | The id of the article in its URL (`http://query.nytimes.com/gst/fullpage.html?res=<HERE>`) |
+| text            | The sentence containing the Vossanto (including ord-mode markup).                          |
 
 
 ## Future
 
-- other languages
-- better understand usage
+We are very much interested in analysing Vossantos in other languages
+than English (specifically, German) and are mainly interested in
+suitable corpora. Apart from that, our goal is to better understand
+their usage and variety.
 
 
 Finally, as always: all details on https://vossanto.weltliteratur.net/
