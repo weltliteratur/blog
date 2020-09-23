@@ -8,8 +8,8 @@ date: 2020-08-17
 
 Our [last article on Vossian
 Antonomasia](https://weltliteratur.net/vossian-antonomasia-new-york-times/)
-appeared more than a year ago, yet, since then we were busy improving
-our methods, writing papers, and extending the [web
+(*Vossanto*) appeared more than a year ago, yet, since then we were
+busy improving our methods, writing papers, and extending the [web
 page](https://vossanto.weltliteratur.net/). This blog post provides an
 update on recent developments.
 
@@ -19,15 +19,14 @@ update on recent developments.
 Last year [our research group at
 IBI](https://www.ibi.hu-berlin.de/de/forschung/info_processing_analytics)
 run a small code sprint to create a visual exploration platform for
-our New York Times corpus of Vossian Antonomasia (Vossanto). Thanks to
-[Sjaak Priester](https://github.com/sjaakp) and his excellent
-[JavaScript Dateline widget](https://github.com/sjaakp/dateline) we
-could quickly set up a
-[timeline](https://vossanto.weltliteratur.net/timeline/):
+our New York Times corpus of Vossantos. Thanks to [Sjaak
+Priester](https://github.com/sjaakp) and his excellent [JavaScript
+Dateline widget](https://github.com/sjaakp/dateline) we could quickly
+set up a [timeline](https://vossanto.weltliteratur.net/timeline/):
 
 ![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
-It contains all Vossian Antonomasia from our [2019 EMNLP-IJCNLP
+It contains all Vossantos from our [2019 EMNLP-IJCNLP
 paper](https://doi.org/10.18653/v1/D19-1647). Each Vossanto is
 represented by a circle and the name of its source (the entity whose
 properties or qualities are transferred to another entity). The color
@@ -37,13 +36,13 @@ information is shown, as can be seen in the above screenshot:
 
 - a photo from [Wikimedia Commons](https://commons.wikimedia.org/)
   (for most sources),
-- the sentence containing the Vossian Antonomasia with **source** and
-  *modifier* highlighted,
+- the sentence containing the Vossanto with **source** and *modifier*
+  highlighted,
 - the article id with a link to the article's web page,
 - the name of the author,
 - the name of the desk,
 - the source and license for the photo,
-- a permanent link to that Vossian Antonomasia.
+- a permanent link to that Vossanto.
 
 If you want to test it yourself, you can either scroll through the
  [timeline](https://vossanto.weltliteratur.net/timeline/) or just
@@ -51,20 +50,19 @@ If you want to test it yourself, you can either scroll through the
 
 Not just a gimmick but really helpful is another feature, almost
 hidden in the top left corner: the full text search facility. After
-typing some words it shows all Vossian Antonomasia that contain the
+typing some words it shows all Vossantos that contain the
 word. Clicking on a match scrolls to the corresponding point in the
 timeline and shows the details. This provides many more opportunities
-to find interesting Vossian Antonomasia! For example, search for
-*Germany* or *Bill gates* to find where he was used as [the
-target](https://vossanto.weltliteratur.net/timeline/#1037053_0).
+to find interesting Vossanto! For example, search for *literature to
+find [a Vossanto together with its
+explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
-Alternative Suchbegriffe:
-- "literature" liefert
-  z.B. https://vossanto.weltliteratur.net/timeline/#1097313_0 mit
-  einer VA die eine Erklärung enthält
-- "Lenin" liefert
+<!--
+ - "Lenin" liefert
   https://vossanto.weltliteratur.net/timeline/#0151446_0 etwas
   literaturhistorisch interessantes
+
+-->
 
 ## Automatic Detection of Vossantos
 
@@ -82,9 +80,9 @@ Alternative Suchbegriffe:
 
 Since we need labelled data for training and evaluating our machine
 learning approaches, we went over more than 3000 Vossantos to also
-annotate their modifiers andtargets. Therefore, we can now present
+annotate their modifiers and targets. Therefore, we can now present
 reliable statistics on the most frequent modifiers in the corpus. The
-top ten are:
+top ten modifiers are:
 
 | count | modifier       |
 |-------|----------------|
@@ -105,7 +103,8 @@ together with many examples can be found on the latest [statistics
 page](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html).
 
 By filtering the modifiers we can create rankings for specific themes,
-for example, countries:
+for example,
+[countries](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#country):
 
 
 | count |	country      |
@@ -122,7 +121,7 @@ for example, countries:
 |     3 |	Spain        |
 
 
-or sports:
+or [sports](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#sports):
 
 | count		 | sports                                                |
 |------------|-------------------------------------------------------|
@@ -180,8 +179,22 @@ or sports:
 |          1 | baseball collections                                  |
 |          1 | baseball cards                                        |
 
+Apparently, Vossantos are used to introduce athletes and personalities
+from foreign countries that are (supposedly) unknown to the reader.
 
-lengths (number of words) of modifiers
+Most modifiers are short, consisting of only one to three words, as
+this plot of the distribution of the length (number of words) of
+modifiers shows:
+
+![modifier length distribution](https://raw.githubusercontent.com/weltliteratur/vossanto/master/emnlp-ijcnlp2019/nyt_vossantos_modifier_length.png)
+
+The longest modifier we have found so far contains 25 words:
+
+And while he modestly demurs, Mr. Barker is widely regarded as the
+**Bob Fosse** of *the carefully choreographed event that consumes
+Midtown Manhattan with tin whistles, step dancers and some two million
+spectators on that invariably brisk March 17 morning*. (source:
+[2001/03/07/1276052](http://query.nytimes.com/gst/fullpage.html?res=9B04E3DE1E3BF934A35750C0A9679C8B63))
 
 
 ## JSON Data Dump
