@@ -23,12 +23,12 @@ authors:
     name: Robert Jäschke
     display_name: Robert
     img: /images/rj.jpg
-    email: jaeschke@L3S.de
+    email: robert.jaeschke@hu-berlin.de
     web: https://amor.cms.hu-berlin.de/~jaeschkr/
     orcid: 0000-0003-3271-9653
     twitter:
     github: rjoberon
-    description: Professor at Humboldt-Universität zu Berlin.
+    description: Professor at Humboldt University of Berlin.
   mathias:
     name: Mathias Göbel
     display_name: Mathias
@@ -44,7 +44,7 @@ authors:
     img: /images/ff.png
     email: ffischer@hse.ru
     orcid: 0000-0003-2419-6629
-    web: https://www.hse.ru/en/org/persons/182492735
+    web: https://lehkost.github.io/
     twitter: umblaetterer
     github: lehkost
     description: Doing Digital Humanities at Higher School of Economics in Moscow. Director of DARIAH-EU.
@@ -53,6 +53,7 @@ authors:
     display_name: Christopher
     img: /images/cj.jpg
     email: 
+    orcid: 0000-0002-5832-9429
     web: 
     twitter: 
     github: christopher-johnson
@@ -62,7 +63,7 @@ authors:
     display_name: Peer
     img: /images/pt.jpg
     email: trilcke@uni-potsdam.de
-    web: http://www.peertrilcke.de/
+    web: https://www.uni-potsdam.de/de/lit-19-jhd/peertrilcke.html
     twitter: peertrilcke
     github: peertrilcke
     description: Assistant Professor (Juniorprofessor) of Modern German Literature and Media at University of Potsdam.
@@ -77,11 +78,11 @@ authors:
   jannik:
     name: Jannik Strötgen
     display_name: Jannik
-    email: jannik.stroetgen@mpi-inf.mpg.de
-    web: https://people.mpi-inf.mpg.de/~jstroetge/
+    email: 
+    web: https://sites.google.com/view/jannikstroetgen/
     twitter: jannikstroetgen
     github: JannikStroetgen
-    description: Researcher at the Max Planck Institute for Informatics.
+    description: Research Scientist at Bosch Center for Artificial Intelligence.
   angelika:
     name: Angelika Hechtl
     display_name: Angelika
@@ -97,7 +98,7 @@ authors:
     display_name: Ingo
     img: /images/ib.jpg
     email: ingo.boerner@univie.ac.at
-    web: 
+    web: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
     twitter: ingoboerner
     github: ingoboerner
     orcid: 0000-0001-8294-2541
@@ -133,7 +134,7 @@ authors:
     img: /images/eg.jpg
     email: 
     web: 
-    twitter: happypuffin7
+    twitter: 
     github: ldsad7
     orcid: 
     description: HSE, Moscow.
