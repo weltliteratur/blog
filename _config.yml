@@ -166,6 +166,14 @@ authors:
     github: Pozdniakov
     orcid: 
     description: Higher School of Economics, Moscow.
+  michel:
+    name: Michel Schwab
+    display_name: Michel
+    email: michel.schwab@hu-berlin.de
+    web: https://amor.cms.hu-berlin.de/~schwabmi/
+    orcid:
+    twitter:
+    description: Research fellow at Humboldt University of Berlin.
     
 
 paginate:         10
