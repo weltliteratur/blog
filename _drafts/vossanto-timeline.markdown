@@ -1,7 +1,7 @@
 ---
 title: "Updates on Vossian Antonomasia"
 layout: post
-author: [robert, frank]
+author: [robert, michel, frank]
 comments: true
 date: 2020-08-17
 ---
@@ -29,7 +29,7 @@ set up a [timeline](https://vossanto.weltliteratur.net/timeline/):
 It contains all Vossantos from our [2019 EMNLP-IJCNLP
 paper](https://doi.org/10.18653/v1/D19-1647). Each Vossanto is
 represented by a circle and the name of its source (the entity whose
-properties or qualities are transferred to another entity). The color
+properties or qualities are transferred to another entity). The colour
 of the circle indicates the New York Times desk that is responsible
 for the corresponding article. By clicking on an entry more
 information is shown, as can be seen in the above screenshot:
@@ -66,46 +66,76 @@ explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
 ## Automatic Detection of Vossantos
 
-Let us recall the VA extraction approach from our first paper. The approach was semi-automated, sentence-based and focused on humans.
-First, we used regular expressions to extract all sentence candidates with one out of nine syntactical VA source pattern, e.g. 'the ENTITY of'.
-The key idea was to use Wikidata as an external database for distant supervision.
-We kept those sentences as candidates that included the exact name or alias of Wikidata entities with 'instance-of' prtoperty 'human'. 
-Afterwards we created manually a 'blacklist' with words that are also common nouns or otherwise unlikely to be a source of VA to exlude candidates like 'the House of' (as 'House' is an alias of the botanist 'Homer Doliver House' and was kept as a candidate in the seccond step).
+Our [first VA extraction approach](https://doi.org/10.1093/llc/fqy087)
+was semi-automated, sentence-based, and focused on human entities: We
+used regular expressions to extract all sentence candidates with the
+VA source pattern "the ENTITY of". Then our key idea was to use
+Wikidata as an external database for distant supervision.  We kept
+those candidates that included the exact name or alias of Wikidata
+entities that are an [instance
+of](https://www.wikidata.org/wiki/Property:P31) the class
+[human](https://www.wikidata.org/wiki/Q5).  Afterwards, we used a
+manually created
+[blacklist](https://github.com/weltliteratur/vossanto/blob/master/theof/blacklist.tsv)
+with words that are also common nouns or otherwise unlikely to be a
+source of a VA. This enabled us to exclude candidates like "the House
+of" (as 'House' is an alias of the botanist [Homer Doliver
+House](https://www.wikidata.org/wiki/Q3139666) and thus was kept as a
+candidate in the second step).
 
-In our EMNLP-IJCNLP 2019 [paper](https://doi.org/10.18653/v1/D19-1647) we automated the process of extracting VA from text.
-We developed three different approaches.
-The first approach is mainly based on the old approach, but instead of using a manually curated blacklist, we introduced a 'popularity measure' to find out, which candidates after the Wikidata linking step should be removed.
-In detail, we used Wikidata again and compared the 'popularity' (e.g. the number of Wikidata sitelinks per entity) between the human entity and if exisiting, another entity having the same label, e.g. the human entity 'House' (the botanist) only has 9 sitelinks, the entity 'House' (the building) has 178 sitelinks. Thus we removed those candidates since it was unlikely that the linking in the Wikidatastep was right.
+In our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647)
+we automated the process of extracting VA from text and compared three
+different approaches to our first approach.  The second approach is an
+extension of our previous method: We replaced the manually curated
+blacklist by a popularity measure to identify candidates that could be
+removed after the Wikidata linking step.  Specifically, we compared
+the 'popularity' (measured as the number of Wikidata sitelinks per
+entity) between the human entity and, if existing, another entity
+having the same label. For example, the human entity 'House' ([the
+botanist](https://www.wikidata.org/wiki/Q3139666)) only has
+9 sitelinks while the entity 'House' ([the
+building](https://www.wikidata.org/wiki/Q3947)) has 178 sitelinks.  We
+removed such candidates since it was unlikely that the label was
+linked to the correct entity. In addition, we removed all candidates
+where the source (e.g., 'Prince') together with multiple words
+following it (e.g., 'of Wales') matched the name or alias of another
+Wikidata entity. This allowed us to remove frequent false positives
+like [Prince of Wales](https://www.wikidata.org/wiki/Q43274).
 
-In addition, we removed all candidates where the source (e.g., ‘Prince’) together with multiplewords following it (e.g., ‘of Wales’) matched the name or alias of another Wikidata entity (https://www.wikidata.org/wiki/Q43274). This allowed us to remove frequent false positives like ‘Prince of Wales’.
+As we focused on persons as VA sources, our third approach is based on
+named entity recognition (NER).  Instead of using Wikidata to detect
+sentence candidates, we used the [Stanford NER
+tool](https://nlp.stanford.edu/ner/) to detect entities.  We also
+applied the last step from the first approach to detect false
+positives.
 
-As we focused on 'persons' as a VA source, our seccond approach is based on named entity recognition.
-Instead of using Wikidata to detect sentence candidates, we used the NER tool to detect entities.
-We also used the last step from the first approach (detecting false positives).
+In our fourth approach we leveraged the annotations from our first
+approach to train a neural network. First we transformed each word of
+a sentence into a word vector, using pre-trained word embeddings
+([GloVe](https://nlp.stanford.edu/projects/glove/)). Then we fed the
+vectors into a neural network – a bi-directional long short-term
+memory layer (BLSTM) with a feed-forward layer – to learn it
+distinguish sentences that contain a VA from those that do not contain
+a VA.
 
-Our last approach is based on the corpus from our old approach:
-In particular, we used the labeled corpus as a training dataset and trained a neural network. First we transformed each word of a sentence into a word vector, using pre-trained word embeddings (e.g. GloVe embeddings).
+Evaluating the approaches is a hard problem in itself because of the
+sparsity of the phenomenon. It is infeasible to determine the recall
+on the whole NYT corpus.  Therefore, we compute precision, recall and
+f1 based on the labelled corpus.  The BLSTM performs best, boosting the
+precision to 87%:
 
-Afterwards we fed our neural network with these vectors. Our network consists of a bi-directional long short-term memory layer (BLSTM) and a feedforward layer on top of it to compute the binary label.
-
-Evaluating the approaches is a hard problem itself because of the sparsity of the phenomen. It is unfeasible to determine recall on the whole NYT corpus.
-Instead we compute precision, recall and f1 based on the labeled corpus.
-The BLSTM performs best, boosting the precision to 87%.
-The results are shown in the following table:
-
-| Approach                 | Precision | Recall |    F1 |
-|--------------------------+-----------+--------+-------|
-| semi-automated           |     49.8% |      - |     - |
-| Wikidata                 |     67.3% |  93.0% | 78.1% |
-| Named-entity-recognition |     71.8% |  81.3% | 76.2% |
-| BLSTM                    |     86.9% |  85.3% | 86.1% |
-
-
-
-At the moment we are working on different approaches to detect all parts (i.e. target, source and modifier) of VA in a sentence.
-One side effect is an enriched corpus, having all parts of VA tagged in each positive labeled sample.
+| Approach            | Precision | Recall |    F1 |
+|---------------------+-----------+--------+-------|
+| 1st: semi-automated |     49.8% |      - |     - |
+| 2nd: Wikidata       |     67.3% |  93.0% | 78.1% |
+| 3rd: NER            |     71.8% |  81.3% | 76.2% |
+| 4th: BLSTM          |     86.9% |  85.3% | 86.1% |
 
 
+At the moment we are working on different approaches to detect all
+parts (i.e., target, source and modifier) of a VA in a sentence.  One
+side effect is an enriched corpus, having all parts of a VA tagged in
+each positively label-ed sample.
 
 
 ## Modifiers
@@ -271,7 +301,7 @@ The fields contain the following information:
 | sourceImLicense | The license of the source's image.                                                         |
 | fId             | The id of the article's file in the NYT dataset.                                           |
 | aUrlId          | The id of the article in its URL (`http://query.nytimes.com/gst/fullpage.html?res=<HERE>`) |
-| text            | The sentence containing the Vossanto (including ord-mode markup).                          |
+| text            | The sentence containing the Vossanto (including org-mode markup).                         |
 
 
 ## Future
