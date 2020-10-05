@@ -66,14 +66,30 @@ explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
 ## Automatic Detection of Vossantos
 
+Let us recall the VA extraction approach from our first paper. The approach was semi-automated, sentence-based and focused on humans.
+First, we used regular expressions to extract all sentence candidates with one out of nine syntactical VA source pattern, e.g. 'the ENTITY of'.
+The key idea was to use Wikidata as an external database for distant supervision.
+We kept those sentences as candidates that included the exact name or alias of Wikidata entities with 'instance-of' prtoperty 'human'. 
+Afterwards we created manually a 'blacklist' with words that are also common nouns or otherwise unlikely to be a source of VA to exlude candidates like 'the House of' (as 'House' is an alias of the botanist 'Homer Doliver House' and was kept as a candidate in the seccond step).
 
-- continuous improvements on the approach
-- EMNLP-IJCNLP 2019 [paper](https://doi.org/10.18653/v1/D19-1647)
-  - technical background
-- but also working on further improvements
-  - sequence labelling
-	- to also identify modifier + target!
-	- thus: labelled data now also comprises modifier + target
+In our EMNLP-IJCNLP 2019 [paper](https://doi.org/10.18653/v1/D19-1647) we automated the process of extracting VA from text.
+We developed three different approaches.
+The first approach is mainly based on the old approach, but instead of using a manually curated blacklist, we introduced a 'popularity measure' to find out, which candidates after the Wikidata linking step should be removed.
+In detail, we used Wikidata again and compared the 'popularity' (e.g. the number of Wikidata sitelinks per entity) between the human entity and if exisiting, another entity having the same label, e.g. the human entity 'House' (the botanist) only has 9 sitelinks, the entity 'House' (the building) has 178 sitelinks. Thus we removed those candidates since it was unlikely that the linking in the Wikidatastep was right.
+
+In addition, we removed all candidates where the source (e.g., ‘Prince’) together with multiplewords following it (e.g., ‘of Wales’) matched the name or alias of another Wikidata entity (https://www.wikidata.org/wiki/Q43274). This allowed us to remove frequent false positives like ‘Prince of Wales’.
+
+As we focused on 'persons' as a VA source, our seccond approach is based on named entity recognition.
+Instead of using Wikidata to detect sentence candidates, we used the NER tool to detect entities.
+We also used the last step from the first approach (detecting false positives).
+
+Our last approach is based on the corpus from our old approach:
+In particular, we used the labeled corpus as a training dataset and trained a neural network. First we transformed each word of a sentence into a word vector, using pre-trained word embeddings (e.g. GloVe embeddings).
+
+Afterwards we fed our neural network with these vectors. Our network consists of a bi-directional long short-term memory layer (BLSTM) and a feedforward layer on top of it to compute the binary label.
+
+At the moment we are working on different approaches to detect all parts (i.e. target, source and modifier) of VA in a sentence.
+One result is an enriched corpus, having target, source and modifier tagged in each positive labeled sample.
 
 
 ## Modifiers
