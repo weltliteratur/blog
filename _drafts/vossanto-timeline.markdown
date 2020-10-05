@@ -124,7 +124,7 @@ on the whole NYT corpus.  Therefore, we compute precision, recall and
 f1 based on the labelled corpus.  The BLSTM performs best, boosting the
 precision to 87%:
 
-| Approach            | Precision | Recall |    F1 |
+| approach            | precision | recall |    f1 |
 |---------------------|-----------|--------|-------|
 | 1st: semi-automated |     49.8% |      - |     - |
 | 2nd: Wikidata       |     67.3% |  93.0% | 78.1% |
