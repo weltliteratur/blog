@@ -125,7 +125,7 @@ f1 based on the labelled corpus.  The BLSTM performs best, boosting the
 precision to 87%:
 
 | Approach            | Precision | Recall |    F1 |
-|---------------------+-----------+--------+-------|
+|---------------------|-----------|--------|-------|
 | 1st: semi-automated |     49.8% |      - |     - |
 | 2nd: Wikidata       |     67.3% |  93.0% | 78.1% |
 | 3rd: NER            |     71.8% |  81.3% | 76.2% |
