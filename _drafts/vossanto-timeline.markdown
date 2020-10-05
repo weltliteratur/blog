@@ -88,8 +88,24 @@ In particular, we used the labeled corpus as a training dataset and trained a ne
 
 Afterwards we fed our neural network with these vectors. Our network consists of a bi-directional long short-term memory layer (BLSTM) and a feedforward layer on top of it to compute the binary label.
 
+Evaluating the approaches is a hard problem itself because of the sparsity of the phenomen. It is unfeasible to determine recall on the whole NYT corpus.
+Instead we compute precision, recall and f1 based on the labeled corpus.
+The BLSTM performs best, boosting the precision to 87%.
+The results are shown in the following table:
+
+| Approach                 | Precision | Recall |    F1 |
+|--------------------------+-----------+--------+-------|
+| semi-automated           |     49.8% |      - |     - |
+| Wikidata                 |     67.3% |  93.0% | 78.1% |
+| Named-entity-recognition |     71.8% |  81.3% | 76.2% |
+| BLSTM                    |     86.9% |  85.3% | 86.1% |
+
+
+
 At the moment we are working on different approaches to detect all parts (i.e. target, source and modifier) of VA in a sentence.
-One result is an enriched corpus, having target, source and modifier tagged in each positive labeled sample.
+One side effect is an enriched corpus, having all parts of VA tagged in each positive labeled sample.
+
+
 
 
 ## Modifiers
