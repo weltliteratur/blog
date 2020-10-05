@@ -66,34 +66,34 @@ explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
 ## Automatic Detection of Vossantos
 
-Our [first VA extraction approach](https://doi.org/10.1093/llc/fqy087)
-was semi-automated, sentence-based, and focused on human entities: We
-used regular expressions to extract all sentence candidates with the
-VA source pattern "the ENTITY of". Then our key idea was to use
-Wikidata as an external database for distant supervision.  We kept
-those candidates that included the exact name or alias of Wikidata
-entities that are an [instance
-of](https://www.wikidata.org/wiki/Property:P31) the class
-[human](https://www.wikidata.org/wiki/Q5).  Afterwards, we used a
-manually created
+Our [first Vossanto extraction
+approach](https://doi.org/10.1093/llc/fqy087) was semi-automated,
+sentence-based, and focused on human entities: We used regular
+expressions to extract all sentence candidates with the Vossanto
+source pattern "the ENTITY of". Then our key idea was to use Wikidata
+as an external database for distant supervision.  We kept those
+candidates that included the exact name or alias of Wikidata entities
+that are an [instance of](https://www.wikidata.org/wiki/Property:P31)
+the class [human](https://www.wikidata.org/wiki/Q5).  Afterwards, we
+used a manually created
 [blacklist](https://github.com/weltliteratur/vossanto/blob/master/theof/blacklist.tsv)
 with words that are also common nouns or otherwise unlikely to be a
-source of a VA. This enabled us to exclude candidates like "the House
-of" (as 'House' is an alias of the botanist [Homer Doliver
+source of a Vossanto. This enabled us to exclude candidates like "the
+House of" (as 'House' is an alias of the botanist [Homer Doliver
 House](https://www.wikidata.org/wiki/Q3139666) and thus was kept as a
 candidate in the second step).
 
 In our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647)
-we automated the process of extracting VA from text and compared three
-different approaches to our first approach.  The second approach is an
-extension of our previous method: We replaced the manually curated
-blacklist by a popularity measure to identify candidates that could be
-removed after the Wikidata linking step.  Specifically, we compared
-the 'popularity' (measured as the number of Wikidata sitelinks per
-entity) between the human entity and, if existing, another entity
-having the same label. For example, the human entity 'House' ([the
-botanist](https://www.wikidata.org/wiki/Q3139666)) only has
-9 sitelinks while the entity 'House' ([the
+we automated the process of extracting Vossanto from text and compared
+three different approaches to our first approach.  The second approach
+is an extension of our previous method: We replaced the manually
+curated blacklist by a popularity measure to identify candidates that
+could be removed after the Wikidata linking step.  Specifically, we
+compared the 'popularity' (measured as the number of Wikidata
+sitelinks per entity) between the human entity and, if existing,
+another entity having the same label. For example, the human entity
+'House' ([the botanist](https://www.wikidata.org/wiki/Q3139666)) only
+has 9 sitelinks while the entity 'House' ([the
 building](https://www.wikidata.org/wiki/Q3947)) has 178 sitelinks.  We
 removed such candidates since it was unlikely that the label was
 linked to the correct entity. In addition, we removed all candidates
@@ -102,9 +102,9 @@ following it (e.g., 'of Wales') matched the name or alias of another
 Wikidata entity. This allowed us to remove frequent false positives
 like [Prince of Wales](https://www.wikidata.org/wiki/Q43274).
 
-As we focused on persons as VA sources, our third approach is based on
-named entity recognition (NER).  Instead of using Wikidata to detect
-sentence candidates, we used the [Stanford NER
+As we focused on persons as Vossanto sources, our third approach is
+based on named entity recognition (NER).  Instead of using Wikidata to
+detect sentence candidates, we used the [Stanford NER
 tool](https://nlp.stanford.edu/ner/) to detect entities.  We also
 applied the last step from the first approach to detect false
 positives.
@@ -115,8 +115,8 @@ a sentence into a word vector, using pre-trained word embeddings
 ([GloVe](https://nlp.stanford.edu/projects/glove/)). Then we fed the
 vectors into a neural network – a bi-directional long short-term
 memory layer (BLSTM) with a feed-forward layer – to learn it
-distinguish sentences that contain a VA from those that do not contain
-a VA.
+distinguish sentences that contain a Vossanto from those that do not
+contain one.
 
 Evaluating the approaches is a hard problem in itself because of the
 sparsity of the phenomenon. It is infeasible to determine the recall
@@ -133,9 +133,9 @@ precision to 87%:
 
 
 At the moment we are working on different approaches to detect all
-parts (i.e., target, source and modifier) of a VA in a sentence.  One
-side effect is an enriched corpus, having all parts of a VA tagged in
-each positively label-ed sample.
+parts (i.e., target, source and modifier) of a Vossanto in a sentence.
+One side-effect is an enriched corpus, having all parts of a Vossanto
+tagged in each positively labelled sample.
 
 
 ## Modifiers
