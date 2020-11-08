@@ -1,150 +1,136 @@
 ---
-title: "Updates on Vossian Antonomasia"
+title: "Vossian Antonomasia, Next Level"
 layout: post
 author: [robert, michel, frank]
 comments: true
-date: 2020-08-17
+date: 2020-11-09
 ---
 
-Our [last article on Vossian
-Antonomasia](https://weltliteratur.net/vossian-antonomasia-new-york-times/)
-(*Vossanto*) appeared more than a year ago, yet, since then we were
-busy improving our methods, writing papers, and extending the [web
-page](https://vossanto.weltliteratur.net/). This blog post provides an
-update on recent developments.
+Our [last blogpost on Vossian
+Antonomasia](/vossian-antonomasia-new-york-times/) (VA, or, vossanto) appeared
+almost two years ago. Since then, we were busy improving our methods, writing
+papers, and updating our [web page](https://vossanto.weltliteratur.net/) with
+some more data to explore. In this article we summarise the latest
+developments.
 
+## Interactive Timeline for Data Exploration
 
-## Timeline
-
-Last year [our research group at
+In the past year, [our research group at
 IBI](https://www.ibi.hu-berlin.de/de/forschung/info_processing_analytics)
-run a small code sprint to create a visual exploration platform for
-our New York Times corpus of Vossantos. Thanks to [Sjaak
-Priester](https://github.com/sjaakp) and his excellent [JavaScript
-Dateline widget](https://github.com/sjaakp/dateline) we could quickly
-set up a [timeline](https://vossanto.weltliteratur.net/timeline/):
+conducted a small code sprint to create an interface for the visual
+exploration of Vossian Antonomasia extracted from our *New York Times* working
+corpus (covering the years 1987–2007). Thanks to [Sjaak
+Priester](https://github.com/sjaakp) and his excellent [JavaScript Dateline
+widget](https://github.com/sjaakp/dateline) we were able to quickly set up an
+[interactive timeline](https://vossanto.weltliteratur.net/timeline/):
 
 ![Timeline Example: Michael Jordan](../images/va_timeline_mj.png)
 
-It contains all Vossantos from our [2019 EMNLP-IJCNLP
-paper](https://doi.org/10.18653/v1/D19-1647). Each Vossanto is
-represented by a circle and the name of its source (the entity whose
-properties or qualities are transferred to another entity). The colour
-of the circle indicates the New York Times desk that is responsible
-for the corresponding article. By clicking on an entry more
-information is shown, as can be seen in the above screenshot:
+It assembles all Vossian Antonomasia extracted with the method described in
+our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647). Each VA
+is represented by a colour dot and the named entity providing the source
+(whose properties or qualities are transferred to another named entity by the
+magic of Vossian Antonomasia). The colour of the dot indicates the *New York
+Times* desk responsible for the corresponding article. Clicking on an entry
+will display more information, as shown in the above screenshot:
 
-- a photo from [Wikimedia Commons](https://commons.wikimedia.org/)
-  (for most sources),
-- the sentence containing the Vossanto with **source** and *modifier*
+- a photo automatically retrieved from
+  [Wikimedia Commons](https://commons.wikimedia.org/) (if available),
+- the sentence containing the VA expression with **source** and *modifier*
   highlighted,
-- the article id with a link to the article's web page,
+- the article ID with a direct link to its full text,
 - the name of the author,
 - the name of the desk,
-- the source and license for the photo,
-- a permanent link to that Vossanto.
+- source and licence for the photo,
+- a permanent link to the corresponding VA expression.
 
-If you want to test it yourself, you can either scroll through the
- [timeline](https://vossanto.weltliteratur.net/timeline/) or just
- follow [this example](https://vossanto.weltliteratur.net/timeline/#1077956_3).
+Feel free to scroll through the
+[timeline](https://vossanto.weltliteratur.net/timeline/) or just follow [this
+example](https://vossanto.weltliteratur.net/timeline/#1077956_3).
 
-Not just a gimmick but really helpful is another feature, almost
-hidden in the top left corner: the full text search facility. After
-typing some words it shows all Vossantos that contain the
-word. Clicking on a match scrolls to the corresponding point in the
-timeline and shows the details. This provides many more opportunities
-to find interesting Vossanto! For example, search for "literature" to
-find [a Vossanto together with its
-explanation](https://vossanto.weltliteratur.net/timeline/#1097313_0).
+In the upper left corner you can find a box for full-text search. After typing
+in a few letters it shows all matching VA expressions. Clicking on a match
+scrolls to the corresponding place in the timeline and shows the details, a
+very convenient way to find interesting Vossian Antonomasia. For example, type
+in "literature" to acquaint yourself with ["the Tupac Shakur of American
+literature"](https://vossanto.weltliteratur.net/timeline/#1097313_0) or ["the
+Madonna of Cuban
+literature"](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
-<!--
- - "Lenin" liefert
-  https://vossanto.weltliteratur.net/timeline/#0151446_0 etwas
-  literaturhistorisch interessantes
+## Automatic Detection of Vossian Antonomasia
 
--->
-
-## Automatic Detection of Vossantos
-
-Our [first Vossanto extraction
-approach](https://doi.org/10.1093/llc/fqy087) was semi-automated,
-sentence-based, and focused on human entities: We used regular
-expressions to extract all sentence candidates with the Vossanto
-source pattern "the ENTITY of". Then our key idea was to use Wikidata
-as an external database for distant supervision.  We kept those
-candidates that included the exact name or alias of Wikidata entities
-that are an [instance of](https://www.wikidata.org/wiki/Property:P31)
-the class [human](https://www.wikidata.org/wiki/Q5).  Afterwards, we
-used a manually created
+Our [first approach to VA extraction (published in *Digital Scholarship in the
+Humanities* 35.1, April 2020)](https://doi.org/10.1093/llc/fqy087) was
+semi-automated, sentence-based, and strictly centered around humans. We used
+regular expressions to extract all sentences featuring our VA source pattern
+"the ENTITY of". Then our core idea was to use Wikidata as knowledge base for
+distant supervision. We only kept candidates that included the exact name or
+alias of a Wikidata entity which had to be an [instance
+of](https://www.wikidata.org/wiki/Property:P31) the class
+[human](https://www.wikidata.org/wiki/Q5). We used a manually created
 [blacklist](https://github.com/weltliteratur/vossanto/blob/master/theof/blacklist.tsv)
-with words that are also common nouns or otherwise unlikely to be a
-source of a Vossanto. This enabled us to exclude candidates like "the
-House of" (as 'House' is an alias of the botanist [Homer Doliver
-House](https://www.wikidata.org/wiki/Q3139666) and thus was kept as a
-candidate in the second step).
+to exclude candidates like "the House of" (for 'House' being, among other
+things, a documented alias of botanist [Homer Doliver
+House](https://www.wikidata.org/wiki/Q3139666).
 
-In our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647)
-we automated the process of extracting Vossanto from text and compared
-three different approaches to our first approach.  The second approach
-is an extension of our previous method: We replaced the manually
-curated blacklist by a popularity measure to identify candidates that
-could be removed after the Wikidata linking step.  Specifically, we
-compared the 'popularity' (measured as the number of Wikidata
-sitelinks per entity) between the human entity and, if existing,
-another entity having the same label. For example, the human entity
-'House' ([the botanist](https://www.wikidata.org/wiki/Q3139666)) only
-has 9 sitelinks while the entity 'House' ([the
-building](https://www.wikidata.org/wiki/Q3947)) has 178 sitelinks.  We
-removed such candidates since it was unlikely that the label was
-linked to the correct entity. In addition, we removed all candidates
-where the source (e.g., 'Prince') together with multiple words
-following it (e.g., 'of Wales') matched the name or alias of another
-Wikidata entity. This allowed us to remove frequent false positives
-like [Prince of Wales](https://www.wikidata.org/wiki/Q43274).
+In our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647) we
+automated the process of extracting VA from large newspaper corpora and
+compared **three new approaches** to our initial approach:
 
-As we focused on persons as Vossanto sources, our third approach is
-based on named entity recognition (NER).  Instead of using Wikidata to
-detect sentence candidates, we used the [Stanford NER
-tool](https://nlp.stanford.edu/ner/) to detect entities.  We also
-applied the last step from the first approach to detect false
-positives.
+* The second approach is an extension of our previous method. We replaced the
+manually curated blacklist with a popularity measure to identify candidates
+that could be removed after linking an entity to a Wikidata entry. We compared
+the 'popularity' (for which we took the number of Wikidata sitelinks per
+entity) of a human entity to another entity featuring the same label. For
+example, the human entity 'House' ([the
+botanist](https://www.wikidata.org/wiki/Q3139666)) only has 9 sitelinks while
+the entity 'House' ([the building](https://www.wikidata.org/wiki/Q3947)) has
+178 sitelinks. We removed such candidates since it was unlikely that the label
+was linked to the correct entity. We also removed all candidates where the
+source (e.g., 'Prince') together with multiple subsequent words (e.g., 'of
+Wales') matched the name or alias of another Wikidata entity. This allowed us
+to get rid of frequent false positives like [the Prince of
+Wales](https://www.wikidata.org/wiki/Q43274) (who, grammatically, could also
+be an aspiring Welsh singer reminding of the Artist Formerly Known as
+Prince).
+* Since we focus on people as VA sources, our third approach is based on
+named-entity recognition (NER). Instead of using Wikidata to detect sentence
+candidates, we now tried the [Stanford NER
+tool](https://nlp.stanford.edu/ner/) to detect entities. We also applied the
+last step from the first approach to detect false positives.
+* In our fourth approach we leveraged the annotations from our initial
+approach to train a neural network. First, we transformed each word of a
+sentence into a word vector using pre-trained word embeddings
+([GloVe](https://nlp.stanford.edu/projects/glove/)). Then we fed the vectors
+into a neural network – a bi-directional long short-term memory layer (BLSTM)
+with a feed-forward layer – to let it learn to distinguish sentences that do
+contain a VA expression from those that don't.
 
-In our fourth approach we leveraged the annotations from our first
-approach to train a neural network. First we transformed each word of
-a sentence into a word vector, using pre-trained word embeddings
-([GloVe](https://nlp.stanford.edu/projects/glove/)). Then we fed the
-vectors into a neural network – a bi-directional long short-term
-memory layer (BLSTM) with a feed-forward layer – to learn it
-distinguish sentences that contain a Vossanto from those that do not
-contain one.
-
-Evaluating the approaches is a hard problem in itself because of the
-sparsity of the phenomenon. It is infeasible to determine the recall
-on the whole NYT corpus.  Therefore, we compute precision, recall and
-f1 based on the labelled corpus.  The BLSTM performs best, boosting the
-precision to 87%:
+In our case, evaluating the different approaches is especially tricky due to
+the rarity of the phenomenon. It is unfeasible to determine the recall for the
+1.85 million articles in our NYT corpus. Therefore we calculate precision,
+recall and f1 based on the labelled corpus. The BLSTM performs best, boosting
+the precision to 87%:
 
 | approach            | precision | recall |    f1 |
 |---------------------|-----------|--------|-------|
-| 1st: semi-automated |     49.8% |      - |     - |
+| 1st: semi-automated |     49.8% |      – |     – |
 | 2nd: Wikidata       |     67.3% |  93.0% | 78.1% |
 | 3rd: NER            |     71.8% |  81.3% | 76.2% |
 | 4th: BLSTM          |     86.9% |  85.3% | 86.1% |
 
-
-At the moment we are working on different approaches to detect all
-parts (i.e., target, source and modifier) of a Vossanto in a sentence.
-One side-effect is an enriched corpus, having all parts of a Vossanto
-tagged in each positively labelled sample.
-
+We are currently working on various approaches to detect all three parts
+(source, target and modifier) of a VA expression in a sentence. As a
+by-product, we will have an enriched corpus where all parts of a VA expression
+are tagged in each positively labelled sentence.
 
 ## Modifiers
 
-Since we need labelled data for training and evaluating our machine
-learning approaches, we went over more than 3000 Vossantos to also
-annotate their modifiers and targets. Therefore, we can now present
-reliable statistics on the most frequent modifiers in the corpus. The
-top ten modifiers are:
+Since we need labelled data to train and evaluate our machine-learning
+approaches, we examined more than 3,000 VA expressions to annotate their
+targets and modifiers. As a result, we can now present more reliable
+statistics on the most common modifiers in our corpus. The ten most frequent
+modifiers are:
 
 | count | modifier       |
 |-------|----------------|
@@ -161,31 +147,34 @@ top ten modifiers are:
 
 A [longer
 list](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#modifiers)
-together with many examples can be found on the latest [statistics
-page](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html).
+with many more results can be found on our most recent [statistics
+page](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html). As
+described in our first paper, this list illustrates an important function of
+antonomasia, which is the "inculturation" of lesser known phenomena (cf. also
+[Holmqvist/Płuciennik 2010, p.
+379](https://doi.org/10.1515/9783110230215.373)).
 
-By filtering the modifiers we can create rankings for specific themes,
-for example,
-[countries](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#country):
+By filtering the modifiers we can create rankings for specific categories; for
+example,
+[countries](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#country)
+…
 
-
-| count |	country      |
+| count | country        |
 |-------|----------------|
-|    29 |	Japan        |
-|    17 |	China        |
-|    10 |	Brazil       |
-|     8 |	Iran         |
-|     7 |	Mexico       |
-|     7 |	Israel       |
-|     7 |	India        |
-|     4 |	South Africa |
-|     4 |	Poland       |
-|     3 |	Spain        |
+|    29 | Japan          |
+|    17 | China          |
+|    10 | Brazil         |
+|     8 | Iran           |
+|     7 | Mexico         |
+|     7 | Israel         |
+|     7 | India          |
+|     4 | South Africa   |
+|     4 | Poland         |
+|     3 | Spain          |
 
+… or [sports](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#sports):
 
-or [sports](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#sports):
-
-| count		 | sports                                                |
+| count      | sports                                                |
 |------------|-------------------------------------------------------|
 |         16 | tennis                                                |
 |         16 | baseball                                              |
@@ -241,35 +230,29 @@ or [sports](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#
 |          1 | baseball collections                                  |
 |          1 | baseball cards                                        |
 
-Apparently, Vossantos are used to introduce athletes and personalities
-from foreign countries that are (supposedly) unknown to the reader.
-
-Most modifiers are short, consisting of only one to three words, as
-this plot of the distribution of the length (number of words) of
-modifiers shows:
+Most modifiers are short and consist of only one to three words, as this plot
+of the distribution of the length (number of words) of modifiers shows:
 
 ![modifier length distribution](https://raw.githubusercontent.com/weltliteratur/vossanto/master/emnlp-ijcnlp2019/nyt_vossantos_modifier_length.png)
 
 The longest modifier we have found so far contains 25 words:
 
-And while he modestly demurs, Mr. Barker is widely regarded as the
-**Bob Fosse** of *the carefully choreographed event that consumes
-Midtown Manhattan with tin whistles, step dancers and some two million
-spectators on that invariably brisk March 17 morning*. (source:
+> "And while he modestly demurs, Mr. Barker is widely regarded as the **Bob
+Fosse** of *the carefully choreographed event that consumes Midtown Manhattan
+with tin whistles, step dancers and some two million spectators on that
+invariably brisk March 17 morning*." (source:
 [2001/03/07/1276052](http://query.nytimes.com/gst/fullpage.html?res=9B04E3DE1E3BF934A35750C0A9679C8B63))
-
 
 ## JSON Data Dump
 
-As a side effect of the timeline, the [dataset is now also available
-in JSON
+As additional outcome of the timeline, our [dataset is now also available in
+JSON
 format](https://github.com/weltliteratur/vossanto/blob/master/timeline/vossantos.json).
-As a bonus, the JSON data contains links to
-[Wikidata](https://www.wikidata.org/) as well as links to images for
-sources on [Wikimedia Commons](https://commons.wikimedia.org/)
-(including license information) and thus can easily be re-used for
-further analyses or demos. The following excerpt shows a JSON entry
-for an exemplary Vossanto:
+The enriched JSON data dump contains links to
+[Wikidata](https://www.wikidata.org/) and to images of VA sources on
+[Wikimedia Commons](https://commons.wikimedia.org/) (including licence
+information), so that they can easily be reused for further analysis or demos.
+The following excerpt shows a JSON entry for an exemplary VA expression:
 
 ```json
 {
@@ -290,26 +273,25 @@ for an exemplary Vossanto:
 
 The fields contain the following information:
 
-| key             | content                                                                                    |
-|-----------------|--------------------------------------------------------------------------------------------|
-| id              | A unique (within the dataset) identifier for the Vossanto.                                 |
-| date            | Publication date of the NYT article.                                                       |
-| sourceId        | The Wikidata id of the Vossanto's source.                                                  |
-| sourceLabel     | The (English) Wikidata label of the source.                                                |
-| sourceImId      | The name of the source's image on Wikimedia Commons.                                       |
-| sourceImThumb   | The path to the source's image on Wikimedia Commons.                                       |
-| sourceImLicense | The license of the source's image.                                                         |
-| fId             | The id of the article's file in the NYT dataset.                                           |
-| aUrlId          | The id of the article in its URL (`http://query.nytimes.com/gst/fullpage.html?res=<HERE>`) |
-| text            | The sentence containing the Vossanto (including org-mode markup).                         |
+| key             | content                                                                                            |
+|-----------------|----------------------------------------------------------------------------------------------------|
+| id              | A unique (within the dataset) identifier for a VA expression.                                      |
+| date            | Publication date of the corresponding NYT article.                                                 |
+| sourceId        | The Wikidata ID of the VA source.                                                                  |
+| sourceLabel     | The (English) Wikidata label of the source.                                                        |
+| sourceImId      | The name of the source's image on Wikimedia Commons.                                               |
+| sourceImThumb   | The path to the source's image on Wikimedia Commons.                                               |
+| sourceImLicense | The licence of the source's image.                                                                 |
+| fId             | The ID of the article's file in the NYT dataset.                                                   |
+| aUrlId          | The ID of the article as part of its URL (`http://query.nytimes.com/gst/fullpage.html?res=<HERE>`) |
+| text            | The sentence containing the VA expression (including org-mode markup).                             |
 
+## Future Endeavours
 
-## Future
+We are very interested in analysing Vossian Antonomasia in languages other
+than English (especially German) and are looking for suitable corpora. In
+general, our aim is to better understand Vossian Antonomasia and its usage,
+distribution and variety.
 
-We are very much interested in analysing Vossantos in other languages
-than English (specifically, German) and looking for suitable
-corpora. Apart from that, our goal is to better understand their usage
-and variety.
-
-
-Finally, as always: all details on https://vossanto.weltliteratur.net/
+As always, all details can be found on our project website
+https://vossanto.weltliteratur.net/.
