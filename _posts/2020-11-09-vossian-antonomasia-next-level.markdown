@@ -59,19 +59,20 @@ literature"](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
 ## Automatic Detection of Vossian Antonomasia
 
-Our [first approach to VA extraction (published in *Digital Scholarship in the
-Humanities* 35.1, April 2020)](https://doi.org/10.1093/llc/fqy087) was
-semi-automated, sentence-based, and strictly centered around humans. We used
-regular expressions to extract all sentences featuring our VA source pattern
-"the ENTITY of". Then our core idea was to use Wikidata as knowledge base for
-distant supervision. We only kept candidates that included the exact name or
-alias of a Wikidata entity which had to be an [instance
-of](https://www.wikidata.org/wiki/Property:P31) the class
+Our [first approach to VA extraction (published in *Digital
+Scholarship in the Humanities* 35.1, April
+2020)](https://doi.org/10.1093/llc/fqy087) was semi-automated,
+sentence-based, and strictly centered around humans. We used regular
+expressions to extract all sentences featuring our VA source pattern
+"the ENTITY of". Then our core idea was to use Wikidata as knowledge
+base for distant supervision. We only kept candidates that included
+the exact name or alias of a Wikidata entity which had to be an
+[instance of](https://www.wikidata.org/wiki/Property:P31) the class
 [human](https://www.wikidata.org/wiki/Q5). We used a manually created
 [blacklist](https://github.com/weltliteratur/vossanto/blob/master/theof/blacklist.tsv)
-to exclude candidates like "the House of" (for 'House' being, among other
-things, a documented alias of botanist [Homer Doliver
-House](https://www.wikidata.org/wiki/Q3139666).
+to exclude candidates like "the House of" (for 'House' being, among
+other things, a documented alias of botanist [Homer Doliver
+House](https://www.wikidata.org/wiki/Q3139666)).
 
 In our [2019 EMNLP-IJCNLP paper](https://doi.org/10.18653/v1/D19-1647) we
 automated the process of extracting VA from large newspaper corpora and
@@ -174,61 +175,68 @@ example,
 
 … or [sports](https://vossanto.weltliteratur.net/emnlp-ijcnlp2019/statistics.html#sports):
 
-| count      | sports                                                |
-|------------|-------------------------------------------------------|
-|         16 | tennis                                                |
-|         16 | baseball                                              |
-|         10 | basketball                                            |
-|          8 | golf                                                  |
-|          8 | football                                              |
-|          6 | soccer                                                |
-|          6 | racing                                                |
-|          3 | women's basketball                                    |
-|          3 | sailing                                               |
-|          3 | auto racing                                           |
-|          2 | pro football                                          |
-|          2 | New York baseball                                     |
-|          1 | Yale football fame                                    |
-|          1 | women's college soccer                                |
-|          1 | this year's national collegiate basketball tournament |
-|          1 | the tennis tour                                       |
-|          1 | the tennis field                                      |
-|          1 | the soccer set                                        |
-|          1 | the racing world                                      |
-|          1 | stock-car racing                                      |
-|          1 | Rotisserie baseball                                   |
-|          1 | pro football owners                                   |
-|          1 | professional basketball coaches                       |
-|          1 | professional basketball                               |
-|          1 | motocross racing in the 1980's                        |
-|          1 | micro golfers                                         |
-|          1 | major league baseball                                 |
-|          1 | Laser sailing                                         |
-|          1 | Japanese baseball                                     |
-|          1 | Iraqi soccer                                          |
-|          1 | horse racing                                          |
-|          1 | high school baseball in New York                      |
-|          1 | harness racing                                        |
-|          1 | golf criticism                                        |
-|          1 | football teams                                        |
-|          1 | football owners                                       |
-|          1 | football announcers                                   |
-|          1 | country-club golf                                     |
-|          1 | college football these days                           |
-|          1 | college football                                      |
-|          1 | college basketball                                    |
-|          1 | Chinese baseball                                      |
-|          1 | Brazilian basketball for the past 20 years            |
-|          1 | BMX racing                                            |
-|          1 | biddy basketball                                      |
-|          1 | basketball announcers                                 |
-|          1 | basketball analysts                                   |
-|          1 | basketball analysis                                   |
-|          1 | baseball's new era                                    |
-|          1 | baseball managers                                     |
-|          1 | baseball executives                                   |
-|          1 | baseball collections                                  |
-|          1 | baseball cards                                        |
+| count | sports                                                |
+|-------|-------------------------------------------------------|
+|    16 | tennis                                                |
+|    16 | baseball                                              |
+|    11 | hockey                                                |
+|    10 | basketball                                            |
+|     8 | golf                                                  |
+|     8 | football                                              |
+|     6 | soccer                                                |
+|     6 | racing                                                |
+|     3 | women's basketball                                    |
+|     3 | sailing                                               |
+|     3 | auto racing                                           |
+|     2 | pro football                                          |
+|     2 | New York baseball                                     |
+|     1 | Yale football fame                                    |
+|     1 | women's hockey                                        |
+|     1 | women's college soccer                                |
+|     1 | this year's national collegiate basketball tournament |
+|     1 | the tennis tour                                       |
+|     1 | the tennis field                                      |
+|     1 | the soccer set                                        |
+|     1 | the racing world                                      |
+|     1 | the Olympic hockey tournament                         |
+|     1 | stock-car racing                                      |
+|     1 | Rotisserie baseball                                   |
+|     1 | pro football owners                                   |
+|     1 | professional basketball coaches                       |
+|     1 | professional basketball                               |
+|     1 | motocross racing in the 1980's                        |
+|     1 | micro golfers                                         |
+|     1 | major league baseball                                 |
+|     1 | Laser sailing                                         |
+|     1 | Japanese baseball                                     |
+|     1 | Iraqi soccer                                          |
+|     1 | horse racing                                          |
+|     1 | hockey in the former Soviet Union                     |
+|     1 | hockey commentary                                     |
+|     1 | high school baseball in New York                      |
+|     1 | harness racing                                        |
+|     1 | golf criticism                                        |
+|     1 | football teams                                        |
+|     1 | football owners                                       |
+|     1 | football announcers                                   |
+|     1 | European hockey                                       |
+|     1 | country-club golf                                     |
+|     1 | college football underclassmen                        |
+|     1 | college football these days                           |
+|     1 | college football                                      |
+|     1 | college basketball                                    |
+|     1 | Chinese baseball                                      |
+|     1 | Brazilian basketball for the past 20 years            |
+|     1 | BMX racing                                            |
+|     1 | biddy basketball                                      |
+|     1 | basketball announcers                                 |
+|     1 | basketball analysts                                   |
+|     1 | basketball analysis                                   |
+|     1 | baseball's new era                                    |
+|     1 | baseball managers                                     |
+|     1 | baseball executives                                   |
+|     1 | baseball collections                                  |
+|     1 | baseball cards                                        |
 
 Most modifiers are short and consist of only one to three words, as this plot
 of the distribution of the length (number of words) of modifiers shows:
@@ -294,4 +302,4 @@ general, our aim is to better understand Vossian Antonomasia and its usage,
 distribution and variety.
 
 As always, all details can be found on our project website
-https://vossanto.weltliteratur.net/.
+[https://vossanto.weltliteratur.net/](https://vossanto.weltliteratur.net/).
