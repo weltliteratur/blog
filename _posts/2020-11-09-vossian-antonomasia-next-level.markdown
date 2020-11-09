@@ -53,7 +53,7 @@ in a few letters it shows all matching VA expressions. Clicking on a match
 scrolls to the corresponding place in the timeline and shows the details, a
 very convenient way to find interesting Vossian Antonomasia. For example, type
 in "literature" to acquaint yourself with ["the Tupac Shakur of American
-literature"](https://vossanto.weltliteratur.net/timeline/#1097313_0) or ["the
+literature"](https://vossanto.weltliteratur.net/timeline/#1587118_0) or ["the
 Madonna of Cuban
 literature"](https://vossanto.weltliteratur.net/timeline/#1097313_0).
 
