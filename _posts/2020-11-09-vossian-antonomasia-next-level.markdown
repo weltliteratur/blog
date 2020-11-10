@@ -241,7 +241,7 @@ example,
 Most modifiers are short and consist of only one to three words, as this plot
 of the distribution of the length (number of words) of modifiers shows:
 
-![modifier length distribution](https://raw.githubusercontent.com/weltliteratur/vossanto/master/emnlp-ijcnlp2019/nyt_vossantos_modifier_length.png)
+![modifier length distribution](https://raw.githubusercontent.com/weltliteratur/vossanto/master/emnlp-ijcnlp2019/nyt_vossantos_modifier_length.svg)
 
 The longest modifier we have found so far contains 25 words:
 
