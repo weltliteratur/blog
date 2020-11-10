@@ -248,8 +248,8 @@ The longest modifier we have found so far contains 25 words:
 > "And while he modestly demurs, Mr. Barker is widely regarded as the
 > **Bob Fosse** of *the carefully choreographed event that consumes
 > Midtown Manhattan with tin whistles, step dancers and some two million
-> spectators on that invariably brisk March 17 morning*."
-> <footer>(source:  [2001/03/07/1276052](http://query.nytimes.com/gst/fullpage.html?res=9B04E3DE1E3BF934A35750C0A9679C8B63))</footer>
+> spectators on that invariably brisk March 17 morning*." (source:
+> [2001/03/07/1276052](http://query.nytimes.com/gst/fullpage.html?res=9B04E3DE1E3BF934A35750C0A9679C8B63))
 
 ## JSON Data Dump
 
