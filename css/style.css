@@ -135,6 +135,10 @@ ol {
 	list-style: decimal inside;
 	margin: 20px 0;
 }
+ul > li > ul {
+	margin: 0 0 0 20px;
+	padding-left: 0;
+}
 
 pre {
 	background: none repeat scroll 0 0 #F7F7F7;
