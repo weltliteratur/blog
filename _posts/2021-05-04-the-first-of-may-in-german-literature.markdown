@@ -16,7 +16,7 @@ I took this opportunity to revisit my earlier research on date extractions from 
 The journalists at Bayern 2 probably learned about our research through an [article I wrote for Die Literarische Welt](https://archive.org/download/als-einst-am-ersten-mai-2019-05-04/als-einst-am-ersten-mai-2019-05-04.pdf) two years ago:
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/als-einst-am-ersten-mai-2019-05-04.png" alt="theatre on Mars, poster, small version" style="width:350px; border: 3px solid transparent; border-color: coral;}" />
+  <img src="/images/first-of-may/als-einst-am-ersten-mai-2019-05-04.png" alt="newspaper article" style="width:350px; border: 3px solid transparent; border-color: coral;}" />
 </figure>
 <center><b>Fig. 1.</b> “Als einst am 1. Mai die Welt begann” (publ. <a href="https://archive.org/download/als-einst-am-ersten-mai-2019-05-04/als-einst-am-ersten-mai-2019-05-04.pdf">4 May 2019</a>).</center>
 
@@ -31,7 +31,7 @@ To extract the mentioned month names and concrete days, we used Jannik's cutting
 Here is an overview with the frequency of all days as we extracted them from the corpus ('1' means 0–9 occurrences, '2' means 10–19 occurrences, etc., '+' means 90 or more occurrences):
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/heatmap-all-days.png" alt="theatre on Mars, poster, small version" style="width:550px; border: none;}" />
+  <img src="/images/first-of-may/heatmap-all-days.png" alt="heatmap" style="width:550px; border: none;}" />
 </figure>
 <center><b>Fig. 2.</b> Green fields: days mentioned 50+ times in the corpus <br />(slide taken from <a href="https://dbs.ifi.uni-heidelberg.de/files/Team/jannik/dhd2015-fischer-stroetgen-deutsche-literatur-slides.pdf#page=21">our DHd2015 slideset</a>).</center>
 
@@ -45,7 +45,7 @@ HeidelTime can extract various forms of dates, so here it has managed to extract
 Now we've always wanted to dig a little deeper into our dataset to go beyond mere quantification, and we've demonstrated this idea by qualifying all mentions of the 10th of August:
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/pie-chart-10th-of-august.png" alt="theatre on Mars, poster, small version" style="width:460px; border: none;}" />
+  <img src="/images/first-of-may/pie-chart-10th-of-august.png" alt="pie chart" style="width:460px; border: none;}" />
 </figure>
 <center><b>Fig. 3.</b> Semantics of the 10th of August in our corpus <br />(slide with German labelling taken from <a href="https://dbs.ifi.uni-heidelberg.de/files/Team/jannik/dhd2015-fischer-stroetgen-deutsche-literatur-slides.pdf#page=22">our DHd2015 slideset</a>).</center>
 
