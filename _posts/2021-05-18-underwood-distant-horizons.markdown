@@ -19,7 +19,7 @@ I'm also gathering all [**REVIEWS**](#reviews) of the book I found (as neither t
 </figure>
 <center><p style="font-size: 16px; line-height: 24px;"><b>Fig. 1.</b> Ted Underwood: <b>Distant Horizons. Digital Evidence and Literary Change.</b> Chicago and <br />London: The University of Chicago Press 2019. (<a href="https://doi.org/10.7208/chicago/9780226612973.001.0001">doi:10.7208/chicago/9780226612973.001.0001</a>).</p></center>
 
-Underwood's book has a somewhat mediating character. The machine-learning methods used for the analyses are not bleeding edge, he mostly relies on regularised logistic regression on several thousand features. Underwood refutes the claim that machine learning models are always inscrutable black boxes. He spends a lot of time looking into these black boxes and interpreting the word frequencies and their distribution in order to craft narratives relevant to literary studies.
+Underwood's book has a somewhat mediating character. The machine-learning methods used for the analyses are not bleeding edge, he mostly relies on regularised logistic regression on several thousand features. Underwood refutes the claim that machine-learning models are always inscrutable black boxes. He spends a lot of time looking into these black boxes and interpreting the word frequencies and their distribution in order to craft narratives relevant to literary studies.
 
 But we are still at the beginning, as Underwood makes clear: "Statistical models can help us understand the social forces shaping a long arc of literary change. But turning those models into fully satisfying stories **could take several more decades.**" (p. 109)
 
@@ -29,7 +29,7 @@ I originally wanted to write a review myself, but never found the time to finish
 
 * **Dan Sinykin**, [*Post45* (6 May 2019)](https://post45.org/2019/05/distant-reading-and-literary-knowledge/)
   * **Tess McNulty** [responds to his review, *Post45* (6 May 2019)](https://post45.org/2019/05/seeing-double-a-response-to-dan-sinykin/)
-* **Mareike Schumacher**, [*lebelieberliterarisch.de* (25 Jul 2019)](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/) 🇩🇪 – followed by [a comment from Fotis Jannidis](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/#comment-580)
+* **Mareike Schumacher**, [*lebelieberliterarisch.de* (25 Jul 2019)](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/) 🇩🇪 – followed by [a comment from **Fotis Jannidis**](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/#comment-580)
 * **Laura Jiménez Ríos**, [*Revista de Humanidades Digitales*, Vol. 4 (2019), pp. 212–215](https://doi.org/10.5944/rhd.vol.4.2019.24217) 🇪🇸
 * **Daniel Rosenberg**, [*Modern Philology*, Vol. 117, No. 3 (Feb 2020),  publ. online 22 Nov 2019](https://doi.org/10.1086/707111)
 * **Katherine Bode**, [*Modern Language Quarterly*, Vol. 81, Issue 1 (1 Mar 2020), pp. 95–124](https://doi.org/10.1215/00267929-7933102
@@ -45,7 +45,7 @@ Portions of chapters 2, 3 and 4 are reprints of prior collaboratory work. This i
 
 * **Andrew Goldstone**, ["Of Literary Standards and Logistic Regression: A Reproduction", *andrewgoldstone.com*, 4 Jan 2016](https://www.andrewgoldstone.com/blog/2016/01/04/standards/)
   * **Sarah Allison** wrote a short piece reflecting on Goldstone's replication: ["Other people’s data: humanities edition", *Journal of Cultural Analytics*, Vol. 1, Issue 1 (18 Dec 2016)](https://doi.org/10.22148/001c.11822)
-* **Jonathan Goodwin**, ["Darko Suvin’s Genres of Victorian SF Revisited", *jgoodwin.net*, 17 Oct 2016](www.jgoodwin.net/blog/more-suvin/)
+* **Jonathan Goodwin**, ["Darko Suvin’s Genres of Victorian SF Revisited", *jgoodwin.net*, 17 Oct 2016](https://www.jgoodwin.net/blog/more-suvin/)
 * **Nan Z. Da**, ["The Computational Case against Computational Literary Studies", Vol. 45, No. 3 (Spring 2019)](https://doi.org/10.1086/702594) – among a total of 14 CLS papers, she also discusses Underwood's "The Life Cycle of Genres", which expanded into chapter 2 of "Distant Horizons"
   * followed by **Underwood**'s reaction in CI's response forum, [*critinq.wordpress.com*, 1 Apr 2019](https://critinq.wordpress.com/2019/04/01/computational-literary-studies-participant-forum-responses-8/)
   * and **Da**'s follow-up, ["Errors", *critinq.wordpress.com*, 2 Apr 2019](https://critinq.wordpress.com/2019/04/02/computational-literary-studies-participant-forum-responses-day-2/)
