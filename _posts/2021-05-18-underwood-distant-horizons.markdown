@@ -30,11 +30,12 @@ I originally wanted to write a review myself, but never found the time to finish
 * **Dan Sinykin**, [*Post45* (6 May 2019)](https://post45.org/2019/05/distant-reading-and-literary-knowledge/)
   * **Tess McNulty** [responds to his review, *Post45* (6 May 2019)](https://post45.org/2019/05/seeing-double-a-response-to-dan-sinykin/)
 * **Mareike Schumacher**, [*lebelieberliterarisch.de* (25 Jul 2019)](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/) 🇩🇪 – followed by [a comment from **Fotis Jannidis**](https://lebelieberliterarisch.de/ted-underwoods-distant-horizons/#comment-580)
-* **Laura Jiménez Ríos**, [*Revista de Humanidades Digitales*, Vol. 4 (2019), pp. 212–215](https://doi.org/10.5944/rhd.vol.4.2019.24217) 🇪🇸
-* **Daniel Rosenberg**, [*Modern Philology*, Vol. 117, No. 3 (Feb 2020),  publ. online 22 Nov 2019](https://doi.org/10.1086/707111)
-* **Katherine Bode**, [*Modern Language Quarterly*, Vol. 81, Issue 1 (1 Mar 2020), pp. 95–124](https://doi.org/10.1215/00267929-7933102
+* **Laura Jiménez Ríos**, [*Revista de Humanidades Digitales*, vol. 4 (2019), pp. 212–215](https://doi.org/10.5944/rhd.vol.4.2019.24217) 🇪🇸
+* **Daniel Rosenberg**, [*Modern Philology*, vol. 117, no. 3 (Feb 2020),  publ. online 22 Nov 2019](https://doi.org/10.1086/707111)
+* **Katherine Bode**, [*Modern Language Quarterly*, vol. 81, issue 1 (1 Mar 2020), pp. 95–124](https://doi.org/10.1215/00267929-7933102
 ) ([preprint](https://katherinebode.files.wordpress.com/2019/10/mlq2019_preprint.pdf)) – a more critical take
-* **Alison Booth**, [*Victorian Studies*, Vol. 62, No. 3 (Spring 2020), pp. 547–550](https://muse.jhu.edu/article/771272/summary) – also somewhat critical
+* **Alison Booth**, [*Victorian Studies*, vol. 62, no. 3 (Spring 2020), pp. 547–550](https://muse.jhu.edu/article/771272/summary) – also somewhat critical
+* **Marie-Christine Boucher**, [*KULT_online*, no. 61 (April 2020)](https://doi.org/10.22029/ko.2020.1025)
 * **Maciej Maryl**, [*JLTonline* (17 Oct 2020)](http://www.jltonline.de/index.php/reviews/article/view/1090/2504) – assigns a new genre to the book, calling it a "computational monograph"
 
 ## REPLICATIONS OF CODE AND/OR DATA
@@ -44,9 +45,9 @@ When Underwood submitted his book to the publisher, he published data and code i
 Portions of chapters 2, 3 and 4 are reprints of prior collaboratory work. This is also the reason why most of the listed replications could take place before the book even went to press.
 
 * **Andrew Goldstone**, ["Of Literary Standards and Logistic Regression: A Reproduction", *andrewgoldstone.com*, 4 Jan 2016](https://www.andrewgoldstone.com/blog/2016/01/04/standards/)
-  * **Sarah Allison** wrote a short piece reflecting on Goldstone's replication: ["Other people’s data: humanities edition", *Journal of Cultural Analytics*, Vol. 1, Issue 1 (18 Dec 2016)](https://doi.org/10.22148/001c.11822)
+  * **Sarah Allison** wrote a short piece reflecting on Goldstone's replication: ["Other people’s data: humanities edition", *Journal of Cultural Analytics*, vol. 1, issue 1 (18 Dec 2016)](https://doi.org/10.22148/001c.11822)
 * **Jonathan Goodwin**, ["Darko Suvin’s Genres of Victorian SF Revisited", *jgoodwin.net*, 17 Oct 2016](https://www.jgoodwin.net/blog/more-suvin/)
-* **Nan Z. Da**, ["The Computational Case against Computational Literary Studies", Vol. 45, No. 3 (Spring 2019)](https://doi.org/10.1086/702594) – among a total of 14 CLS papers, she also discusses Underwood's "The Life Cycle of Genres", which expanded into chapter 2 of "Distant Horizons"
+* **Nan Z. Da**, ["The Computational Case against Computational Literary Studies", vol. 45, no. 3 (Spring 2019)](https://doi.org/10.1086/702594) – among a total of 14 CLS papers, she also discusses Underwood's "The Life Cycle of Genres", which expanded into chapter 2 of "Distant Horizons"
   * followed by **Underwood**'s reaction in CI's response forum, [*critinq.wordpress.com*, 1 Apr 2019](https://critinq.wordpress.com/2019/04/01/computational-literary-studies-participant-forum-responses-8/)
   * and **Da**'s follow-up, ["Errors", *critinq.wordpress.com*, 2 Apr 2019](https://critinq.wordpress.com/2019/04/02/computational-literary-studies-participant-forum-responses-day-2/)
-* **Ted Underwood**'s reply to Da, ["The Theoretical Divide Driving Debates about Computation", *Critical Inquiry*, Vol. 46, No. 4 (Summer 2020)](https://doi.org/10.1086/709229), which re-analyses material in chapter 2 using different methods
+* **Ted Underwood**'s reply to Da, ["The Theoretical Divide Driving Debates about Computation", *Critical Inquiry*, vol. 46, no. 4 (Summer 2020)](https://doi.org/10.1086/709229), which re-analyses material in chapter 2 using different methods
