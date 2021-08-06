@@ -19,7 +19,7 @@ We have worked on all levels of the website, the homepage, the corpus overviews 
   <img src="/images/dracor/dracor-2021-mobile-mockup-03.jpg" alt="" style="width:49%;" />
 </figure>
 
-As before, the website should work well on all types of devices, large screens, laptops, tablets and mobile phones. There are many small details to discover in the new design (my favourite are the author images that we automatically retrieve from Wikimedia Commons via Wikidata QIDs, just one small example of the benefits of our highly interoperable approach).
+As before, the website should work well on all types of devices, large screens, laptops, tablets and mobile phones. There are many small details to discover in the new design (our favourites are the author images that we automatically retrieve from Wikimedia Commons via Wikidata QIDs, just one small example of the benefits of our highly interoperable approach).
 
 The overall design is even better aligned with the TEI encoding on which all our corpora are based to increase the visibility of our rich annotations.
 
