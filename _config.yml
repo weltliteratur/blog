@@ -11,10 +11,10 @@ name:             'A Black Market for the Digital Humanities'
 title:            weltliteratur.net
 tagline:          'A Black Market for the Digital Humanities'
 description:      'A Black Market for the Digital Humanities'
-keywords:	  digital humanities, weltliteratur, world literature, blog
+keywords:         digital humanities, weltliteratur, world literature, blog
 url:              https://weltliteratur.net
 baseurl:          /
-base: 	      	  https://weltliteratur.net
+base:             https://weltliteratur.net
 
 author:           Frank, Robert & friends
 
@@ -52,10 +52,10 @@ authors:
     name: Christopher Johnson
     display_name: Christopher
     img: /images/cj.jpg
-    email: 
+    email:
     orcid: 0000-0002-5832-9429
-    web: 
-    twitter: 
+    web:
+    twitter:
     github: christopher-johnson
     description: Researcher for the Göttingen Academy of Sciences.
   peer:
@@ -66,7 +66,7 @@ authors:
     web: https://www.uni-potsdam.de/de/lit-19-jhd/peertrilcke.html
     twitter: peertrilcke
     github: peertrilcke
-    description: Assistant Professor (Juniorprofessor) of Modern German Literature and Media at University of Potsdam.
+    description: Professor of Modern German Literature and Media at University of Potsdam.
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
@@ -78,7 +78,7 @@ authors:
   jannik:
     name: Jannik Strötgen
     display_name: Jannik
-    email: 
+    email:
     web: https://sites.google.com/view/jannikstroetgen/
     twitter: jannikstroetgen
     github: JannikStroetgen
@@ -108,63 +108,63 @@ authors:
     display_name: Galina
     img: /images/gr.jpg
     email: galka1999@gmail.com
-    web: 
-    twitter: 
-    github: 
+    web:
+    twitter:
+    github:
     description: HSE, Moscow.
   alena:
     name: Alena Shchevyeva
     display_name: Alena
-    email: 
-    web: 
-    twitter: 
-    github: 
+    email:
+    web:
+    twitter:
+    github:
     description: HSE, Moscow.
   maria:
     name: Maria Suvorova
     display_name: Maria
-    email: 
-    web: 
-    twitter: 
+    email:
+    web:
+    twitter:
     github: brouhahaha
     description: HSE, Moscow.
   eduard:
     name: Eduard Grigoryev
     display_name: Eduard
     img: /images/eg.jpg
-    email: 
-    web: 
-    twitter: 
+    email:
+    web:
+    twitter:
     github: ldsad7
-    orcid: 
+    orcid:
     description: HSE, Moscow.
   laure:
     name: Laure Barbot
     display_name: Laure
     img: /images/lb.jpg
-    email: 
+    email:
     web: https://cmb.hu-berlin.de/en/team/profil/laure-barbot/
-    twitter: 
-    github: 
+    twitter:
+    github:
     orcid: 0000-0002-6008-7959
     description: Project officer at DARIAH-EU, Berlin.
   yoann:
     name: Yoann Moranville
     display_name: Yoann
-    email: 
-    web: 
-    twitter: 
+    email:
+    web:
+    twitter:
     github: yoannspace
     orcid: 0000-0002-3502-1667
     description: Developer at DARIAH. Technical Coordinator of OPERAS.
   ivan:
     name: Ivan Pozdniakov
     display_name: Ivan
-    email: 
-    web: 
-    twitter: ivanpoz70536140
+    email:
+    web:
+    twitter: pozdniakov_is
     github: Pozdniakov
-    orcid: 
+    orcid:
     description: Higher School of Economics, Moscow.
   michel:
     name: Michel Schwab
@@ -174,12 +174,31 @@ authors:
     orcid:
     twitter:
     description: Research fellow at Humboldt University of Berlin.
-    
+  cmil:
+    name: Carsten Milling
+    display_name: Carsten
+    img: /images/cmil.jpg
+    email:
+    web:
+    github: cmil
+    orcid:
+    twitter:
+    description: DraCor Technical Lead.
+  mark:
+    name: Mark Schwindt
+    display_name: Mark
+    img: /images/ms.jpg
+    email:
+    web: https://www.markschwindt.com/
+    github: markschwindt
+    orcid: 0000-0002-4337-2467
+    twitter: MarkSchwindtFD
+    description: DraCor Art Director.
 
 paginate:         10
 
 # Custom vars
 version:          0.0.1
-# disqus:           
+# disqus:
 github:
 repo:             https://github.com/weltliteratur
