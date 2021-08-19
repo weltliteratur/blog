@@ -26,19 +26,22 @@ most often by researchers?*
 
 # Data Sources
 
-- [GerDraCor](https://dracor.org/ger), is a German Drama Corpus of the
-  [DraCor](https://dracor.org/) project and comprises (currently) XYZ
-  German dramas from STARTYEAR to ENDYEAR.
-  - full texts of dramas (important for our analysis) but also
-    detailed metadata, including title, author, year
-
-- [online catalogue of the BDSL](http://www.bdsl-online.de/) – the
+To answer this question, we are leveraging two prominent data sources:
+- [GerDraCor](https://dracor.org/ger) is the German Drama Corpus of
+  the [DraCor](https://dracor.org/) project and currently comprises
+  543 German dramas from
+  1657[¹](https://dracor.org/ger/gryphius-cardenio-und-celinde) to
+  1947.[²](https://dracor.org/ger/borchert-draussen-vor-der-tuer)
+  DraCor provides the full texts of the dramas (important for our
+  project) as well as detailed metadata like title, author or
+  publication year.
+- The [online catalogue of the BDSL](http://www.bdsl-online.de/) – the
   [Bibliographie der deutschen Sprach- und
-  Literaturwissenschaft](https://www.ub.uni-frankfurt.de/bdsl/) – is a large
-  bibliography of more than 300,000 scholarly works on German language
-  and literature.
-  - comprehensive search facilities   - specifically, it is possible to search
-    "Behandeltes Werk" and  "Behandelte Person",
+  Literaturwissenschaft](https://www.ub.uni-frankfurt.de/bdsl/) – is a
+  large bibliography of more than 300,000 scholarly works on German
+  language and literature. It provides comprehensive search
+  facilities, specifically, it is possible to search for articles that
+  focus on a specific work (by title) or author (by name).
 
 # Implementation
 
