@@ -59,7 +59,7 @@ To answer this question, we are leveraging two prominent data sources:
 
 For the following 153 works we could find an interpretation (thus, for 327 we could not!):
 
-| Work                                                            | Author                            | interpretations |
+| Work                                                            | Author                            | Interpretations |
 |-----------------------------------------------------------------|-----------------------------------|-----------------|
 | Faust                                                           | Goethe, Johann Wolfgang           |            2037 |
 | Dantons Tod                                                     | Büchner, Georg                    |             309 |
@@ -217,3 +217,16 @@ For the following 153 works we could find an interpretation (thus, for 327 we co
 
 Once more, Goethe's Faust stands out with an order of magnitude more
 scholarly works having it as main subject.
+
+| Author                    | Interpretations |
+|---------------------------|-----------------|
+| Goethe, Johann Wolfgang   |            2608 |
+| Kleist, Heinrich von      |             744 |
+| Schiller, Friedrich       |             717 |
+| Lessing, Gotthold Ephraim |             647 |
+| Hofmannsthal, Hugo von    |             477 |
+| Büchner, Georg            |             425 |
+| Schnitzler, Arthur        |             209 |
+| Grillparzer, Franz        |             198 |
+| Hebbel, Friedrich         |             163 |
+| Wedekind, Frank           |             131 |
