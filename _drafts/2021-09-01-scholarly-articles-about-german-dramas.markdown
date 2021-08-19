@@ -8,20 +8,21 @@ date: 2021-09-01
 
 # Context
 
-- [What matters? Key passages in literary
-  works](https://gepris.dfg.de/gepris/projekt/424207720?language=en)
-  analysing how scholarly articles cite literary works and whether
-  these citations can be used to identify key passages.
-
-  - start with two works, then focus on (German) drama
-  - thus, need a corpus of literary (interpretatory) works on German
-    drama
-  - distant reading, in general: larger corpus desirable,
-    specifically, having several works dealing with the same drama
-  - thus: how to find works and how to select dramas?
-
-  - we answer here the question: which German dramas have been subject
-    to the most interpretations (according to the BDSL)?
+In our project [What matters? Key passages in literary
+works](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
+are analysing how scholarly articles cite literary works and whether
+these citations can be used to identify key passages. We started with
+a corpus of 100 scholarly articles that interpret one of the literary
+works *Die Judenbuche* from Annette von Droste-Hülshoff or *Michael
+Kohlhaas* from Heinrich Kleist. In the next stage of our project, we
+aim to focus on German dramas and thus are currently building a corpus
+of scholarly works that interpret German dramas. For our distant
+reading approach that corpus should be "large", specifically, for each
+drama we would like to have several scholarly works that focus on
+it. One of our questions thus was: *Which dramas should we select such
+that we can find an adequate number of scholarly works for each
+drama?* Or more generally: *Which German dramas have been interpreted
+most often by researchers?*
 
 # Data Sources
 
