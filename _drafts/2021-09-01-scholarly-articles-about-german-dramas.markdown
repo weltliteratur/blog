@@ -1,5 +1,5 @@
 ---
-title: 'Scholarly Articles about German Dramas'
+title: 'Quantification of Scholarly Articles on German Drama'
 layout: post
 author: [robert, frank]
 comments: true
@@ -8,56 +8,60 @@ date: 2021-09-01
 
 # Context
 
-In our project [What matters? Key passages in literary
-works](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
-are analysing how scholarly articles cite literary works and whether
+In our project ["What matters? Key passages in literary
+works"](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
+analyse how scholarly articles cite literary works and whether
 these citations can be used to identify key passages. We started with
-a corpus of 100 scholarly articles that interpret one of the literary
-works *Die Judenbuche* from Annette von Droste-Hülshoff or *Michael
-Kohlhaas* from Heinrich Kleist. In the next stage of our project, we
-aim to focus on German dramas and thus are currently building a corpus
-of scholarly works that interpret German dramas. For our distant
-reading approach that corpus should be "large", specifically, for each
-drama we would like to have several scholarly works that focus on
-it. One of our questions thus was: *Which dramas should we select such
-that we can find an adequate number of scholarly works for each
-drama?* Or more generally: *Which German dramas have been interpreted
-most often by researchers?*
+a corpus of 100 scholarly articles dealing with the interpretion of
+one of the two novellas:
+
+* [*Michael Kohlhaas*](https://en.wikipedia.org/wiki/Michael_Kohlhaas) by Heinrich von Kleist (1808)
+* [*Die Judenbuche*](https://en.wikipedia.org/wiki/Die_Judenbuche) by Annette von Droste-Hülshoff (1842)
+
+In the next phase of our project, we
+want to focus on German-language drama and are therefore building a corpus
+of scholarly works that interpret German plays. For our distant-reading
+approach, this corpus should be "large", i.e. for each
+play we would like to have a number of scholarly works dealing with
+it. So one of our operationalisation questions was: "Which plays
+should we select so that we can find a reasonable number of scholarly
+works per play?" Or more generally: "Which German plays have been interpreted
+most frequently by researchers?"
 
 # Data Sources
 
-To answer this question, we are leveraging two prominent data sources:
-- [GerDraCor](https://dracor.org/ger) is the German Drama Corpus of
-  the [DraCor](https://dracor.org/) project and currently comprises
-  543 German dramas from
-  1657[¹](https://dracor.org/ger/gryphius-cardenio-und-celinde) to
-  1947.[²](https://dracor.org/ger/borchert-draussen-vor-der-tuer)
-  DraCor provides the full texts of the dramas (important for our
-  project) as well as detailed metadata like title, author or
-  publication year.
-- The [online catalogue of the BDSL](http://www.bdsl-online.de/) – the
-  [Bibliographie der deutschen Sprach- und
-  Literaturwissenschaft](https://www.ub.uni-frankfurt.de/bdsl/) – is a
-  large bibliography of more than 300,000 scholarly works on German
-  language and literature. It provides comprehensive search
-  facilities, specifically, it is possible to search for articles that
-  focus on a specific work (by title) or author (by name).
+To answer this question, we utilise two well-known data sources:
+
+* [GerDraCor](https://dracor.org/ger), the German Drama Corpus, which
+  is part of the larger [DraCor](https://dracor.org/) project and
+  currently comprises 544 German plays from the period
+  1657[¹](https://dracor.org/id/ger000538) to
+  1947.[²](https://dracor.org/id/ger000476)
+  DraCor provides the full texts of all plays (which is crucial for our
+  project) as well as detailed metadata such as title, author or
+  year of publication.
+* The [BDSL online catalogue](http://www.bdsl-online.de/), which is short for [Bibliography of German Linguistics and Literature](https://www.ub.uni-frankfurt.de/bdsl/), a
+  comprehensive bibliography of more than 300,000 scholarly works on German
+  language and literature. It offers broad search
+  options, in particular it is possible to search for articles that
+  refer to a specific work (by title) or an author (by name).
 
 # Implementation
 
-- specifically, it is possible to search
-    "Behandeltes Werk", which allows us to restrict the search to scholarly works
-    whose subject is a specific work (using the work's title)
-  - since some titles are ambigue (e.g., ) initial tests showed, that
-    we have to further restrict the search to "Behandelte Person",
-    naming the author of the literary work
-
-- GerDraCor snapshot as of January 15, 2020 (480 works)
-- BDSL queries on January 30, 2020
+* specifically, it is possible to search
+    "Behandeltes Werk" (work treated), which allows us to restrict the search to scholarly works
+    whose subject is a specific work (using the title of the work)
+* as some titles are ambiguous, initial tests have shown that
+    we need to further restrict the search to "Behandelte Person" (person treated),
+    which names the author of the work
+* GerDraCor snapshot as of January 15, 2020 (480 works)
+* BDSL queries as of January 30, 2020
 
 # Results
 
-For the following 153 works we could find an interpretation (thus, for 327 we could not!):
+## Per Play
+
+For the following 153 works we were able find an interpretation (i.e. for 327 we could not):
 
 | Work                                                            | Author                            | Interpretations |
 |-----------------------------------------------------------------|-----------------------------------|-----------------|
@@ -215,8 +219,7 @@ For the following 153 works we could find an interpretation (thus, for 327 we co
 | Narziß                                                          | Brachvogel, Albert Emil           |               1 |
 | Die Nase des Michelangelo                                       | Ball, Hugo                        |               1 |
 
-Once more, Goethe's Faust stands out with an order of magnitude more
-scholarly works having it as main subject.
+## Per Author
 
 | Author                    | Interpretations |
 |---------------------------|-----------------|
