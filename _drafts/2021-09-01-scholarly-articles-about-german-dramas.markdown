@@ -79,11 +79,11 @@ To answer this question, we utilise two well-known data sources:
 
 ## Per Play
 
-For the following 172 works we were able find an interpretation
+For the following 172 plays we were able to find an interpretation
 (that is, for 373 we could not):
 
-| Work                                             | Author                           | Interpretations |
-|--------------------------------------------------|----------------------------------|-----------------|
+| Play                                             | Author                           | Interpretations |
+|--------------------------------------------------+----------------------------------+-----------------|
 | Faust                                            | Johann Wolfgang Goethe           |            2037 |
 | Dantons Tod                                      | Georg Büchner                    |             309 |
 | Nathan der Weise                                 | Gotthold Ephraim Lessing         |             307 |
