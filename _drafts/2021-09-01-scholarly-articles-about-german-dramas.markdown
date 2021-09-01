@@ -303,8 +303,9 @@ average number of interpretations per play for each author:
 
 This shows very clearly in numbers that there have of course been
 authors who have made literary history with very few plays (sometimes
-only one). However, we must of course take this ranking with a grain of salt.
-We see that Georg Büchner is represented by only two works (namely "Leonce and
-Lena" and "Danton's Death"). This is because the fragment "Woyzeck" has not yet
-been included in GerDraCor. I.e., these results only make statements about the
-plays that are part of the corpus.
+only one). However, we must of course take this ranking with a grain
+of salt.  We see that Georg Büchner is represented by only two works
+(namely "Leonce and Lena" and "Danton's Death"). This is because the
+fragment "Woyzeck" has not yet been included in GerDraCor. That is,
+these results only make statements about the plays that are part of
+the corpus.
