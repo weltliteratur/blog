@@ -10,23 +10,23 @@ date: 2021-09-01
 
 In our project ["What matters? Key passages in literary
 works"](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
-analyse how scholarly articles cite literary works and whether
-these citations can be used to identify key passages. We started with
-a corpus of 100 scholarly articles dealing with the interpretion of
-one of the two novellas:
+analyse how scholarly articles cite literary works and whether these
+citations can be used to identify key passages. We started with a
+corpus of 100 scholarly articles dealing with the interpretion of one
+of the two novellas:
 
 * [*Michael Kohlhaas*](https://en.wikipedia.org/wiki/Michael_Kohlhaas) by Heinrich von Kleist (1808)
 * [*Die Judenbuche*](https://en.wikipedia.org/wiki/Die_Judenbuche) by Annette von Droste-Hülshoff (1842)
 
-In the next phase of our project, we
-want to focus on German-language drama and are therefore building a corpus
-of scholarly works that interpret German plays. For our distant-reading
-approach, this corpus should be "large", i.e. for each
-play we would like to have a number of scholarly works dealing with
-it. So one of our operationalisation questions was: "Which plays
-should we select so that we can find a reasonable number of scholarly
-works per play?" Or more generally: "Which German plays have been interpreted
-most frequently by researchers?"
+In the next phase of our project, we want to focus on German-language
+drama and are therefore building a corpus of scholarly works that
+interpret German plays. For our distant-reading approach, this corpus
+should be "large", that is, for each play we would like to have a
+number of scholarly works dealing with it. So one of our
+operationalisation questions was: "Which plays should we select so
+that we can find a reasonable number of scholarly works per play?" Or
+more generally: "Which German plays have been interpreted most
+frequently by researchers?"
 
 # Data Sources
 
@@ -34,202 +34,274 @@ To answer this question, we utilise two well-known data sources:
 
 * [GerDraCor](https://dracor.org/ger), the German Drama Corpus, which
   is part of the larger [DraCor](https://dracor.org/) project and
-  currently comprises 544 German plays from the period
+  currently comprises 545 German plays from the period
   1657[¹](https://dracor.org/id/ger000538) to
-  1947.[²](https://dracor.org/id/ger000476)
-  DraCor provides the full texts of all plays (which is crucial for our
-  project) as well as detailed metadata such as title, author or
-  year of publication.
-* The [BDSL online catalogue](http://www.bdsl-online.de/), which is short for [Bibliography of German Linguistics and Literature](https://www.ub.uni-frankfurt.de/bdsl/), a
-  comprehensive bibliography of more than 300,000 scholarly works on German
-  language and literature. It offers broad search
-  options, in particular it is possible to search for articles that
-  refer to a specific work (by title) or an author (by name).
+  1947.[²](https://dracor.org/id/ger000476) DraCor provides the full
+  texts of all plays (which is crucial for our project) as well as
+  detailed metadata such as title, author or year of publication.
+* The [BDSL online catalogue](http://www.bdsl-online.de/), which is
+  short for [Bibliography of German Linguistics and
+  Literature](https://www.ub.uni-frankfurt.de/bdsl/), a comprehensive
+  bibliography of more than 300,000 scholarly works on German language
+  and literature. It offers broad search options, in particular it is
+  possible to search for articles that refer to a specific work (by
+  title) or an author (by name).
 
 # Implementation
 
-* specifically, it is possible to search
-    "Behandeltes Werk" (work treated), which allows us to restrict the search to scholarly works
-    whose subject is a specific work (using the title of the work)
-* as some titles are ambiguous, initial tests have shown that
-    we need to further restrict the search to "Behandelte Person" (person treated),
-    which names the author of the work
-* GerDraCor snapshot as of January 15, 2020 (480 works)
-* BDSL queries as of January 30, 2020
+1. We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
+   its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
+2. Using a small Python script we extracted for each play the title
+   (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`) and
+   the name of the author (XPath:
+   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`). The
+   resulting TSV file contains 545 plays (author name in the format
+   "Surname, Forname" and title separated by a tabulator character)
+   and starts as follows:
+   ```
+   Alberti, Konrad	Brot!
+   Alberti, Konrad	Im Suff
+   André, Johann	Der Comödienfeind
+   Anzengruber, Ludwig	Das vierte Gebot
+   Anzengruber, Ludwig	Der Gwissenswurm
+   ...
+   ```
+3. Looping over the list of plays, we queried BDSL for interpretations
+   of each play on August 31, 2021. Specifically, it is possible to
+   search for "Behandeltes Werk" (work treated), which allows us to
+   restrict the search to scholarly works whose subject is a specific
+   work (using the title of the play). As some titles are ambiguous,
+   initial tests have shown that we need to further restrict the
+   search to "Behandelte Person" (person treated), which names the
+   author of the work.
 
 # Results
 
 ## Per Play
 
-For the following 153 works we were able find an interpretation (i.e. for 327 we could not):
+For the following 172 works we were able find an interpretation
+(that is, for 373 we could not):
 
-| Work                                                            | Author                            | Interpretations |
-|-----------------------------------------------------------------|-----------------------------------|-----------------|
-| Faust                                                           | Goethe, Johann Wolfgang           |            2037 |
-| Dantons Tod                                                     | Büchner, Georg                    |             309 |
-| Nathan der Weise                                                | Lessing, Gotthold Ephraim         |             307 |
-| Penthesilea                                                     | Kleist, Heinrich von              |             304 |
-| Iphigenie auf Tauris                                            | Goethe, Johann Wolfgang           |             243 |
-| Emilia Galotti                                                  | Lessing, Gotthold Ephraim         |             193 |
-| Prinz Friedrich von Homburg                                     | Kleist, Heinrich von              |             172 |
-| Die Räuber                                                      | Schiller, Friedrich               |             171 |
-| Wilhelm Tell                                                    | Schiller, Friedrich               |             147 |
-| Maria Stuart                                                    | Schiller, Friedrich               |             123 |
-| Die Jungfrau von Orleans                                        | Schiller, Friedrich               |             116 |
-| Leonce und Lena                                                 | Büchner, Georg                    |             116 |
-| Die Hermannsschlacht                                            | Kleist, Heinrich von              |             114 |
-| Elektra                                                         | Hofmannsthal, Hugo von            |             110 |
-| Torquato Tasso                                                  | Goethe, Johann Wolfgang           |             108 |
-| Kabale und Liebe                                                | Schiller, Friedrich               |             102 |
-| Die letzten Tage der Menschheit                                 | Kraus, Karl                       |             100 |
-| Amphitryon                                                      | Kleist, Heinrich von              |              97 |
-| Reigen                                                          | Schnitzler, Arthur                |              85 |
-| Der Schwierige                                                  | Hofmannsthal, Hugo von            |              77 |
-| Die Zauberflöte                                                 | Schikaneder, Johann Emanuel       |              71 |
-| Miß Sara Sampson                                                | Lessing, Gotthold Ephraim         |              70 |
-| Egmont                                                          | Goethe, Johann Wolfgang           |              65 |
-| Die Familie Schroffenstein                                      | Kleist, Heinrich von              |              57 |
-| Die Soldaten                                                    | Lenz, Jakob Michael Reinhold      |              50 |
-| Frühlings Erwachen                                              | Wedekind, Frank                   |              47 |
-| Der Rosenkavalier                                               | Hofmannsthal, Hugo von            |              47 |
-| Die natürliche Tochter                                          | Goethe, Johann Wolfgang           |              45 |
-| Draußen vor der Tür                                             | Borchert, Wolfgang                |              45 |
-| Ariadne auf Naxos                                               | Hofmannsthal, Hugo von            |              44 |
-| Maria Magdalene                                                 | Hebbel, Friedrich                 |              43 |
-| Judith                                                          | Hebbel, Friedrich                 |              43 |
-| König Ottokars Glück und Ende                                   | Grillparzer, Franz                |              42 |
-| Die Verschwörung des Fiesco zu Genua                            | Schiller, Friedrich               |              41 |
-| Der Turm                                                        | Hofmannsthal, Hugo von            |              40 |
-| Die Jüdin von Toledo                                            | Grillparzer, Franz                |              40 |
-| Philotas                                                        | Lessing, Gotthold Ephraim         |              39 |
-| Jedermann                                                       | Hofmannsthal, Hugo von            |              36 |
-| Stella                                                          | Goethe, Johann Wolfgang           |              35 |
-| Die Frau ohne Schatten                                          | Hofmannsthal, Hugo von            |              34 |
-| Die Büchse der Pandora                                          | Wedekind, Frank                   |              31 |
-| Die Juden                                                       | Lessing, Gotthold Ephraim         |              30 |
-| Ein Bruderzwist in Habsburg                                     | Grillparzer, Franz                |              29 |
-| Herzog Theodor von Gothland                                     | Grabbe, Christian Dietrich        |              28 |
-| Die Schwärmer                                                   | Musil, Robert                     |              27 |
-| Der grüne Kakadu                                                | Schnitzler, Arthur                |              26 |
-| Anatol                                                          | Schnitzler, Arthur                |              26 |
-| Agnes Bernauer                                                  | Hebbel, Friedrich                 |              25 |
-| Die Ratten                                                      | Hauptmann, Gerhart                |              25 |
-| Der gestiefelte Kater                                           | Tieck, Ludwig                     |              23 |
-| Liebelei                                                        | Schnitzler, Arthur                |              23 |
-| Professor Bernhardi                                             | Schnitzler, Arthur                |              21 |
-| Kasimir und Karoline                                            | Horváth, Ödön von                 |              21 |
-| Der Unbestechliche                                              | Hofmannsthal, Hugo von            |              21 |
-| Arabella                                                        | Hofmannsthal, Hugo von            |              21 |
-| Don Juan und Faust                                              | Grabbe, Christian Dietrich        |              21 |
-| Der Marquis von Keith                                           | Wedekind, Frank                   |              20 |
-| Gyges und sein Ring                                             | Hebbel, Friedrich                 |              20 |
-| Proserpina                                                      | Goethe, Johann Wolfgang           |              20 |
-| Clavigo                                                         | Goethe, Johann Wolfgang           |              20 |
-| Der böse Geist Lumpazivagabundus oder Das liederliche Kleeblatt | Nestroy, Johann                   |              19 |
-| Weh dem, der lügt!                                              | Grillparzer, Franz                |              19 |
-| Der Traum ein Leben                                             | Grillparzer, Franz                |              19 |
-| Scherz, Satire, Ironie und tiefere Bedeutung                    | Grabbe, Christian Dietrich        |              19 |
-| Die Kindermörderin                                              | Wagner, Heinrich Leopold          |              18 |
-| Hermanns Schlacht                                               | Klopstock, Friedrich Gottlieb     |              18 |
-| Das weite Land                                                  | Schnitzler, Arthur                |              17 |
-| Der Talisman                                                    | Nestroy, Johann                   |              17 |
-| Der Tod des Tizian                                              | Hofmannsthal, Hugo von            |              17 |
-| Die Wupper                                                      | Lasker-Schüler, Else              |              15 |
-| Herodes und Mariamne                                            | Hebbel, Friedrich                 |              15 |
-| Des Meeres und der Liebe Wellen                                 | Grillparzer, Franz                |              15 |
-| Das Liebeskonzil                                                | Panizza, Oskar                    |              14 |
-| Ödipus und die Sphinx                                           | Hofmannsthal, Hugo von            |              14 |
-| Die Gründung Prags                                              | Brentano, Clemens                 |              14 |
-| Der Zerrissene                                                  | Nestroy, Johann                   |              13 |
-| Die Zwillinge                                                   | Klinger, Friedrich Maximilian     |              13 |
-| Das Salzburger große Welttheater                                | Hofmannsthal, Hugo von            |              13 |
-| Die Ahnfrau                                                     | Grillparzer, Franz                |              13 |
-| Erdgeist                                                        | Wedekind, Frank                   |              12 |
-| Judith und Holofernes                                           | Nestroy, Johann                   |              12 |
-| Hannibal                                                        | Grabbe, Christian Dietrich        |              12 |
-| Der Triumph der Empfindsamkeit                                  | Goethe, Johann Wolfgang           |              12 |
-| Der einsame Weg                                                 | Schnitzler, Arthur                |              11 |
-| Julius von Tarent                                               | Leisewitz, Johann Anton           |              11 |
-| Genoveva                                                        | Hebbel, Friedrich                 |              11 |
-| Ein treuer Diener seines Herrn                                  | Grillparzer, Franz                |              11 |
-| Ponce de Leon                                                   | Brentano, Clemens                 |              11 |
-| Alceste                                                         | Wieland, Christoph Martin         |              10 |
-| Sappho                                                          | Grillparzer, Franz                |              10 |
-| Die Journalisten                                                | Freytag, Gustav                   |              10 |
-| Zriny                                                           | Körner, Theodor                   |               9 |
-| Die Familie Selicke                                             | Holz, Arno                        |               9 |
-| Almansor                                                        | Heine, Heinrich                   |               9 |
-| Der letzte Held von Marienburg                                  | Eichendorff, Joseph von           |               9 |
-| Franziska                                                       | Wedekind, Frank                   |               8 |
-| Die verkehrte Welt                                              | Tieck, Ludwig                     |               8 |
-| Alarcos                                                         | Schlegel, Friedrich               |               8 |
-| Wallensteins Lager                                              | Schiller, Friedrich               |               8 |
-| Der Alpenkönig und der Menschenfeind                            | Raimund, Ferdinand                |               8 |
-| Datterich                                                       | Niebergall, Ernst Elias           |               8 |
-| Einen Jux will er sich machen                                   | Nestroy, Johann                   |               8 |
-| Der junge Gelehrte                                              | Lessing, Gotthold Ephraim         |               8 |
-| Sturm und Drang                                                 | Klinger, Friedrich Maximilian     |               8 |
-| Canut                                                           | Schlegel, Johann Elias            |               7 |
-| Wallensteins Tod                                                | Schiller, Friedrich               |               7 |
-| Der Engländer                                                   | Lenz, Jakob Michael Reinhold      |               7 |
-| Ugolino                                                         | Gerstenberg, Heinrich Wilhelm von |               7 |
-| Moral                                                           | Thoma, Ludwig                     |               6 |
-| Freiheit in Krähwinkel                                          | Nestroy, Johann                   |               6 |
-| Demetrius                                                       | Hebbel, Friedrich                 |               6 |
-| Des Epimenides Erwachen                                         | Goethe, Johann Wolfgang           |               6 |
-| Die Freier                                                      | Eichendorff, Joseph von           |               6 |
-| Jerusalem                                                       | Arnim, Ludwig Achim von           |               6 |
-| Halle                                                           | Arnim, Ludwig Achim von           |               6 |
-| Magdalena                                                       | Thoma, Ludwig                     |               5 |
-| Babel und Bibel                                                 | May, Karl                         |               5 |
-| Erwin und Elmire                                                | Goethe, Johann Wolfgang           |               5 |
-| Perdu! oder Dichter, Verleger und Blaustrümpfe                  | Droste-Hülshoff, Annette von      |               5 |
-| Hidalla oder Sein und Haben                                     | Wedekind, Frank                   |               4 |
-| Der Kammersänger                                                | Wedekind, Frank                   |               4 |
-| Der Verschwender                                                | Raimund, Ferdinand                |               4 |
-| Der Diamant des Geisterkönigs                                   | Raimund, Ferdinand                |               4 |
-| Der Tod Adams                                                   | Klopstock, Friedrich Gottlieb     |               4 |
-| Satyros oder der vergötterte Waldteufel                         | Goethe, Johann Wolfgang           |               4 |
-| Die Mitschuldigen                                               | Goethe, Johann Wolfgang           |               4 |
-| Die Laune des Verliebten                                        | Goethe, Johann Wolfgang           |               4 |
-| Die Zensur                                                      | Wedekind, Frank                   |               3 |
-| Tristan und Isolde                                              | Wagner, Richard                   |               3 |
-| Merlin                                                          | Immermann, Karl                   |               3 |
-| Johann Faust                                                    | Weidmann, Paul                    |               2 |
-| Musik                                                           | Wedekind, Frank                   |               2 |
-| Heimat                                                          | Sudermann, Hermann                |               2 |
-| Die Piccolomini                                                 | Schiller, Friedrich               |               2 |
-| Der Barometermacher auf der Zauberinsel                         | Raimund, Ferdinand                |               2 |
-| Das Haus der Temperamente                                       | Nestroy, Johann                   |               2 |
-| Der Erbförster                                                  | Ludwig, Otto                      |               2 |
-| Der Kreidekreis                                                 | Klabund                           |               2 |
-| Ein Trauerspiel in Berlin                                       | Holtei, Karl von                  |               2 |
-| Alkestis                                                        | Hofmannsthal, Hugo von            |               2 |
-| Colberg                                                         | Heyse, Paul                       |               2 |
-| Uriel Acosta                                                    | Gutzkow, Karl                     |               2 |
-| Tannhäuser und Der Sängerkrieg auf Wartburg                     | Wagner, Richard                   |               1 |
-| Ernst Herzog von Schwaben                                       | Uhland, Ludwig                    |               1 |
-| Der Weibsteufel                                                 | Schönherr, Karl                   |               1 |
-| Golo und Genovefa                                               | Müller, Friedrich (Maler Müller)  |               1 |
-| Die Makkabäer                                                   | Ludwig, Otto                      |               1 |
-| Franz von Sickingen                                             | Lassalle, Ferdinand               |               1 |
-| Simsone Grisaldo                                                | Klinger, Friedrich Maximilian     |               1 |
-| Die Frau im Fenster                                             | Hofmannsthal, Hugo von            |               1 |
-| Brutus                                                          | Brawe, Joachim Wilhelm von        |               1 |
-| Narziß                                                          | Brachvogel, Albert Emil           |               1 |
-| Die Nase des Michelangelo                                       | Ball, Hugo                        |               1 |
+| Work                                             | Author                           | Interpretations |
+|--------------------------------------------------+----------------------------------+-----------------|
+| Faust                                            | Johann Wolfgang Goethe           |            2037 |
+| Dantons Tod                                      | Georg Büchner                    |             309 |
+| Nathan der Weise                                 | Gotthold Ephraim Lessing         |             307 |
+| Penthesilea                                      | Heinrich von Kleist              |             304 |
+| Iphigenie auf Tauris                             | Johann Wolfgang Goethe           |             243 |
+| Emilia Galotti                                   | Gotthold Ephraim Lessing         |             193 |
+| Prinz Friedrich von Homburg                      | Heinrich von Kleist              |             172 |
+| Die Räuber                                       | Friedrich Schiller               |             171 |
+| Wilhelm Tell                                     | Friedrich Schiller               |             147 |
+| Der zerbrochne Krug                              | Heinrich von Kleist              |             143 |
+| Maria Stuart                                     | Friedrich Schiller               |             123 |
+| Leonce und Lena                                  | Georg Büchner                    |             116 |
+| Die Jungfrau von Orleans                         | Friedrich Schiller               |             116 |
+| Die Hermannsschlacht                             | Heinrich von Kleist              |             114 |
+| Elektra                                          | Hugo von Hofmannsthal            |             111 |
+| Torquato Tasso                                   | Johann Wolfgang Goethe           |             109 |
+| Kabale und Liebe                                 | Friedrich Schiller               |             102 |
+| Die letzten Tage der Menschheit                  | Karl Kraus                       |             100 |
+| Amphitryon                                       | Heinrich von Kleist              |              97 |
+| Reigen                                           | Arthur Schnitzler                |              85 |
+| Der Schwierige                                   | Hugo von Hofmannsthal            |              77 |
+| Die Zauberflöte                                  | Emanuel Schikaneder              |              71 |
+| Miß Sara Sampson                                 | Gotthold Ephraim Lessing         |              70 |
+| Egmont                                           | Johann Wolfgang Goethe           |              66 |
+| Die Familie Schroffenstein                       | Heinrich von Kleist              |              57 |
+| Die Soldaten                                     | Jakob Michael Reinhold Lenz      |              50 |
+| Der Rosenkavalier                                | Hugo von Hofmannsthal            |              47 |
+| Frühlings Erwachen                               | Frank Wedekind                   |              47 |
+| Draußen vor der Tür                              | Wolfgang Borchert                |              45 |
+| Die natürliche Tochter                           | Johann Wolfgang Goethe           |              45 |
+| Ariadne auf Naxos                                | Hugo von Hofmannsthal            |              44 |
+| Judith                                           | Friedrich Hebbel                 |              43 |
+| Maria Magdalene                                  | Friedrich Hebbel                 |              43 |
+| König Ottokars Glück und Ende                    | Franz Grillparzer                |              42 |
+| Die Verschwörung des Fiesco zu Genua             | Friedrich Schiller               |              41 |
+| Die Jüdin von Toledo                             | Franz Grillparzer                |              40 |
+| Der Turm                                         | Hugo von Hofmannsthal            |              40 |
+| Philotas                                         | Gotthold Ephraim Lessing         |              39 |
+| Libussa                                          | Franz Grillparzer                |              37 |
+| Jedermann                                        | Hugo von Hofmannsthal            |              36 |
+| Stella                                           | Johann Wolfgang Goethe           |              35 |
+| Die Frau ohne Schatten                           | Hugo von Hofmannsthal            |              34 |
+| Geschichten aus dem Wiener Wald                  | Ödön von Horváth                 |              34 |
+| Vor Sonnenaufgang                                | Gerhart Hauptmann                |              31 |
+| Die Büchse der Pandora                           | Frank Wedekind                   |              31 |
+| Die Juden                                        | Gotthold Ephraim Lessing         |              30 |
+| Ein Bruderzwist in Habsburg                      | Franz Grillparzer                |              29 |
+| Die Hermannsschlacht                             | Christian Dietrich Grabbe        |              28 |
+| Herzog Theodor von Gothland                      | Christian Dietrich Grabbe        |              28 |
+| Die Schwärmer                                    | Robert Musil                     |              27 |
+| Anatol                                           | Arthur Schnitzler                |              26 |
+| Der grüne Kakadu                                 | Arthur Schnitzler                |              26 |
+| Die Ratten                                       | Gerhart Hauptmann                |              25 |
+| Agnes Bernauer                                   | Friedrich Hebbel                 |              25 |
+| Liebelei                                         | Arthur Schnitzler                |              23 |
+| Der gestiefelte Kater                            | Ludwig Tieck                     |              23 |
+| Don Juan und Faust                               | Christian Dietrich Grabbe        |              21 |
+| Arabella                                         | Hugo von Hofmannsthal            |              21 |
+| Der Unbestechliche                               | Hugo von Hofmannsthal            |              21 |
+| Kasimir und Karoline                             | Ödön von Horváth                 |              21 |
+| Professor Bernhardi                              | Arthur Schnitzler                |              21 |
+| Clavigo                                          | Johann Wolfgang Goethe           |              20 |
+| Proserpina                                       | Johann Wolfgang Goethe           |              20 |
+| Gyges und sein Ring                              | Friedrich Hebbel                 |              20 |
+| Der Marquis von Keith                            | Frank Wedekind                   |              20 |
+| Scherz, Satire, Ironie und tiefere Bedeutung     | Christian Dietrich Grabbe        |              19 |
+| Der Traum ein Leben                              | Franz Grillparzer                |              19 |
+| Weh dem, der lügt!                               | Franz Grillparzer                |              19 |
+| Cardenio und Celinde oder Unglücklich Verliebete | Andreas Gryphius                 |              19 |
+| Hermanns Schlacht                                | Friedrich Gottlieb Klopstock     |              18 |
+| Die Kindermörderin                               | Heinrich Leopold Wagner          |              18 |
+| Der Tod des Tizian                               | Hugo von Hofmannsthal            |              17 |
+| Der Talisman                                     | Johann Nestroy                   |              17 |
+| Das weite Land                                   | Arthur Schnitzler                |              17 |
+| Des Meeres und der Liebe Wellen                  | Franz Grillparzer                |              15 |
+| Herodes und Mariamne                             | Friedrich Hebbel                 |              15 |
+| Die Wupper                                       | Else Lasker-Schüler              |              15 |
+| Die Gründung Prags                               | Clemens Brentano                 |              14 |
+| Ödipus und die Sphinx                            | Hugo von Hofmannsthal            |              14 |
+| Das Liebeskonzil                                 | Oskar Panizza                    |              14 |
+| Die Ahnfrau                                      | Franz Grillparzer                |              13 |
+| Das Salzburger große Welttheater                 | Hugo von Hofmannsthal            |              13 |
+| Die Zwillinge                                    | Friedrich Maximilian Klinger     |              13 |
+| Der Zerrissene                                   | Johann Nestroy                   |              13 |
+| Der Triumph der Empfindsamkeit                   | Johann Wolfgang Goethe           |              12 |
+| Hannibal                                         | Christian Dietrich Grabbe        |              12 |
+| Medea                                            | Franz Grillparzer                |              12 |
+| Judith und Holofernes                            | Johann Nestroy                   |              12 |
+| Erdgeist                                         | Frank Wedekind                   |              12 |
+| Ponce de Leon                                    | Clemens Brentano                 |              11 |
+| Ein treuer Diener seines Herrn                   | Franz Grillparzer                |              11 |
+| Der Sohn                                         | Walter Hasenclever               |              11 |
+| Genoveva                                         | Friedrich Hebbel                 |              11 |
+| Julius von Tarent                                | Johann Anton Leisewitz           |              11 |
+| Der einsame Weg                                  | Arthur Schnitzler                |              11 |
+| Die Journalisten                                 | Gustav Freytag                   |              10 |
+| Sappho                                           | Franz Grillparzer                |              10 |
+| Blunt oder der Gast                              | Karl Philipp Moritz              |              10 |
+| Alceste                                          | Christoph Martin Wieland         |              10 |
+| Der letzte Held von Marienburg                   | Joseph von Eichendorff           |               9 |
+| Almansor                                         | Heinrich Heine                   |               9 |
+| Die Familie Selicke                              | Arno Holz                        |               9 |
+| Zriny                                            | Theodor Körner                   |               9 |
+| Komödie der Verführung                           | Arthur Schnitzler                |               9 |
+| Leben und Tod der heiligen Genoveva              | Ludwig Tieck                     |               9 |
+| Florian Geyer                                    | Gerhart Hauptmann                |               8 |
+| Sturm und Drang                                  | Friedrich Maximilian Klinger     |               8 |
+| Der junge Gelehrte                               | Gotthold Ephraim Lessing         |               8 |
+| Einen Jux will er sich machen                    | Johann Nestroy                   |               8 |
+| Datterich                                        | Ernst Elias Niebergall           |               8 |
+| Der Alpenkönig und der Menschenfeind             | Ferdinand Raimund                |               8 |
+| Wallensteins Lager                               | Friedrich Schiller               |               8 |
+| Alarcos                                          | Friedrich Schlegel               |               8 |
+| Die verkehrte Welt                               | Ludwig Tieck                     |               8 |
+| Franziska                                        | Frank Wedekind                   |               8 |
+| Ugolino                                          | Heinrich Wilhelm von Gerstenberg |               7 |
+| Der Engländer                                    | Jakob Michael Reinhold Lenz      |               7 |
+| Wallensteins Tod                                 | Friedrich Schiller               |               7 |
+| Canut                                            | Johann Elias Schlegel            |               7 |
+| Halle                                            | Achim von Arnim                  |               6 |
+| Jerusalem                                        | Achim von Arnim                  |               6 |
+| Die Freier                                       | Joseph von Eichendorff           |               6 |
+| Des Epimenides Erwachen                          | Johann Wolfgang Goethe           |               6 |
+| Demetrius                                        | Friedrich Hebbel                 |               6 |
+| Freiheit in Krähwinkel                           | Johann Nestroy                   |               6 |
+| Moral                                            | Ludwig Thoma                     |               6 |
+| Faust                                            | Friedrich Theodor Vischer        |               6 |
+| Perdu! oder Dichter, Verleger und Blaustrümpfe   | Annette von Droste-Hülshoff      |               5 |
+| Erwin und Elmire                                 | Johann Wolfgang Goethe           |               5 |
+| Babel und Bibel                                  | Karl May                         |               5 |
+| Magdalena                                        | Ludwig Thoma                     |               5 |
+| Die Laune des Verliebten                         | Johann Wolfgang Goethe           |               4 |
+| Die Mitschuldigen                                | Johann Wolfgang Goethe           |               4 |
+| Satyros oder der vergötterte Waldteufel          | Johann Wolfgang Goethe           |               4 |
+| Der Tod Adams                                    | Friedrich Gottlieb Klopstock     |               4 |
+| Der Diamant des Geisterkönigs                    | Ferdinand Raimund                |               4 |
+| Der Verschwender                                 | Ferdinand Raimund                |               4 |
+| Der Kammersänger                                 | Frank Wedekind                   |               4 |
+| Hidalla oder Sein und Haben                      | Frank Wedekind                   |               4 |
+| Codrus                                           | Johann Friedrich von Cronegk     |               3 |
+| Merlin                                           | Karl Immermann                   |               3 |
+| Tristan und Isolde                               | Richard Wagner                   |               3 |
+| Die Zensur                                       | Frank Wedekind                   |               3 |
+| Kaiser Friedrich Barbarossa                      | Christian Dietrich Grabbe        |               2 |
+| Uriel Acosta                                     | Karl Gutzkow                     |               2 |
+| Gabriel Schillings Flucht                        | Gerhart Hauptmann                |               2 |
+| Colberg                                          | Paul Heyse                       |               2 |
+| Alkestis                                         | Hugo von Hofmannsthal            |               2 |
+| Ein Trauerspiel in Berlin                        | Karl von Holtei                  |               2 |
+| Die Koralle                                      | Georg Kaiser                     |               2 |
+| Der Kreidekreis                                  | Klabund                          |               2 |
+| Der Erbförster                                   | Otto Ludwig                      |               2 |
+| Das Haus der Temperamente                        | Johann Nestroy                   |               2 |
+| Der Barometermacher auf der Zauberinsel          | Ferdinand Raimund                |               2 |
+| Die Piccolomini                                  | Friedrich Schiller               |               2 |
+| Der Bettler                                      | Reinhard Sorge                   |               2 |
+| Heimat                                           | Hermann Sudermann                |               2 |
+| Musik                                            | Frank Wedekind                   |               2 |
+| Johann Faust                                     | Paul Weidmann                    |               2 |
+| Die Nase des Michelangelo                        | Hugo Ball                        |               1 |
+| Der blaue Boll                                   | Ernst Barlach                    |               1 |
+| Narziß                                           | Albert Emil Brachvogel           |               1 |
+| Brutus                                           | Joachim Wilhelm von Brawe        |               1 |
+| Die Frau im Fenster                              | Hugo von Hofmannsthal            |               1 |
+| Simsone Grisaldo                                 | Friedrich Maximilian Klinger     |               1 |
+| Franz von Sickingen                              | Ferdinand Lassalle               |               1 |
+| Die Makkabäer                                    | Otto Ludwig                      |               1 |
+| Golo und Genovefa                                | Maler Müller                     |               1 |
+| Der Weibsteufel                                  | Karl Schönherr                   |               1 |
+| Ernst Herzog von Schwaben                        | Ludwig Uhland                    |               1 |
+| Tannhäuser und Der Sängerkrieg auf Wartburg      | Richard Wagner                   |               1 |
+| Faust                                            | Hermann Ludwig Wolfram           |               1 |
+
+
+Although it did not surprise us to find Goethe's Faust on the first
+position we probably did not expect that there are an order of
+magnitude more interpretations focusing on Faust than on its runner-up
+*Dantons Tod* by Büchner. That being said, the followup positions bear
+some surprises:
+
 
 ## Per Author
 
-| Author                    | Interpretations |
-|---------------------------|-----------------|
-| Goethe, Johann Wolfgang   |            2608 |
-| Kleist, Heinrich von      |             744 |
-| Schiller, Friedrich       |             717 |
-| Lessing, Gotthold Ephraim |             647 |
-| Hofmannsthal, Hugo von    |             477 |
-| Büchner, Georg            |             425 |
-| Schnitzler, Arthur        |             209 |
-| Grillparzer, Franz        |             198 |
-| Hebbel, Friedrich         |             163 |
-| Wedekind, Frank           |             131 |
+To see whose plays have been interpreted most often, we can group the
+result by author and sort them:
+
+| Author                   | Plays | Interpretations | Mean Interpretations per Play |
+|--------------------------+-------+-----------------+-------------------------------|
+| Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
+| Heinrich von Kleist      |     7 |             887 |                           126 |
+| Friedrich Schiller       |    11 |             717 |                            65 |
+| Gotthold Ephraim Lessing |    12 |             647 |                            53 |
+| Hugo von Hofmannsthal    |    17 |             478 |                            28 |
+| Georg Büchner            |     2 |             425 |                           212 |
+| Franz Grillparzer        |    13 |             247 |                            19 |
+| Arthur Schnitzler        |    13 |             218 |                            16 |
+| Friedrich Hebbel         |    13 |             163 |                            12 |
+| Frank Wedekind           |    12 |             131 |                            10 |
+
+This gives an advantage to prolific authors, since they have more
+plays that could be written about. Thus, an alternative is to use the
+average number of interpretations per play for each author:
+
+| Author                   | Plays | Interpretations | Mean Interpretations per Play |
+|--------------------------+-------+-----------------+-------------------------------|
+| Georg Büchner            |     2 |             425 |                           212 |
+| Heinrich von Kleist      |     7 |             887 |                           126 |
+| Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
+| Emanuel Schikaneder      |     1 |              71 |                            71 |
+| Friedrich Schiller       |    11 |             717 |                            65 |
+| Gotthold Ephraim Lessing |    12 |             647 |                            53 |
+| Karl Kraus               |     2 |             100 |                            50 |
+| Wolfgang Borchert        |     1 |              45 |                            45 |
+| Hugo von Hofmannsthal    |    17 |             478 |                            28 |
+| Robert Musil             |     1 |              27 |                            27 |
+
+This brings up some authors with just one or two plays that have been
+often in the focus of researchers.
+
+Both lists have authors like Gothe, Kleist, Schiller, Lessing, von
+Hofmannsthal and Büchner among the top ten.
