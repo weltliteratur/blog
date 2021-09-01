@@ -83,7 +83,7 @@ For the following 172 plays we were able to find an interpretation
 (that is, for 373 we could not):
 
 | Play                                             | Author                           | Interpretations |
-|--------------------------------------------------+----------------------------------+-----------------|
+|--------------------------------------------------|----------------------------------|-----------------|
 | Faust                                            | Johann Wolfgang Goethe           |            2037 |
 | Dantons Tod                                      | Georg Büchner                    |             309 |
 | Nathan der Weise                                 | Gotthold Ephraim Lessing         |             307 |
