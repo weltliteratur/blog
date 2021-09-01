@@ -13,16 +13,16 @@ works"](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
 analyse how scholarly articles cite literary works and whether these
 citations can be used to identify key passages. We started with a
 corpus of 100 scholarly articles dealing with the interpretion of one
-of the two novellas:
+of two novellas:
 
 * [*Michael Kohlhaas*](https://en.wikipedia.org/wiki/Michael_Kohlhaas) by Heinrich von Kleist (1808)
 * [*Die Judenbuche*](https://en.wikipedia.org/wiki/Die_Judenbuche) by Annette von Droste-Hülshoff (1842)
 
 In the next phase of our project, we want to focus on German-language
-drama and are therefore building a corpus of scholarly works that
-interpret German plays. For our distant-reading approach, this corpus
-should be "large", that is, for each play we would like to have a
-number of scholarly works dealing with it. So one of our
+drama and are therefore building a corpus of scholarly articles that
+set out to interpret German plays. For our distant-reading approach,
+this corpus should be substantial, that is, for each play we would like
+to have a number of scholarly articles dealing with it. So one of our
 operationalisation questions was: "Which plays should we select so
 that we can find a reasonable number of scholarly works per play?" Or
 more generally: "Which German plays have been interpreted most
@@ -39,7 +39,7 @@ To answer this question, we utilise two well-known data sources:
   1947.[²](https://dracor.org/id/ger000476) DraCor provides the full
   texts of all plays (which is crucial for our project) as well as
   detailed metadata such as title, author or year of publication.
-* The [BDSL online catalogue](http://www.bdsl-online.de/), which is
+* The [BDSL online catalogue](http://www.bdsl-online.de/),
   short for [Bibliography of German Linguistics and
   Literature](https://www.ub.uni-frankfurt.de/bdsl/), a comprehensive
   bibliography of more than 300,000 scholarly works on German language
@@ -51,26 +51,27 @@ To answer this question, we utilise two well-known data sources:
 
 1. We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
    its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
-2. Using a small Python script we extracted for each play the title
-   (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`) and
-   the name of the author (XPath:
-   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`). The
-   resulting TSV file contains 545 plays (author name in the format
-   "Surname, Forname" and title separated by a tabulator character)
-   and starts as follows:
+2. Using a small Python script, we extracted the title
+   (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`)
+   and author's name (XPath:
+   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) for each play.
+   The resulting TSV file contains 545 plays. The name of authors is stored
+   in the format "Surname, Forename", titles of plays separated from it by a tab character.
+   
+   Here the first entries of the resulting list:
    ```
-   Alberti, Konrad	Brot!
-   Alberti, Konrad	Im Suff
-   André, Johann	Der Comödienfeind
-   Anzengruber, Ludwig	Das vierte Gebot
-   Anzengruber, Ludwig	Der Gwissenswurm
-   ...
+   Alberti, Konrad   Brot!
+   Alberti, Konrad   Im Suff
+   André, Johann   Der Comödienfeind
+   Anzengruber, Ludwig   Das vierte Gebot
+   Anzengruber, Ludwig   Der Gwissenswurm
+   [...]
    ```
 3. Looping over the list of plays, we queried BDSL for interpretations
-   of each play on August 31, 2021. Specifically, it is possible to
+   of each play on the same day, August 31, 2021. It is possible to
    search for "Behandeltes Werk" (work treated), which allows us to
-   restrict the search to scholarly works whose subject is a specific
-   work (using the title of the play). As some titles are ambiguous,
+   restrict the search to scholarly articles whose subject is a specific
+   work (using the plays' titles). As some titles are ambiguous,
    initial tests have shown that we need to further restrict the
    search to "Behandelte Person" (person treated), which names the
    author of the work.
@@ -300,8 +301,10 @@ average number of interpretations per play for each author:
 | Hugo von Hofmannsthal    |    17 |             478 |                            28 |
 | Robert Musil             |     1 |              27 |                            27 |
 
-This brings up some authors with just one or two plays that have been
-often in the focus of researchers.
-
-Both lists have authors like Gothe, Kleist, Schiller, Lessing, von
-Hofmannsthal and Büchner among the top ten.
+This shows very clearly in numbers that there have of course been
+authors who have made literary history with very few plays (sometimes
+only one). However, we must of course take this ranking with a grain of salt.
+We see that Georg Büchner is represented by only two works (namely "Leonce and
+Lena" and "Danton's Death"). This is because the fragment "Woyzeck" has not yet
+been included in GerDraCor. I.e., these results only make statements about the
+plays that are part of the corpus.
