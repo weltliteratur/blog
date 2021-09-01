@@ -83,7 +83,7 @@ For the following 172 works we were able find an interpretation
 (that is, for 373 we could not):
 
 | Work                                             | Author                           | Interpretations |
-|--------------------------------------------------+----------------------------------+-----------------|
+|--------------------------------------------------|----------------------------------|-----------------|
 | Faust                                            | Johann Wolfgang Goethe           |            2037 |
 | Dantons Tod                                      | Georg Büchner                    |             309 |
 | Nathan der Weise                                 | Gotthold Ephraim Lessing         |             307 |
@@ -271,7 +271,7 @@ To see whose plays have been interpreted most often, we can group the
 result by author and sort them:
 
 | Author                   | Plays | Interpretations | Mean Interpretations per Play |
-|--------------------------+-------+-----------------+-------------------------------|
+|--------------------------|-------|-----------------|-------------------------------|
 | Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
 | Heinrich von Kleist      |     7 |             887 |                           126 |
 | Friedrich Schiller       |    11 |             717 |                            65 |
@@ -288,7 +288,7 @@ plays that could be written about. Thus, an alternative is to use the
 average number of interpretations per play for each author:
 
 | Author                   | Plays | Interpretations | Mean Interpretations per Play |
-|--------------------------+-------+-----------------+-------------------------------|
+|--------------------------|-------|-----------------|-------------------------------|
 | Georg Büchner            |     2 |             425 |                           212 |
 | Heinrich von Kleist      |     7 |             887 |                           126 |
 | Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
