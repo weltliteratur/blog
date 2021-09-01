@@ -39,13 +39,13 @@ To answer this question, we utilise two well-known data sources:
   1947.[²](https://dracor.org/id/ger000476) DraCor provides the full
   texts of all plays (which is crucial for our project) as well as
   detailed metadata such as title, author or year of publication.
-* The [BDSL online catalogue](http://www.bdsl-online.de/),
-  short for [Bibliography of German Linguistics and
+* The [BDSL online catalogue](http://www.bdsl-online.de/), short for
+  [Bibliography of German Linguistics and
   Literature](https://www.ub.uni-frankfurt.de/bdsl/), a comprehensive
   bibliography of more than 300,000 scholarly works on German language
-  and literature. It offers broad search options, in particular it is
-  possible to search for articles that refer to a specific work (by
-  title) or an author (by name).
+  and literature published between 1985 and 2010. It offers broad
+  search options, in particular it is possible to search for articles
+  that refer to a specific work (by title) or an author (by name).
 
 # Implementation
 
@@ -57,7 +57,7 @@ To answer this question, we utilise two well-known data sources:
    `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) for each play.
    The resulting TSV file contains 545 plays. The name of authors is stored
    in the format "Surname, Forename", titles of plays separated from it by a tab character.
-   
+
    Here the first entries of the resulting list:
    ```
    Alberti, Konrad   Brot!
