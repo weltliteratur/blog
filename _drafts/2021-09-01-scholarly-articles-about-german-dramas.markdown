@@ -3,7 +3,7 @@ title: 'Quantification of Scholarly Articles on German Drama'
 layout: post
 author: [robert, frank]
 comments: true
-date: 2021-09-01
+date: 2021-10-04
 ---
 
 # Context
@@ -19,18 +19,18 @@ of two novellas:
 * [*Die Judenbuche*](https://en.wikipedia.org/wiki/Die_Judenbuche) by Annette von Droste-Hülshoff (1842)
 
 In the next phase of our project, we want to focus on German-language
-drama and are therefore building a corpus of scholarly articles that
-set out to interpret German plays. For our distant-reading approach,
+drama and are therefore building a corpus of scholarly articles dealing
+with German plays. For our distant-reading approach,
 this corpus should be substantial, that is, for each play we would like
 to have a number of scholarly articles dealing with it. So one of our
-operationalisation questions was: "Which plays should we select so
-that we can find a reasonable number of scholarly works per play?" Or
+questions for operationalisation was: "Which plays should we pick so
+that we find a reasonable number of scholarly works per play?" Or
 more generally: "Which German plays have been interpreted most
 frequently by researchers?"
 
 # Data Sources
 
-To answer this question, we utilise two well-known data sources:
+To answer this question, we utilise two data sources:
 
 * [GerDraCor](https://dracor.org/ger), the German Drama Corpus, which
   is part of the larger [DraCor](https://dracor.org/) project and
@@ -40,8 +40,8 @@ To answer this question, we utilise two well-known data sources:
   texts of all plays (which is crucial for our project) as well as
   detailed metadata such as title, author or year of publication.
 * The [BDSL online catalogue](http://www.bdsl-online.de/), short for
-  [Bibliography of German Linguistics and
-  Literature](https://www.ub.uni-frankfurt.de/bdsl/), a comprehensive
+  [Bibliographie der deutschen Sprach- und Literaturwissenschaft](https://www.ub.uni-frankfurt.de/bdsl/)
+  (Bibliography of German Linguistics and Literature), a comprehensive
   bibliography of more than 300,000 scholarly works on German language
   and literature published between 1985 and 2010. It offers broad
   search options, in particular it is possible to search for articles
@@ -51,10 +51,10 @@ To answer this question, we utilise two well-known data sources:
 
 1. We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
    its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
-2. Using a small Python script, we extracted the title
+2. Using a small Python script, we extracted titles
    (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`)
-   and author's name (XPath:
-   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) for each play.
+   authors (XPath:
+   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) of each play.
    The resulting TSV file contains 545 plays. The name of authors is stored
    in the format "Surname, Forename", titles of plays separated from it by a tab character.
 
@@ -71,10 +71,23 @@ To answer this question, we utilise two well-known data sources:
    of each play on the same day, August 31, 2021. It is possible to
    search for "Behandeltes Werk" (work treated), which allows us to
    restrict the search to scholarly articles whose subject is a specific
-   work (using the plays' titles). As some titles are ambiguous,
+   work (using the title of plays). As some titles are ambiguous,
    initial tests have shown that we need to further restrict the
    search to "Behandelte Person" (person treated), which names the
    author of the work.
+   
+   ⚠️ There are a few limitations to our approach: We do limit our search
+   to certain fields, but ultimately rely on the string matching
+   of BDSL's search engine, so we miss some hits. If, for example,
+   we search for Wagner's "Tannhäuser" using its short rather than
+   its full title ("Tannhäuser und Der Sängerkrieg auf Wartburg"),
+   we would arrive at 16 hits instead of just one. BDSL also employs
+   keywords for works, using the keyword "Wagner, Richard / Tannhäuser und der
+   Sängerkrieg auf Wartburg" we even get 44 hits. All in all, working with
+   the BDSL interface is a bit opaque, interoperable
+   IDs for both authors and works (aligned with the
+   [Gemeinsame Normdatei GND](https://en.wikipedia.org/wiki/Integrated_Authority_File))
+   would be a crucial improvement here.
 
 # Results
 
@@ -258,35 +271,32 @@ For the following 172 plays we were able to find an interpretation
 | Tannhäuser und Der Sängerkrieg auf Wartburg      | Richard Wagner                   |               1 |
 | Faust                                            | Hermann Ludwig Wolfram           |               1 |
 
-
-Although it did not surprise us to find Goethe's Faust on the first
-position we probably did not expect that there are an order of
-magnitude more interpretations focusing on Faust than on its runner-up
-*Dantons Tod* by Büchner. That being said, the followup positions bear
-some surprises:
-
+Although it is no surprise to find Goethe's "Faust" with all its variants
+in first place, it is surprising that the second-placed play, Büchner's
+"Danton's Death", lags behind by an order of magnitude in terms of the
+articles in which the play is discussed
 
 ## Per Author
 
-To see whose plays have been interpreted most often, we can group the
-result by author and sort them:
+To see which author was written about most often, we can group and sort the
+result by author:
 
-| Author                   | Plays | Interpretations | Mean Interpretations per Play |
-|--------------------------|-------|-----------------|-------------------------------|
-| Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
-| Heinrich von Kleist      |     7 |             887 |                           126 |
-| Friedrich Schiller       |    11 |             717 |                            65 |
-| Gotthold Ephraim Lessing |    12 |             647 |                            53 |
-| Hugo von Hofmannsthal    |    17 |             478 |                            28 |
-| Georg Büchner            |     2 |             425 |                           212 |
-| Franz Grillparzer        |    13 |             247 |                            19 |
-| Arthur Schnitzler        |    13 |             218 |                            16 |
-| Friedrich Hebbel         |    13 |             163 |                            12 |
-| Frank Wedekind           |    12 |             131 |                            10 |
+| Author                   | Plays | Articles | Mean Interpretations per Play |
+|--------------------------|-------|----------|-------------------------------|
+| Johann Wolfgang Goethe   |    22 |     2610 |                           118 |
+| Heinrich von Kleist      |     7 |      887 |                           126 |
+| Friedrich Schiller       |    11 |      717 |                            65 |
+| Gotthold Ephraim Lessing |    12 |      647 |                            53 |
+| Hugo von Hofmannsthal    |    17 |      478 |                            28 |
+| Georg Büchner            |     2 |      425 |                           212 |
+| Franz Grillparzer        |    13 |      247 |                            19 |
+| Arthur Schnitzler        |    13 |      218 |                            16 |
+| Friedrich Hebbel         |    13 |      163 |                            12 |
+| Frank Wedekind           |    12 |      131 |                            10 |
 
-This gives an advantage to prolific authors, since they have more
-plays that could be written about. Thus, an alternative is to use the
-average number of interpretations per play for each author:
+We can also sort this table by the average number of interpretations per play
+per author, although the result should be treated with caution for several
+reasons:
 
 | Author                   | Plays | Interpretations | Mean Interpretations per Play |
 |--------------------------|-------|-----------------|-------------------------------|
@@ -301,11 +311,10 @@ average number of interpretations per play for each author:
 | Hugo von Hofmannsthal    |    17 |             478 |                            28 |
 | Robert Musil             |     1 |              27 |                            27 |
 
-This shows very clearly in numbers that there have of course been
-authors who have made literary history with very few plays (sometimes
-only one). However, we must of course take this ranking with a grain
-of salt.  We see that Georg Büchner is represented by only two works
-(namely "Leonce and Lena" and "Danton's Death"). This is because the
-fragment "Woyzeck" has not yet been included in GerDraCor. That is,
-these results only make statements about the plays that are part of
-the corpus.
+On the one hand, authors who have become known primarily for just one or a few
+plays appear at the top (Karl Kraus, Wolfgang Borchert, Georg Büchner). However,
+we only looked for plays that are already represented in GerDraCor. In addition
+to Büchner's two plays "Leonce and Lena" and "Danton's Death", his famous
+fragment "Woyzeck" is missing, which limits the usefulness of the above table.
+All the results presented only make statements about the plays and authors
+currently contained in GerDraCor.
