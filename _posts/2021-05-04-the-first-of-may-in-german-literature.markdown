@@ -39,7 +39,7 @@ HeidelTime can extract various forms of dates, so here it has managed to extract
 
 * "Ich telephonierte Montag nachmittag (also am <u>1. Mai</u>) dem Witschi nach Gerzenstein, er möge mich in meinem Bureau aufsuchen." (Glauser: [Wachtmeister Studer](https://www.projekt-gutenberg.org/glauser/studer/chap15.html))
 * “[…]; den <u>1. May</u> 1772 reiseten wir aus Gondar ab." (Knigge: [Benjamin Noldmanns Geschichte der Aufklärung in Abyssinien](https://www.projekt-gutenberg.org/knigge/noldmann/noldm120.html))
-* "Du sollst doch auch wissen, daß heute der <u>erste Mai</u> ist, du Einsiedler!" (Dahn, [Ernst und Frank](https://www.projekt-gutenberg.org/dahn/herzen/chap003.html))
+* "Du sollst doch auch wissen, daß heute der <u>erste Mai</u> ist, du Einsiedler!" (Dahn: [Ernst und Frank](https://www.projekt-gutenberg.org/dahn/herzen/chap003.html))
 * "Am <u>ersten Mai</u> anno domini 1835 war zu Haimbach ein großes Frühstück." (Stifter: [Feldblumen](https://www.projekt-gutenberg.org/stifter/feldblum/feldb032.html))
 
 Now we've always wanted to dig a little deeper into our dataset to go beyond mere quantification, and we've demonstrated this idea by qualifying all mentions of the 10th of August:
