@@ -36,9 +36,9 @@ To answer this question, we utilise two data sources:
   is part of the larger [DraCor](https://dracor.org/) project and
   currently comprises 545 German plays from the period
   1657[¹](https://dracor.org/id/ger000538) to
-  1947.[²](https://dracor.org/id/ger000476) DraCor provides the full
+  1947[²](https://dracor.org/id/ger000476). DraCor provides the full
   texts of all plays (which is crucial for our project) as well as
-  detailed metadata such as title, author or year of publication.
+  detailed metadata such as title, author and year of publication.
 * The [BDSL online catalogue](http://www.bdsl-online.de/), short for
   [Bibliographie der deutschen Sprach- und Literaturwissenschaft](https://www.ub.uni-frankfurt.de/bdsl/)
   (Bibliography of German Linguistics and Literature), a comprehensive
@@ -49,51 +49,51 @@ To answer this question, we utilise two data sources:
 
 # Implementation
 
-1. We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
-   its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
-2. Using a small Python script, we extracted titles
-   (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`)
-   authors (XPath:
-   `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) of each play.
-   The resulting TSV file contains 545 plays. The name of authors is stored
-   in the format "Surname, Forename", titles of plays separated from it by a tab character.
+**1.** We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
+its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
 
-   Here the first entries of the resulting list:
-   ```
-   Alberti, Konrad   Brot!
-   Alberti, Konrad   Im Suff
-   André, Johann   Der Comödienfeind
-   Anzengruber, Ludwig   Das vierte Gebot
-   Anzengruber, Ludwig   Der Gwissenswurm
-   [...]
-   ```
-3. Looping over the list of plays, we queried BDSL for interpretations
-   of each play on the same day, August 31, 2021. It is possible to
-   search for "Behandeltes Werk" (work treated), which allows us to
-   restrict the search to scholarly articles whose subject is a specific
-   work (using the title of plays). As some titles are ambiguous,
-   initial tests have shown that we need to further restrict the
-   search to "Behandelte Person" (person treated), which names the
-   author of the work.
+**2.** Using a small Python script, we extracted titles
+(XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`)
+authors (XPath:
+`tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) of each play.
+The resulting TSV file contains 545 plays. The name of authors is stored
+in the format "Surname, Forename", titles of plays separated from it by a tab character.
 
-   ⚠️ There are a few limitations to our approach: We do limit our search
-   to certain fields, but ultimately rely on the string matching
-   of BDSL's search engine, so we miss some hits. If, for example,
-   we search for Wagner's "Tannhäuser" using its short rather than
-   its full title ("Tannhäuser und Der Sängerkrieg auf Wartburg"),
-   we would arrive at 16 hits instead of just one. BDSL also employs
-   keywords for works, using the keyword "Wagner, Richard / Tannhäuser und der
-   Sängerkrieg auf Wartburg" we even get 44 hits. All in all, working with
-   the BDSL interface is a bit opaque, interoperable
-   IDs for both authors and works (aligned with the
-   [Gemeinsame Normdatei GND](https://en.wikipedia.org/wiki/Integrated_Authority_File))
-   would be a crucial improvement here.
+Here the first entries of the resulting list:
+```
+Alberti, Konrad   Brot!
+Alberti, Konrad   Im Suff
+André, Johann   Der Comödienfeind
+Anzengruber, Ludwig   Das vierte Gebot
+Anzengruber, Ludwig   Der Gwissenswurm
+[...]
+```
 
-# Results
+**3.** Looping over the list of plays, we queried BDSL on the same
+day, August 31, 2021. It is possible to
+search for "Behandeltes Werk" (work treated), which allows us to
+restrict the search to scholarly articles whose subject is a specific
+work (using the title of plays). As some titles are ambiguous,
+initial tests have shown that we need to further restrict the
+search to "Behandelte Person" (person treated), which names the
+author of the work.
 
-## Per Play
+⚠️ There are a few limitations to our approach: We do limit our search
+to certain fields, but ultimately rely on the string matching
+of BDSL's search engine, so we miss some hits. If, for example,
+we search for Wagner's "Tannhäuser" using its short rather than
+its full title ("Tannhäuser und Der Sängerkrieg auf Wartburg"),
+we would arrive at 16 hits instead of just one. BDSL also employs
+keywords for works, using the keyword "Wagner, Richard / Tannhäuser und der
+Sängerkrieg auf Wartburg" we even get 44 hits. All in all, working with
+the BDSL interface is a bit opaque, interoperable
+IDs for both authors and works (aligned with the
+[Gemeinsame Normdatei GND](https://en.wikipedia.org/wiki/Integrated_Authority_File))
+would be a crucial improvement here.
 
-For the following 172 plays we were able to find an interpretation
+# Results per Play
+
+For the following 172 plays we were able to find an article
 (that is, for 373 we could not):
 
 | Play                                             | Author                           | Interpretations |
@@ -274,9 +274,9 @@ For the following 172 plays we were able to find an interpretation
 Although it is no surprise to find Goethe's "Faust" with all its variants
 in first place, it is surprising that the second-placed play, Büchner's
 "Danton's Death", lags behind by an order of magnitude in terms of the
-articles in which the play is discussed
+articles in which the play is discussed.
 
-## Per Author
+# Results per Author
 
 To see which author was written about most often, we can group and sort the
 result by author:
@@ -294,7 +294,7 @@ result by author:
 | Friedrich Hebbel         |    13 |      163 |                            12 |
 | Frank Wedekind           |    12 |      131 |                            10 |
 
-We can also sort this table by the average number of interpretations per play
+We can also sort this table by the average number of articles per play
 per author, although the result should be treated with caution for several
 reasons:
 
