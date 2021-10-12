@@ -3,7 +3,7 @@ title: 'Quantification of Scholarly Articles on German Drama'
 layout: post
 author: [robert, frank]
 comments: true
-date: 2021-10-04
+date: 2021-10-12
 ---
 
 # Context
@@ -75,7 +75,7 @@ To answer this question, we utilise two data sources:
    initial tests have shown that we need to further restrict the
    search to "Behandelte Person" (person treated), which names the
    author of the work.
-   
+
    ⚠️ There are a few limitations to our approach: We do limit our search
    to certain fields, but ultimately rely on the string matching
    of BDSL's search engine, so we miss some hits. If, for example,
@@ -97,7 +97,7 @@ For the following 172 plays we were able to find an interpretation
 (that is, for 373 we could not):
 
 | Play                                             | Author                           | Interpretations |
-|--------------------------------------------------|----------------------------------|-----------------|
+| ------------------------------------------------ | -------------------------------- | --------------: |
 | Faust                                            | Johann Wolfgang Goethe           |            2037 |
 | Dantons Tod                                      | Georg Büchner                    |             309 |
 | Nathan der Weise                                 | Gotthold Ephraim Lessing         |             307 |
@@ -282,7 +282,7 @@ To see which author was written about most often, we can group and sort the
 result by author:
 
 | Author                   | Plays | Articles | Mean Interpretations per Play |
-|--------------------------|-------|----------|-------------------------------|
+| ------------------------ | ----: | -------: | ----------------------------: |
 | Johann Wolfgang Goethe   |    22 |     2610 |                           118 |
 | Heinrich von Kleist      |     7 |      887 |                           126 |
 | Friedrich Schiller       |    11 |      717 |                            65 |
@@ -299,7 +299,7 @@ per author, although the result should be treated with caution for several
 reasons:
 
 | Author                   | Plays | Interpretations | Mean Interpretations per Play |
-|--------------------------|-------|-----------------|-------------------------------|
+| ------------------------ | ----: | --------------: | ----------------------------: |
 | Georg Büchner            |     2 |             425 |                           212 |
 | Heinrich von Kleist      |     7 |             887 |                           126 |
 | Johann Wolfgang Goethe   |    22 |            2610 |                           118 |
