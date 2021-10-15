@@ -9,7 +9,7 @@ date: 2021-10-12
 # Context
 
 In our project ["What matters? Key passages in literary
-works"](https://www.projekte.hu-berlin.de/de/schluesselstellen) we
+works"](https://www.projekte.hu-berlin.de/en/schluesselstellen/) we
 analyse how scholarly articles cite literary works and whether these
 citations can be used to identify key passages. We started with a
 corpus of 100 scholarly articles dealing with the interpretion of one
