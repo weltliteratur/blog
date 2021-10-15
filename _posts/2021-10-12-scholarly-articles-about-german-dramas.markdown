@@ -9,7 +9,7 @@ date: 2021-10-12
 # Context
 
 In our project ["What matters? Key passages in literary
-works"](https://gepris.dfg.de/gepris/projekt/424207720?language=en) we
+works"](https://www.projekte.hu-berlin.de/de/schluesselstellen) we
 analyse how scholarly articles cite literary works and whether these
 citations can be used to identify key passages. We started with a
 corpus of 100 scholarly articles dealing with the interpretion of one
@@ -51,7 +51,7 @@ To answer this question, we utilise two data sources:
 
 1. We downloaded a GerDraCor snapshot on August 31, 2021, by cloning
    its git repository (`git clone git@github.com:dracor-org/gerdracor.git`).
-2. Using a small Python script, we extracted titles
+2. Using [a small Python script](https://scm.cms.hu-berlin.de/jaeschkr/interpretatorisch/-/blob/master/bdsl/crawltitles.py), we extracted titles
    (XPath: `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title`)
    authors (XPath:
    `tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author`) of each play.
