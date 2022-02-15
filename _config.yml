@@ -194,6 +194,16 @@ authors:
     orcid: 0000-0002-4337-2467
     twitter: MarkSchwindtFD
     description: DraCor Art Director.
+  lisa:
+    name: Lisa Poggel
+    display_name: Lisa
+    img: /images/lp.jpg
+    email:
+    web: 
+    github: lipogg
+    orcid: 0000-0003-1051-8148
+    twitter: 
+    description: Digital historian in training at Freie Universität Berlin     
 
 paginate:         10
 
