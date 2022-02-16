@@ -23,7 +23,7 @@ authors:
     name: Robert Jäschke
     display_name: Robert
     img: /images/rj.jpg
-    email: robert.jaeschke@hu-berlin.de
+    email:
     web: https://amor.cms.hu-berlin.de/~jaeschkr/
     orcid: 0000-0003-3271-9653
     twitter:
@@ -32,7 +32,7 @@ authors:
   mathias:
     name: Mathias Göbel
     display_name: Mathias
-    email: goebel@sub.uni-goettingen.de
+    email:
     web: http://mathias-goebel.github.io/
     twitter: goebel_m
     github: mathias-goebel
@@ -42,12 +42,12 @@ authors:
     name: Frank Fischer
     display_name: Frank
     img: /images/ff.png
-    email: ffischer@hse.ru
+    email:
     orcid: 0000-0003-2419-6629
     web: https://lehkost.github.io/
     twitter: umblaetterer
     github: lehkost
-    description: Doing Digital Humanities at Higher School of Economics in Moscow. Director of DARIAH-EU.
+    description: Doing Digital Humanities at Freie Universität Berlin.
   christopher:
     name: Christopher Johnson
     display_name: Christopher
@@ -62,7 +62,7 @@ authors:
     name: Peer Trilcke
     display_name: Peer
     img: /images/pt.jpg
-    email: trilcke@uni-potsdam.de
+    email:
     web: https://www.uni-potsdam.de/de/lit-19-jhd/peertrilcke.html
     twitter: peertrilcke
     github: peertrilcke
@@ -70,7 +70,7 @@ authors:
   ubbo:
     name: Ubbo Veentjer
     display_name: Ubbo
-    email: veentjer@sub.uni-goettingen.de
+    email:
     web:
     twitter:
     github: ubbo
@@ -87,7 +87,7 @@ authors:
     name: Angelika Hechtl
     display_name: Angelika
     img: /images/ah.jpg
-    email: angelika.hechtl@wu.ac.at
+    email:
     web: http://www.likeanga.at/
     twitter: angelikah
     github: likeanga
@@ -97,8 +97,8 @@ authors:
     name: Ingo Börner
     display_name: Ingo
     img: /images/ib.jpg
-    email: ingo.boerner@univie.ac.at
-    web: https://www.oeaw.ac.at/acdh/team/current-team/ingo-boerner/
+    email:
+    web:
     twitter: ingoboerner
     github: ingoboerner
     orcid: 0000-0001-8294-2541
@@ -107,7 +107,7 @@ authors:
     name: Galina Ryazanskaya
     display_name: Galina
     img: /images/gr.jpg
-    email: galka1999@gmail.com
+    email:
     web:
     twitter:
     github:
@@ -169,7 +169,7 @@ authors:
   michel:
     name: Michel Schwab
     display_name: Michel
-    email: michel.schwab@hu-berlin.de
+    email:
     web: https://amor.cms.hu-berlin.de/~schwabmi/
     orcid:
     twitter:
@@ -197,13 +197,13 @@ authors:
   lisa:
     name: Lisa Poggel
     display_name: Lisa
-    img: /images/lp.jpg
+    img: /images/lp.png
     email:
-    web: 
+    web:
     github: lipogg
     orcid: 0000-0003-1051-8148
-    twitter: 
-    description: Digital historian in training at Freie Universität Berlin     
+    twitter:
+    description: Digital historian in training at Freie Universität Berlin.
 
 paginate:         10
 
