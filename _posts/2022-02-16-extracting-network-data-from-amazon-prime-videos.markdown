@@ -16,7 +16,7 @@ If you happen to have an Amazon Prime Video account (or know someone who has ðŸ˜
 
 Turns out that this information is stored in a JSON file that you can download for each movie/series in a roundabout way. Once you have this file, you can do some analysis with it, like visualising the screentime of characters or extracting co-presence networks, which is really neat. (One advantage is that you can very easily compile datasets on your own favourite movies or series, so long as these productions are available on Prime Video.)
 
-To start with a visual argument, here is the result for Sam Mendes' movie ["2017"](https://en.wikipedia.org/wiki/1917_(2019_film)), followed by a description of how we did it:
+To start with a visual argument, here is the result for Sam Mendes' movie ["1917"](https://en.wikipedia.org/wiki/1917_(2019_film)), followed by a description of how we did it:
 
 <figure>
   <img src="/images/1917-network.png" alt="1917, movie, network" style="width:1024px;" />
