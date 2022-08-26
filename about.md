@@ -7,7 +7,8 @@ title: About weltliteratur.net
 
 This blog accompanies our research in the field of **Digital Humanities**. It originated in our work on the (still unpublished) paper "World Literature According to Wikipedia" (there's [a preprint](https://arxiv.org/abs/1701.00991)).
 
-**weltliteratur.net** first appeared on April 23, 2016, and is edited by Frank Fischer (Moscow) and Robert Jäschke (Berlin). Authors and co-authors are usually long-standing colleagues.
+**weltliteratur.net** first appeared on April 23, 2016, and is edited
+by Frank Fischer and Robert Jäschke (both located in Berlin). Authors and co-authors are usually long-standing colleagues.
 
 Some of us are involved in [BibSonomy](https://www.bibsonomy.org/) and the [DraCor platform](https://dracor.org/) (Drama Corpora project).
 
