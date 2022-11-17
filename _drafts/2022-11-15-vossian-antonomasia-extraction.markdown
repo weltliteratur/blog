@@ -36,7 +36,6 @@ a sentence, that is, the source, target and modifier, and distinguish
 them from one another. This is called *sequence tagging*.
 
 | Words | A | Spice | Girls | of  | hip- hop | , |  the  | Wu- Tang |  Clan | offers | something | for | every  | kind | of | rap  | fan |
-|:-----:|:-:|:-----:|:-----:|:---:|:--------:|:-:|:-----:|:--------:|:-----:|:------:|:---------:|:---:|:------:|:----:|:--:|:----:|:---:|
 |  Tags | - | B-SRC | I-SRC |  -  |   B-MOD  | - | B-TRG |   I-TRG  | I-TRG |    -   |     -     |  -  |    -   |   -  |  - |   -  |  -  |
 
 For the training of neural networks, we [annotated our VA
