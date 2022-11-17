@@ -1,5 +1,5 @@
 ---
-title: "Vossian Antonomasia Extraction: Let's use big guns"
+title: "Vossian Antonomasia Extraction: Bringing in heavy machinery"
 layout: post
 author: [michel, robert, frank]
 comments: true
@@ -11,7 +11,7 @@ Antonomasia](https://vossanto.weltliteratur.net/) (VA).  In [our last
 paper](https://weltliteratur.net/vossian-antonomasia-next-level/), we
 tried to detect VA automatically using rule-based methods and a simple
 neural network approach. The latter showed very promising results, so
-we continued along this line and pulled out the big guns, the Michael
+we continued along this line and brought in heavy machinery, the Michael
 Jordans in the field of natural language processing: pre-trained
 language models.
 
@@ -28,7 +28,7 @@ pre-training phase, the model learns a basic understanding of language
 that can be used further for downstream tasks, e.g. named entity
 recognition (NER), sentiment analysis, or part-of-speech tagging.
 
-Thus, we decided to let loose these “big guns” on our VAs. Instead of
+Thus, we decided to bring in "heavy machinery" for our VAs. Instead of
 classifying complete sentences, that is, deciding whether a sentence
 contains a VA expression or not, we reformulated the task. Now, the
 machine learning model is trained to identify all parts of a VA within
