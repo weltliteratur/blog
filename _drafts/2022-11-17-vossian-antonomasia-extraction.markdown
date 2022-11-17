@@ -87,25 +87,25 @@ not able to find. Table 2 shows the most frequently predicted source
 candidates. Due to limited capacities, we only evaluated samples of
 these candidates.
 
-| source candidates | Count | wikidata_id |
-|-------------------|-------|-------------|
-| Holy Grail        |   116 | Q162808     |
-| Cadillac          |    88 | Q27436      |
-| Pied Piper        |    85 | Q106880435  |
-| RollsRoyce        |    71 | Q243278     |
-| Paris             |    60 | Q90         |
-| Harvard           |    58 | Q13371      |
-| Microsoft         |    43 | Q2283       |
-| Venice            |    42 | Q641        |
-| Demon Barber      |    39 | -           |
-| King              |    37 | Q116        |
-| Switzerland       |    37 | Q39         |
-| McDonalds         |    35 | Q38076      |
-| Darth Vader       |    34 | Q12206942   |
-| Wild West         |    33 | Q14947899   |
-| Cinderella        |    32 | Q11841      |
-| Goliath           |    29 | Q192785     |
-| Woodstock         |    29 | Q164815     |
+| source candidates | Count | wikidata_id						|
+|-------------------|-------|-----------------------------------------------------------|
+| Holy Grail        |   116 | [Q162808](https://www.wikidata.org/wiki/Q162808)		|
+| Cadillac          |    88 | [Q27436](https://www.wikidata.org/wiki/Q27436)		|
+| Pied Piper        |    85 | [Q106880435](https://www.wikidata.org/wiki/Q106880435)    |
+| RollsRoyce        |    71 | [Q243278](https://www.wikidata.org/wiki/Q243278)          |
+| Paris             |    60 | [Q90](https://www.wikidata.org/wiki/Q90)			|
+| Harvard           |    58 | [Q13371](https://www.wikidata.org/wiki/Q13371)		|
+| Microsoft         |    43 | [Q2283](https://www.wikidata.org/wiki/Q2283)		|
+| Venice            |    42 | [Q641](https://www.wikidata.org/wiki/Q641)		|
+| Demon Barber      |    39 | -								|
+| King              |    37 | [Q116](https://www.wikidata.org/wiki/Q116)	        |
+| Switzerland       |    37 | [Q39](https://www.wikidata.org/wiki/Q39)			|
+| McDonalds         |    35 | [Q38076](https://www.wikidata.org/wiki/Q38076)		|
+| Darth Vader       |    34 | [Q12206942](https://www.wikidata.org/wiki/Q12206942)	|
+| Wild West         |    33 | [Q14947899](https://www.wikidata.org/wiki/Q14947899)      |
+| Cinderella        |    32 | [Q11841](https://www.wikidata.org/wiki/Q11841)  	        |
+| Goliath           |    29 | [Q192785](https://www.wikidata.org/wiki/Q192785)		|
+| Woodstock         |    29 | [Q164815](https://www.wikidata.org/wiki/Q164815)	        |
 
 In summary, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
