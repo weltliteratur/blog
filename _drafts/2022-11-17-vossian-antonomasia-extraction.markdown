@@ -106,6 +106,7 @@ these candidates.
 | Cinderella        |    32 | Q11841      |
 | Goliath           |    29 | Q192785     |
 | Woodstock         |    29 | Q164815     |
+
 In summary, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
 that belong to a VA expression in a sentence.  In addition to the high
