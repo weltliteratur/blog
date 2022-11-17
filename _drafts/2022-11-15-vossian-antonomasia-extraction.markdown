@@ -35,8 +35,9 @@ machine learning model is trained to identify all parts of a VA within
 a sentence, that is, the source, target and modifier, and distinguish
 them from one another. This is called *sequence tagging*.
 
+|       |   |       |       |     |          |   |       |          |       |        |           |     |        |      |    |      |     |
+|-------|---|-------|-------|-----|----------|---|-------|----------|-------|--------|-----------|-----|--------|------|----|------|-----|
 | Words | A | Spice | Girls | of  | hip- hop | , |  the  | Wu- Tang |  Clan | offers | something | for | every  | kind | of | rap  | fan |
-|:-----:|:-:|:-----:|:-----:|:---:|:--------:|:-:|:-----:|:--------:|:-----:|:------:|:---------:|:---:|:------:|:----:|:--:|:----:|:---:|
 |  Tags | - | B-SRC | I-SRC |  -  |   B-MOD  | - | B-TRG |   I-TRG  | I-TRG |    -   |     -     |  -  |    -   |   -  |  - |   -  |  -  |
 
 For the training of neural networks, we [annotated our VA
@@ -64,7 +65,7 @@ on top that also tags each word.
 |                  | Baseline  |     0.876 |  0.880 | 0.878 |
 | Classification   | BLSTM-ATT |     0.921 |  0.074 | 0.947 |
 |                  | BERT-CLF  |     0.971 |  0.977 | 0.974 |
-|:----------------:|:---------:|:---------:|:------:|:-----:|
+|		   | 	       |     	   |  	    | 	    |
 |                  | BASELINE  |     0.765 |  0.616 | 0.682 |
 | Sequence-Tagging | BLSTM-CRF |     0.908 |  0.907 | 0.907 |
 |                  | BERT-SEQ  |     0.908 |  0.944 | 0.926 |
@@ -85,30 +86,25 @@ not able to find. Table 2 shows the most frequently predicted source
 candidates. Due to limited capacities, we only evaluated samples of
 these candidates.
 
-| source candidates | Count |
-|-------------------|-------|
-| Holy Grail        |   116 |
-| Cadillac          |    88 |
-| Pied Piper        |    85 |
-| RollsRoyce        |    71 |
-| Paris             |    60 |
-| Harvard           |    58 |
-| Microsoft         |    43 |
-| Venice            |    42 |
-| Demon Barber      |    39 |
-| King              |    37 |
-| Switzerland       |    37 |
-| McDonalds         |    35 |
-| Darth Vader       |    34 |
-| Wild West         |    33 |
-| Cinderella        |    32 |
-| Goliath           |    29 |
-| Woodstock         |    29 |
-| Athens            |    28 |
-| Mecca             |    28 |
-| Taj Mahal         |    28 |
-
-
+| source candidates | Count | wikidata_id |
+|-------------------|-------|-------------|
+| Holy Grail        |   116 | Q162808     |
+| Cadillac          |    88 | Q27436      |
+| Pied Piper        |    85 | Q106880435  |
+| RollsRoyce        |    71 | Q243278     |
+| Paris             |    60 | Q90         |
+| Harvard           |    58 | Q13371      |
+| Microsoft         |    43 | Q2283       |
+| Venice            |    42 | Q641        |
+| Demon Barber      |    39 | -           |
+| King              |    37 | Q116        |
+| Switzerland       |    37 | Q39         |
+| McDonalds         |    35 | Q38076      |
+| Darth Vader       |    34 | Q12206942   |
+| Wild West         |    33 | Q14947899   |
+| Cinderella        |    32 | Q11841      |
+| Goliath           |    29 | Q192785     |
+| Woodstock         |    29 | Q164815     |
 Summing it up, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
 that belong to a VA expression in a sentence.  In addition to the high
