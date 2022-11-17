@@ -1,21 +1,22 @@
 ---
-title: "Vossian Antonomasia Extraction: Bringing in heavy machinery"
+title: "Vossian Antonomasia Extraction Using Pre-Trained Language Models"
 layout: post
 author: [michel, robert, frank]
 comments: true
-date: 2022-11-15
+date: 2022-11-17
 ---
 
 Hi there, let’s get back to one of our favorite topics: [Vossian
-Antonomasia](https://vossanto.weltliteratur.net/) (VA).  In [our last
+Antonomasia](https://vossanto.weltliteratur.net/) (VA).  In [our 2019
+EMNLP-IJCNLP
 paper](https://weltliteratur.net/vossian-antonomasia-next-level/), we
 tried to detect VA automatically using rule-based methods and a simple
 neural network approach. The latter showed very promising results, so
-we continued along this line and brought in heavy machinery, the Michael
-Jordans in the field of natural language processing: pre-trained
-language models.
+we continued along this line and brought in some heavier machinery, the
+Michael Jordans in the field of natural language processing:
+pre-trained language models.
 
-Neural networks and especially pretrained language models (PLMs) like
+Neural networks and especially pre-trained language models (PLMs) like
 [BERT](https://aclanthology.org/N19-1423.pdf) have shown that they can
 improve a wide range of NLP tasks, especially those for which large
 labeled datasets are not available.
@@ -28,8 +29,8 @@ pre-training phase, the model learns a basic understanding of language
 that can be used further for downstream tasks, e.g. named entity
 recognition (NER), sentiment analysis, or part-of-speech tagging.
 
-Thus, we decided to bring in "heavy machinery" for our VAs. Instead of
-classifying complete sentences, that is, deciding whether a sentence
+We decided to try this out on Vossian Antonomasia for [our latest paper published in Frontiers in Artificial Intelligence](https://doi.org/10.3389/frai.2022.868249).
+Instead of classifying complete sentences, that is, deciding whether a sentence
 contains a VA expression or not, we reformulated the task. Now, the
 machine learning model is trained to identify all parts of a VA within
 a sentence, that is, the source, target and modifier, and distinguish
@@ -105,7 +106,7 @@ these candidates.
 | Cinderella        |    32 | Q11841      |
 | Goliath           |    29 | Q192785     |
 | Woodstock         |    29 | Q164815     |
-Summing it up, in our newest paper, we developed new models for
+In summary, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
 that belong to a VA expression in a sentence.  In addition to the high
 evaluation scores on our annotated dataset, we showed in multiple
