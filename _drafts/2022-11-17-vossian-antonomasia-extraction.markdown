@@ -12,11 +12,11 @@ EMNLP-IJCNLP
 paper](https://weltliteratur.net/vossian-antonomasia-next-level/), we
 tried to detect VA automatically using rule-based methods and a simple
 neural network approach. The latter showed very promising results, so
-we continued along this line and brought in some heavier machinery, the
-Michael Jordans in the field of natural language processing:
-pre-trained language models.
+we continued along this line and brought in some heavier machinery –
+the Michael Jordans in the field of natural language processing (NLP):
+pre-trained language models (PLMs).
 
-Neural networks and especially pre-trained language models (PLMs) like
+Neural networks and especially PLMs like
 [BERT](https://aclanthology.org/N19-1423.pdf) have shown that they can
 improve a wide range of NLP tasks, especially those for which large
 labeled datasets are not available.
@@ -26,20 +26,61 @@ conducted with large amounts of unlabeled text data. For example, BERT
 was trained on the English Wikipedia and
 [BooksCorpus](https://arxiv.org/pdf/1506.06724.pdf). In the
 pre-training phase, the model learns a basic understanding of language
-that can be used further for downstream tasks, e.g. named entity
-recognition (NER), sentiment analysis, or part-of-speech tagging.
+that can be used further for downstream tasks, for example, named
+entity recognition (NER), sentiment analysis, or part-of-speech
+tagging.
 
-We decided to try this out on Vossian Antonomasia for [our latest paper published in Frontiers in Artificial Intelligence](https://doi.org/10.3389/frai.2022.868249).
-Instead of classifying complete sentences, that is, deciding whether a sentence
+We decided to try this on Vossian Antonomasia for [our latest paper
+published in Frontiers in Artificial
+Intelligence](https://doi.org/10.3389/frai.2022.868249).  Instead of
+classifying complete sentences, that is, deciding whether a sentence
 contains a VA expression or not, we reformulated the task. Now, the
 machine learning model is trained to identify all parts of a VA within
 a sentence, that is, the source, target and modifier, and distinguish
 them from one another. This is called *sequence tagging*.
 
-|       |   |       |       |     |          |   |       |          |       |        |           |     |        |      |    |      |     |
-|-------|---|-------|-------|-----|----------|---|-------|----------|-------|--------|-----------|-----|--------|------|----|------|-----|
-| Words | A | Spice | Girls | of  | hip- hop | , |  the  | Wu- Tang |  Clan | offers | something | for | every  | kind | of | rap  | fan |
-|  Tags | - | B-SRC | I-SRC |  -  |   B-MOD  | - | B-TRG |   I-TRG  | I-TRG |    -   |     -     |  -  |    -   |   -  |  - |   -  |  -  |
+<table>
+  <tr>
+    <th>Words:</th>
+    <td>A</td>
+    <td>Spice</td>
+    <td>Girls</td>
+    <td>of</td>
+    <td>hip-hop</td>
+    <td>,</td>
+    <td>the</td>
+    <td>Wu-Tang</td>
+    <td>Clan</td>
+    <td>offers</td>
+    <td>something</td>
+    <td>for</td>
+    <td>every</td>
+    <td>kind</td>
+    <td>of</td>
+    <td>rap</td>
+    <td>fan</td>
+  </tr>
+  <tr>
+    <th>Tags:</th>
+    <td>-</td>
+    <td>B-SRC</td>
+    <td>I-SRC</td>
+    <td>-</td>
+    <td>B-MOD</td>
+    <td>-</td>
+    <td>B-TRG</td>
+    <td>I-TRG</td>
+    <td>I-TRG</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+</table>
 
 For the training of neural networks, we [annotated our VA
 dataset](https://github.com/weltliteratur/vossanto/tree/master/frontiers)
@@ -66,7 +107,7 @@ on top that also tags each word.
 |                  | Baseline  |     0.876 |  0.880 | 0.878 |
 | Classification   | BLSTM-ATT |     0.921 |  0.074 | 0.947 |
 |                  | BERT-CLF  |     0.971 |  0.977 | 0.974 |
-|		   | 	       |     	   |  	    | 	    |
+|		   |           |           |        |       |
 |                  | BASELINE  |     0.765 |  0.616 | 0.682 |
 | Sequence-Tagging | BLSTM-CRF |     0.908 |  0.907 | 0.907 |
 |                  | BERT-SEQ  |     0.908 |  0.944 | 0.926 |
@@ -98,14 +139,14 @@ these candidates.
 | Microsoft         |    43 | [Q2283](https://www.wikidata.org/wiki/Q2283)		|
 | Venice            |    42 | [Q641](https://www.wikidata.org/wiki/Q641)		|
 | Demon Barber      |    39 | -								|
-| King              |    37 | [Q116](https://www.wikidata.org/wiki/Q116)	        |
+| King              |    37 | [Q116](https://www.wikidata.org/wiki/Q116)            |
 | Switzerland       |    37 | [Q39](https://www.wikidata.org/wiki/Q39)			|
 | McDonalds         |    35 | [Q38076](https://www.wikidata.org/wiki/Q38076)		|
 | Darth Vader       |    34 | [Q12206942](https://www.wikidata.org/wiki/Q12206942)	|
 | Wild West         |    33 | [Q14947899](https://www.wikidata.org/wiki/Q14947899)      |
-| Cinderella        |    32 | [Q11841](https://www.wikidata.org/wiki/Q11841)  	        |
+| Cinderella        |    32 | [Q11841](https://www.wikidata.org/wiki/Q11841)            |
 | Goliath           |    29 | [Q192785](https://www.wikidata.org/wiki/Q192785)		|
-| Woodstock         |    29 | [Q164815](https://www.wikidata.org/wiki/Q164815)	        |
+| Woodstock         |    29 | [Q164815](https://www.wikidata.org/wiki/Q164815)          |
 
 In summary, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
