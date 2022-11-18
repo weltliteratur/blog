@@ -39,18 +39,32 @@ machine learning model is trained to identify all parts of a VA within
 a sentence, that is, the source, target and modifier, and distinguish
 them from one another. This is called *sequence tagging*.
 
+<style type="text/css">
+.vasrc {
+    color: red;
+}
+
+.vatrg {
+    color: blue;
+}
+
+.vamod {
+    color: green;
+}
+</style>
+
 <table>
   <tr>
     <th>Words:</th>
     <td>A</td>
-    <td>Spice</td>
-    <td>Girls</td>
+    <td class="vasrc">Spice</td>
+    <td class="vasrc">Girls</td>
     <td>of</td>
-    <td>hip-hop</td>
+    <td class="vamod">hip-hop</td>
     <td>,</td>
-    <td>the</td>
-    <td>Wu-Tang</td>
-    <td>Clan</td>
+    <td class="vatrg">the</td>
+    <td class="vatrg">Wu-Tang</td>
+    <td class="vatrg">Clan</td>
     <td>offers</td>
     <td>something</td>
     <td>for</td>
@@ -63,14 +77,14 @@ them from one another. This is called *sequence tagging*.
   <tr>
     <th>Tags:</th>
     <td>-</td>
-    <td>B-SRC</td>
-    <td>I-SRC</td>
+    <td class="vasrc">B-SRC</td>
+    <td class="vasrc">I-SRC</td>
     <td>-</td>
-    <td>B-MOD</td>
+    <td class="vamod">B-MOD</td>
     <td>-</td>
-    <td>B-TRG</td>
-    <td>I-TRG</td>
-    <td>I-TRG</td>
+    <td class="vatrg">B-TRG</td>
+    <td class="vatrg">I-TRG</td>
+    <td class="vatrg">I-TRG</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -85,7 +99,7 @@ them from one another. This is called *sequence tagging*.
 For the training of neural networks, we [annotated our VA
 dataset](https://github.com/weltliteratur/vossanto/tree/master/frontiers)
 on the word-level, that is we marked for each word in 3,066 sentences
-whether it is part of source, target, or modifier or does not belong
+whether it is part of a source, target, or modifier or does not belong
 to a VA at all.
 
 We then used the BERT base model and fine-tuned it with the annotated
