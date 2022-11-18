@@ -39,32 +39,18 @@ machine learning model is trained to identify all parts of a VA within
 a sentence, that is, the source, target and modifier, and distinguish
 them from one another. This is called *sequence tagging*.
 
-<style type="text/css">
-.vasrc {
-    color: red;
-}
-
-.vatrg {
-    color: blue;
-}
-
-.vamod {
-    color: green;
-}
-</style>
-
 <table>
   <tr>
     <th>Words:</th>
     <td>A</td>
-    <td class="vasrc">Spice</td>
-    <td class="vasrc">Girls</td>
+    <td>Spice</td>
+    <td>Girls</td>
     <td>of</td>
-    <td class="vamod">hip-hop</td>
+    <td>hip-hop</td>
     <td>,</td>
-    <td class="vatrg">the</td>
-    <td class="vatrg">Wu-Tang</td>
-    <td class="vatrg">Clan</td>
+    <td>the</td>
+    <td>Wu-Tang</td>
+    <td>Clan</td>
     <td>offers</td>
     <td>something</td>
     <td>for</td>
@@ -77,14 +63,14 @@ them from one another. This is called *sequence tagging*.
   <tr>
     <th>Tags:</th>
     <td>-</td>
-    <td class="vasrc">B-SRC</td>
-    <td class="vasrc">I-SRC</td>
+    <td>B-SRC</td>
+    <td>I-SRC</td>
     <td>-</td>
-    <td class="vamod">B-MOD</td>
+    <td>B-MOD</td>
     <td>-</td>
-    <td class="vatrg">B-TRG</td>
-    <td class="vatrg">I-TRG</td>
-    <td class="vatrg">I-TRG</td>
+    <td>B-TRG</td>
+    <td>I-TRG</td>
+    <td>I-TRG</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -116,15 +102,70 @@ neural network with a [conditional random
 field](https://en.wikipedia.org/wiki/Conditional_random_field) (CRF)
 on top that also tags each word.
 
-|       Task       |  Approach | Precision | Recall |   F1  |
-|:----------------:|:---------:|:---------:|:------:|:-----:|
-|                  | Baseline  |     0.876 |  0.880 | 0.878 |
-| Classification   | BLSTM-ATT |     0.921 |  0.074 | 0.947 |
-|                  | BERT-CLF  |     0.971 |  0.977 | 0.974 |
-|		   |           |           |        |       |
-|                  | BASELINE  |     0.765 |  0.616 | 0.682 |
-| Sequence-Tagging | BLSTM-CRF |     0.908 |  0.907 | 0.907 |
-|                  | BERT-SEQ  |     0.908 |  0.944 | 0.926 |
+<!--
+| Task               | Approach    |   Precision |   Recall |      F1 |
+| :----------------: | :---------: | :---------: | :------: | :-----: |
+|                    | Baseline    |       0.876 |    0.880 |   0.878 |
+| Classification     | BLSTM-ATT   |       0.921 |    0.074 |   0.947 |
+|                    | BERT-CLF    |       0.971 |    0.977 |   0.974 |
+|                    |             |             |          |         |
+|                    | BASELINE    |       0.765 |    0.616 |   0.682 |
+| Sequence-Tagging   | BLSTM-CRF   |       0.908 |    0.907 |   0.907 |
+|                    | BERT-SEQ    |       0.908 |    0.944 |   0.926 |
+-->
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Task</th>
+      <th align="center">Approach</th>
+      <th align="center">Precision</th>
+      <th align="center">Recall</th>
+      <th align="center">F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th align="left" rowspan="3">Classification</th>
+      <td align="left">Baseline</td>
+      <td align="right">0.876</td>
+      <td align="right">0.880</td>
+      <td align="right">0.878</td>
+    </tr>
+    <tr>
+      <td align="left">BLSTM-ATT</td>
+      <td align="right">0.921</td>
+      <td align="right">0.074</td>
+      <td align="right">0.947</td>
+    </tr>
+    <tr>
+      <td align="left">BERT-CLF</td>
+      <td align="right">0.971</td>
+      <td align="right">0.977</td>
+      <td align="right">0.974</td>
+    </tr>
+    <tr>
+      <th align="left" rowspan="3">Sequence-Tagging</th>
+      <td align="left">BASELINE</td>
+      <td align="right">0.765</td>
+      <td align="right">0.616</td>
+      <td align="right">0.682</td>
+    </tr>
+    <tr>
+      <td align="left">BLSTM-CRF</td>
+      <td align="right">0.908</td>
+      <td align="right">0.907</td>
+      <td align="right">0.907</td>
+    </tr>
+    <tr>
+      <td align="left">BERT-SEQ</td>
+      <td align="right">0.908</td>
+      <td align="right">0.944</td>
+      <td align="right">0.926</td>
+    </tr>
+  </tbody>
+</table>
+
 
 First, we could improve the sentence classification task by almost 0.1
 points in F1 score.  Also, we could achieve strong results (0.93 in F1
