@@ -172,36 +172,36 @@ points in F1 score.  Also, we could achieve strong results (0.93 in F1
 score) on the new sequence tagging task, where BERT outperforms the
 BLSTM-CRF model.
 
-In addition to the performance on our annotated dataset, we conducted
-a robustness study on real-world newspaper data. We also studied the
+In addition to the evaluation on our annotated dataset, we conducted a
+robustness study on real-world newspaper data. We also studied the
 ability of the model to predict new types of VA focussing on new types
 of source entities (e.g., organizations, locations, fictional
 characters) and on new syntactic variations around the source (e.g.,
 “a SOURCE on”, “of SOURCE of”). In total, the model identified around
 10,000 VA candidates in the NYT corpus that our previous models were
-not able to find. Table 2 shows the most frequently predicted source
-candidates. Due to limited capacities, we only evaluated samples of
-these candidates.
+not able to find. The following table shows the most frequently
+predicted source candidates. Due to limited capacities, we only
+evaluated samples of these candidates.
 
-| source candidates | Count | wikidata_id						|
-|-------------------|-------|-----------------------------------------------------------|
-| Holy Grail        |   116 | [Q162808](https://www.wikidata.org/wiki/Q162808)		|
-| Cadillac          |    88 | [Q27436](https://www.wikidata.org/wiki/Q27436)		|
-| Pied Piper        |    85 | [Q106880435](https://www.wikidata.org/wiki/Q106880435)    |
-| RollsRoyce        |    71 | [Q243278](https://www.wikidata.org/wiki/Q243278)          |
-| Paris             |    60 | [Q90](https://www.wikidata.org/wiki/Q90)			|
-| Harvard           |    58 | [Q13371](https://www.wikidata.org/wiki/Q13371)		|
-| Microsoft         |    43 | [Q2283](https://www.wikidata.org/wiki/Q2283)		|
-| Venice            |    42 | [Q641](https://www.wikidata.org/wiki/Q641)		|
-| Demon Barber      |    39 | -								|
-| King              |    37 | [Q116](https://www.wikidata.org/wiki/Q116)            |
-| Switzerland       |    37 | [Q39](https://www.wikidata.org/wiki/Q39)			|
-| McDonalds         |    35 | [Q38076](https://www.wikidata.org/wiki/Q38076)		|
-| Darth Vader       |    34 | [Q12206942](https://www.wikidata.org/wiki/Q12206942)	|
-| Wild West         |    33 | [Q14947899](https://www.wikidata.org/wiki/Q14947899)      |
-| Cinderella        |    32 | [Q11841](https://www.wikidata.org/wiki/Q11841)            |
-| Goliath           |    29 | [Q192785](https://www.wikidata.org/wiki/Q192785)		|
-| Woodstock         |    29 | [Q164815](https://www.wikidata.org/wiki/Q164815)          |
+| Source Candidates                                      | Count |
+| :----------------------------------------------------: | ----: |
+| [Holy Grail](https://www.wikidata.org/wiki/Q162808)    |   116 |
+| [Cadillac](https://www.wikidata.org/wiki/Q27436)       |    88 |
+| [Pied Piper](https://www.wikidata.org/wiki/Q106880435) |    85 |
+| [RollsRoyce](https://www.wikidata.org/wiki/Q243278)    |    71 |
+| [Paris](https://www.wikidata.org/wiki/Q90)             |    60 |
+| [Harvard](https://www.wikidata.org/wiki/Q13371)        |    58 |
+| [Microsoft](https://www.wikidata.org/wiki/Q2283)       |    43 |
+| [Venice](https://www.wikidata.org/wiki/Q641)           |    42 |
+| Demon Barber                                           |    39 |
+| [King](https://www.wikidata.org/wiki/Q116)             |    37 |
+| [Switzerland](https://www.wikidata.org/wiki/Q39)       |    37 |
+| [McDonalds](https://www.wikidata.org/wiki/Q38076)      |    35 |
+| [Darth Vader](https://www.wikidata.org/wiki/Q12206942) |    34 |
+| [Wild West](https://www.wikidata.org/wiki/Q14947899)   |    33 |
+| [Cinderella](https://www.wikidata.org/wiki/Q11841)     |    32 |
+| [Goliath](https://www.wikidata.org/wiki/Q192785)       |    29 |
+| [Woodstock](https://www.wikidata.org/wiki/Q164815)     |    29 |
 
 In summary, in our newest paper, we developed new models for
 extracting VAs on the word-level, that is, the models tag all words
