@@ -180,11 +180,11 @@ characters) and on new syntactic variations around the source (e.g.,
 “a SOURCE on”, “of SOURCE of”). In total, the model identified around
 10,000 VA candidates in the NYT corpus that our previous models were
 not able to find. The following table shows the most frequently
-predicted source candidates. Due to limited capacities, we only
+predicted source candidates. Due to limited capacity, we only
 evaluated samples of these candidates.
 
 | Source Candidates                                      | Count |
-| :----------------------------------------------------: | ----: |
+| :----------------------------------------------------- | ----: |
 | [Holy Grail](https://www.wikidata.org/wiki/Q162808)    |   116 |
 | [Cadillac](https://www.wikidata.org/wiki/Q27436)       |    88 |
 | [Pied Piper](https://www.wikidata.org/wiki/Q106880435) |    85 |
