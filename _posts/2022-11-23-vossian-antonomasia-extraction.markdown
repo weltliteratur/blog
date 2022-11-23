@@ -3,7 +3,7 @@ title: "Vossian Antonomasia Extraction Using Pre-Trained Language Models"
 layout: post
 author: [michel, robert, frank]
 comments: true
-date: 2022-11-22
+date: 2022-11-23
 ---
 
 Hi there, let’s get back to one of our favorite topics: [Vossian
