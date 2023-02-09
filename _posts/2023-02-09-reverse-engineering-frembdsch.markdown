@@ -1,7 +1,7 @@
 ---
 title: 'Reverse Engineering "Frembdsch", A Fantasy-Language Radio Play by Dagmara Kraus and Marc Matter'
 layout: post
-author: [jonah]
+author: jonah
 comments: true
 date: 2023-02-09
 ---
@@ -10,7 +10,7 @@ First aired on the German radio station SWR2 [on December 17, 2022](https://www.
 
 What sort of language is Frembdsch? A multilingual speaker of a Romance, Germanic, or Slavic language might be reminded of Hungarian for its opaque semantics and familar phonology. Common word endings include -os and -ć which are reminiscent of the Greek noun and the Polish verb. Some words are repeated, among "gudem," "finestre," and "mazgrab," which, as a German speaker, sound like "good," "gloomy" or "window," and "mass grave" respectively. The R is in most cases an alveolar trill, as in Italian or in Slavic languages. Phonologically it is clearly European, although which language it most closely resembles differs based on the speaker. Its least Indo-European feature is rather prevalent reduplication (as in some creole languages), whose function seems to be primarily narrative. The only period in which I detected a consonant unused in Indo-European languages was between '20:00 and '21:00, where an actor produces what sounds like a dental click (k͡ǀ), a sound only found in Africa and in the Damin ritual jargon of Australia. To this, the person saying the stage directions says "Befremdet" (tr. disconcerted or estranged).
 
-As stated above, the stage directions were produced with the help of the German Drama Corpus (https://dracor.org/ger). Many of these stage directions appear word for word in the corpus (some many times), other have been distorted and denatured, so as to make their identification impossible. Some were simply invented by the authors. I did a search in order to see how many times each stage direction used in Frembdsch appears in the German Drama corpus. The top ten are:
+As stated above, the stage directions were produced with the help of the [German Drama Corpus](https://dracor.org/ger). Many of these stage directions appear word for word in the corpus (some many times), other have been distorted and denatured, so as to make their identification impossible. Some were simply invented by the authors. I did a search in order to see how many times each stage direction used in Frembdsch appears in the German Drama corpus. The top ten are:
 
 | Stage direction                         | Count |
 | :-------------------------------------- | ----: |
