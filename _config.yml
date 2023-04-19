@@ -82,7 +82,7 @@ authors:
     web: https://sites.google.com/view/jannikstroetgen/
     twitter: jannikstroetgen
     github: JannikStroetgen
-    description: Research Scientist at Bosch Center for Artificial Intelligence.
+    description: Professor at the University of Applied Sciences Karlsruhe.
   angelika:
     name: Angelika Hechtl
     display_name: Angelika
@@ -102,7 +102,7 @@ authors:
     twitter: ingoboerner
     github: ingoboerner
     orcid: 0000-0001-8294-2541
-    description: …
+    description: Doing Digital Humanities at University of Potsdam.
   galina:
     name: Galina Ryazanskaya
     display_name: Galina
@@ -111,7 +111,7 @@ authors:
     web:
     twitter:
     github:
-    description: HSE, Moscow.
+    description: University of Potsdam.
   alena:
     name: Alena Shchevyeva
     display_name: Alena
@@ -119,7 +119,7 @@ authors:
     web:
     twitter:
     github:
-    description: HSE, Moscow.
+    description: Formerly HSE, Moscow.
   maria:
     name: Maria Suvorova
     display_name: Maria
@@ -127,7 +127,7 @@ authors:
     web:
     twitter:
     github: brouhahaha
-    description: HSE, Moscow.
+    description: Formerly HSE, Moscow.
   eduard:
     name: Eduard Grigoryev
     display_name: Eduard
@@ -137,7 +137,7 @@ authors:
     twitter:
     github: ldsad7
     orcid:
-    description: HSE, Moscow.
+    description: Formerly HSE, Moscow.
   laure:
     name: Laure Barbot
     display_name: Laure
@@ -165,7 +165,7 @@ authors:
     twitter: pozdniakov_is
     github: Pozdniakov
     orcid:
-    description: Higher School of Economics, Moscow.
+    description: Formerly HSE, Moscow.
   michel:
     name: Michel Schwab
     display_name: Michel
