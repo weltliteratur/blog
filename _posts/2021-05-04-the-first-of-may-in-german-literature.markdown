@@ -9,14 +9,14 @@ date: 2021-05-04
 <center>[ <b>tl;dr:</b> This blogpost introduces a small dataset comprising 249 mentions
 <br />of the "1st of May" extracted from a corpus of German-language fiction. ]</center>
 
-Last Friday, German radio station Bayern 2 asked me for an interview about our research on **the role of the month of May in literature** (and about the practice of Digital Humanities in general, for that matter). The announcement is **[here](https://www.br.de/radio/bayern2/programmkalender/ausstrahlung-2460628.html)** – unfortunately, they didn't put the interview online, but if anyone wants to listen to it, I can send them an mp3 copy.
+Last Friday, German radio station Bayern 2 asked me for an interview about our research on **the role of the month of May in literature** (and about the practice of Digital Humanities in general, for that matter). The announcement is **[here](https://web.archive.org/web/20210618231138/https://www.br.de/radio/bayern2/programmkalender/ausstrahlung-2460628.html)** – unfortunately, they didn't put the interview online, but if anyone wants to listen to it, I can send them an mp3 copy.
 
-I took this opportunity to revisit my earlier research on date extractions from literature, which I started with Jannik Strötgen right after we met at his poster at the 2013 Herrenhausen Conference ["(Digital) Humanities Revisited"](https://www.volkswagenstiftung.de/en/events/event-reports/documentation-herrenhausen-conference-digital-humanities-revisited). Although our work was mostly finished by 2015, we occasionally returned to this topic due to public interest, and it was always great to come back to it since we could never exhaust all the possibilities our research data offered us because we quickly got busy with other things.
+I took this opportunity to revisit my earlier research on date extractions from literature, which I started with Jannik Strötgen right after we met at his poster at the 2013 Herrenhausen Conference ["(Digital) Humanities Revisited"](https://web.archive.org/web/20221201065112/https://www.volkswagenstiftung.de/en/events/event-reports/documentation-herrenhausen-conference-digital-humanities-revisited). Although our work was mostly finished by 2015, we occasionally returned to this topic due to public interest, and it was always great to come back to it since we could never exhaust all the possibilities our research data offered us because we quickly got busy with other things.
 
 The journalists at Bayern 2 probably learned about our research through an [article I wrote for Die Literarische Welt](https://archive.org/download/als-einst-am-ersten-mai-2019-05-04/als-einst-am-ersten-mai-2019-05-04.pdf) two years ago:
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/als-einst-am-ersten-mai-2019-05-04.png" alt="newspaper article" style="width:350px; border: 3px solid transparent; border-color: coral;}" />
+  <img src="/images/first-of-may/als-einst-am-ersten-mai-2019-05-04.png" alt="newspaper article" style="width:350px; border: 3px solid transparent; border-color: coral;" />
 </figure>
 <center><b>Fig. 1.</b> “Als einst am 1. Mai die Welt begann” (publ. <a href="https://archive.org/download/als-einst-am-ersten-mai-2019-05-04/als-einst-am-ersten-mai-2019-05-04.pdf">4 May 2019</a>).</center>
 
@@ -31,7 +31,7 @@ To extract the mentioned month names and concrete days, we used Jannik's cutting
 Here is an overview with the frequency of all days as we extracted them from the corpus ('1' means 0–9 occurrences, '2' means 10–19 occurrences, etc., '+' means 90 or more occurrences):
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/heatmap-all-days.png" alt="heatmap" style="width:550px; border: none;}" />
+  <img src="/images/first-of-may/heatmap-all-days.png" alt="heatmap" style="width:550px; border: none;" />
 </figure>
 <center><b>Fig. 2.</b> Green fields: days mentioned 50+ times in the corpus <br />(slide taken from <a href="https://dbs.ifi.uni-heidelberg.de/files/Team/jannik/dhd2015-fischer-stroetgen-deutsche-literatur-slides.pdf#page=21">our DHd2015 slideset</a>).</center>
 
@@ -45,7 +45,7 @@ HeidelTime can extract various forms of dates, so here it has managed to extract
 Now we've always wanted to dig a little deeper into our dataset to go beyond mere quantification, and we've demonstrated this idea by qualifying all mentions of the 10th of August:
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/pie-chart-10th-of-august.png" alt="pie chart" style="width:460px; border: none;}" />
+  <img src="/images/first-of-may/pie-chart-10th-of-august.png" alt="pie chart" style="width:460px; border: none;" />
 </figure>
 <center><b>Fig. 3.</b> Semantics of the 10th of August in our corpus <br />(slide with German labelling taken from <a href="https://dbs.ifi.uni-heidelberg.de/files/Team/jannik/dhd2015-fischer-stroetgen-deutsche-literatur-slides.pdf#page=22">our DHd2015 slideset</a>).</center>
 
@@ -56,7 +56,7 @@ For our focal date, the 1st of May, this problem is even more complex. Many feas
 To start somewhere, however, let us first measure the precision of the 249 mentions counted and say something about the reliability of the data we generated and evaluated at the time. There are only 2 false positives, the rest is a problem of corpus composition. It is meant to be a corpus with works of fiction (hence the name), but some non-fiction works have slipped in (as already detailed [in the corpus description on Figshare](https://doi.org/10.6084/m9.figshare.4524680)). Some mentions are duplicates, and one work (by Strindberg) made it into the corpus of German originals, although it is a translation). Here's an overview:
 
 <figure style="text-align:center;">
-  <img src="/images/first-of-may/pie-chart-1st-of-may.png" alt="theatre on Mars, poster, small version" style="width:450px; border: none;}" />
+  <img src="/images/first-of-may/pie-chart-1st-of-may.png" alt="theatre on Mars, poster, small version" style="width:450px; border: none;" />
 </figure>
 <center><b>Fig. 4.</b> Precision of ‘1st of May’ mentions extracted from our corpus: <br />correctly extracted from fiction: 226 – from non-fiction: 11 – <br />duplicates: 8 – false positive: 2 – from translations: 1.</center>
 
