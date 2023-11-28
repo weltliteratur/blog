@@ -214,6 +214,15 @@ authors:
     orcid:
     twitter:
     description: Yiddish and digital humanities at the FU Berlin.
+  frederik:
+    name: Frederik Arnold
+    display_name: Frederik
+    email:
+    web: https://hu.berlin/fa
+    github:
+    orcid: 0000-0002-0417-4054
+    twitter:
+    description: Research fellow at Humboldt University of Berlin.
 
 paginate:         10
 
