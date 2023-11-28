@@ -140,3 +140,7 @@ The second approach is a more general, language model based approach where we fi
 
 To allow for exploration of the results, we created [QuidEx](https://hu.berlin/quidex), a visualization and exploration website.
 >On the left, a heatmap of the complete literary text shows the distribution of quoted passages. The darker the text, the more often it has been quoted and thus the more important it is assumed to be. Next to the heatmap, the literary work is shown. The grayscale is determined by how many scholarly works quote some part of a key passage. That is, the color is always the same for the whole key passage. The font size is determined by how often a minimal segment is quoted. At the bottom, next to the literary text, a list of all scholarly works is shown.
+>
+><figure style="text-align:center;">
+  <img src="/images/key-passages-website.jpg" alt="Key passages, website" style="width:300px; border: 1px solid transparent; border-color: black;" />
+</figure>
