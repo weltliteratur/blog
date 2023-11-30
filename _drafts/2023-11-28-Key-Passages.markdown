@@ -12,11 +12,11 @@ In the DFG project [What matters? Key Passages in Literary Works](https://www.pr
 
 # Corpus
 
-TBD
+Our main corpus in the first project phase consisted of two literary works _Die Judenbuche_ by Annette von Droste-Hülshoff and _Michael Kohlhaas_ by Heinrich von Kleist with 44 and 49 scholarly articles, respectively. Fortunately, we could build on the previous work of the [ArguLIT project](https://gepris.dfg.de/gepris/projekt/372804438?language=en) and their annotations of all direct quotations.
 
 # Automatic Identification of Quotations
 
-Scholarly texts contain a number of different types of quotations. For example, verbatim quotes from short lengths of single words to longer quotations spanning multiple sentences, and indirect quotations in the form of summarizations or re-narrations. In the first phase of the project, we focused on the automatic identification of linking of direct quotations starting with quotations of a length of five or more words. In [Lotte and Annette: And Framwork for Finding and Exploring Key Passages in Literary Works](https://aclanthology.org/2021.nlp4dh-1.7.pdf)[^1], we outline the current landscape for text reuse detection and the development of our tool [Quid](https://hu.berlin/quid). Although there are a number of existing tools, we found that all had limitations for our specific use case. We evaluated Quid and compared it to the existing tools.
+Scholarly texts contain a number of different types of quotations. For example, verbatim quotes from short lengths of single words to longer quotations spanning multiple sentences, and indirect quotations in the form of summarizations or re-narrations. In the first phase of the project, we focused on the automatic identification of linking of direct quotations starting with quotations of a length of five or more words. In [Lotte and Annette: A Framework for Finding and Exploring Key Passages in Literary Works](https://aclanthology.org/2021.nlp4dh-1.7.pdf)[^1], we outline the current landscape for text reuse detection and the development of our tool [Quid](https://hu.berlin/quid). Although there are a number of existing tools, we found that all had limitations for our specific use case. We evaluated Quid and compared it to the existing tools.
 
 [^1]: Lotte and Annette have since been renamed to Quid and QuidEx, respectively.
 
@@ -90,6 +90,8 @@ Considerably more difficult to identify are quotations which are shorter than 5 
 >
 >The second approach is a more general, language model based approach where we fine-tune a German Bert for classification. For this second approach, we first extract candidates for short quotations and then use a fine-tuned language model to filter the candidates.
 
+&mdash; Arnold & Jäschke 2023
+
 <table>
   <thead>
     <tr>
@@ -141,6 +143,8 @@ Considerably more difficult to identify are quotations which are shorter than 5 
 
 To allow for exploration of the results, we created [QuidEx](https://hu.berlin/quidex), a visualization and exploration website.
 >On the left, a heatmap of the complete literary text shows the distribution of quoted passages. The darker the text, the more often it has been quoted and thus the more important it is assumed to be. Next to the heatmap, the literary work is shown. The grayscale is determined by how many scholarly works quote some part of a key passage. That is, the color is always the same for the whole key passage. The font size is determined by how often a minimal segment is quoted. At the bottom, next to the literary text, a list of all scholarly works is shown.
+
+&mdash; [Arnold & Jäschke 2021](https://aclanthology.org/2021.nlp4dh-1.7.pdf)
 
 <figure style="text-align:center;">
   <img src="/images/key-passages-website.jpg" alt="Key passages, website" style="width:900px; border: 1px solid transparent; border-color: black;" />
