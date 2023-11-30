@@ -8,7 +8,7 @@ date: 2023-11-28
 
 # Context
 
-In the DFG project [What matters? Key Passages in Literary Works](https://www.projekte.hu-berlin.de/en/schluesselstellen/what-matters-key-passages-in-literary-works) which started with its first phase in 2020 and has been in the second phase, titled [Is Expert Knowledge Key? Scholarly Interpretations as Resource for the Analysis of Literary Texts in Computational Literary Studies](https://www.projekte.hu-berlin.de/en/schluesselstellen/index.html), since August 2023, we set out to identify and characterize key passages in literary works. We understand key passages as passages that are particularly important to expert readers when interpreting texts. In a mixed-methods approach, we primarily want to investigate empirically which textual characteristics of literary genres can be revealed through patterns of citation and quotation.
+In the DFG project [What matters? Key Passages in Literary Works](https://www.projekte.hu-berlin.de/en/schluesselstellen/what-matters-key-passages-in-literary-works) which started with its first phase in 2020 and has been in the second phase, titled [Is Expert Knowledge Key? Scholarly Interpretations as Resource for the Analysis of Literary Texts in Computational Literary Studies](https://www.projekte.hu-berlin.de/en/schluesselstellen/index.html), since August 2023, we (who is we?) set out to identify and characterize key passages in literary works. We understand key passages as passages that are particularly important to expert readers when interpreting texts. In a mixed-methods approach, we primarily want to investigate empirically which textual characteristics of literary genres can be revealed through patterns of citation and quotation.
 
 # Corpus
 
@@ -150,4 +150,6 @@ To allow for exploration of the results, we created [QuidEx](https://hu.berlin/q
   <img src="/images/key-passages-website.jpg" alt="Key passages, website" style="width:900px; border: 1px solid transparent; border-color: black;" />
 </figure>
 
-In summary, TBD
+In summary, we developed the tools to identify, link, visualize and explore direct quotations of all lengths. We are currently working on identifying and linking indirect quotations, that is summarizations and re-narrations.
+
+For daily key passages, follow us on [Bluesky](https://bsky.app/profile/fredr0id.bsky.social) or try Quid online with our [web interface](https://hu.berlin/quidweb).
