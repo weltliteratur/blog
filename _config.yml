@@ -171,7 +171,7 @@ authors:
     display_name: Michel
     email:
     web: https://amor.cms.hu-berlin.de/~schwabmi/
-    orcid:
+    orcid: 0000-0001-5569-6568
     twitter:
     description: Research fellow at Humboldt University of Berlin.
   cmil:
@@ -181,7 +181,7 @@ authors:
     email:
     web:
     github: cmil
-    orcid:
+    orcid: 0000-0003-0553-7512
     twitter:
     description: DraCor Technical Lead.
   mark:
@@ -211,7 +211,7 @@ authors:
     email:
     web: https://www.jonahlubin.net/
     github:
-    orcid:
+    orcid: 0009-0000-7900-1994
     twitter:
     description: Yiddish and digital humanities at the FU Berlin.
   frederik:
