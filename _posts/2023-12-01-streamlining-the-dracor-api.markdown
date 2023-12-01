@@ -18,7 +18,7 @@ DraCor, the Drama Corpora platform, is an infrastructure built to facilitate the
 
 The TEI-encoded plays are stored in an [eXist database](http://exist-db.org/). Various encoding layers are extracted and made available via our API: customised data for individual research purposes. You can easily access the full text or text slices (a list of characters, spoken texts, stage directions) or co-occurrence networks. All API endpoints [are documented](https://dracor.org/doc/api) following the OpenAPI specification.
 
-A little bit of history. The DraCor API has grown organically ever since we introduced it sometime in August 2017. Yet the first publically documented release on GitHub was [0.72.0](https://github.com/dracor-org/dracor-api/releases/tag/v0.72.0) in September 2020.
+A little bit of history. The DraCor API has grown organically ever since we introduced it sometime in August 2017. Yet the first publicly documented release on GitHub was [0.72.0](https://github.com/dracor-org/dracor-api/releases/tag/v0.72.0) in September 2020.
 
 New endpoints were added on a frequent basis and made DraCor what it is today, a research-prone platform serving data for computational literary studies. We always tried to use meaningful names and adhere to naming patterns, but over the years some inconsistencies have slipped in.
 
