@@ -27,9 +27,9 @@ Henny Sluyter-Gäthje revisited the consistency of names when working on her pyd
 This work took a lot of time and after the streamlined API has worked well on our staging server for a while now, we release today the first version of the DraCor API that we consider stable, [our 1.0.0](https://github.com/dracor-org/dracor-api/releases).
 
 <figure style="text-align:center;">
-  <img src="/images/dracor/dracor-mockup-2023.jpg" alt="DraCor Mockup 2023" style="width:300px; border: 1px solid transparent; border-color: black;}" />
+  <img src="/images/dracor/dracor-mockup-2023.jpg" alt="DraCor Mockup 2023" style="width:600px; border: 1px solid transparent; border-color: black;}" />
 </figure>
-<center><p style="font-size: 16px; line-height: 24px;"><b>Fig. 1.</b> This mockup is part of the new <b><a href="https://dracor.org/doc/media-kit">DraCor Media Kit</a> by Mark Schwindt, released along with the new API version.</p></center>
+<center><p style="font-size: 16px; line-height: 24px;"><b>Fig. 1.</b> This mockup is part of the new <b><a href="https://dracor.org/doc/media-kit">DraCor Media Kit</a></b> by Mark Schwindt, released along with the new API version.</p></center>
 
 ## Legacy API
 
