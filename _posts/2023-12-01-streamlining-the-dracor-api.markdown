@@ -35,7 +35,7 @@ This work took a lot of time and after the streamlined API has worked well on ou
 
 From here on out, we would like that everyone who works with the DraCor API to use version 1.x. The URL paths on dracor.org now have a `/v1` prefix (e.g., `https://dracor.org/api/v1/info`).
 
-However, the last pre-release version of the API will remain to be available under URLs featuring a `/v0` prefix (e.g., `https://dracor.or/api/v0/info`). Old URLs without a version prefix will be redirected to the versioned ones. For instance, `https://dracor.org/api/info` now redirects to `https://dracor.org/api/v0/info`. This should allow old scripts to function as long as they follow the redirect.
+However, the last pre-release version of the API will remain to be available under URLs featuring a `/v0` prefix (e.g., `https://dracor.org/api/v0/info`). Old URLs without a version prefix will be redirected to the versioned ones. For instance, `https://dracor.org/api/info` now redirects to `https://dracor.org/api/v0/info`. This should allow old scripts to function as long as they follow the redirect.
 
 We plan to keep the API version 0.x available for at least a year. After this period, we may phase it out so as not to have to maintain multiple versions of the API indefinitely. Also see [dracor.org/doc/faq](https://dracor.org/doc/faq).
 
