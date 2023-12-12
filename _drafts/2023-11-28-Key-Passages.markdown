@@ -85,12 +85,13 @@ Scholarly texts contain a number of different types of quotations. For example, 
   </tbody>
 </table>
 
-Considerably more difficult to identify are quotations which are shorter than 5 words. In A Novel Approach for Identification and Linking of Short Quotations in Scholarly Texts and Literary Works, we develop and compare two approaches to tackle this challenge, _ProQuo_ and _ProQuoLM_.
->Our main idea behind ProQuo is to use the references corresponding to long quotations as examples to distinguish references corresponding to short quotations from other text in parentheses and other references, for example, Bible references or references to other literary works. We then extract relations between short quotations and references and use that information and the position of long quotations as anchors to link short quotations to the literary work.
->
->The second approach is a more general, language model based approach where we fine-tune a German Bert for classification. For this second approach, we first extract candidates for short quotations and then use a fine-tuned language model to filter the candidates.
+Considerably more difficult to identify are quotations which are shorter than 5 words. In _A Novel Approach for Identification and Linking of Short Quotations in Scholarly Texts and Literary Works_[^2], we develop and compare two approaches to tackle this challenge, _ProQuo_ and _ProQuoLM_.
 
-&mdash; Arnold & Jäschke 2023
+[^2]: Accepted at JCLS 2023 and soon to be published.
+
+For ProQuo, we use the (page) references for long quotations as examples to tell apart (page) references for short quotations from other text in parenthesis. This includes references like those to the Bible or other literary works. We then relate short quotes to their source in the literary work by figuring out the relationships between the quotes and references. We also use the positions of long quotes as guides to link short quotations to the correct passage of the literary work.
+
+For our second approach, ProQuoLM, we fine-tune a German BERT for classification. First, we identify potential short quotes, and then use the fine-tuned model to filter them.
 
 <table>
   <thead>
@@ -142,9 +143,8 @@ Considerably more difficult to identify are quotations which are shorter than 5 
 # QuidEx - Visualization and Exploration
 
 To allow for exploration of the results, we created [QuidEx](https://hu.berlin/quidex), a visualization and exploration website.
->On the left, a heatmap of the complete literary text shows the distribution of quoted passages. The darker the text, the more often it has been quoted and thus the more important it is assumed to be. Next to the heatmap, the literary work is shown. The grayscale is determined by how many scholarly works quote some part of a key passage. That is, the color is always the same for the whole key passage. The font size is determined by how often a minimal segment is quoted. At the bottom, next to the literary text, a list of all scholarly works is shown.
 
-&mdash; [Arnold & Jäschke 2021](https://aclanthology.org/2021.nlp4dh-1.7.pdf)
+On the left, there's a heatmap that displays the distribution of quoted passages in the entire literary text. The darker the area, the more frequently it has been quoted, suggesting its significance. Right beside the heatmap is the literary work itself. The grayscale indicates how many scholarly works quote any part of a crucial passage. This means the color remains constant for the entire key passage. The font size is adjusted based on how often a minimal segment is quoted. At the bottom, alongside the literary text, there's a list of all scholarly works.
 
 <figure style="text-align:center;">
   <img src="/images/key-passages-website.jpg" alt="Key passages, website" style="width:900px; border: 1px solid transparent; border-color: black;" />
