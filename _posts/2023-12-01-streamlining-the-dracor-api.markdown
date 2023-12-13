@@ -43,11 +43,11 @@ We plan to keep the API version 0.x available for at least a year. After this pe
 
 Our API wrappers will be updated to work with our API version 1.0.
 
-pydracor is available [via PyPI](https://pypi.org/project/pydracor/), rdracor [via CRAN](https://cran.r-project.org/web/packages/rdracor/index.html).
+pydracor 2.0.0 is already available [via PyPI](https://pypi.org/project/pydracor/), the updated rdracor will be available [via CRAN](https://cran.r-project.org/web/packages/rdracor/index.html).
 
 ## Other Updates
 
-We introduced a new `/wikidata/mixnmatch` endpoint to automatise the integration of DraCor permalinks into Wikidata.
+We introduced a new `/wikidata/mixnmatch` endpoint to automatise the integration of DraCor permalinks into Wikidata. A corresponding [DraCor property](https://www.wikidata.org/wiki/Wikidata:Property_proposal/DraCor_ID) was also proposed and we wait for approval.
 
 We retired the `/corpora/{corpus}/plays/{play}/segmentation` endpoint so as to reduce redundancies (the same information can be obtained via the `/corpora/{corpus}/plays/{play}` endpoint).
 
