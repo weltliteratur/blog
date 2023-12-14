@@ -1,9 +1,9 @@
 ---
-title: "Working Title: Key Passages in Literary Works"
+title: "Quotation Identification for Key Passage Mining in Literary Works"
 layout: post
 author: [frederik, robert]
 comments: true
-date: 2023-11-28
+date: 2023-12-14
 ---
 
 # Context
@@ -70,7 +70,7 @@ existing tools.
   </thead>
   <tbody>
     <tr>
-      <td align="left">BLAST</td>
+      <td align="left"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022283605803602?via%3Dihub" target="_blank">BLAST</a></td>
       <td align="right">0.59</td>
       <td align="right">0.61</td>
       <td align="right">0.60</td>
@@ -79,7 +79,7 @@ existing tools.
       <td align="right">0.45</td>
     </tr>
     <tr>
-      <td align="left">Copyfind</td>
+      <td align="left"><a href="https://plagiarism.bloomfieldmedia.com/software/copyfind/" target="_blank">Copyfind</a></td>
       <td align="right">0.85</td>
       <td align="right">0.75</td>
       <td align="right">0.79</td>
@@ -88,7 +88,7 @@ existing tools.
       <td align="right">0.78</td>
     </tr>
     <tr>
-      <td align="left">SimT</td>
+      <td align="left"><a href="https://people.f4.htw-berlin.de/~weberwu/simtexter/app.html" target="_blank">SimilarityTexter</a></td>
       <td align="right"><strong>0.91</strong></td>
       <td align="right">0.64</td>
       <td align="right">0.76</td>
@@ -97,7 +97,7 @@ existing tools.
       <td align="right"><strong>0.79</strong></td>
     </tr>
     <tr>
-      <td align="left">Textmatcher</td>
+      <td align="left"><a href="https://github.com/JonathanReeve/text-matcher" target="_blank">Textmatcher</a></td>
       <td align="right">0.69</td>
       <td align="right">0.37</td>
       <td align="right">0.48</td>
@@ -116,8 +116,7 @@ existing tools.
     </tr>
   </tbody>
 </table>
-
-**diese Tabelle kurz erklären**
+<center><p style="font-size: 16px; line-height: 24px;"><b>Table 1.</b> Comparison of different approaches for text reuse detection with an evaluation on our corpus.</p></center>
 
 Considerably more difficult to identify are quotations which are
 shorter than 5 words. In _A Novel Approach for Identification and
@@ -136,8 +135,8 @@ the quotes and references. We also use the positions of long quotes as
 guides to link short quotations to the correct passage of the literary
 work.
 
-For our second approach, ProQuoLM, we fine-tune a German BERT
-**verlinken** for classification. First, we identify potential short
+For our second approach, ProQuoLM, we fine-tune a [German BERT](https://huggingface.co/dbmdz/bert-base-german-uncased)
+for classification. First, we identify potential short
 quotes, and then use the fine-tuned model to filter them.
 
 <table>
@@ -186,8 +185,7 @@ quotes, and then use the fine-tuned model to filter them.
     </tr>
   </tbody>
 </table>
-
-**Tabelle erklären**
+<center><p style="font-size: 16px; line-height: 24px;"><b>Table 2.</b> Evaluation results of our two approaches compared to a baseline which always links a quotation from the scholarly work to the first matching instance in the literary work.</p></center>
 
 # QuidEx – Visualization and Exploration
 
@@ -209,13 +207,12 @@ key passage. The font size is adjusted based on how often a minimal
 segment is quoted. At the bottom, alongside the literary text, there's
 a list of all scholarly works.
 
-**hier noch kurz andere Use-Case zeigen/verlinken? Uni Stuttgart?**
+The source code of the website is available as a [white-label version](https://scm.cms.hu-berlin.de/schluesselstellen/quidex-wh) which facilitates adoption by others, for example, for the [comparison of intertextual relations of literary texts](https://clarin09.ims.uni-stuttgart.de/sdc4lit/lotte/index.html).
 
-**Quellcode-Repo verlinken?!**
-
-**Repo des SPP-CLS verlinken?**
-
-**Foto vom Banner (Würzburg? HU Hauptgeb? DOR26? oder gleich eine Dreiercollage?)**
+<figure style="text-align:center;">
+  <img src="/images/key-passages-banner.jpg" alt="Key passages, banner" style="height:700px; border: 1px solid transparent; border-color: black;" />
+  <img src="/images/key-passages-banner-info.jpg" alt="Key passages, banner" style="height:700px; border: 1px solid transparent; border-color: black;" />
+</figure>
 
 # Summary and Outlook
 
