@@ -173,7 +173,7 @@ authors:
     web: https://amor.cms.hu-berlin.de/~schwabmi/
     orcid: 0000-0001-5569-6568
     twitter:
-    description: Research fellow at Humboldt University of Berlin.
+    description: Research fellow at Humboldt-Universität zu Berlin..
   cmil:
     name: Carsten Milling
     display_name: Carsten
@@ -222,7 +222,7 @@ authors:
     github:
     orcid: 0000-0002-0417-4054
     twitter:
-    description: Research fellow at Humboldt University of Berlin.
+    description: Research fellow at Humboldt-Universität zu Berlin.
 
 paginate:         10
 
