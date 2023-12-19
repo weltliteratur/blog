@@ -1,9 +1,10 @@
 ---
-title: "Quotation Identification for Key Passage Mining in Literary Works"
+title: "How to identify key passages in literary works? Using algorithms and machine learning!
+"
 layout: post
 author: [frederik, robert]
 comments: true
-date: 2023-12-14
+date: 2023-12-19
 ---
 
 # Context
