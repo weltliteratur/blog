@@ -1,6 +1,5 @@
 ---
-title: "How to identify key passages in literary works? Using algorithms and machine learning!
-"
+title: "How to Identify Key Passages in Literary Works? Using Algorithms and Machine Learning!"
 layout: post
 author: [frederik, robert]
 comments: true
