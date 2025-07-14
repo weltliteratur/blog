@@ -35,16 +35,14 @@ Full API release notes here: [dracor-api changelog](https://github.com/dracor-or
 The DraCor frontend has also received a series of upgrades that improve usability and extend functionality:
 
 - **New "Tools" Tab:** Data from each play can be sent directly to third-party analysis tools, such as Voyant Tools, Gephi Lite or the CLARIN Switchboard.
-- **Corpus Status Overview:** We have added a [status page](https://dracor.org/doc/corpora) that provides an overview of the current state, maintenance responsibilities, and licensing of all DraCor corpora – useful for developers, curators, and researchers alike.
+- **Corpus Status Overview:** We have added a [status page](https://dracor.org/doc/corpora) that provides an overview of the current state, maintenance responsibilities, and licencing of all DraCor corpora – useful for developers, curators, and researchers alike.
 - **Rendering Fixes & UI Improvements:** A variety of bugs were squashed, including issues with rendering segment lists. The toolchain has been updated, and we have migrated to **pnpm** for improved dependency management.
 
 Full frontend release notes here: [dracor-frontend changelog](https://github.com/dracor-org/dracor-frontend/releases).
 
-## 📜 TEI Schema 1.0: A Solid Foundation
+## 🧾 TEI Schema 1.0: A Solid Foundation
 
-One of the most substantial and long-awaited developments is the release of the **first stable version of the DraCor TEI schema**. It all began during a coffee break at the **[CCLS 2024](https://jcls.io/site/ccls2024/)** in Vienna – and ended in a full overhaul of how we define and validate DraCor corpora.
-
-Highlights include:
+One of the most substantial and long-awaited developments is the release of the **first stable version of the DraCor TEI schema**. It all began during a coffee break at the **[CCLS 2024](https://jcls.io/site/ccls2024/)** in Vienna – and ended in a full overhaul of how we define and validate DraCor corpora. Highlights include:
 
 - **Based on tei_drama (TEI 4.9.0):** The schema builds on the official TEI customisation for drama, ensuring compatibility with broader TEI ecosystems.
 - **More Flexibility & Clarity:** We have revised the structure to make it easier for contributors to encode new plays and for the schema to accommodate varied metadata.
@@ -68,3 +66,5 @@ Our contribution to the EU project [CLS INFRA](https://clsinfra.io/) is document
 ## 🧭 Follow the Drama
 
 To stay up to date with DraCor news, project updates, and community events, subscribe to [our mailing list](https://www.listserv.dfn.de/sympa/info/dracormailinglist) and follow the official [DraCor account on Bluesky](https://bsky.app/profile/dracor.org).
+
+<small>(Portions of this blog post were composed with assistance from Claude Opus 4.)</small>
