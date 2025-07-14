@@ -35,7 +35,7 @@ Full API release notes here: [dracor-api changelog](https://github.com/dracor-or
 The DraCor frontend has also received a series of upgrades that improve usability and extend functionality:
 
 - **New "Tools" Tab:** Data from each play can be sent directly to third-party analysis tools, such as Voyant Tools, Gephi Lite or the CLARIN Switchboard.
-- **Corpus Status Overview:** We have added a [status page](https://dracor.org/doc/corpora) that summarises the health and structure of all DraCor corpora – useful for developers, curators, and researchers.
+- **Corpus Status Overview:** We have added a [status page](https://dracor.org/doc/corpora) that provides an overview of the current state, maintenance responsibilities, and licensing of all DraCor corpora – useful for developers, curators, and researchers alike.
 - **Rendering Fixes & UI Improvements:** A variety of bugs were squashed, including issues with rendering segment lists. The toolchain has been updated, and we have migrated to **pnpm** for improved dependency management.
 
 Full frontend release notes here: [dracor-frontend changelog](https://github.com/dracor-org/dracor-frontend/releases).
