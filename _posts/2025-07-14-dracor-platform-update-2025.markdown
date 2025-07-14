@@ -67,4 +67,4 @@ Our contribution to the EU project [CLS INFRA](https://clsinfra.io/) is document
 
 To stay up to date with DraCor news, project updates, and community events, subscribe to [our mailing list](https://www.listserv.dfn.de/sympa/info/dracormailinglist) and follow the official [DraCor account on Bluesky](https://bsky.app/profile/dracor.org).
 
-<small>(Portions of this blog post were composed with assistance from Claude Opus 4.)</small>
+<center><p style="font-size:16px;">(Portions of this blog post were composed with assistance from Claude Opus 4.)</p></center>
