@@ -1,10 +1,12 @@
 ---
-title: "DraCor Platform Update: Enhanced API, Frontend and Schema, Comprehensive Documentation, and Upcoming Summit in Berlin"
+title: "DraCor Platform Update (July 2025)"
 layout: post
 author: [frank, cmil, ingo, julia, peer]
 comments: true
 date: 2025-07-14
 ---
+
+# Enhanced API, Frontend and Schema, Comprehensive Documentation, and Upcoming Summit in Berlin
 
 After bigger updates in [August 2021](https://weltliteratur.net/dracor-summer-update-2021/) and [December 2023](https://weltliteratur.net/streamlining-the-dracor-api/), we are excited to share that DraCor just got another upgrade!
 
@@ -65,4 +67,4 @@ Our contribution to the EU project [CLS INFRA](https://clsinfra.io/) is document
 
 ## 🧭 Follow the Drama
 
-To stay up to date with DraCor news, project updates, and community events, subscribe to our mailing list (https://www.listserv.dfn.de/sympa/info/dracormailinglist) and follow the official [DraCor account on Bluesky](https://bsky.app/profile/dracor.org).
+To stay up to date with DraCor news, project updates, and community events, subscribe to [our mailing list](https://www.listserv.dfn.de/sympa/info/dracormailinglist) and follow the official [DraCor account on Bluesky](https://bsky.app/profile/dracor.org).
