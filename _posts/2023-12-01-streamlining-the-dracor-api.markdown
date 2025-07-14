@@ -61,6 +61,6 @@ With this release, we also updated our eXist-db from 6.0.1 to 6.2.0.
 
 DraCor was founded as a community project and, as always, numerous friends and colleagues have contributed feedback and ideas while working on their corpora or conducting research based on data from DraCor.
 
-The platform, [once praised](https://twitter.com/eumanismo/status/1218066125969412096) for its original guerilla strategy – although this is debatable 😊 – has become a well-frequented part of the international research infrastructure. We trust that this API 1.0 release will contribute to making digital research on European drama (and beyond) more reliable and sustainable.
+The platform, [once praised](https://web.archive.org/web/20200119005611/https://twitter.com/eumanismo/status/1218066125969412096) for its original guerilla strategy – although this is debatable 😊 – has become a well-frequented part of the international research infrastructure. We trust that this API 1.0 release will contribute to making digital research on European drama (and beyond) more reliable and sustainable.
 
 Goodbye for now, may your requests be valid, your responses swift, and your status codes always successful!

@@ -45,7 +45,7 @@ authors:
     email:
     orcid: 0000-0003-2419-6629
     web: https://lehkost.github.io/
-    twitter: umblaetterer
+    twitter:
     github: lehkost
     description: Doing Digital Humanities at Freie Universität Berlin.
   christopher:
@@ -223,6 +223,16 @@ authors:
     orcid: 0000-0002-0417-4054
     twitter:
     description: Research fellow at Humboldt-Universität zu Berlin.
+  julia:
+    name: Julia Jennifer Beine
+    display_name: Julia
+    img: /images/jjb.jpg
+    email:
+    web: https://rub.academia.edu/JuliaJenniferBeine
+    orcid: 0000-0001-8979-8706
+    twitter:
+    github: juliajbeine
+    description: DraCor Co-Editor.
 
 paginate:         10
 
