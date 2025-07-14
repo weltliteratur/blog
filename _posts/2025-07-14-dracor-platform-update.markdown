@@ -6,7 +6,7 @@ comments: true
 date: 2025-07-14
 ---
 
-(tl;dr: Enhanced API, Frontend and Schema, Comprehensive Documentation, and Upcoming Summit in Berlin)
+- **tl;dr:** Enhanced API, Frontend and Schema, Comprehensive Documentation, and Upcoming Summit in Berlin.
 
 After bigger updates in [August 2021](https://weltliteratur.net/dracor-summer-update-2021/) and [December 2023](https://weltliteratur.net/streamlining-the-dracor-api/), we are excited to share that DraCor just got another upgrade!
 
